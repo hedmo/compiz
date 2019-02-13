@@ -293,10 +293,7 @@ endfunction ()
 macro (compiz_add_git_dist)
 
 	add_custom_target (dist
-			   COMMAND bzr export ${CMAKE_BINARY_DIR}/${CMAKE_PROJECT_NAME}-${VERSION} 
-			   && rm -rf ${CMAKE_BINARY_DIR}/${CMAKE_PROJECT_NAME}-${VERSION}/debian
-			   && tar -C ${CMAKE_BINARY_DIR} -cj ${CMAKE_PROJECT_NAME}-${VERSION} -f ${CMAKE_BINARY_DIR}/${CMAKE_PROJECT_NAME}-${VERSION}.tar.bz2
-			   && rm -rf  ${CMAKE_BINARY_DIR}/${CMAKE_PROJECT_NAME}-${VERSION}
+			   COMMAND git archive -o ${CMAKE_BINARY_DIR}/${CMAKE_PROJECT_NAME}-${VERSION}.tar.xz --prefix=${CMAKE_PROJECT_NAME}-${VERSION}/ HEAD
 			   WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
 
 endmacro ()
