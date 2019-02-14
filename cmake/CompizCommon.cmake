@@ -390,12 +390,8 @@ macro (compiz_add_release)
 		message ("-- Using auto news update: " ${AUTO_NEWS_UPDATE})
 	endif (AUTO_NEWS_UPDATE)
 
-	if (NOT EXISTS ${CMAKE_SOURCE_DIR}/.AUTHORS.sed)
-		file (WRITE ${CMAKE_SOURCE_DIR}/.AUTHORS.sed "")
-	endif (NOT EXISTS ${CMAKE_SOURCE_DIR}/.AUTHORS.sed)
-
 	add_custom_target (authors
-			   COMMAND bzr log --long --levels=0 | grep -e "^\\s*author:" -e "^\\s*committer:" | cut -d ":" -f 2 | sed -r -f ${CMAKE_SOURCE_DIR}/.AUTHORS.sed  | sort -u > AUTHORS
+			   COMMAND git shortlog -se | cut -c8- | grep -vE \"<=?>\" | grep -v \"(none)\" | sort > AUTHORS
 			   COMMENT "Generating AUTHORS")
 
 	if (AUTO_NEWS_UPDATE)
