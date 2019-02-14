@@ -302,9 +302,9 @@ endmacro ()
 macro (compiz_add_distcheck)
 	add_custom_target (distcheck 
 			   COMMAND mkdir -p ${CMAKE_BINARY_DIR}/dist-build
-			   && cp ${CMAKE_BINARY_DIR}/${CMAKE_PROJECT_NAME}-${VERSION}.tar.bz2 ${CMAKE_BINARY_DIR}/dist-build
+			   && cp ${CMAKE_BINARY_DIR}/${CMAKE_PROJECT_NAME}-${VERSION}.tar.xz ${CMAKE_BINARY_DIR}/dist-build
 			   && cd ${CMAKE_BINARY_DIR}/dist-build
-			   && tar xvf ${CMAKE_BINARY_DIR}/dist-build/${CMAKE_PROJECT_NAME}-${VERSION}.tar.bz2
+			   && tar xvf ${CMAKE_BINARY_DIR}/dist-build/${CMAKE_PROJECT_NAME}-${VERSION}.tar.xz
 			   && mkdir -p ${CMAKE_BINARY_DIR}/dist-build/${CMAKE_PROJECT_NAME}-${VERSION}/build
 			   && cd ${CMAKE_BINARY_DIR}/dist-build/${CMAKE_PROJECT_NAME}-${VERSION}/build
 			   && cmake -DCMAKE_INSTALL_PREFIX=${CMAKE_BINARY_DIR}/dist-build/buildroot -DCOMPIZ_PLUGIN_INSTALL_TYPE='package' .. -DCMAKE_MODULE_PATH=/usr/share/cmake
@@ -339,15 +339,15 @@ macro (compiz_add_release_signoff)
 	add_custom_target (release-version-bump)
 
 	add_custom_target (release-sign-tarballs
-		   COMMAND gpg --armor --sign --detach-sig ${CMAKE_PROJECT_NAME}-${VERSION}.tar.bz2
+		   COMMAND gpg --armor --sign --detach-sig ${CMAKE_PROJECT_NAME}-${VERSION}.tar.xz
 	   COMMENT "Signing tarball"
 	   WORKING_DIRECTORY ${CMAKE_BINARY_DIR})
 	add_custom_target (release-sha1-tarballs
-		   COMMAND sha1sum ${CMAKE_PROJECT_NAME}-${VERSION}.tar.bz2 > ${CMAKE_PROJECT_NAME}-${VERSION}.tar.bz2.sha1
+		   COMMAND sha1sum ${CMAKE_PROJECT_NAME}-${VERSION}.tar.xz > ${CMAKE_PROJECT_NAME}-${VERSION}.tar.xz.sha1
 		   COMMENT "SHA1Summing tarball"
 		   WORKING_DIRECTORY ${CMAKE_BINARY_DIR})
 	add_custom_target (release-sign-sha1-tarballs
-		   COMMAND gpg --armor --sign --detach-sig ${CMAKE_PROJECT_NAME}-${VERSION}.tar.bz2.sha1
+		   COMMAND gpg --armor --sign --detach-sig ${CMAKE_PROJECT_NAME}-${VERSION}.tar.xz.sha1
 		   COMMENT "Signing SHA1Sum checksum"
 		   WORKING_DIRECTORY ${CMAKE_BINARY_DIR})
 
