@@ -1,3 +1,50 @@
+Release 0.9.13.1 (2016-11-11 Marco Trevisan (Treviño) <mail@3v1n0.net>)
+=======================================================================
+
+- Rewritten animation plugins
+- Readded plugins simple-animations, animationsjc and animationsplus
+- Better a11y support for switcher
+- Add unity-lowgfx profile
+- Avoid crashes on missing gsettings options
+- GWD requires metacity 3.20 (and has support for 3.22)
+
+Release 0.9.13.0 (2016-07-01 Marco Trevisan (Treviño) <mail@3v1n0.net>)
+=======================================================================
+
+- Start using C++11
+- Support for grabbing keyboard or mouse separately
+- Dropped gconf support
+- Update cursors on theme or size changes
+- Add cursors cache to reuse common cursors
+- Lots of improvements for MATE profile
+- Many refactoring and cleanups for gtk-window-decorator
+
+Release 0.9.12.2 (2015-08-20 Stephen M. Webb <stephen.webb@canonical.com>)
+==========================================================================
+
+- added MATE integration
+- added a blacklist for older nVidia GPUs that do not work with XSync (lp:
+  #1424013)
+- avoided caching textures used in animations (lp: #729979, #1072206)
+- boosted window size limits (lp: #1431923)
+- fixed mouse-resize bugs (lp: #1348254)
+- fixed window clipping in the 3d cube rotation
+- excluded Wine applications from window close animations (lp: #957879)
+- removed a 1 px gap in semi-maximized windows under some circumstances (lp:
+  #1294864)
+- avoided buffering input during expo animations (lp: #1026553)
+- removed unused settings from gtk-window-decorator
+- enabled the cpp plugin by default
+- updated the manpage and --help messages (lp: #1475508)
+- fixed several build failures when using C++-11 and GCC 5 (lp: #1477654,
+  #1477978)
+- fixed several problems with the 3-D cube switcher (lp: #1395697, #1462612,
+  #1462612)
+- forced Compiz to build with C++-11 because several plugins use libgtkmm-3.0,
+  which requires it in ts API
+- added support for client-side window decorations (lp: #1475721, #1422768,
+  #1436553)
+
 Release 0.9.12.1 (2015-02-03 Stephen M. Webb <stephen.webb@canonical.com>)
 ========================================================================
 
