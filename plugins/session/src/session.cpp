@@ -51,7 +51,7 @@ SessionScreen::getUtf8Property (Window      id,
     if (result != Success)
 	return false;
 
-    if (type == Atoms::utf8String && format != 8 && nItems == 0)
+    if (type == Atoms::utf8String && format == 8 && val && nItems > 0)
     {
 	char valueString[nItems + 1];
 
