@@ -293,7 +293,8 @@ endfunction ()
 macro (compiz_add_git_dist)
 
 	add_custom_target (dist
-			   COMMAND git archive -o ${CMAKE_BINARY_DIR}/${CMAKE_PROJECT_NAME}-${VERSION}.tar.xz --prefix=${CMAKE_PROJECT_NAME}-${VERSION}/ HEAD
+			   COMMAND git config tar.tar.xz.command "xz -c"
+			   && git archive -o ${CMAKE_BINARY_DIR}/${CMAKE_PROJECT_NAME}-${VERSION}.tar.xz --prefix=${CMAKE_PROJECT_NAME}-${VERSION}/ HEAD
 			   WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
 
 endmacro ()
