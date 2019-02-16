@@ -1,3 +1,39 @@
+Release 0.9.14.0 (2019-02-16 Dmitry Shachnev <mitya57@ubuntu.com>)
+==================================================================
+
+Highlights
+
+- Development has switched from Bazaar back to Git.
+- CCSM has been ported to PyGObject, GTK 3 and Python 3.
+- compizconfig-python has been ported from Pyrex to Cython.
+- Restored the Color Filter plugin by porting it to the new plugin API.
+- Added support for loading configuration from multiple files.
+- Docks and splashscreens now appear focused.
+- Fixed build errors with GCC 8.
+- Removed KDE (4.x) support code.
+- Compiz now needs cmake ≥ 3.10.0 and pkg-config ≥ 0.29.1 to build.
+- gtk-window-decorator now needs libmetacity ≥ 3.22.0 to build.
+
+Bugs Fixed
+
+https://pad.lv/1530277 - gtk-window-decorator: Scale decorations on HiDPI.
+https://pad.lv/1579421 - Fix initial serverFrame position.
+https://pad.lv/1700859 - Reduce effects when lowgfx mode is enabled.
+https://pad.lv/1702297 - Use AnyPropertyType when getting _MOTIF_WM_HINTS
+                         property.
+https://pad.lv/1722732 - Add missing plugin description files to potfiles.
+https://pad.lv/1728870 - Keep the last MotionNotify when collapsing them.
+https://pad.lv/1729045 - compizconfig: Load modules in alphabetical order
+                         instead of undefined order.
+https://pad.lv/1736446 - ezoom: Add option to choose between no smoothing and
+                         linear smoothing.
+https://pad.lv/1750619 - Region: define static const functions returning
+                         infinite and empty regions.
+https://pad.lv/1763032 - showmouse: Enable by default Guides instead of
+                         Emitters.
+https://pad.lv/1763692 - ezoom: Do not enable "Target Focused Window on
+                         Specific Zoom" by default.
+
 Release 0.9.13.1 (2016-11-11 Marco Trevisan (Treviño) <mail@3v1n0.net>)
 =======================================================================
 
