@@ -392,7 +392,7 @@ macro (compiz_add_release)
 	endif (AUTO_NEWS_UPDATE)
 
 	add_custom_target (authors
-			   COMMAND git shortlog -se | cut -c8- | grep -vE \"<=?>\" | grep -v \"(none)\" | sort > AUTHORS
+			   COMMAND git shortlog -se | cut -c8- | grep -vE \"<=?>\" | grep -v \"\(none\)\" | sort > AUTHORS
 			   COMMENT "Generating AUTHORS")
 
 	if (AUTO_NEWS_UPDATE)
