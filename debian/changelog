@@ -1,5 +1,6 @@
-compiz (1:0.9.13.1+19.04.20190212-0ubuntu1) UNRELEASED; urgency=medium
+compiz (1:0.9.14.0+19.04.20190217-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Marco Trevisan (Treviño) ]
   * Code moved (again) to git as default vcs
   * debian/control:
     - Update Vcs-Git and Homepage tags
@@ -7,6 +8,11 @@ compiz (1:0.9.13.1+19.04.20190212-0ubuntu1) UNRELEASED; urgency=medium
     - Update branches and tags templates
   * debian/source/format:
     - Update version to 3.0 (native)
+
+  [ Dmitry Shachnev ]
+  * Bump upstream version number to 0.9.14.0.
+  * Fix GCC -Wstringop-truncation error.
+  * Fix window grabbing by title or ID, based on a patch by Alexei Sorokin.
 
  -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Tue, 12 Feb 2019 18:43:18 +0100
 
