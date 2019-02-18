@@ -720,7 +720,7 @@ class BaseListSetting(Setting):
                 path, col, cellx, celly = pthinfo
                 treeview.grab_focus()
                 treeview.set_cursor(path, col, 0)
-                self.Popup.popup(None, None, None, event.button, event.time)
+                self.Popup.popup_at_pointer(event)
             return True
 
     def KeyPressEvent(self, treeview, event):
