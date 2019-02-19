@@ -1318,7 +1318,7 @@ class AboutDialog (Gtk.AboutDialog):
         self.set_name (_("CompizConfig Settings Manager"))
         self.set_version (Version)
         self.set_comments (_("This is a settings manager for the CompizConfig configuration system."))
-        self.set_copyright ("Copyright \xC2\xA9 2007-2008 Patrick Niklaus/Christopher Williams/Guillaume Seguin/Quinn Storm")
+        self.set_copyright ("Copyright © 2007-2008 Patrick Niklaus/Christopher Williams/Guillaume Seguin/Quinn Storm")
         self.set_translator_credits (_("translator-credits"))
         self.set_authors (["Patrick Niklaus <marex@opencompositing.org>",
                            "Christopher Williams <christopherw@verizon.net>",
