@@ -1,3 +1,13 @@
+compiz (1:0.9.14.0+19.04.20190219-0ubuntu1) disco; urgency=medium
+
+  * ccsm: Fix UnicodeDecodeError caused by non-ASCII plugin
+    descriptions. (LP: #1816629)
+  * ccsm: Fix TypeError when calling Gtk.Menu.popup() with invalid
+    number of arguments.
+  * ccsm: Fix display of Copyright sign.
+
+ -- Dmitry Shachnev <mitya57@ubuntu.com>  Tue, 19 Feb 2019 17:08:43 +0000
+
 compiz (1:0.9.14.0+19.04.20190217.1-0ubuntu1) disco; urgency=medium
 
   [ Marco Trevisan (Treviño) ]
