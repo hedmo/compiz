@@ -37,6 +37,10 @@ from gi.repository import GdkX11
 import sys
 import os
 
+if (Gtk.MAJOR_VERSION, Gtk.MINOR_VERSION) < (3, 22):
+    sys.exit("CCSM requires GTK 3.22 or later to run")
+
+
 def try_register_dbus ():
     '''Return instance of dbus control object on success, None on failure'''
     try:
