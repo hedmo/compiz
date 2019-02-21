@@ -9,3243 +9,4222 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YaST (@memory@)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-24 08:12+0100\n"
-"PO-Revision-Date: 2002-07-23 18:27+0200\n"
-"Last-Translator: Damir Bjelobradic <Nagual@lugbih.org>\n"
+"POT-Creation-Date: 2017-06-16 15:24+0000\n"
+"PO-Revision-Date: 2017-06-19 21:18+0000\n"
+"Last-Translator: Damir Bjelobradic <Unknown>\n"
 "Language-Team: Bosnian <i18n@suse.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-
-#: ../gtk/gnome/50-compiz-desktop-key.xml.in.h:1
-#, fuzzy
-msgid "Desktop"
-msgstr "Desktop postavke"
-
-#: ../gtk/gnome/50-compiz-key.xml.in.h:1
-#, fuzzy
-msgid "Window Management"
-msgstr "Windhoek"
+"X-Launchpad-Export-Date: 2019-02-21 18:45+0000\n"
+"X-Generator: Launchpad (build 18886)\n"
 
 #: ../gtk/gnome/compiz.desktop.in.h:1
 msgid "Compiz"
-msgstr ""
+msgstr "Kompozitni upravljač prozora"
 
-#: ../gtk/gnome/compiz-window-manager.c:426 ../metadata/scale.xml.in.h:25
-#: ../metadata/wobbly.xml.in.h:16
-msgid "None"
-msgstr "Nijedan"
-
-#: ../gtk/gnome/compiz-window-manager.c:427
-#: ../gtk/window-decorator/gtk-window-decorator.c:4625
-#, fuzzy
-msgid "Shade"
-msgstr "Vrijednost"
-
-#: ../gtk/gnome/compiz-window-manager.c:428 ../metadata/place.xml.in.h:9
-msgid "Maximize"
-msgstr ""
-
-#: ../gtk/gnome/compiz-window-manager.c:429
-msgid "Maximize Horizontally"
-msgstr ""
-
-#: ../gtk/gnome/compiz-window-manager.c:430
-msgid "Maximize Vertically"
-msgstr ""
-
-#: ../gtk/gnome/compiz-window-manager.c:431
-#, fuzzy
-msgid "Minimize"
-msgstr "Windhoek"
-
-#: ../gtk/gnome/compiz-window-manager.c:432
-msgid "Raise"
-msgstr ""
-
-#: ../gtk/gnome/compiz-window-manager.c:433
-msgid "Lower"
-msgstr ""
-
-#: ../gtk/gnome/compiz-window-manager.c:434
-#: ../gtk/window-decorator/gtk-window-decorator.c:4606
-#: ../metadata/core.xml.in.in.h:100
-#, fuzzy
-msgid "Window Menu"
-msgstr "Windhoek"
-
-#: ../gtk/window-decorator/gwd.schemas.in.h:1
-msgid "Action to take when scrolling the mouse wheel on a window title bar."
-msgstr ""
-
-#: ../gtk/window-decorator/gwd.schemas.in.h:2
-#, fuzzy
-msgid "Blur type"
-msgstr "&Postavi filter"
-
-#: ../gtk/window-decorator/gwd.schemas.in.h:3
-msgid "Metacity theme active window opacity"
-msgstr ""
-
-#: ../gtk/window-decorator/gwd.schemas.in.h:4
-msgid "Metacity theme active window opacity shade"
-msgstr ""
-
-#: ../gtk/window-decorator/gwd.schemas.in.h:5
-msgid "Metacity theme opacity"
-msgstr ""
-
-#: ../gtk/window-decorator/gwd.schemas.in.h:6
-msgid "Metacity theme opacity shade"
-msgstr ""
-
-#: ../gtk/window-decorator/gwd.schemas.in.h:7
-msgid "Opacity to use for active windows with metacity theme decorations"
-msgstr ""
-
-#: ../gtk/window-decorator/gwd.schemas.in.h:8
-msgid "Opacity to use for metacity theme decorations"
-msgstr ""
-
-#: ../gtk/window-decorator/gwd.schemas.in.h:9
-msgid ""
-"Shade active windows with metacity theme decorations from opaque to "
-"translucent"
-msgstr ""
-
-#: ../gtk/window-decorator/gwd.schemas.in.h:10
-msgid ""
-"Shade windows with metacity theme decorations from opaque to translucent"
-msgstr ""
-
-#: ../gtk/window-decorator/gwd.schemas.in.h:11
-msgid "Title bar mouse wheel action"
-msgstr ""
-
-#: ../gtk/window-decorator/gwd.schemas.in.h:12
-msgid "Type of blur used for window decorations"
-msgstr ""
-
-#: ../gtk/window-decorator/gwd.schemas.in.h:13
-msgid "Use metacity theme"
-msgstr ""
-
-#: ../gtk/window-decorator/gwd.schemas.in.h:14
-msgid "Use metacity theme when drawing window decorations"
-msgstr ""
-
-#: ../gtk/window-decorator/gtk-window-decorator.c:4414
-#: ../metadata/core.xml.in.in.h:12
+#: ../gtk/window-decorator/events.c:159 ../metadata/core.xml.in.h:50
+#: ../plugins/scaleaddon/scaleaddon.xml.in.h:4
 msgid "Close Window"
-msgstr ""
+msgstr "Zatvori prozor"
 
-#: ../gtk/window-decorator/gtk-window-decorator.c:4436
-#: ../metadata/core.xml.in.in.h:93
+#: ../gtk/window-decorator/events.c:187 ../metadata/core.xml.in.h:60
 msgid "Unmaximize Window"
-msgstr ""
+msgstr "Poništi maksimiziranje prozora"
 
-#: ../gtk/window-decorator/gtk-window-decorator.c:4439
-#: ../metadata/core.xml.in.in.h:49
+#: ../gtk/window-decorator/events.c:190 ../metadata/core.xml.in.h:58
 msgid "Maximize Window"
-msgstr ""
+msgstr "Maksimiziraj prozor"
 
-#: ../gtk/window-decorator/gtk-window-decorator.c:4481
-#: ../metadata/core.xml.in.in.h:55
+#: ../gtk/window-decorator/events.c:245 ../metadata/core.xml.in.h:56
 msgid "Minimize Window"
-msgstr ""
+msgstr "Minimiziraj prozor"
 
-#: ../gtk/window-decorator/gtk-window-decorator.c:4645
+#: ../gtk/window-decorator/events.c:265 ../metadata/core.xml.in.h:68
+msgid "Window Menu"
+msgstr "Meni prozora"
+
+#: ../gtk/window-decorator/events.c:288
+msgid "Shade"
+msgstr "Osijenči"
+
+#: ../gtk/window-decorator/events.c:312
 msgid "Make Above"
-msgstr ""
+msgstr "Uradi gore navedeno"
 
-#: ../gtk/window-decorator/gtk-window-decorator.c:4671
+#: ../gtk/window-decorator/events.c:334
 msgid "Stick"
-msgstr ""
+msgstr "Ljepljenje"
 
-#: ../gtk/window-decorator/gtk-window-decorator.c:4691
+#: ../gtk/window-decorator/events.c:356
 msgid "Unshade"
-msgstr ""
+msgstr "Ukloni osijenčeno"
 
-#: ../gtk/window-decorator/gtk-window-decorator.c:4711
+#: ../gtk/window-decorator/events.c:378
 msgid "Unmake Above"
-msgstr ""
+msgstr "Poništi gornje"
 
-#: ../gtk/window-decorator/gtk-window-decorator.c:4737
+#: ../gtk/window-decorator/events.c:400
 msgid "Unstick"
-msgstr ""
+msgstr "Odlijepi"
 
-#: ../gtk/window-decorator/gtk-window-decorator.c:5085
+#: ../gtk/window-decorator/forcequit.c:143
 #, c-format
 msgid "The window \"%s\" is not responding."
-msgstr ""
+msgstr "Prozor \"%s\" ne reaguje."
 
-#: ../gtk/window-decorator/gtk-window-decorator.c:5094
+#: ../gtk/window-decorator/forcequit.c:147
 msgid ""
 "Forcing this application to quit will cause you to lose any unsaved changes."
 msgstr ""
+"Prisiljavanje ove aplikacije da završi rad uzrokovati će gubitak svih "
+"nepohranjenih promjena."
 
-#: ../gtk/window-decorator/gtk-window-decorator.c:5109
+#: ../gtk/window-decorator/forcequit.c:159
+msgid "_Cancel"
+msgstr "_Odustani"
+
+#: ../gtk/window-decorator/forcequit.c:161
 msgid "_Force Quit"
-msgstr ""
-
-#: ../metadata/annotate.xml.in.h:1
-#, fuzzy
-msgid "Annotate"
-msgstr "Indija"
-
-#: ../metadata/annotate.xml.in.h:2
-msgid "Annotate Fill Color"
-msgstr ""
-
-#: ../metadata/annotate.xml.in.h:3
-msgid "Annotate Stroke Color"
-msgstr ""
-
-#: ../metadata/annotate.xml.in.h:4
-#, fuzzy
-msgid "Annotate plugin"
-msgstr "Indija"
-
-#: ../metadata/annotate.xml.in.h:5
-msgid "Clear"
-msgstr ""
-
-#: ../metadata/annotate.xml.in.h:6
-msgid "Draw"
-msgstr ""
-
-#: ../metadata/annotate.xml.in.h:7
-msgid "Draw using tool"
-msgstr ""
-
-#: ../metadata/annotate.xml.in.h:8
-msgid "Fill color for annotations"
-msgstr ""
-
-#: ../metadata/annotate.xml.in.h:9 ../metadata/clone.xml.in.h:2
-#: ../metadata/rotate.xml.in.h:12 ../metadata/screenshot.xml.in.h:3
-#: ../metadata/water.xml.in.h:6
-#, fuzzy
-msgid "Initiate"
-msgstr "Indija"
-
-#: ../metadata/annotate.xml.in.h:10
-#, fuzzy
-msgid "Initiate annotate drawing"
-msgstr "Indija"
-
-#: ../metadata/annotate.xml.in.h:11
-#, fuzzy
-msgid "Initiate annotate erasing"
-msgstr "Indija"
-
-#: ../metadata/annotate.xml.in.h:12
-#, fuzzy
-msgid "Initiate erase"
-msgstr "Indija"
-
-#: ../metadata/annotate.xml.in.h:13
-msgid "Line width"
-msgstr ""
-
-#: ../metadata/annotate.xml.in.h:14
-msgid "Line width for annotations"
-msgstr ""
-
-#: ../metadata/annotate.xml.in.h:15
-msgid "Stroke color for annotations"
-msgstr ""
-
-#: ../metadata/annotate.xml.in.h:16
-msgid "Stroke width"
-msgstr ""
-
-#: ../metadata/annotate.xml.in.h:17
-msgid "Stroke width for annotations"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:1
-#, fuzzy
-msgid "4xBilinear"
-msgstr "Filter: %1"
-
-#: ../metadata/blur.xml.in.h:2
-msgid "Alpha Blur"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:3
-msgid "Alpha blur windows"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:4
-#, fuzzy
-msgid "Blur Filter"
-msgstr "&Postavi filter"
-
-#: ../metadata/blur.xml.in.h:5
-#, fuzzy
-msgid "Blur Occlusion"
-msgstr "Sajgon"
-
-#: ../metadata/blur.xml.in.h:6
-#, fuzzy
-msgid "Blur Saturation"
-msgstr "Sajgon"
-
-#: ../metadata/blur.xml.in.h:7
-#, fuzzy
-msgid "Blur Speed"
-msgstr "&Postavi filter"
-
-#: ../metadata/blur.xml.in.h:8
-#, fuzzy
-msgid "Blur Windows"
-msgstr "Windhoek"
-
-#: ../metadata/blur.xml.in.h:9
-msgid "Blur behind translucent parts of windows"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:10
-#, fuzzy
-msgid "Blur saturation"
-msgstr "Sajgon"
-
-#: ../metadata/blur.xml.in.h:11
-#, fuzzy
-msgid "Blur windows"
-msgstr "Windhoek"
-
-#: ../metadata/blur.xml.in.h:12
-msgid "Blur windows that doesn't have focus"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:13
-msgid "Disable blurring of screen regions obscured by other windows."
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:14
-msgid "Filter method used for blurring"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:15
-msgid "Focus Blur"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:16
-msgid "Focus blur windows"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:17
-#, fuzzy
-msgid "Gaussian"
-msgstr "Ruski"
-
-# RU
-#: ../metadata/blur.xml.in.h:18
-#, fuzzy
-msgid "Gaussian Radius"
-msgstr "Ruska Federacija"
-
-#: ../metadata/blur.xml.in.h:19
-#, fuzzy
-msgid "Gaussian Strength"
-msgstr "Ruski"
-
-# RU
-#: ../metadata/blur.xml.in.h:20
-#, fuzzy
-msgid "Gaussian radius"
-msgstr "Ruska Federacija"
-
-#: ../metadata/blur.xml.in.h:21
-#, fuzzy
-msgid "Gaussian strength"
-msgstr "Ruski"
-
-#: ../metadata/blur.xml.in.h:22
-msgid "Independent texture fetch"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:23 ../metadata/cube.xml.in.h:27
-#: ../metadata/decoration.xml.in.h:10 ../metadata/switcher.xml.in.h:14
-#, fuzzy
-msgid "Mipmap"
-msgstr "Lima"
-
-#: ../metadata/blur.xml.in.h:24
-#, fuzzy
-msgid "Mipmap LOD"
-msgstr "Lima"
-
-#: ../metadata/blur.xml.in.h:25
-msgid "Mipmap level-of-detail"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:26
-msgid "Pulse"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:27
-msgid "Pulse effect"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:28
-msgid ""
-"Use the available texture units to do as many as possible independent "
-"texture fetches."
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:29
-#, fuzzy
-msgid "Window blur speed"
-msgstr "Windhoek"
-
-#: ../metadata/blur.xml.in.h:30
-msgid "Windows that should be affected by focus blur"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:31
-msgid "Windows that should be use alpha blur by default"
-msgstr ""
-
-#: ../metadata/clone.xml.in.h:1
-msgid "Clone Output"
-msgstr ""
-
-#: ../metadata/clone.xml.in.h:3
-#, fuzzy
-msgid "Initiate clone selection"
-msgstr "Indija"
-
-#: ../metadata/clone.xml.in.h:4
-msgid "Output clone handler"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:1
-msgid ""
-"A button binding that when invoked, will run the shell command identified by "
-"command0"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:2
-msgid ""
-"A button binding that when invoked, will run the shell command identified by "
-"command1"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:3
-msgid ""
-"A button binding that when invoked, will run the shell command identified by "
-"command10"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:4
-msgid ""
-"A button binding that when invoked, will run the shell command identified by "
-"command11"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:5
-msgid ""
-"A button binding that when invoked, will run the shell command identified by "
-"command2"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:6
-msgid ""
-"A button binding that when invoked, will run the shell command identified by "
-"command3"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:7
-msgid ""
-"A button binding that when invoked, will run the shell command identified by "
-"command4"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:8
-msgid ""
-"A button binding that when invoked, will run the shell command identified by "
-"command5"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:9
-msgid ""
-"A button binding that when invoked, will run the shell command identified by "
-"command6"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:10
-msgid ""
-"A button binding that when invoked, will run the shell command identified by "
-"command7"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:11
-msgid ""
-"A button binding that when invoked, will run the shell command identified by "
-"command8"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:12
-msgid ""
-"A button binding that when invoked, will run the shell command identified by "
-"command9"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:13
-msgid ""
-"A keybinding that when invoked, will run the shell command identified by "
-"command0"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:14
-msgid ""
-"A keybinding that when invoked, will run the shell command identified by "
-"command1"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:15
-msgid ""
-"A keybinding that when invoked, will run the shell command identified by "
-"command10"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:16
-msgid ""
-"A keybinding that when invoked, will run the shell command identified by "
-"command11"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:17
-msgid ""
-"A keybinding that when invoked, will run the shell command identified by "
-"command2"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:18
-msgid ""
-"A keybinding that when invoked, will run the shell command identified by "
-"command3"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:19
-msgid ""
-"A keybinding that when invoked, will run the shell command identified by "
-"command4"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:20
-msgid ""
-"A keybinding that when invoked, will run the shell command identified by "
-"command5"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:21
-msgid ""
-"A keybinding that when invoked, will run the shell command identified by "
-"command6"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:22
-msgid ""
-"A keybinding that when invoked, will run the shell command identified by "
-"command7"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:23
-msgid ""
-"A keybinding that when invoked, will run the shell command identified by "
-"command8"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:24
-msgid ""
-"A keybinding that when invoked, will run the shell command identified by "
-"command9"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:25
-msgid ""
-"An edge binding that when invoked, will run the shell command identified by "
-"command0"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:26
-msgid ""
-"An edge binding that when invoked, will run the shell command identified by "
-"command1"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:27
-msgid ""
-"An edge binding that when invoked, will run the shell command identified by "
-"command10"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:28
-msgid ""
-"An edge binding that when invoked, will run the shell command identified by "
-"command11"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:29
-msgid ""
-"An edge binding that when invoked, will run the shell command identified by "
-"command2"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:30
-msgid ""
-"An edge binding that when invoked, will run the shell command identified by "
-"command3"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:31
-msgid ""
-"An edge binding that when invoked, will run the shell command identified by "
-"command4"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:32
-msgid ""
-"An edge binding that when invoked, will run the shell command identified by "
-"command5"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:33
-msgid ""
-"An edge binding that when invoked, will run the shell command identified by "
-"command6"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:34
-msgid ""
-"An edge binding that when invoked, will run the shell command identified by "
-"command7"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:35
-msgid ""
-"An edge binding that when invoked, will run the shell command identified by "
-"command8"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:36
-msgid ""
-"An edge binding that when invoked, will run the shell command identified by "
-"command9"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:37
-msgid "Assigns bindings to arbitrary commands"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:38
-msgid "Button Bindings"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:39
-msgid "Command line 1"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:40
-msgid "Command line 10"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:41
-msgid "Command line 11"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:42
-msgid "Command line 12"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:43
-msgid "Command line 2"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:44
-msgid "Command line 3"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:45
-msgid "Command line 4"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:46
-msgid "Command line 5"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:47
-msgid "Command line 6"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:48
-msgid "Command line 7"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:49
-msgid "Command line 8"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:50
-msgid "Command line 9"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:51
-msgid "Command line to be executed in shell when run_command0 is invoked"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:52
-msgid "Command line to be executed in shell when run_command1 is invoked"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:53
-msgid "Command line to be executed in shell when run_command10 is invoked"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:54
-msgid "Command line to be executed in shell when run_command11 is invoked"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:55
-msgid "Command line to be executed in shell when run_command2 is invoked"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:56
-msgid "Command line to be executed in shell when run_command3 is invoked"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:57
-msgid "Command line to be executed in shell when run_command4 is invoked"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:58
-msgid "Command line to be executed in shell when run_command5 is invoked"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:59
-msgid "Command line to be executed in shell when run_command6 is invoked"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:60
-msgid "Command line to be executed in shell when run_command7 is invoked"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:61
-msgid "Command line to be executed in shell when run_command8 is invoked"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:62
-msgid "Command line to be executed in shell when run_command9 is invoked"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:63 ../metadata/gnomecompat.xml.in.h:1
-msgid "Commands"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:64
-msgid "Edge Bindings"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:65
-msgid "Key Bindings"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:66
-msgid "Run command 1"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:67
-msgid "Run command 10"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:68
-msgid "Run command 11"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:69
-msgid "Run command 12"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:70
-msgid "Run command 2"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:71
-msgid "Run command 3"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:72
-msgid "Run command 4"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:73
-msgid "Run command 5"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:74
-msgid "Run command 6"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:75
-msgid "Run command 7"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:76
-msgid "Run command 8"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:77
-msgid "Run command 9"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:1
+msgstr "_Forsiraj izlaz"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:1
+msgid "Navigation"
+msgstr "Navigacija"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:2
+msgid "Move window to workspace 1"
+msgstr "Pomjeri prozor na radnu površinu 1"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:3
+msgid "Move window to workspace 2"
+msgstr "Pomjeri prozor na radnu površinu 2"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:4
+msgid "Move window to workspace 3"
+msgstr "Pomjeri prozor na radnu površinu 3"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:5
+msgid "Move window to workspace 4"
+msgstr "Pomjeri prozor na radnu površinu 4"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:6
+msgid "Move window to workspace 5"
+msgstr "Pomjeri prozor na radnu površinu 5"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:7
+msgid "Move window to workspace 6"
+msgstr "Pomjeri prozor na radnu površinu 6"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:8
+msgid "Move window to workspace 7"
+msgstr "Pomjeri prozor na radnu površinu 7"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:9
+msgid "Move window to workspace 8"
+msgstr "Pomjeri prozor na radnu površinu 8"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:10
+msgid "Move window to workspace 9"
+msgstr "Pomjeri prozor na radnu površinu 9"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:11
+msgid "Move window to workspace 10"
+msgstr "Pomjeri prozor na radnu površinu 10"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:12
+msgid "Move window to workspace 11"
+msgstr "Pomjeri prozor na radnu površinu 11"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:13
+msgid "Move window to workspace 12"
+msgstr "Pomjeri prozor na radnu površinu 12"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:14
+msgid "Move window one workspace to the left"
+msgstr "Premjesti prozor za jednu radnu površinu ulijevo"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:15
+msgid "Move window one workspace to the right"
+msgstr "Premjesti prozor za jednu radnu površinu udesno"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:16
+msgid "Move window one workspace up"
+msgstr "Premjesti prozor za jednu radnu površinu gore"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:17
+msgid "Move window one workspace down"
+msgstr "Premjesti prozor za jednu radnu površinu ispod"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:18
+msgid "Switch applications"
+msgstr "Programi za prebacivanje"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:19
+msgid "Switch windows of an app directly"
+msgstr "Direktno prebaci prozore programa"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:20
+msgid "Hide all normal windows"
+msgstr "Sakrij sve normalne prozore"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:21
+msgid "Switch to workspace 1"
+msgstr "Pređi na radnu površinu 1"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:22
+msgid "Switch to workspace 2"
+msgstr "Pređi na radnu površinu 2"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:23
+msgid "Switch to workspace 3"
+msgstr "Pređi na radnu površinu 3"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:24
+msgid "Switch to workspace 4"
+msgstr "Pređi na radnu površinu 4"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:25
+msgid "Switch to workspace 5"
+msgstr "Pređi na radnu površinu 5"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:26
+msgid "Switch to workspace 6"
+msgstr "Pređi na radnu površinu 6"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:27
+msgid "Switch to workspace 7"
+msgstr "Pređi na radnu površinu 7"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:28
+msgid "Switch to workspace 8"
+msgstr "Pređi na radnu površinu 8"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:29
+msgid "Switch to workspace 9"
+msgstr "Pređi na radnu površinu 9"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:30
+msgid "Switch to workspace 10"
+msgstr "Pređi na radnu površinu 10"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:31
+msgid "Switch to workspace 11"
+msgstr "Pređi na radnu površinu 11"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:32
+msgid "Switch to workspace 12"
+msgstr "Pređi na radnu površinu 12"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:33
+msgid "Switch to workspace left"
+msgstr "Pređi na radni prostor s lijeve strane"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:34
+msgid "Switch to workspace right"
+msgstr "Pređi na radni prostor sa desne strane"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:35
+msgid "Switch to workspace above"
+msgstr "Pređi na radni prostor iznad"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:36
+msgid "Switch to workspace below"
+msgstr "Pređi na radni prostor ispod"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:1 ../plugins/obs/obs.xml.in.h:17
+#: ../plugins/place/place.xml.in.h:32
+#: ../plugins/stackswitch/stackswitch.xml.in.h:24
+msgid "Windows"
+msgstr "Prozori"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:2
+msgid "Activate the window menu"
+msgstr "Uključi izbornik prozora"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:3
+msgid "Toggle fullscreen mode"
+msgstr "Prikaži preko cijelog ekrana"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:4
+msgid "Toggle maximization state"
+msgstr "Promijeni stanje uvećanosti"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:5
+msgid "Maximize window"
+msgstr "Maksimiziraj prozor"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:6
+msgid "Restore window"
+msgstr "Vrati prethodnu veličinu prozora"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:7
+msgid "Toggle shaded state"
+msgstr "Promijeni stanje osijenčenosti"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:8
+msgid "Close window"
+msgstr "Zatvori prozor"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:9
+msgid "Minimize window"
+msgstr "Minimiziraj prozor"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:10
+msgid "Move window"
+msgstr "Pomjeri prozor"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:11
+#: ../plugins/resize/resize.xml.in.h:2
+msgid "Resize window"
+msgstr "Promijeni veličinu prozora"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:12 ../metadata/core.xml.in.h:53
+msgid "Raise window above other windows"
+msgstr "Podigni prozore iznad ostalih prozora"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:13
+msgid "Lower window below other windows"
+msgstr "Spustiti prozor ispod ostalih prozora"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:14
+msgid "Maximize window vertically"
+msgstr "Maksimiziraj prozor vertikalno"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:15
+msgid "Maximize window horizontally"
+msgstr "Maksimiziraj prozor horizontalno"
+
+#: ../metadata/core.xml.in.h:1 ../plugins/ring/ring.xml.in.h:23
+#: ../plugins/shift/shift.xml.in.h:34
+msgid "General Options"
+msgstr "Opšta podešavanja"
+
+#: ../metadata/core.xml.in.h:2
+msgid "General compiz options"
+msgstr "Opća compiz podešavanja"
+
+#: ../metadata/core.xml.in.h:3
 msgid "Active Plugins"
-msgstr ""
+msgstr "Aktivni dodaci"
 
-#: ../metadata/core.xml.in.in.h:2
-msgid ""
-"Allow drawing of fullscreen windows to not be redirected to offscreen pixmaps"
-msgstr ""
+#: ../metadata/core.xml.in.h:4
+msgid "List of currently active plugins"
+msgstr "Lista trenutno aktivnih dodataka"
 
-#: ../metadata/core.xml.in.in.h:3
+#: ../metadata/core.xml.in.h:5
 msgid "Audible Bell"
-msgstr ""
+msgstr "Zvučno zvono"
 
-#: ../metadata/core.xml.in.in.h:4
+#: ../metadata/core.xml.in.h:6
 msgid "Audible system beep"
+msgstr "Zvučni signal audio sistema"
+
+#: ../metadata/core.xml.in.h:7
+msgid "Ignore Hints When Maximized"
+msgstr "Ignoriši savjete kad je maksimiziran"
+
+#: ../metadata/core.xml.in.h:8
+msgid "Ignore size increment and aspect hints when window is maximized"
 msgstr ""
+"Ignoriši savjete za povećanje veličine i odnosa kada je prozor maksimalno "
+"uvećan"
 
-#: ../metadata/core.xml.in.in.h:5
-msgid "Auto-Raise"
+#: ../metadata/core.xml.in.h:9
+msgid "Hide Skip Taskbar Windows"
+msgstr "Sakrij i preskoči traku zadataka za prozore"
+
+#: ../metadata/core.xml.in.h:10
+msgid "Hide windows not in taskbar when entering show desktop mode"
 msgstr ""
+"Sakrij sve prozore koji se ne nalaze u traci zadataka prilikom ulaska u "
+"opciju prikaza radne površine"
 
-#: ../metadata/core.xml.in.in.h:6
-msgid "Auto-Raise Delay"
-msgstr ""
+#: ../metadata/core.xml.in.h:11
+msgid "Edge Trigger Delay"
+msgstr "Kašnjenje okidanja na ivici"
 
-#: ../metadata/core.xml.in.in.h:7
-msgid "Automatic detection of output devices"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:8
-msgid "Automatic detection of refresh rate"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:9
-msgid "Best"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:10
-msgid "Click To Focus"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:11
-msgid "Click on window moves input focus to it"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:13
-msgid "Close active window"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:14
-#, fuzzy
-msgid "Default Icon"
-msgstr "&Podrazumjevani"
-
-#: ../metadata/core.xml.in.in.h:15
-#, fuzzy
-msgid "Default window icon image"
-msgstr "Podrazumjevani datum &isteka"
-
-#: ../metadata/core.xml.in.in.h:16
-#, fuzzy
-msgid "Desktop Size"
-msgstr "Desktop postavke"
-
-#: ../metadata/core.xml.in.in.h:17
-msgid "Detect Outputs"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:18
-msgid "Detect Refresh Rate"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:19
-msgid "Display Settings"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:20
+#: ../metadata/core.xml.in.h:12
 msgid ""
 "Duration the pointer must rest in a screen edge before an edge action is "
 "taken."
 msgstr ""
+"Dužina stajanja pokazivača na ivici ekrana prije nego se obavi akcija ivice."
 
-#: ../metadata/core.xml.in.in.h:21
-msgid "Edge Trigger Delay"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:22
-msgid "Fast"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:23
-msgid "Focus &amp; Raise Behaviour"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:24
-msgid "Focus Prevention Level"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:25
-msgid "Focus Prevention Windows"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:26
-msgid "Focus prevention windows"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:27
-msgid "Force independent output painting."
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:28
-msgid "General Options"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:29
-msgid "General compiz options"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:30
-msgid "Good"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:31
-msgid "Hide Skip Taskbar Windows"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:32
-msgid "Hide all windows and focus desktop"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:33
-msgid "Hide windows not in taskbar when entering show desktop mode"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:34
-msgid "High"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:35
-msgid "Horizontal Virtual Size"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:36
-msgid "If available use compression for textures converted from images"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:37
-msgid "Ignore Hints When Maximized"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:38
-msgid "Ignore size increment and aspect hints when window is maximized"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:39
-msgid "Interval before raising selected windows"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:40
-msgid "Interval between ping messages"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:41
-msgid "Key bindings"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:42
-msgid "Level of focus stealing prevention"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:43
-#, fuzzy
-msgid "Lighting"
-msgstr "Logging"
-
-#: ../metadata/core.xml.in.in.h:44
-msgid "List of currently active plugins"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:45
-msgid "List of strings describing output devices"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:46
-msgid "Low"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:47
-msgid "Lower Window"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:48
-msgid "Lower window beneath other windows"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:50
-msgid "Maximize Window Horizontally"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:51
-msgid "Maximize Window Vertically"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:52
-msgid "Maximize active window"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:53
-msgid "Maximize active window horizontally"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:54
-msgid "Maximize active window vertically"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:56
-msgid "Minimize active window"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:57 ../metadata/resize.xml.in.h:13
-msgid "Normal"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:58
-msgid "Number of Desktops"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:59
-msgid "Number of virtual desktops"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:60
-msgid "Off"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:61
-msgid "Only perform screen updates during vertical blanking period"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:62
-msgid "Outputs"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:63
-msgid "Overlapping Output Handling"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:64
-msgid "Paint each output device independly, even if the output devices overlap"
-msgstr ""
-
-# SH
-#: ../metadata/core.xml.in.in.h:65
-#, fuzzy
+#: ../metadata/core.xml.in.h:13
 msgid "Ping Delay"
-msgstr "Saint Helena"
+msgstr "Kašnjenje za ping"
 
-#: ../metadata/core.xml.in.in.h:66
-msgid "Prefer larger output"
-msgstr ""
+#: ../metadata/core.xml.in.h:14
+msgid "Interval between ping messages"
+msgstr "Interval imzeđu ping poruka"
 
-#: ../metadata/core.xml.in.in.h:67
-msgid "Prefer smaller output"
-msgstr ""
+#: ../metadata/core.xml.in.h:15
+msgid "Default Icon"
+msgstr "Podrazumijevana ikona"
 
-#: ../metadata/core.xml.in.in.h:68
-msgid "Raise On Click"
-msgstr ""
+#: ../metadata/core.xml.in.h:16
+msgid "Default window icon image"
+msgstr "Podrazumijevana ikona prozora"
 
-#: ../metadata/core.xml.in.in.h:69
-msgid "Raise Window"
-msgstr ""
+#: ../metadata/core.xml.in.h:17
+msgid "Save plugin states on unload"
+msgstr "Snimi trenutno stanje dodataka pri izbacivanju"
 
-#: ../metadata/core.xml.in.in.h:70
-msgid "Raise selected windows after interval"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:71
-msgid "Raise window above other windows"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:72
-msgid "Raise windows when clicked"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:73
-#, fuzzy
-msgid "Refresh Rate"
-msgstr "Ponovi &mjeru"
-
-#: ../metadata/core.xml.in.in.h:74
-msgid "Screen size multiplier for horizontal virtual size"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:75
-msgid "Screen size multiplier for vertical virtual size"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:76
-#, fuzzy
-msgid "Show Desktop"
-msgstr "Desktop postavke"
-
-#: ../metadata/core.xml.in.in.h:77
-#, fuzzy
-msgid "Slow Animations"
-msgstr "Konfiguracije"
-
-#: ../metadata/core.xml.in.in.h:78
-msgid "Smart mode"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:79
-msgid "Sync To VBlank"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:80
-#, fuzzy
-msgid "Texture Compression"
-msgstr "&Postavi filter"
-
-#: ../metadata/core.xml.in.in.h:81
-#, fuzzy
-msgid "Texture Filter"
-msgstr "&Postavi filter"
-
-#: ../metadata/core.xml.in.in.h:82
-#, fuzzy
-msgid "Texture filtering"
-msgstr "&Postavi filter"
-
-#: ../metadata/core.xml.in.in.h:83
-msgid "The rate at which the screen is redrawn (times/second)"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:84
-msgid "Toggle Window Maximized"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:85
-msgid "Toggle Window Maximized Horizontally"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:86
-msgid "Toggle Window Maximized Vertically"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:87
-msgid "Toggle Window Shaded"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:88
-msgid "Toggle active window maximized"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:89
-msgid "Toggle active window maximized horizontally"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:90
-msgid "Toggle active window maximized vertically"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:91
-msgid "Toggle active window shaded"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:92
-msgid "Toggle use of slow animations"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:94
-msgid "Unmaximize active window"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:95
-msgid "Unredirect Fullscreen Windows"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:96
-msgid "Use diffuse light when screen is transformed"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:97
-msgid "Vertical Virtual Size"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:98
-msgid "Very High"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:99
-msgid "Which one of overlapping output devices should be preferred"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:101
-msgid "Window menu button binding"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:102
-msgid "Window menu key binding"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:1 ../metadata/rotate.xml.in.h:1
-#, fuzzy
-msgid "Acceleration"
-msgstr "3D ubrzanje:"
-
-#: ../metadata/cube.xml.in.h:2
-msgid "Adjust Image"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:3
-msgid "Adjust top face image to rotation"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:4
-msgid "Advance to next slide"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:5
-#, fuzzy
-msgid "Animate Skydome"
-msgstr "Sidnej"
-
-#: ../metadata/cube.xml.in.h:6
-msgid "Animate skydome when rotating cube"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:7 ../metadata/scale.xml.in.h:2
-msgid "Appearance"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:8
-#, fuzzy
-msgid "Automatic"
-msgstr "Indija"
-
-#: ../metadata/cube.xml.in.h:9 ../metadata/scale.xml.in.h:3
-msgid "Behaviour"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:10
-msgid "Color of top and bottom sides of the cube"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:11
-msgid "Color to use for the bottom color-stop of the skydome-fallback gradient"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:12
-msgid "Color to use for the top color-stop of the skydome-fallback gradient"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:13
-msgid "Cube Caps"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:14
-msgid "Cube Color"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:15
-#, fuzzy
-msgid "Desktop Cube"
-msgstr "Desktop postavke"
-
-#: ../metadata/cube.xml.in.h:16
-#, fuzzy
-msgid "Fold Acceleration"
-msgstr "3D ubrzanje:"
-
-#: ../metadata/cube.xml.in.h:17
-#, fuzzy
-msgid "Fold Speed"
-msgstr "&Testiraj"
-
-#: ../metadata/cube.xml.in.h:18
-#, fuzzy
-msgid "Fold Timestep"
-msgstr "&Testiraj"
-
-#: ../metadata/cube.xml.in.h:19 ../metadata/switcher.xml.in.h:11
-msgid "Generate mipmaps when possible for higher quality scaling"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:20
-msgid "Go back to previous slide"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:21
-msgid "Image files"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:22
-msgid "Image to use as texture for the skydome"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:23
-msgid "Initiates Cube transparency only if rotation is mouse driven."
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:24
-msgid "Inside Cube"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:25
-msgid "Inside cube"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:26
-msgid "List of PNG and SVG files that should be rendered on top face of cube"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:28 ../metadata/place.xml.in.h:10
-#: ../metadata/scale.xml.in.h:24
-msgid "Multi Output Mode"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:29
-msgid "Multiple cubes"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:30
-msgid "Next Slide"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:31
-msgid "One big cube"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:32
-msgid "Opacity During Rotation"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:33
-msgid "Opacity When Not Rotating"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:34
-msgid "Opacity of desktop window during rotation."
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:35
-msgid "Opacity of desktop window when not rotating."
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:36
-msgid "Place windows on cube"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:37
-msgid "Prev Slide"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:38
-msgid "Render skydome"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:39
-#, fuzzy
-msgid "Scale image"
-msgstr "lokalno vrijeme"
-
-#: ../metadata/cube.xml.in.h:40
-msgid "Scale images to cover top face of cube"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:41
-msgid "Selects how the cube is displayed if multiple output devices are used."
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:42
-#, fuzzy
-msgid "Skydome"
-msgstr "Sidnej"
-
-#: ../metadata/cube.xml.in.h:43
-msgid "Skydome Gradient End Color"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:44
-msgid "Skydome Gradient Start Color"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:45
-#, fuzzy
-msgid "Skydome Image"
-msgstr "Sidnej"
-
-#: ../metadata/cube.xml.in.h:46 ../metadata/minimize.xml.in.h:7
-#: ../metadata/rotate.xml.in.h:94 ../metadata/scale.xml.in.h:39
-#: ../metadata/switcher.xml.in.h:36
-#, fuzzy
-msgid "Speed"
-msgstr "lokalno vrijeme"
-
-#: ../metadata/cube.xml.in.h:47 ../metadata/minimize.xml.in.h:8
-#: ../metadata/rotate.xml.in.h:97 ../metadata/scale.xml.in.h:41
-#: ../metadata/switcher.xml.in.h:40
-#, fuzzy
-msgid "Timestep"
-msgstr "&Testiraj"
-
-#: ../metadata/cube.xml.in.h:48
-msgid "Transparency Only on Mouse Rotate"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:49
-msgid "Transparent Cube"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:50
-msgid "Unfold"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:51
-msgid "Unfold cube"
-msgstr ""
-
-#: ../metadata/dbus.xml.in.h:1
-msgid "Dbus"
-msgstr ""
-
-#: ../metadata/dbus.xml.in.h:2
-msgid "Dbus Control Backend"
-msgstr ""
-
-#: ../metadata/decoration.xml.in.h:1
-msgid "Allow mipmaps to be generated for decoration textures"
-msgstr ""
-
-#: ../metadata/decoration.xml.in.h:2
-msgid "Command"
-msgstr ""
-
-#: ../metadata/decoration.xml.in.h:3
-msgid "Decoration windows"
-msgstr ""
-
-#: ../metadata/decoration.xml.in.h:4
+#: ../metadata/core.xml.in.h:18
 msgid ""
-"Decorator command line that is executed if no decorator is already running"
+"Save the state of plugins when they are unloaded such they will resume their "
+"past internal state when reloaded"
 msgstr ""
+"Sačuvaj trenutno stanje dodataka kada izađu iz memorije tako da mogu "
+"nastaviti sa radom kada se ponovo učitaju"
 
-#: ../metadata/decoration.xml.in.h:5
-msgid "Drop shadow X offset"
+#: ../metadata/core.xml.in.h:19
+msgid "Display Settings"
+msgstr "Podešavanje radne površi"
+
+#: ../metadata/core.xml.in.h:20
+msgid "Overlapping Output Handling"
+msgstr "Upravljanje preklapanjem izlaza"
+
+#: ../metadata/core.xml.in.h:21
+msgid "Which one of overlapping output devices should be preferred"
+msgstr "Koji od preklapajućih izlaznih uređaja treba biti prioritetan"
+
+#: ../metadata/core.xml.in.h:22
+msgid "Smart mode"
+msgstr "Pametni režim rada"
+
+#: ../metadata/core.xml.in.h:23
+msgid "Prefer larger output"
+msgstr "Preferiraj veći izlaz"
+
+#: ../metadata/core.xml.in.h:24
+msgid "Prefer smaller output"
+msgstr "Preferiraj manji izlaz"
+
+#: ../metadata/core.xml.in.h:25
+msgid "Detect Outputs"
+msgstr "Otkrij izlaze"
+
+#: ../metadata/core.xml.in.h:26
+msgid "Automatic detection of output devices"
+msgstr "Automatsko otkrivanje izlaznih uređaja"
+
+#: ../metadata/core.xml.in.h:27
+msgid "Outputs"
+msgstr "Izlazi"
+
+#: ../metadata/core.xml.in.h:28
+msgid "List of strings describing output devices"
+msgstr "Lista rečenica koje opisuju izlazne uređaje"
+
+#: ../metadata/core.xml.in.h:29
+msgid "Focus &amp; Raise Behaviour"
+msgstr "Focus &amp; Način povećanja"
+
+#: ../metadata/core.xml.in.h:30
+msgid "Click To Focus"
+msgstr "Klikom se usredotoči na"
+
+#: ../metadata/core.xml.in.h:31
+msgid "Click on window moves input focus to it"
+msgstr "Klikom na prozor, ulazni fokus se premješta na njega"
+
+#: ../metadata/core.xml.in.h:32
+msgid "Raise On Click"
+msgstr "Podigni na klik"
+
+#: ../metadata/core.xml.in.h:33
+msgid "Raise windows when clicked"
+msgstr "Podigni prozore kad se klikne na njih"
+
+#: ../metadata/core.xml.in.h:34
+msgid "Auto-Raise"
+msgstr "Automatski podigni"
+
+#: ../metadata/core.xml.in.h:35
+msgid "Raise selected windows after interval"
+msgstr "Podigni označene prozore poslije intervala"
+
+#: ../metadata/core.xml.in.h:36
+msgid "Auto-Raise Delay"
+msgstr "Kašnjenje pri automatskom podizanju"
+
+#: ../metadata/core.xml.in.h:37
+msgid "Interval before raising selected windows"
+msgstr "Interval prije nego što se podignu označeni prozori"
+
+#: ../metadata/core.xml.in.h:38
+msgid "Focus Desktop"
+msgstr "Fokusiraj radnu površinu"
+
+#: ../metadata/core.xml.in.h:39
+msgid "Focus the desktop when click to focus is disabled"
+msgstr "Fokusiraj radnu površinu kada je klik na fokus onemogućen"
+
+#: ../metadata/core.xml.in.h:40
+msgid "Focus Prevention Level"
+msgstr "Nivo prevencije fokusa"
+
+#: ../metadata/core.xml.in.h:41
+msgid "Level of focus stealing prevention"
+msgstr "Nivo prevencije krađe fokusa."
+
+#: ../metadata/core.xml.in.h:42 ../plugins/animation/animation.xml.in.h:96
+msgid "Off"
+msgstr "Isključeno"
+
+#: ../metadata/core.xml.in.h:43
+msgid "Low"
+msgstr "Nizak"
+
+#: ../metadata/core.xml.in.h:44 ../plugins/move/move.xml.in.h:24
+#: ../plugins/resize/resize.xml.in.h:8
+#: ../plugins/scaleaddon/scaleaddon.xml.in.h:36
+msgid "Normal"
+msgstr "Normalna"
+
+#: ../metadata/core.xml.in.h:45
+msgid "High"
+msgstr "Visok"
+
+#: ../metadata/core.xml.in.h:46
+msgid "Very High"
+msgstr "Veoma visoki"
+
+#: ../metadata/core.xml.in.h:47
+msgid "Focus Prevention Windows"
+msgstr "Prozori sa zaštitom fokusa"
+
+#: ../metadata/core.xml.in.h:48
+msgid "Focus prevention windows"
+msgstr "Prozori sa zaštitom fokusa"
+
+#: ../metadata/core.xml.in.h:49 ../plugins/group/group.xml.in.h:4
+#: ../plugins/stackswitch/stackswitch.xml.in.h:2
+msgid "Key bindings"
+msgstr "Prečice tastature"
+
+#: ../metadata/core.xml.in.h:51
+msgid "Close active window"
+msgstr "Zatvori aktivni prozor"
+
+#: ../metadata/core.xml.in.h:52
+msgid "Raise Window"
+msgstr "Podigni prozor"
+
+#: ../metadata/core.xml.in.h:54
+msgid "Lower Window"
+msgstr "Spusti prozor"
+
+#: ../metadata/core.xml.in.h:55
+msgid "Lower window beneath other windows"
+msgstr "Spusti prozor ispod ostalih prozora"
+
+#: ../metadata/core.xml.in.h:57
+msgid "Minimize active window"
+msgstr "Minimiziraj aktivni prozor"
+
+#: ../metadata/core.xml.in.h:59
+msgid "Maximize active window"
+msgstr "Maksimiraj aktivni prozor"
+
+#: ../metadata/core.xml.in.h:61
+msgid "Unmaximize active window"
+msgstr "Poništi uvećanje uključenog prozora"
+
+#: ../metadata/core.xml.in.h:62
+msgid "Unmaximize or Minimize Window"
+msgstr "Maksimiziraj ili demaksimiziraj prozor"
+
+#: ../metadata/core.xml.in.h:63
+msgid "Unmaximize or minimize active window"
+msgstr "Maksimiziraj ili demaksimiziraj aktivni prozor"
+
+#: ../metadata/core.xml.in.h:64
+msgid "Maximize Window Horizontally"
+msgstr "Maksimiraj prozor horizontalno"
+
+#: ../metadata/core.xml.in.h:65
+msgid "Maximize active window horizontally"
+msgstr "Maksimiraj aktivni prozor horizontalno"
+
+#: ../metadata/core.xml.in.h:66
+msgid "Maximize Window Vertically"
+msgstr "Maksimiraj prozor vertikalno"
+
+#: ../metadata/core.xml.in.h:67
+msgid "Maximize active window vertically"
+msgstr "Maksimiraj aktivni prozor vertikalno"
+
+#: ../metadata/core.xml.in.h:69
+msgid "Window menu key binding"
+msgstr "Dodjeljivanje tastera meniju prozora"
+
+#: ../metadata/core.xml.in.h:70
+msgid "Window menu button binding"
+msgstr "Dodjeljivanje dugmadi na meniju prozora"
+
+#: ../metadata/core.xml.in.h:71 ../plugins/showdesktop/showdesktop.xml.in.h:1
+msgid "Show Desktop"
+msgstr "Prikaži radnu površinu"
+
+#: ../metadata/core.xml.in.h:72
+msgid "Hide all windows and focus desktop"
+msgstr "Sakrij sve prozore i fokusiraj radnu površinu"
+
+#: ../metadata/core.xml.in.h:73
+msgid "Toggle Window Maximized"
+msgstr "Uključi/isključi maksimiziranje prozora"
+
+#: ../metadata/core.xml.in.h:74
+msgid "Toggle active window maximized"
+msgstr "Uključi / Isključi uvećanje aktivnog prozora"
+
+#: ../metadata/core.xml.in.h:75
+msgid "Toggle Window Maximized Horizontally"
+msgstr "Uključi / Isključi horizontalno uvećanje prozora"
+
+#: ../metadata/core.xml.in.h:76
+msgid "Toggle active window maximized horizontally"
+msgstr "Uključi/isključi horizontalno maksimiziranje aktivnih prozor"
+
+#: ../metadata/core.xml.in.h:77
+msgid "Toggle Window Maximized Vertically"
+msgstr "Uključi/isključi vertikalno maksimiziranje prozora"
+
+#: ../metadata/core.xml.in.h:78
+msgid "Toggle active window maximized vertically"
+msgstr "Uključi / Isključi vertialno uvećanje aktivnog prozora"
+
+#: ../metadata/core.xml.in.h:79
+msgid "Toggle Window Shaded"
+msgstr "Uključi / Isključi zatamnjeni prozor"
+
+#: ../metadata/core.xml.in.h:80
+msgid "Toggle active window shaded"
+msgstr "Uključi / Isključi aktivni zatamnjeni prozor"
+
+#: ../metadata/core.xml.in.h:81
+msgid "Desktop Size"
+msgstr "Veličina radne površi"
+
+#: ../metadata/core.xml.in.h:82
+msgid "Horizontal Virtual Size"
+msgstr "Horizontalna virtuelna veliča"
+
+#: ../metadata/core.xml.in.h:83
+msgid "Screen size multiplier for horizontal virtual size"
+msgstr "Množilac veličine ekrana za horizontalnu virtuelnu veličinu"
+
+#: ../metadata/core.xml.in.h:84
+msgid "Vertical Virtual Size"
+msgstr "Vertikalna virtuelna veličina"
+
+#: ../metadata/core.xml.in.h:85
+msgid "Screen size multiplier for vertical virtual size"
+msgstr "Množilac veličine ekrana za vertikalnu virtuelnu veličinu"
+
+#: ../plugins/annotate/annotate.xml.in.h:1
+msgid "Annotate"
+msgstr "Komentariši"
+
+#: ../plugins/annotate/annotate.xml.in.h:2
+msgid "Annotate plugin"
+msgstr "Protumači dodatak"
+
+#: ../plugins/annotate/annotate.xml.in.h:3
+msgid "Initiate Free Draw"
+msgstr "Započni slobodno crtanje"
+
+#: ../plugins/annotate/annotate.xml.in.h:4
+msgid "Initiate freehand drawing"
+msgstr "Započni crtanje slobodnom rukom"
+
+#: ../plugins/annotate/annotate.xml.in.h:5
+msgid "Initiate Line"
+msgstr "Aktiviraj liniju"
+
+#: ../plugins/annotate/annotate.xml.in.h:6
+msgid "Initiate line drawing"
+msgstr "Započni crtanje linije"
+
+#: ../plugins/annotate/annotate.xml.in.h:7
+msgid "Initiate Rectangle"
+msgstr "Pokreni pravougaonik"
+
+#: ../plugins/annotate/annotate.xml.in.h:8
+msgid "Initiate rectangle drawing"
+msgstr "Započni crtanje pravougaonika"
+
+#: ../plugins/annotate/annotate.xml.in.h:9
+msgid "Initiate Ellipse"
+msgstr "Pokreni elipsu"
+
+#: ../plugins/annotate/annotate.xml.in.h:10
+msgid "Initiate ellipse drawing"
+msgstr "Započni crtanje elipse"
+
+#: ../plugins/annotate/annotate.xml.in.h:11
+msgid "Draw"
+msgstr "Crtaj"
+
+#: ../plugins/annotate/annotate.xml.in.h:12
+msgid "Draw using tool"
+msgstr "Nacrtaj koristeći alatku"
+
+#: ../plugins/annotate/annotate.xml.in.h:13
+msgid "Initiate Erase"
+msgstr "Započni brisanje"
+
+#: ../plugins/annotate/annotate.xml.in.h:14
+msgid "Initiate annotate erasing"
+msgstr "Započni brisanje zabilješke"
+
+#: ../plugins/annotate/annotate.xml.in.h:15
+msgid "Clear"
+msgstr "Briši"
+
+#: ../plugins/annotate/annotate.xml.in.h:16
+msgid "Draw shapes from center"
+msgstr "Nacrtaj oblike iz centra"
+
+#: ../plugins/annotate/annotate.xml.in.h:17
+msgid "Uses the initial click point as the center of shapes."
+msgstr "Koristi klik na početnu tačku kao centar oblika"
+
+#: ../plugins/annotate/annotate.xml.in.h:18
+msgid "Annotate Fill Color"
+msgstr "Boja za  popunjavanje zabilješke"
+
+#: ../plugins/annotate/annotate.xml.in.h:19
+msgid "Fill color for annotations"
+msgstr "Boja kojom se popunjavaju zabilješke"
+
+#: ../plugins/annotate/annotate.xml.in.h:20
+msgid "Annotate Stroke Color"
+msgstr "Boja poteza zabilješki"
+
+#: ../plugins/annotate/annotate.xml.in.h:21
+msgid "Stroke color for annotations"
+msgstr "Boja poteza koju koriste zabilješke"
+
+#: ../plugins/annotate/annotate.xml.in.h:22
+msgid "Erase width"
+msgstr "Širina brisanja"
+
+#: ../plugins/annotate/annotate.xml.in.h:23
+msgid "Erase size"
+msgstr "Veličina brisanja"
+
+#: ../plugins/annotate/annotate.xml.in.h:24
+msgid "Stroke width"
+msgstr "Širina poteza"
+
+#: ../plugins/annotate/annotate.xml.in.h:25
+msgid "Stroke width for annotations"
+msgstr "Širina poteza koju koriste zabilješke"
+
+#: ../plugins/blur/blur.xml.in.h:1
+msgid "Blur Windows"
+msgstr "Zamagli prozore"
+
+#: ../plugins/blur/blur.xml.in.h:2
+msgid "Blur windows"
+msgstr "Zamagli prozore"
+
+#: ../plugins/blur/blur.xml.in.h:3
+#: ../plugins/simple-animations/animationsim.xml.in.h:43
+msgid "Pulse"
+msgstr "Pulsiraj"
+
+#: ../plugins/blur/blur.xml.in.h:4
+msgid "Pulse effect"
+msgstr "Efekat pulsiranja"
+
+#: ../plugins/blur/blur.xml.in.h:5
+msgid "Blur Speed"
+msgstr "Brzina zamagljenja"
+
+#: ../plugins/blur/blur.xml.in.h:6
+msgid "Window blur speed"
+msgstr "Brzina zamagljenja prozora"
+
+#: ../plugins/blur/blur.xml.in.h:7
+msgid "Focus blur windows"
+msgstr "Usredotoči se na zamagljene prozore"
+
+#: ../plugins/blur/blur.xml.in.h:8
+msgid "Windows that should be affected by focus blur"
+msgstr "Prozori na koje bi se trebao primijeniti fokus za zamagljenje"
+
+#: ../plugins/blur/blur.xml.in.h:9
+msgid "Focus Blur"
+msgstr "Fokus zamagljenja"
+
+#: ../plugins/blur/blur.xml.in.h:10
+msgid "Blur windows that doesn't have focus"
+msgstr "Zamagli prozore koji nisu u fokusu"
+
+#: ../plugins/blur/blur.xml.in.h:11
+msgid "Alpha blur windows"
+msgstr "Alfa zamagli prozore"
+
+#: ../plugins/blur/blur.xml.in.h:12
+msgid "Windows that should be use alpha blur by default"
+msgstr "Prozori na koje će se podrazumijevati da se koristi alfa zamagljenje"
+
+#: ../plugins/blur/blur.xml.in.h:13
+msgid "Alpha Blur"
+msgstr "Alfa zamagljenje"
+
+#: ../plugins/blur/blur.xml.in.h:14
+msgid "Blur behind translucent parts of windows"
+msgstr "Zamagli iza providnih dijelova prozora"
+
+#: ../plugins/blur/blur.xml.in.h:15
+msgid "Blur Filter"
+msgstr "Filter zamagljenja"
+
+#: ../plugins/blur/blur.xml.in.h:16
+msgid "Filter method used for blurring"
+msgstr "Metod filtera korišten za zamagljenje"
+
+#: ../plugins/blur/blur.xml.in.h:17
+msgid "4xBilinear"
+msgstr "4xBilinearan"
+
+#: ../plugins/blur/blur.xml.in.h:18
+msgid "Gaussian"
+msgstr "Gaussovo"
+
+#: ../plugins/blur/blur.xml.in.h:19 ../plugins/cube/cube.xml.in.h:5
+#: ../plugins/decor/decor.xml.in.h:17
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:49
+#: ../plugins/switcher/switcher.xml.in.h:27
+msgid "Mipmap"
+msgstr "Mip mapa"
+
+#: ../plugins/blur/blur.xml.in.h:20
+msgid "Gaussian Radius"
+msgstr "Gausov Poluprečnik"
+
+#: ../plugins/blur/blur.xml.in.h:21
+msgid "Gaussian radius"
+msgstr "Gausov poluprečnik"
+
+#: ../plugins/blur/blur.xml.in.h:22
+msgid "Gaussian Strength"
+msgstr "Gausova Jačina"
+
+#: ../plugins/blur/blur.xml.in.h:23
+msgid "Gaussian strength"
+msgstr "Gausova jačina"
+
+#: ../plugins/blur/blur.xml.in.h:24
+msgid "Mipmap LOD"
+msgstr "Mip map ND"
+
+#: ../plugins/blur/blur.xml.in.h:25
+msgid "Mipmap level-of-detail"
+msgstr "Nivo detalja mip mape"
+
+#: ../plugins/blur/blur.xml.in.h:26
+msgid "Blur Saturation"
+msgstr "Zasićenje zamagljivanja"
+
+#: ../plugins/blur/blur.xml.in.h:27
+msgid "Blur saturation"
+msgstr "Zasićenje zamagljivanjem"
+
+#: ../plugins/blur/blur.xml.in.h:28
+msgid "Blur Occlusion"
+msgstr "Apsorbovanje zamagljenja"
+
+#: ../plugins/blur/blur.xml.in.h:29
+msgid "Disable blurring of screen regions obscured by other windows."
+msgstr "Onemogući zamagljenje dijelova prozora zaklonjenih drugim prozorima."
+
+#: ../plugins/blur/blur.xml.in.h:30
+msgid "Independent texture fetch"
+msgstr "Nezavisno uzimanje teksture"
+
+#: ../plugins/blur/blur.xml.in.h:31
+msgid ""
+"Use the available texture units to do as many as possible independent "
+"texture fetches."
 msgstr ""
+"Koristi raspoložive jedinice za teksturu kako bi uradio što više nezavisnih "
+"dobavljanja teksture."
 
-#: ../metadata/decoration.xml.in.h:6
-msgid "Drop shadow Y offset"
+#: ../plugins/clone/clone.xml.in.h:1
+msgid "Clone Output"
+msgstr "Kloniraj izlaz"
+
+#: ../plugins/clone/clone.xml.in.h:2
+msgid "Output clone handler"
+msgstr "Upravljač kloniranja izlaza"
+
+#: ../plugins/bench/bench.xml.in.h:4 ../plugins/clone/clone.xml.in.h:3
+#: ../plugins/mag/mag.xml.in.h:4 ../plugins/rotate/rotate.xml.in.h:32
+#: ../plugins/screenshot/screenshot.xml.in.h:3
+#: ../plugins/showmouse/showmouse.xml.in.h:6 ../plugins/water/water.xml.in.h:3
+msgid "Initiate"
+msgstr "Započni"
+
+#: ../plugins/clone/clone.xml.in.h:4
+msgid "Initiate clone selection"
+msgstr "Započni kloniranje označenog"
+
+#: ../plugins/commands/commands.xml.in.h:1
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:7
+#: ../plugins/matecompat/matecompat.xml.in.h:7
+msgid "Commands"
+msgstr "Komande"
+
+#: ../plugins/commands/commands.xml.in.h:2
+msgid "Assigns bindings to arbitrary commands"
+msgstr "Dodijeli prečice proizvoljnim naredbama"
+
+#: ../plugins/commands/commands.xml.in.h:3
+msgid "Command line 0"
+msgstr "Komandna linija 0"
+
+#: ../plugins/commands/commands.xml.in.h:4
+msgid "Command line to be executed in shell when run_command0 is invoked"
 msgstr ""
+"Komandna linija će se izvršiti u komandnom okruženju kada se pokrene "
+"pokreni_komandu0"
 
-#: ../metadata/decoration.xml.in.h:7
-msgid "Drop shadow color"
+#: ../plugins/commands/commands.xml.in.h:5
+msgid "Command line 1"
+msgstr "Komandna linija 1"
+
+#: ../plugins/commands/commands.xml.in.h:6
+msgid "Command line to be executed in shell when run_command1 is invoked"
 msgstr ""
+"Komandna linija će se izvršiti u komandnom okruženju kada se pokrene "
+"pokreni_komandu1"
 
-#: ../metadata/decoration.xml.in.h:8
-msgid "Drop shadow opacity"
+#: ../plugins/commands/commands.xml.in.h:7
+msgid "Command line 2"
+msgstr "Komandna linija 2"
+
+#: ../plugins/commands/commands.xml.in.h:8
+msgid "Command line to be executed in shell when run_command2 is invoked"
 msgstr ""
+"Komandna linija će se izvršiti u komandnom okruženju kada se pokrene "
+"pokreni_komandu2"
 
-#: ../metadata/decoration.xml.in.h:9
-msgid "Drop shadow radius"
+#: ../plugins/commands/commands.xml.in.h:9
+msgid "Command line 3"
+msgstr "Komandna linija 3"
+
+#: ../plugins/commands/commands.xml.in.h:10
+msgid "Command line to be executed in shell when run_command3 is invoked"
 msgstr ""
+"Komandna linija će se izvršiti u komandnom okruženju kada se pokrene "
+"pokreni_komandu3"
 
-#: ../metadata/decoration.xml.in.h:11
-msgid "Shadow Color"
+#: ../plugins/commands/commands.xml.in.h:11
+msgid "Command line 4"
+msgstr "Komandna linija 4"
+
+#: ../plugins/commands/commands.xml.in.h:12
+msgid "Command line to be executed in shell when run_command4 is invoked"
 msgstr ""
+"Komandna linija će se izvršiti u komandnom okruženju kada se pokrene "
+"pokreni_komandu4"
 
-#: ../metadata/decoration.xml.in.h:12
-msgid "Shadow Offset X"
+#: ../plugins/commands/commands.xml.in.h:13
+msgid "Command line 5"
+msgstr "Komandna linija 5"
+
+#: ../plugins/commands/commands.xml.in.h:14
+msgid "Command line to be executed in shell when run_command5 is invoked"
 msgstr ""
+"Komandna linija će se izvršiti u komandnom okruženju kada se pokrene "
+"pokreni_komandu5"
 
-#: ../metadata/decoration.xml.in.h:13
-msgid "Shadow Offset Y"
+#: ../plugins/commands/commands.xml.in.h:15
+msgid "Command line 6"
+msgstr "Komandna linija 6"
+
+#: ../plugins/commands/commands.xml.in.h:16
+msgid "Command line to be executed in shell when run_command6 is invoked"
 msgstr ""
+"Komandna linija će se izvršiti u komandnom okruženju kada se pokrene "
+"pokreni_komandu6"
 
-#: ../metadata/decoration.xml.in.h:14
-msgid "Shadow Opacity"
+#: ../plugins/commands/commands.xml.in.h:17
+msgid "Command line 7"
+msgstr "Komandna linija 7"
+
+#: ../plugins/commands/commands.xml.in.h:18
+msgid "Command line to be executed in shell when run_command7 is invoked"
 msgstr ""
+"Komandna linija će se izvršiti u komandnom okruženju kada se pokrene "
+"pokreni_komandu7"
 
-#: ../metadata/decoration.xml.in.h:15
-msgid "Shadow Radius"
+#: ../plugins/commands/commands.xml.in.h:19
+msgid "Command line 8"
+msgstr "Komandna linija 8"
+
+#: ../plugins/commands/commands.xml.in.h:20
+msgid "Command line to be executed in shell when run_command8 is invoked"
 msgstr ""
+"Komandna linija će se izvršiti u komandnom okruženju kada se pokrene "
+"pokreni_komandu8"
 
-#: ../metadata/decoration.xml.in.h:16
-#, fuzzy
-msgid "Shadow windows"
-msgstr "Windhoek"
+#: ../plugins/commands/commands.xml.in.h:21
+msgid "Command line 9"
+msgstr "Komandna linija 9"
 
-#: ../metadata/decoration.xml.in.h:17
-#, fuzzy
+#: ../plugins/commands/commands.xml.in.h:22
+msgid "Command line to be executed in shell when run_command9 is invoked"
+msgstr ""
+"Komandna linija će se izvršiti u komandnom okruženju kada se pokrene "
+"pokreni_komandu9"
+
+#: ../plugins/commands/commands.xml.in.h:23
+msgid "Command line 10"
+msgstr "Komandna linija 10"
+
+#: ../plugins/commands/commands.xml.in.h:24
+msgid "Command line to be executed in shell when run_command10 is invoked"
+msgstr ""
+"Komandna linija će se izvršiti u komandnom okruženju kada se pokrene "
+"pokreni_komandu10"
+
+#: ../plugins/commands/commands.xml.in.h:25
+msgid "Command line 11"
+msgstr "Komandna linija 11"
+
+#: ../plugins/commands/commands.xml.in.h:26
+msgid "Command line to be executed in shell when run_command11 is invoked"
+msgstr ""
+"Komandna linija će se izvršiti u komandnom okruženju kada se pokrene "
+"pokreni_komandu11"
+
+#: ../plugins/commands/commands.xml.in.h:27
+msgid "Command line 12"
+msgstr "Komandna linija 12"
+
+#: ../plugins/commands/commands.xml.in.h:28
+msgid "Command line to be executed in shell when run_command12 is invoked"
+msgstr ""
+"Komandna linija će se izvršiti u komandnom okruženju kada se pokrene "
+"pokreni_komandu12"
+
+#: ../plugins/commands/commands.xml.in.h:29
+msgid "Command line 13"
+msgstr "Komandna linija 13"
+
+#: ../plugins/commands/commands.xml.in.h:30
+msgid "Command line to be executed in shell when run_command13 is invoked"
+msgstr ""
+"Komandna linija će se izvršiti u komandnom okruženju kada se pokrene "
+"pokreni_komandu13"
+
+#: ../plugins/commands/commands.xml.in.h:31
+msgid "Command line 14"
+msgstr "Komandna linija 14"
+
+#: ../plugins/commands/commands.xml.in.h:32
+msgid "Command line to be executed in shell when run_command14 is invoked"
+msgstr ""
+"Komandna linija će se izvršiti u komandnom okruženju kada se pokrene "
+"pokreni_komandu14"
+
+#: ../plugins/commands/commands.xml.in.h:33
+msgid "Command line 15"
+msgstr "Komandna linija 15"
+
+#: ../plugins/commands/commands.xml.in.h:34
+msgid "Command line to be executed in shell when run_command15 is invoked"
+msgstr ""
+"Komandna linija će se izvršiti u komandnom okruženju kada se pokrene "
+"pokreni_komandu15"
+
+#: ../plugins/commands/commands.xml.in.h:35
+msgid "Command line 16"
+msgstr "Komandna linija 16"
+
+#: ../plugins/commands/commands.xml.in.h:36
+msgid "Command line to be executed in shell when run_command16 is invoked"
+msgstr ""
+"Komandna linija će se izvršiti u komandnom okruženju kada se pokrene "
+"pokreni_komandu16"
+
+#: ../plugins/commands/commands.xml.in.h:37
+msgid "Command line 17"
+msgstr "Komandna linija 17"
+
+#: ../plugins/commands/commands.xml.in.h:38
+msgid "Command line to be executed in shell when run_command17 is invoked"
+msgstr ""
+"Komandna linija će se izvršiti u komandnom okruženju kada se pokrene "
+"pokreni_komandu17"
+
+#: ../plugins/commands/commands.xml.in.h:39
+msgid "Command line 18"
+msgstr "Komandna linija 18"
+
+#: ../plugins/commands/commands.xml.in.h:40
+msgid "Command line to be executed in shell when run_command18 is invoked"
+msgstr ""
+"Komandna linija će se izvršiti u komandnom okruženju kada se pokrene "
+"pokreni_komandu18"
+
+#: ../plugins/commands/commands.xml.in.h:41
+msgid "Command line 19"
+msgstr "Komandna linija 19"
+
+#: ../plugins/commands/commands.xml.in.h:42
+msgid "Command line to be executed in shell when run_command19 is invoked"
+msgstr ""
+"Komandna linija će se izvršiti u komandnom okruženju kada se pokrene "
+"pokreni_komandu19"
+
+#: ../plugins/commands/commands.xml.in.h:43
+msgid "Command line 20"
+msgstr "Komandna linija 20"
+
+#: ../plugins/commands/commands.xml.in.h:44
+msgid "Command line to be executed in shell when run_command20 is invoked"
+msgstr ""
+"Komandna linija će se izvršiti u komandnom okruženju kada se pokrene "
+"pokreni_komandu20"
+
+#: ../plugins/commands/commands.xml.in.h:45
+msgid "Key Bindings"
+msgstr "Tipka prečica"
+
+#: ../plugins/commands/commands.xml.in.h:46
+msgid "Run command 0"
+msgstr "Pokreni komandu 0"
+
+#: ../plugins/commands/commands.xml.in.h:47
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command0"
+msgstr ""
+"Kada se aktivira tipka prečica, pokrenut će komandu označenu sa komanda0"
+
+#: ../plugins/commands/commands.xml.in.h:48
+msgid "Run command 1"
+msgstr "Pokreni komandu 1"
+
+#: ../plugins/commands/commands.xml.in.h:49
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command1"
+msgstr ""
+"Kada se aktivira tipka prečica, pokrenut će komandu označenu sa komanda1"
+
+#: ../plugins/commands/commands.xml.in.h:50
+msgid "Run command 2"
+msgstr "Pokreni komandu 2"
+
+#: ../plugins/commands/commands.xml.in.h:51
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command2"
+msgstr ""
+"Kada se aktivira tipka prečica, pokrenut će komandu označenu sa komanda2"
+
+#: ../plugins/commands/commands.xml.in.h:52
+msgid "Run command 3"
+msgstr "Pokreni komandu 3"
+
+#: ../plugins/commands/commands.xml.in.h:53
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command3"
+msgstr ""
+"Kada se aktivira tipka prečica, pokrenut će komandu označenu sa komanda3"
+
+#: ../plugins/commands/commands.xml.in.h:54
+msgid "Run command 4"
+msgstr "Pokreni komandu 4"
+
+#: ../plugins/commands/commands.xml.in.h:55
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command4"
+msgstr ""
+"Kada se aktivira tipka prečica, pokrenut će komandu označenu sa komanda4"
+
+#: ../plugins/commands/commands.xml.in.h:56
+msgid "Run command 5"
+msgstr "Pokreni komandu 5"
+
+#: ../plugins/commands/commands.xml.in.h:57
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command5"
+msgstr ""
+"Kada se aktivira tipka prečica, pokrenut će komandu označenu sa komanda5"
+
+#: ../plugins/commands/commands.xml.in.h:58
+msgid "Run command 6"
+msgstr "Pokreni komandu 6"
+
+#: ../plugins/commands/commands.xml.in.h:59
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command6"
+msgstr ""
+"Kada se aktivira tipka prečica, pokrenut će komandu označenu sa komanda6"
+
+#: ../plugins/commands/commands.xml.in.h:60
+msgid "Run command 7"
+msgstr "Pokreni komandu 7"
+
+#: ../plugins/commands/commands.xml.in.h:61
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command7"
+msgstr ""
+"Kada se aktivira tipka prečica, pokrenut će komandu označenu sa komanda7"
+
+#: ../plugins/commands/commands.xml.in.h:62
+msgid "Run command 8"
+msgstr "Pokreni komandu 8"
+
+#: ../plugins/commands/commands.xml.in.h:63
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command8"
+msgstr ""
+"Kada se aktivira tipka prečica, pokrenut će komandu označenu sa komanda8"
+
+#: ../plugins/commands/commands.xml.in.h:64
+msgid "Run command 9"
+msgstr "Pokreni komandu 9"
+
+#: ../plugins/commands/commands.xml.in.h:65
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command9"
+msgstr ""
+"Kada se aktivira tipka prečica, pokrenut će komandu označenu sa komanda9"
+
+#: ../plugins/commands/commands.xml.in.h:66
+msgid "Run command 10"
+msgstr "Pokreni komandu 10"
+
+#: ../plugins/commands/commands.xml.in.h:67
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command10"
+msgstr ""
+"Kada se aktivira tipka prečica, pokrenut će komandu označenu sa komanda10"
+
+#: ../plugins/commands/commands.xml.in.h:68
+msgid "Run command 11"
+msgstr "Pokreni komandu 11"
+
+#: ../plugins/commands/commands.xml.in.h:69
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command11"
+msgstr ""
+"Kada se aktivira tipka prečica, pokrenut će komandu označenu sa komanda11"
+
+#: ../plugins/commands/commands.xml.in.h:70
+msgid "Run command 12"
+msgstr "Pokreni komandu 12"
+
+#: ../plugins/commands/commands.xml.in.h:71
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command12"
+msgstr ""
+"Kada se aktivira tipka prečica, pokrenut će komandu označenu sa komanda12"
+
+#: ../plugins/commands/commands.xml.in.h:72
+msgid "Run command 13"
+msgstr "Pokreni komandu 13"
+
+#: ../plugins/commands/commands.xml.in.h:73
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command13"
+msgstr ""
+"Kada se aktivira tipka prečica, pokrenut će komandu označenu sa komanda13"
+
+#: ../plugins/commands/commands.xml.in.h:74
+msgid "Run command 14"
+msgstr "Pokreni komandu 14"
+
+#: ../plugins/commands/commands.xml.in.h:75
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command14"
+msgstr ""
+"Kada se aktivira tipka prečica, pokrenut će komandu označenu sa komanda14"
+
+#: ../plugins/commands/commands.xml.in.h:76
+msgid "Run command 15"
+msgstr "Pokreni komandu 15"
+
+#: ../plugins/commands/commands.xml.in.h:77
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command15"
+msgstr ""
+"Kada se aktivira tipka prečica, pokrenut će komandu označenu sa komanda15"
+
+#: ../plugins/commands/commands.xml.in.h:78
+msgid "Run command 16"
+msgstr "Pokreni komandu 16"
+
+#: ../plugins/commands/commands.xml.in.h:79
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command16"
+msgstr ""
+"Kada se aktivira tipka prečica, pokrenut će komandu označenu sa komanda16"
+
+#: ../plugins/commands/commands.xml.in.h:80
+msgid "Run command 17"
+msgstr "Pokreni komandu 17"
+
+#: ../plugins/commands/commands.xml.in.h:81
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command17"
+msgstr ""
+"Kada se aktivira tipka prečica, pokrenut će komandu označenu sa komanda17"
+
+#: ../plugins/commands/commands.xml.in.h:82
+msgid "Run command 18"
+msgstr "Pokreni komandu 18"
+
+#: ../plugins/commands/commands.xml.in.h:83
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command18"
+msgstr ""
+"Kada se aktivira tipka prečica, pokrenut će komandu označenu sa komanda18"
+
+#: ../plugins/commands/commands.xml.in.h:84
+msgid "Run command 19"
+msgstr "Pokreni komandu 19"
+
+#: ../plugins/commands/commands.xml.in.h:85
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command19"
+msgstr ""
+"Kada se aktivira tipka prečica, pokrenut će komandu označenu sa komanda19"
+
+#: ../plugins/commands/commands.xml.in.h:86
+msgid "Run command 20"
+msgstr "Pokreni komandu 20"
+
+#: ../plugins/commands/commands.xml.in.h:87
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command20"
+msgstr ""
+"Kada se aktivira tipka prečica, pokrenut će komandu označenu sa komanda20"
+
+#: ../plugins/commands/commands.xml.in.h:88
+msgid "Button Bindings"
+msgstr "Prečice dugmeta"
+
+#: ../plugins/commands/commands.xml.in.h:89
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command0"
+msgstr ""
+"Prečica dugmeta koja će pri svom pozivu pokrenuti komandu konzole označenu "
+"kao komanda0"
+
+#: ../plugins/commands/commands.xml.in.h:90
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command1"
+msgstr ""
+"Prečica dugmeta koja će pri svom pozivu pokrenuti komandu konzole označenu "
+"kao komanda1"
+
+#: ../plugins/commands/commands.xml.in.h:91
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command2"
+msgstr ""
+"Prečica dugmeta koja će pri svom pozivu pokrenuti komandu konzole označenu "
+"kao komanda3"
+
+#: ../plugins/commands/commands.xml.in.h:92
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command3"
+msgstr ""
+"Prečica dugmeta koja će pri svom pozivu pokrenuti komandu konzole označenu "
+"kao komanda3"
+
+#: ../plugins/commands/commands.xml.in.h:93
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command4"
+msgstr ""
+"Prečica dugmeta koja će pri svom pozivu pokrenuti komandu konzole označenu "
+"kao komanda4"
+
+#: ../plugins/commands/commands.xml.in.h:94
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command5"
+msgstr ""
+"Prečica dugmeta koja će pri svom pozivu pokrenuti komandu konzole označenu "
+"kao komanda5"
+
+#: ../plugins/commands/commands.xml.in.h:95
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command6"
+msgstr ""
+"Prečica dugmeta koja će pri svom pozivu pokrenuti komandu konzole označenu "
+"kao komanda6"
+
+#: ../plugins/commands/commands.xml.in.h:96
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command7"
+msgstr ""
+"Prečica dugmeta koja će pri svom pozivu pokrenuti komandu konzole označenu "
+"kao komanda7"
+
+#: ../plugins/commands/commands.xml.in.h:97
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command8"
+msgstr ""
+"Prečica dugmeta koja će pri svom pozivu pokrenuti komandu konzole označenu "
+"kao komanda8"
+
+#: ../plugins/commands/commands.xml.in.h:98
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command9"
+msgstr ""
+"Prečica dugmeta koja će pri svom pozivu pokrenuti komandu konzole označenu "
+"kao komanda9"
+
+#: ../plugins/commands/commands.xml.in.h:99
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command10"
+msgstr ""
+"Prečica dugmeta koja će pri svom pozivu pokrenuti komandu konzole označenu "
+"kao komanda10"
+
+#: ../plugins/commands/commands.xml.in.h:100
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command11"
+msgstr ""
+"Prečica dugmeta koja će pri svom pozivu pokrenuti komandu konzole označenu "
+"kao komanda11"
+
+#: ../plugins/commands/commands.xml.in.h:101
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command12"
+msgstr ""
+"Prečica dugmeta koja će pri svom pozivu pokrenuti komandu konzole označenu "
+"kao komanda12"
+
+#: ../plugins/commands/commands.xml.in.h:102
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command13"
+msgstr ""
+"Prečica dugmeta koja će pri svom pozivu pokrenuti komandu konzole označenu "
+"kao komanda13"
+
+#: ../plugins/commands/commands.xml.in.h:103
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command14"
+msgstr ""
+"Prečica dugmeta koja će pri svom pozivu pokrenuti komandu konzole označenu "
+"kao komanda14"
+
+#: ../plugins/commands/commands.xml.in.h:104
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command15"
+msgstr ""
+"Prečica dugmeta koja će pri svom pozivu pokrenuti komandu konzole označenu "
+"kao komanda15"
+
+#: ../plugins/commands/commands.xml.in.h:105
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command16"
+msgstr ""
+"Prečica dugmeta koja će pri svom pozivu pokrenuti komandu konzole označenu "
+"kao komanda16"
+
+#: ../plugins/commands/commands.xml.in.h:106
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command17"
+msgstr ""
+"Prečica dugmeta koja će pri svom pozivu pokrenuti komandu konzole označenu "
+"kao komanda17"
+
+#: ../plugins/commands/commands.xml.in.h:107
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command18"
+msgstr ""
+"Prečica dugmeta koja će pri svom pozivu pokrenuti komandu konzole označenu "
+"kao komanda18"
+
+#: ../plugins/commands/commands.xml.in.h:108
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command19"
+msgstr ""
+"Prečica dugmeta koja će pri svom pozivu pokrenuti komandu konzole označenu "
+"kao komanda19"
+
+#: ../plugins/commands/commands.xml.in.h:109
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command20"
+msgstr ""
+"Prečica dugmeta koja će pri svom pozivu pokrenuti komandu konzole označenu "
+"kao komanda20"
+
+#: ../plugins/commands/commands.xml.in.h:110
+msgid "Edge Bindings"
+msgstr "Prečice ivice"
+
+#: ../plugins/commands/commands.xml.in.h:111
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command0"
+msgstr ""
+"Prečica ivice koja će pri svom pozivu pokrenuti komandu konzole označenu kao "
+"komanda0"
+
+#: ../plugins/commands/commands.xml.in.h:112
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command1"
+msgstr ""
+"Prečica ivice koja će pri svom pozivu pokrenuti komandu konzole označenu kao "
+"komanda1"
+
+#: ../plugins/commands/commands.xml.in.h:113
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command2"
+msgstr ""
+"Prečica ivice koja će pri svom pozivu pokrenuti komandu konzole označenu kao "
+"komanda2"
+
+#: ../plugins/commands/commands.xml.in.h:114
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command3"
+msgstr ""
+"Prečica ivice koja će pri svom pozivu pokrenuti komandu konzole označenu kao "
+"komanda3"
+
+#: ../plugins/commands/commands.xml.in.h:115
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command4"
+msgstr ""
+"Prečica ivice koja će pri svom pozivu pokrenuti komandu konzole označenu kao "
+"komanda4"
+
+#: ../plugins/commands/commands.xml.in.h:116
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command5"
+msgstr ""
+"Prečica ivice koja će pri svom pozivu pokrenuti komandu konzole označenu kao "
+"komanda5"
+
+#: ../plugins/commands/commands.xml.in.h:117
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command6"
+msgstr ""
+"Prečica ivice koja će pri svom pozivu pokrenuti komandu konzole označenu kao "
+"komanda6"
+
+#: ../plugins/commands/commands.xml.in.h:118
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command7"
+msgstr ""
+"Prečica ivice koja će pri svom pozivu pokrenuti komandu konzole označenu kao "
+"komanda7"
+
+#: ../plugins/commands/commands.xml.in.h:119
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command8"
+msgstr ""
+"Prečica ivice koja će pri svom pozivu pokrenuti komandu konzole označenu kao "
+"komanda8"
+
+#: ../plugins/commands/commands.xml.in.h:120
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command9"
+msgstr ""
+"Prečica ivice koja će pri svom pozivu pokrenuti komandu konzole označenu kao "
+"komanda9"
+
+#: ../plugins/commands/commands.xml.in.h:121
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command10"
+msgstr ""
+"Prečica ivice koja će pri svom pozivu pokrenuti komandu konzole označenu kao "
+"komanda10"
+
+#: ../plugins/commands/commands.xml.in.h:122
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command11"
+msgstr ""
+"Prečica ivice koja će pri svom pozivu pokrenuti komandu konzole označenu kao "
+"komanda11"
+
+#: ../plugins/commands/commands.xml.in.h:123
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command12"
+msgstr ""
+"Prečica ivice koja će pri svom pozivu pokrenuti komandu konzole označenu kao "
+"komanda12"
+
+#: ../plugins/commands/commands.xml.in.h:124
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command13"
+msgstr ""
+"Prečica ivice koja će pri svom pozivu pokrenuti komandu konzole označenu kao "
+"komanda13"
+
+#: ../plugins/commands/commands.xml.in.h:125
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command14"
+msgstr ""
+"Prečica ivice koja će pri svom pozivu pokrenuti komandu konzole označenu kao "
+"komanda14"
+
+#: ../plugins/commands/commands.xml.in.h:126
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command15"
+msgstr ""
+"Prečica ivice koja će pri svom pozivu pokrenuti komandu konzole označenu kao "
+"komanda15"
+
+#: ../plugins/commands/commands.xml.in.h:127
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command16"
+msgstr ""
+"Prečica ivice koja će pri svom pozivu pokrenuti komandu konzole označenu kao "
+"komanda16"
+
+#: ../plugins/commands/commands.xml.in.h:128
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command17"
+msgstr ""
+"Prečica ivice koja će pri svom pozivu pokrenuti komandu konzole označenu kao "
+"komanda17"
+
+#: ../plugins/commands/commands.xml.in.h:129
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command18"
+msgstr ""
+"Prečica ivice koja će pri svom pozivu pokrenuti komandu konzole označenu kao "
+"komanda18"
+
+#: ../plugins/commands/commands.xml.in.h:130
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command19"
+msgstr ""
+"Prečica ivice koja će pri svom pozivu pokrenuti komandu konzole označenu kao "
+"komanda19"
+
+#: ../plugins/commands/commands.xml.in.h:131
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command20"
+msgstr ""
+"Prečica ivice koja će pri svom pozivu pokrenuti komandu konzole označenu kao "
+"komanda20"
+
+#: ../plugins/compiztoolbox/compiztoolbox.xml.in.h:1
+msgid "Compiz Library Toolbox"
+msgstr "Compiz biblioteka traka sa alatima"
+
+#: ../plugins/compiztoolbox/compiztoolbox.xml.in.h:2
+msgid "Commonly used routines by plugins separated into a separate library"
+msgstr "Često korišteni potprogrami za dodatke odvojeni u zasebnu biblioteku"
+
+#: ../plugins/composite/composite.xml.in.h:1
+msgid "Composite"
+msgstr "Kompozitno"
+
+#: ../plugins/composite/composite.xml.in.h:2
+msgid "Composite plugin"
+msgstr "Kompozitni dodak"
+
+#: ../plugins/composite/composite.xml.in.h:3
+msgid "Slow Animations"
+msgstr "Spore animacije"
+
+#: ../plugins/composite/composite.xml.in.h:4
+msgid "Toggle use of slow animations"
+msgstr "Uključi / Isključi korištenje sporih animacija"
+
+#: ../plugins/composite/composite.xml.in.h:5
+msgid "Detect Refresh Rate"
+msgstr "Otkrij učestanost osvježavanja"
+
+#: ../plugins/composite/composite.xml.in.h:6
+msgid "Automatic detection of refresh rate"
+msgstr "Automatsko otkrivanje učestanosti osjvežavanja"
+
+#: ../plugins/composite/composite.xml.in.h:7
+msgid "Refresh Rate"
+msgstr "Učestanost osvježenja"
+
+#: ../plugins/composite/composite.xml.in.h:8
+msgid "The rate at which the screen is redrawn (times/second)"
+msgstr "Stopa po kojoj se ekran ponovno crta (broj/sekundi)"
+
+#: ../plugins/composite/composite.xml.in.h:9
+msgid "Unredirect Fullscreen Windows"
+msgstr "Preusmjeravaj prozore koji su preko cijelog ekrana"
+
+#: ../plugins/composite/composite.xml.in.h:10
+msgid ""
+"Allow drawing of fullscreen windows to not be redirected to offscreen pixmaps"
+msgstr ""
+"Omogući da crtanje prozora preko cijelog ekrana ne preusmjerava slike van "
+"ekrana"
+
+#: ../plugins/composite/composite.xml.in.h:11
+msgid "Unredirect Match"
+msgstr "Nepreusjmjereno preklapanje"
+
+#: ../plugins/composite/composite.xml.in.h:12
+msgid ""
+"Specifies which windows will be unredirected when they are fullscreen. You "
+"might want to exclude video players for example, to avoid tearing. But this "
+"will be at the expense of performance/frame rate. Note: \"class=\" matching "
+"requires the regex plugin to work."
+msgstr ""
+"Određuje koji će prozori biti ne-preusmjereni kada su preko punog ekrana. "
+"Možda želite isključiti video izvođača na primjer, kako bi se izbjeglo "
+"trzanje. No, to će biti na uštrb performansi / brzine kadrova. Napomena: "
+"\"class =\" podudaranje zahtijeva regex dodatak za rad."
+
+#: ../plugins/composite/composite.xml.in.h:13
+msgid "Force independent output painting."
+msgstr "Primoraj nezavisno slikanje izlaza."
+
+#: ../plugins/composite/composite.xml.in.h:14
+msgid ""
+"Paint each output device independly, even if the output devices overlap"
+msgstr ""
+"Pojedinačno oboji svaki izlazni uređaj, čak i ako se izlazni uređaji "
+"preklapaju"
+
+#: ../plugins/copytex/copytex.xml.in.h:1
+msgid "Copy to texture"
+msgstr "Kopiraj u teksturu"
+
+#: ../plugins/copytex/copytex.xml.in.h:2
+msgid "Copy pixmap content to texture"
+msgstr "Kopiraj sadržaj sličice u teksturu"
+
+#: ../plugins/cube/cube.xml.in.h:1
+msgid "Desktop Cube"
+msgstr "Kocka radne površi"
+
+#: ../plugins/cube/cube.xml.in.h:2
+msgid "Place windows and viewports on a cube"
+msgstr "Postavi prozore i prikaze na kocku"
+
+#: ../plugins/cube/cube.xml.in.h:3
+msgid "Unfold Cube Key"
+msgstr "Otvori ključ kocke"
+
+#: ../plugins/cube/cube.xml.in.h:4
+msgid "Keyboard shortcut to unfold the cube."
+msgstr "Prečica na tastaturi za otvaranje kocke."
+
+#: ../plugins/cube/cube.xml.in.h:6 ../plugins/shift/shift.xml.in.h:73
+msgid "Generate mipmaps for higher quality scaling."
+msgstr "Genrisanje mip mapa za kvalitetnije skaliranje."
+
+#: ../plugins/cube/cube.xml.in.h:7 ../plugins/expo/expo.xml.in.h:54
+#: ../plugins/place/place.xml.in.h:13 ../plugins/scale/scale.xml.in.h:36
+#: ../plugins/shift/shift.xml.in.h:74
+msgid "Multi Output Mode"
+msgstr "Mod više izlaza"
+
+#: ../plugins/cube/cube.xml.in.h:8
+msgid ""
+"Select how the cube is displayed, if multiple output devices are used."
+msgstr ""
+"Odaberi kako je kocka prikazana, ukoliko je korišteno više izlaznih uređaja."
+
+#: ../plugins/animationaddon/animationaddon.xml.in.h:40
+#: ../plugins/cube/cube.xml.in.h:9
+msgid "Automatic"
+msgstr "Automatski"
+
+#: ../plugins/cube/cube.xml.in.h:10
+msgid "Multiple cubes"
+msgstr "Višestruke kocke"
+
+#: ../plugins/cube/cube.xml.in.h:11
+msgid "One big cube"
+msgstr "Jedna velika kocka"
+
+#: ../plugins/cube/cube.xml.in.h:12 ../plugins/cubeaddon/cubeaddon.xml.in.h:51
+#: ../plugins/expo/expo.xml.in.h:20 ../plugins/scale/scale.xml.in.h:25
+#: ../plugins/scaleaddon/scaleaddon.xml.in.h:33
+#: ../plugins/scalefilter/scalefilter.xml.in.h:3
+#: ../plugins/snap/snap.xml.in.h:10
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:23
+#: ../plugins/trailfocus/trailfocus.xml.in.h:3
+#: ../plugins/widget/widget.xml.in.h:5
+msgid "Behaviour"
+msgstr "Ponašanje"
+
+#: ../plugins/cube/cube.xml.in.h:13
+msgid "Inside Cube"
+msgstr "Unutrašnja kocka"
+
+#: ../plugins/cube/cube.xml.in.h:14
+msgid "Place the camera inside the cube."
+msgstr "Postavi kameru unutar kocke."
+
+#: ../plugins/cube/cube.xml.in.h:15
+msgid "Fold Acceleration"
+msgstr "Ubrzanje savijanja"
+
+#: ../plugins/cube/cube.xml.in.h:16
+msgid "The acceleration of folding and unfolding."
+msgstr "Ubrzanje sklapanja i rasklapanja."
+
+#: ../plugins/cube/cube.xml.in.h:17
+msgid "Fold Speed"
+msgstr "Brzina savijanja"
+
+#: ../plugins/cube/cube.xml.in.h:18
+msgid "The speed of folding and unfolding."
+msgstr "Brzina sklapanja i rasklapanja."
+
+#: ../plugins/cube/cube.xml.in.h:19 ../plugins/ezoom/ezoom.xml.in.h:144
+#: ../plugins/mag/mag.xml.in.h:17 ../plugins/put/put.xml.in.h:88
+#: ../plugins/ring/ring.xml.in.h:33 ../plugins/rotate/rotate.xml.in.h:28
+#: ../plugins/scale/scale.xml.in.h:14 ../plugins/shift/shift.xml.in.h:43
+#: ../plugins/showdesktop/showdesktop.xml.in.h:6
+#: ../plugins/stackswitch/stackswitch.xml.in.h:18
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:26
+#: ../plugins/switcher/switcher.xml.in.h:21 ../plugins/trip/trip.xml.in.h:25
+msgid "Timestep"
+msgstr "Korak vremena"
+
+#: ../plugins/cube/cube.xml.in.h:20
+msgid "The timestep of folding and unfolding."
+msgstr "Vrijeme sklapanja i rasklapanja."
+
+#: ../plugins/cube/cube.xml.in.h:21 ../plugins/expo/expo.xml.in.h:31
+#: ../plugins/grid/grid.xml.in.h:69 ../plugins/group/group.xml.in.h:91
+#: ../plugins/move/move.xml.in.h:21 ../plugins/scale/scale.xml.in.h:3
+#: ../plugins/scaleaddon/scaleaddon.xml.in.h:11
+#: ../plugins/scalefilter/scalefilter.xml.in.h:10
+#: ../plugins/shift/shift.xml.in.h:50
+#: ../plugins/showdesktop/showdesktop.xml.in.h:27
+#: ../plugins/splash/splash.xml.in.h:13
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:38
+#: ../plugins/trailfocus/trailfocus.xml.in.h:10
+#: ../plugins/widget/widget.xml.in.h:10
+#: ../plugins/workspacenames/workspacenames.xml.in.h:9
+msgid "Appearance"
+msgstr "Izgled"
+
+#: ../plugins/cube/cube.xml.in.h:22
+msgid "Cube Cap Colors"
+msgstr "Boja vrhova kocke"
+
+#: ../plugins/cube/cube.xml.in.h:23 ../plugins/cubeaddon/cubeaddon.xml.in.h:72
+msgid "Top"
+msgstr "Vrh"
+
+#: ../plugins/cube/cube.xml.in.h:24
+msgid "Color and opacity of top face of the cube."
+msgstr "Boja i neprozirnost prednje strane kocke."
+
+#: ../plugins/cube/cube.xml.in.h:25 ../plugins/cubeaddon/cubeaddon.xml.in.h:75
+msgid "Bottom"
+msgstr "Dno"
+
+#: ../plugins/cube/cube.xml.in.h:26
+msgid "Color and opacity of bottom face of the cube."
+msgstr "Boja i neprozirnost donje strane kocke."
+
+#: ../plugins/cube/cube.xml.in.h:27
+msgid "Skydome"
+msgstr "Kupola"
+
+#: ../plugins/cube/cube.xml.in.h:28
+msgid "Render a specified skydome texture."
+msgstr "Prikazati navedenu skydome teksturu."
+
+#: ../plugins/cube/cube.xml.in.h:29
+msgid "Skydome Image"
+msgstr "Slika kupole"
+
+#: ../plugins/cube/cube.xml.in.h:30
+msgid "Image to use as texture for the skydome."
+msgstr "Slika za korištenje kao tekstura za skydome."
+
+#: ../plugins/cube/cube.xml.in.h:31
+msgid "Animate Skydome"
+msgstr "Animiraj kupolu"
+
+#: ../plugins/cube/cube.xml.in.h:32
+msgid "Animate the skydome when rotating the cube."
+msgstr "Animiraj skydome prilokom rotacije kocke."
+
+#: ../plugins/cube/cube.xml.in.h:33
+msgid "Skydome Gradient Start Color"
+msgstr "Početna boja priliva kupole"
+
+#: ../plugins/cube/cube.xml.in.h:34
+msgid ""
+"Color and opacity to use for the top color-stop of the skydome-fallback "
+"gradient."
+msgstr ""
+"Boja i zasićenost koja će se koristiti za završnu boju zaustavljanja "
+"prijelaza usporavanja gradijenta."
+
+#: ../plugins/cube/cube.xml.in.h:35
+msgid "Skydome Gradient End Color"
+msgstr "Krajnja boja priliva kupole"
+
+#: ../plugins/cube/cube.xml.in.h:36
+msgid ""
+"Color and opacity to use for the bottom color-stop of the skydome-fallback "
+"gradient."
+msgstr ""
+"Boja i zasićenost koja će se koristiti za donju boju zaustavljanja prijelaza "
+"usporavanja gradijenta."
+
+#: ../plugins/cube/cube.xml.in.h:37
+msgid "Transparent Cube"
+msgstr "Prozirna kocka"
+
+#: ../plugins/cube/cube.xml.in.h:38
+msgid "Opacity During Rotation"
+msgstr "Neprovidnost prilikom okretanja"
+
+#: ../plugins/cube/cube.xml.in.h:39
+msgid "Opacity of the desktop during cube rotation (in percent)."
+msgstr "Neprozirnost radne površine tokom rotacije kocke (u procentima)."
+
+#: ../plugins/cube/cube.xml.in.h:40
+msgid "Non Rotating Opacity"
+msgstr "Nerotirajuća neprovidnost"
+
+#: ../plugins/cube/cube.xml.in.h:41
+msgid "Opacity of the desktop when not rotating the cube (in percent)."
+msgstr ""
+"Neprozirnost na radnoj površini kada se ne rotira kocka (u procentima)."
+
+#: ../plugins/cube/cube.xml.in.h:42
+msgid "Transparency Only On Mouse Rotate"
+msgstr "Transparentnost samo na rotaciji miša."
+
+#: ../plugins/cube/cube.xml.in.h:43
+msgid "Initiates cube transparency only, if the rotation is mouse driven."
+msgstr "Inicira transparentnost kocke samo ako je rotacija pokrenuta mišem."
+
+#: ../plugins/dbus/dbus.xml.in.h:1
+msgid "D-Bus"
+msgstr "D-bus"
+
+#: ../plugins/dbus/dbus.xml.in.h:2
+msgid "D-Bus Control Backend"
+msgstr "D-Bus kontrolna pozadina"
+
+#: ../plugins/decor/decor.xml.in.h:1
 msgid "Window Decoration"
-msgstr "Bez opisa"
+msgstr "Ukras za prozor"
 
-# RU
-#: ../metadata/decoration.xml.in.h:18
-#, fuzzy
+#: ../plugins/decor/decor.xml.in.h:2
 msgid "Window decorations"
-msgstr "Ruska Federacija"
+msgstr "Ukrasi za prozor"
 
-#: ../metadata/decoration.xml.in.h:19
+#: ../plugins/decor/decor.xml.in.h:3
+msgid "Active Shadow"
+msgstr "Uključena sjenka"
+
+#: ../plugins/decor/decor.xml.in.h:4
+msgid "Shadow Radius"
+msgstr "Poluprečnik sjenke"
+
+#: ../plugins/decor/decor.xml.in.h:5
+msgid "Drop shadow radius"
+msgstr "Daj poluprečnik sjenke"
+
+#: ../plugins/decor/decor.xml.in.h:6
+msgid "Shadow Opacity"
+msgstr "Neprovidnost sjenke"
+
+#: ../plugins/decor/decor.xml.in.h:7
+msgid "Drop shadow opacity"
+msgstr "Daj neprovidnost sjenke"
+
+#: ../plugins/decor/decor.xml.in.h:8 ../plugins/wall/wall.xml.in.h:24
+msgid "Shadow Color"
+msgstr "Boja sjenke"
+
+#: ../plugins/decor/decor.xml.in.h:9
+msgid "Drop shadow color"
+msgstr "Daj boju sjenke"
+
+#: ../plugins/decor/decor.xml.in.h:10
+msgid "Shadow Offset X"
+msgstr "X pomjeraj sjenke"
+
+#: ../plugins/decor/decor.xml.in.h:11
+msgid "Drop shadow X offset"
+msgstr "Daj X pomjeraj sjenke"
+
+#: ../plugins/decor/decor.xml.in.h:12
+msgid "Shadow Offset Y"
+msgstr "Y pomjeraj sjenke"
+
+#: ../plugins/decor/decor.xml.in.h:13
+msgid "Drop shadow Y offset"
+msgstr "Daj Y pomjeraj sjenke"
+
+#: ../plugins/decor/decor.xml.in.h:14
+msgid "Inactive Shadow"
+msgstr "Isključena sjenka"
+
+#: ../plugins/decor/decor.xml.in.h:15
+msgid "Command"
+msgstr "Naredba"
+
+#: ../plugins/decor/decor.xml.in.h:16
+msgid ""
+"Decorator command line that is executed if no decorator is already running."
+msgstr ""
+"Komandna linija za ukrašavanje koja se koristi ako nema već pokrenute "
+"komande za ukrašavanje."
+
+#: ../plugins/decor/decor.xml.in.h:18
+msgid "Allow mipmaps to be generated for decoration textures"
+msgstr "Dozvoli izradu mipmape za teksture ukrasa"
+
+#: ../plugins/decor/decor.xml.in.h:19
+msgid "Decoration windows"
+msgstr "Prozori sa ukrasima"
+
+#: ../plugins/decor/decor.xml.in.h:20
 msgid "Windows that should be decorated"
-msgstr ""
+msgstr "Prozori koji bi trebali biti ukrašeni"
 
-#: ../metadata/decoration.xml.in.h:20
+#: ../plugins/decor/decor.xml.in.h:21
+msgid "Shadow windows"
+msgstr "Prozori sa sjenkom"
+
+#: ../plugins/decor/decor.xml.in.h:22
 msgid "Windows that should have a shadow"
-msgstr ""
+msgstr "Prozori koji bi trebali imati sjenku"
 
-#: ../metadata/fade.xml.in.h:2
-#, no-c-format
-msgid "Brightness (in %) of unresponsive windows"
-msgstr ""
+#: ../plugins/fade/fade.xml.in.h:1
+msgid "Fading Windows"
+msgstr "Nestajući prozori"
 
-#: ../metadata/fade.xml.in.h:3
-#, fuzzy
-msgid "Constant speed"
-msgstr "&Testiraj"
-
-#: ../metadata/fade.xml.in.h:4
-#, fuzzy
-msgid "Constant time"
-msgstr "Mountain"
-
-#: ../metadata/fade.xml.in.h:5
-#, fuzzy
-msgid "Dim Unresponsive Windows"
-msgstr "Windhoek"
-
-#: ../metadata/fade.xml.in.h:6
-msgid "Dim windows that are not responding to window manager requests"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:7
-#, fuzzy
-msgid "Fade Mode"
-msgstr "&Testiraj"
-
-#: ../metadata/fade.xml.in.h:8
-msgid "Fade On Minimize/Open/Close"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:9
-#, fuzzy
-msgid "Fade Speed"
-msgstr "lokalno vrijeme"
-
-#: ../metadata/fade.xml.in.h:10
-#, fuzzy
-msgid "Fade Time"
-msgstr "&Testiraj"
-
-#: ../metadata/fade.xml.in.h:11
-msgid "Fade effect on minimize/open/close window events"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:12
-msgid "Fade effect on system beep"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:13
+#: ../plugins/fade/fade.xml.in.h:2
 msgid "Fade in windows when mapped and fade out windows when unmapped"
 msgstr ""
+"Odmrači prozore koji su spremljeni u mape i zamrači prozore koji nisu "
+"spremljeni u mape"
 
-#: ../metadata/fade.xml.in.h:14
-#, fuzzy
+#: ../plugins/fade/fade.xml.in.h:3
+msgid "Fade Mode"
+msgstr "Način iščezavanja"
+
+#: ../plugins/fade/fade.xml.in.h:4
+msgid "Window fade mode"
+msgstr "Način iščezavanja prozora"
+
+#: ../plugins/fade/fade.xml.in.h:5
+msgid "Constant speed"
+msgstr "Stalna brzina"
+
+#: ../plugins/fade/fade.xml.in.h:6
+msgid "Constant time"
+msgstr "Stalno vrijeme"
+
+#: ../plugins/fade/fade.xml.in.h:7 ../plugins/shift/shift.xml.in.h:39
+msgid "Fade Speed"
+msgstr "Brzina zamračenja"
+
+#: ../plugins/fade/fade.xml.in.h:8
+msgid "Window fade speed"
+msgstr "Brzina zamračenja prozora"
+
+#: ../plugins/fade/fade.xml.in.h:9
+#: ../plugins/fadedesktop/fadedesktop.xml.in.h:3
+#: ../plugins/resizeinfo/resizeinfo.xml.in.h:3
+#: ../plugins/splash/splash.xml.in.h:14 ../plugins/widget/widget.xml.in.h:11
+#: ../plugins/workspacenames/workspacenames.xml.in.h:12
+msgid "Fade Time"
+msgstr "Vrijeme iščezavanja"
+
+#: ../plugins/fade/fade.xml.in.h:10
+msgid "Window fade time (in ms) in \"Constant time\" mode"
+msgstr "Vrijeme iščezavanja prozora u režimu \"Stalno vrijeme\" ( u ms)"
+
+#: ../plugins/fade/fade.xml.in.h:11
 msgid "Fade windows"
-msgstr "Windhoek"
+msgstr "Izblijedi prozore"
 
-#: ../metadata/fade.xml.in.h:15
-#, fuzzy
-msgid "Fading Windows"
-msgstr "Windhoek"
+#: ../plugins/fade/fade.xml.in.h:12
+msgid "Windows that should be fading"
+msgstr "Prozori koje bi trebalo izblijediti"
 
-#: ../metadata/fade.xml.in.h:16
+#: ../plugins/fade/fade.xml.in.h:13
+msgid "Visual Bell"
+msgstr "Vizuelno zvono"
+
+#: ../plugins/fade/fade.xml.in.h:14
+msgid "Fade effect on system beep"
+msgstr "Efekat izbljeđivanja na sistemski zvučni signal"
+
+#: ../plugins/fade/fade.xml.in.h:15
 msgid "Fullscreen Visual Bell"
-msgstr ""
+msgstr "Vizuelno zvono preko cijelog ekrana"
 
-#: ../metadata/fade.xml.in.h:17
+#: ../plugins/fade/fade.xml.in.h:16
 msgid "Fullscreen fade effect on system beep"
-msgstr ""
+msgstr "Efekat izbljeđivanja preko cijelog ekrana na sistemski zvučni signal"
 
-#: ../metadata/fade.xml.in.h:19
+#: ../plugins/fade/fade.xml.in.h:17
+msgid "Dim Unresponsive Windows"
+msgstr "Zamuti neodazivajuće prozore"
+
+#: ../plugins/fade/fade.xml.in.h:18
+msgid "Dim windows that are not responding to window manager requests"
+msgstr "Zamuti prozore koji ne odgovaraju na zahtjeve upravljača prozora"
+
+#: ../plugins/fade/fade.xml.in.h:19
+msgid "Unresponsive Window Brightness"
+msgstr "Osvjetljenje neodazivajućeg prozora"
+
+#: ../plugins/fade/fade.xml.in.h:21
+#, no-c-format
+msgid "Brightness (in %) of unresponsive windows"
+msgstr "Osvijetljenost (u %) neodazivajućih prozora"
+
+#: ../plugins/fade/fade.xml.in.h:22
+msgid "Unresponsive Window Saturation"
+msgstr "Zasićenje neodazivajućeg prozora"
+
+#: ../plugins/fade/fade.xml.in.h:24
 #, no-c-format
 msgid "Saturation (in %) of unresponsive windows"
-msgstr ""
+msgstr "Zasićenje (u %) neodazivajućih prozora"
 
-#: ../metadata/fade.xml.in.h:20
-msgid "Unresponsive Window Brightness"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:21
-msgid "Unresponsive Window Saturation"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:22
-msgid "Visual Bell"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:23
-#, fuzzy
-msgid "Window fade mode"
-msgstr "Windhoek"
-
-#: ../metadata/fade.xml.in.h:24
-msgid "Window fade speed in \"Constant speed\" mode"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:25
-msgid "Window fade time (in ms) in \"Constant time\" mode"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:26
-msgid "Windows that should be fading"
-msgstr ""
-
-#: ../metadata/fs.xml.in.h:1
-msgid "Mount Point"
-msgstr ""
-
-#: ../metadata/fs.xml.in.h:2
-msgid "Mount point"
-msgstr ""
-
-#: ../metadata/fs.xml.in.h:3
-msgid "Userspace File System"
-msgstr ""
-
-#: ../metadata/fs.xml.in.h:4
-msgid "Userspace file system"
-msgstr ""
-
-#: ../metadata/gconf.xml.in.h:1
-msgid "GConf"
-msgstr ""
-
-#: ../metadata/gconf.xml.in.h:2
-msgid "GConf Control Backend"
-msgstr ""
-
-#: ../metadata/glib.xml.in.h:1
-msgid "GLib"
-msgstr ""
-
-#: ../metadata/glib.xml.in.h:2
-msgid "GLib main loop support"
-msgstr ""
-
-#: ../metadata/gnomecompat.xml.in.h:2
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:1
 msgid "Gnome Compatibility"
-msgstr ""
+msgstr "Gnom kompatibilnost"
 
-#: ../metadata/gnomecompat.xml.in.h:3
-msgid "Open a terminal"
-msgstr ""
-
-#: ../metadata/gnomecompat.xml.in.h:4
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:2
 msgid "Options that keep Compiz compatible to the Gnome desktop environment"
 msgstr ""
+"Opcije koje održavaju Compiz kompatibilnim sa Gnome radnim okruženjem"
 
-#: ../metadata/gnomecompat.xml.in.h:5
-msgid "Run Dialog"
-msgstr ""
-
-#: ../metadata/gnomecompat.xml.in.h:6
-msgid "Run terminal command"
-msgstr ""
-
-#: ../metadata/gnomecompat.xml.in.h:7
-msgid "Screenshot command line"
-msgstr ""
-
-#: ../metadata/gnomecompat.xml.in.h:8
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:3
+#: ../plugins/matecompat/matecompat.xml.in.h:3
 msgid "Show Main Menu"
-msgstr ""
+msgstr "Prikaži glavni meni"
 
-#: ../metadata/gnomecompat.xml.in.h:9
-msgid "Show Run Application dialog"
-msgstr ""
-
-#: ../metadata/gnomecompat.xml.in.h:10
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:4
+#: ../plugins/matecompat/matecompat.xml.in.h:4
 msgid "Show the main menu"
-msgstr ""
+msgstr "Prikaži glavni meni"
 
-#: ../metadata/gnomecompat.xml.in.h:11
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:5
+#: ../plugins/matecompat/matecompat.xml.in.h:5
+msgid "Run Dialog"
+msgstr "Pokreni dijaloški okvir"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:6
+#: ../plugins/matecompat/matecompat.xml.in.h:6
+msgid "Show Run Application dialog"
+msgstr "Prikaži i pokreni aplikaciju dijaloškog okvira"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:8
+#: ../plugins/matecompat/matecompat.xml.in.h:8
+msgid "Screenshot command line"
+msgstr "Komanda snimanja ekrana"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:9
+#: ../plugins/matecompat/matecompat.xml.in.h:9
 msgid "Take a screenshot"
-msgstr ""
+msgstr "Napravi sliku ekrana"
 
-#: ../metadata/gnomecompat.xml.in.h:12
-msgid "Take a screenshot of a window"
-msgstr ""
-
-#: ../metadata/gnomecompat.xml.in.h:13
-msgid "Terminal command line"
-msgstr ""
-
-#: ../metadata/gnomecompat.xml.in.h:14
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:10
+#: ../plugins/matecompat/matecompat.xml.in.h:10
 msgid "Window screenshot command line"
-msgstr ""
+msgstr "Komandna linija snimanja ekrana prozora"
 
-#: ../metadata/ini.xml.in.h:1
-msgid "Ini"
-msgstr ""
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:11
+#: ../plugins/matecompat/matecompat.xml.in.h:11
+msgid "Take a screenshot of a window"
+msgstr "Napravi sliku prozora"
 
-#: ../metadata/ini.xml.in.h:2
-msgid "Ini Flat File Backend"
-msgstr ""
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:12
+#: ../plugins/matecompat/matecompat.xml.in.h:12
+msgid "Run terminal command"
+msgstr "Pokreni terminal naredbu"
 
-#: ../metadata/inotify.xml.in.h:1
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:13
+#: ../plugins/matecompat/matecompat.xml.in.h:13
+msgid "Terminal command line"
+msgstr "Komandna linija terminala"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:14
+#: ../plugins/matecompat/matecompat.xml.in.h:14
+msgid "Open a terminal"
+msgstr "Otvori terminal"
+
+#: ../plugins/imgpng/imgpng.xml.in.h:1
+msgid "PNG"
+msgstr "PNG"
+
+#: ../plugins/imgpng/imgpng.xml.in.h:2
+msgid "PNG image loader"
+msgstr "PNG učitavanje slike"
+
+#: ../plugins/imgsvg/imgsvg.xml.in.h:1
+msgid "SVG"
+msgstr "SVG"
+
+#: ../plugins/imgsvg/imgsvg.xml.in.h:2
+msgid "SVG image loader"
+msgstr "SVG učitavanje slike"
+
+#: ../plugins/imgsvg/imgsvg.xml.in.h:3
+msgid "Set overlay"
+msgstr "Postavi preklopnik"
+
+#: ../plugins/imgsvg/imgsvg.xml.in.h:4
+msgid "Set window overlay"
+msgstr "Postavi preklopnik prozora"
+
+#: ../plugins/inotify/inotify.xml.in.h:1
+msgid "File Watcher"
+msgstr "Posmatrač datoteka"
+
+#: ../plugins/inotify/inotify.xml.in.h:2
 msgid "File change notification plugin"
-msgstr ""
+msgstr "Dodatak za obavještenje promjene datoteke"
 
-#: ../metadata/inotify.xml.in.h:2
-msgid "Inotify"
-msgstr ""
+#: ../plugins/kde/kde.xml.in.h:1
+msgid "KDE/Qt Event Loop"
+msgstr "KDE/Qt petlja poruka"
 
-#: ../metadata/kconfig.xml.in.h:1
-msgid "Kconfig"
-msgstr ""
+#: ../plugins/kde/kde.xml.in.h:2
+msgid "Integrates the KDE/Qt event loop into Compiz"
+msgstr "Objedinjuje KDE/Qt petlju poruka u Compiz"
 
-#: ../metadata/kconfig.xml.in.h:2
-msgid "Kconfig Control Backend"
-msgstr ""
-
-#: ../metadata/minimize.xml.in.h:1
-msgid "Minimize Effect"
-msgstr ""
-
-#: ../metadata/minimize.xml.in.h:2
-#, fuzzy
-msgid "Minimize Windows"
-msgstr "Windhoek"
-
-#: ../metadata/minimize.xml.in.h:3
-msgid "Minimize speed"
-msgstr ""
-
-#: ../metadata/minimize.xml.in.h:4
-#, fuzzy
-msgid "Minimize timestep"
-msgstr "lokalno vrijeme"
-
-#: ../metadata/minimize.xml.in.h:5
-msgid "Shade Resistance"
-msgstr ""
-
-#: ../metadata/minimize.xml.in.h:6
-msgid "Shade resistance"
-msgstr ""
-
-#: ../metadata/minimize.xml.in.h:9
-msgid "Transform windows when they are minimized and unminimized"
-msgstr ""
-
-#: ../metadata/minimize.xml.in.h:10
-msgid "Windows that should be transformed when minimized"
-msgstr ""
-
-#: ../metadata/move.xml.in.h:1
-#, fuzzy
-msgid "Constrain Y"
-msgstr "Mountain"
-
-#: ../metadata/move.xml.in.h:2
-msgid "Constrain Y coordinate to workspace area"
-msgstr ""
-
-#: ../metadata/move.xml.in.h:3
-msgid "Do not update the server-side position of windows until finished moving"
-msgstr ""
-
-#: ../metadata/move.xml.in.h:4
-msgid "Initiate Window Move"
-msgstr ""
-
-#: ../metadata/move.xml.in.h:5
-msgid "Lazy Positioning"
-msgstr ""
-
-#: ../metadata/move.xml.in.h:6
-#, fuzzy
+#: ../plugins/move/move.xml.in.h:1
 msgid "Move Window"
-msgstr "Windhoek"
+msgstr "Pomjeri prozor"
 
-#: ../metadata/move.xml.in.h:7
-#, fuzzy
-msgid "Move window"
-msgstr "Windhoek"
+#: ../plugins/move/move.xml.in.h:2
+msgid "Move your windows around"
+msgstr "Pokreni svoje prozore"
 
-#: ../metadata/move.xml.in.h:8 ../metadata/obs.xml.in.h:8
-#: ../metadata/scale.xml.in.h:28 ../metadata/switcher.xml.in.h:19
-msgid "Opacity"
-msgstr ""
+#: ../plugins/move/move.xml.in.h:3
+msgid "Initiate Window Move"
+msgstr "Započni pomjeranje prozora"
 
-#: ../metadata/move.xml.in.h:9
-msgid "Opacity level of moving windows"
-msgstr ""
-
-#: ../metadata/move.xml.in.h:10
-msgid "Snapoff and auto unmaximized maximized windows when dragging"
-msgstr ""
-
-#: ../metadata/move.xml.in.h:11
-msgid "Snapoff maximized windows"
-msgstr ""
-
-#: ../metadata/move.xml.in.h:12
+#: ../plugins/move/move.xml.in.h:4
 msgid "Start moving window"
-msgstr ""
+msgstr "Započni pomjeranje prozora"
 
-#: ../metadata/obs.xml.in.h:1 ../metadata/switcher.xml.in.h:7
-msgid "Brightness"
-msgstr ""
+#: ../plugins/move/move.xml.in.h:5
+msgid "Moving Window Opacity"
+msgstr "Pokretanje neprozirnosti prozora"
 
-#: ../metadata/obs.xml.in.h:2
-msgid "Brightness Decrease"
-msgstr ""
+#: ../plugins/move/move.xml.in.h:6
+msgid "Opacity level of moving windows (in percent)."
+msgstr "Nivo neprozirnosti pokrenutih prozora (u procentima)."
 
-#: ../metadata/obs.xml.in.h:3
-msgid "Brightness Increase"
-msgstr ""
+#: ../plugins/move/move.xml.in.h:7
+msgid "Keyboard Move Increment"
+msgstr "Povećanje pokretljivosti tastature"
 
-#: ../metadata/obs.xml.in.h:4
-msgid "Brightness Step"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:5
-msgid "Brightness values for windows"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:6
-msgid "Decrease"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:7
-msgid "Increase"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:9
-msgid "Opacity Decrease"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:10
-msgid "Opacity Increase"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:11
-msgid "Opacity Step"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:12
-#, fuzzy
-msgid "Opacity values for windows"
-msgstr "Windhoek"
-
-#: ../metadata/obs.xml.in.h:13
-msgid "Opacity, Brightness and Saturation"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:14
-msgid "Opacity, Brightness and Saturation adjustments"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:15 ../metadata/switcher.xml.in.h:29
-#, fuzzy
-msgid "Saturation"
-msgstr "Sajgon"
-
-#: ../metadata/obs.xml.in.h:16
-#, fuzzy
-msgid "Saturation Decrease"
-msgstr "Sajgon"
-
-#: ../metadata/obs.xml.in.h:17
-#, fuzzy
-msgid "Saturation Increase"
-msgstr "Sajgon"
-
-#: ../metadata/obs.xml.in.h:18
-#, fuzzy
-msgid "Saturation Step"
-msgstr "Sajgon"
-
-#: ../metadata/obs.xml.in.h:19
-msgid "Saturation values for windows"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:20
-msgid "Step"
-msgstr ""
-
-# RU
-#: ../metadata/obs.xml.in.h:21
-#, fuzzy
-msgid "Window specific settings"
-msgstr "Ruska Federacija"
-
-#: ../metadata/obs.xml.in.h:22
-#, fuzzy
-msgid "Window values"
-msgstr "Windhoek"
-
-#: ../metadata/obs.xml.in.h:23
-#, fuzzy
-msgid "Windows"
-msgstr "Windhoek"
-
-#: ../metadata/obs.xml.in.h:24
-msgid "Windows that should have a different brightness by default"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:25
-msgid "Windows that should have a different opacity by default"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:26
-msgid "Windows that should have a different saturation by default"
-msgstr ""
-
-#: ../metadata/place.xml.in.h:1
-msgid "Algorithm to use for window placement"
-msgstr ""
-
-#: ../metadata/place.xml.in.h:2
-msgid "Cascade"
-msgstr ""
-
-#: ../metadata/place.xml.in.h:3
-msgid "Centered"
-msgstr ""
-
-#: ../metadata/place.xml.in.h:4
-#, fuzzy
-msgid "Fixed Window Placement"
-msgstr "Windhoek"
-
-#: ../metadata/place.xml.in.h:5
-#, fuzzy
-msgid "Force Placement Windows"
-msgstr "Windhoek"
-
-#: ../metadata/place.xml.in.h:6
-msgid "Horizontal viewport positions"
-msgstr ""
-
-#: ../metadata/place.xml.in.h:7
-msgid "Keep In Workarea"
-msgstr ""
-
-#: ../metadata/place.xml.in.h:8
+#: ../plugins/move/move.xml.in.h:8
 msgid ""
-"Keep placed window in work area, even if that means that the position might "
-"differ from the specified position"
+"Move the window by this amount of pixels for every press on one of the "
+"cursor keys."
 msgstr ""
+"Pomjeri prozor za ovaj iznos piksela svakim pritiskom na jednu od kursorskih "
+"tipki."
 
-#: ../metadata/place.xml.in.h:11
-#, fuzzy
+#: ../plugins/move/move.xml.in.h:9
+msgid "Constrain Y"
+msgstr "Ograniči Y"
+
+#: ../plugins/move/move.xml.in.h:10
+msgid "Constrain y-coordinate to workspace area."
+msgstr "Ograniči y-koordinatu na prostor radne površine."
+
+#: ../plugins/move/move.xml.in.h:11
+msgid "Snapoff Semimaximized Windows"
+msgstr "Poravnaj polu uvećane prozore"
+
+#: ../plugins/move/move.xml.in.h:12
+msgid "Snapoff and auto-restore semimaximized windows when dragging them."
+msgstr "Poravnaj i automatski vrati poluvećane prozore kada ih povlačiš."
+
+#: ../plugins/move/move.xml.in.h:13
+msgid "Snapoff Distance"
+msgstr "Razdaljina poravnanja"
+
+#: ../plugins/move/move.xml.in.h:14
+msgid ""
+"Distance of pixels you have to drag a snapped semimaximized window to unsnap "
+"it."
+msgstr ""
+"Razdaljina u pikselima za povlačenje poravnjanih poluvećanih prozora kako bi "
+"poništili poravnanje"
+
+#: ../plugins/move/move.xml.in.h:15
+msgid "Snapback Semimaximized Windows"
+msgstr "Vrati poravnanje poluvećanih prozora"
+
+#: ../plugins/move/move.xml.in.h:16
+msgid ""
+"Snapback and re-maximize semimaximized windows when dragging them back."
+msgstr "Vrati poravnanje poluvećanih prozora"
+
+#: ../plugins/move/move.xml.in.h:17
+msgid "Snapback Distance"
+msgstr "Razdaljina vraćanja poravnanja"
+
+#: ../plugins/move/move.xml.in.h:18
+msgid ""
+"Number of pixels from top or sides to snap back semimaximized windows."
+msgstr ""
+"Razdaljina u pikselima od vrha i strana za vraćanje poravnanja poluvećanih "
+"prozora."
+
+#: ../plugins/move/move.xml.in.h:19
+msgid "Lazy Positioning"
+msgstr "Lijeno pozicioniranje"
+
+#: ../plugins/move/move.xml.in.h:20
+msgid ""
+"Do not update the server-side position of windows until finished moving."
+msgstr ""
+"Ne ažuriraj položaj server-stranka prozra dok se ne završi pokretanje."
+
+#: ../plugins/move/move.xml.in.h:22
+msgid "Default Moving Window Mode"
+msgstr "Zadani način pomicanja prozora"
+
+#: ../plugins/move/move.xml.in.h:23
+msgid "Default mode used for window moving."
+msgstr "Zadani način pomicanja prozora."
+
+#: ../plugins/move/move.xml.in.h:25 ../plugins/resize/resize.xml.in.h:9
+msgid "Outline"
+msgstr "Obris"
+
+#: ../plugins/move/move.xml.in.h:26 ../plugins/resize/resize.xml.in.h:10
+msgid "Rectangle"
+msgstr "Pravougaona"
+
+#: ../plugins/move/move.xml.in.h:31 ../plugins/resize/resize.xml.in.h:16
+msgid "Border Color"
+msgstr "Boja ivica"
+
+#: ../plugins/move/move.xml.in.h:32
+msgid "Border color used for outline and rectangle moving modes"
+msgstr "Boja ruba koja se koristi za obrub i pravokutnog načina pomicanja"
+
+#: ../plugins/move/move.xml.in.h:33 ../plugins/resize/resize.xml.in.h:18
+msgid "Fill Color"
+msgstr "Boja punjenja"
+
+#: ../plugins/move/move.xml.in.h:34
+msgid "Fill color used for rectangle moving mode"
+msgstr "Boja ispune koja se koristi za pravokutni način pomicanja"
+
+#: ../plugins/move/move.xml.in.h:35
+msgid "Enable Transparency"
+msgstr "Uključi providnost"
+
+#: ../plugins/move/move.xml.in.h:36
+msgid "Enable or disable blending."
+msgstr "Omogući ili onemogući pretapanje."
+
+#: ../plugins/obs/obs.xml.in.h:1
+msgid "Opacity, Brightness and Saturation"
+msgstr "Neprovidnost, Osvijetljenost i Zasićenje"
+
+#: ../plugins/obs/obs.xml.in.h:2
+msgid "Per window adjustments of opacity, brightness and saturation"
+msgstr "Po prozorskom prilagođavanju neprozirnosti, svjetline i zasićenja"
+
+#: ../plugins/addhelper/addhelper.xml.in.h:15
+#: ../plugins/group/group.xml.in.h:50 ../plugins/loginout/loginout.xml.in.h:12
+#: ../plugins/obs/obs.xml.in.h:3 ../plugins/scale/scale.xml.in.h:18
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:43
+#: ../plugins/switcher/switcher.xml.in.h:33
+#: ../plugins/trailfocus/trailfocus.xml.in.h:11
+msgid "Opacity"
+msgstr "Providnost"
+
+#: ../plugins/obs/obs.xml.in.h:4
+msgid "Increase Opacity Key"
+msgstr "Povećaj ključ neprozirnosti"
+
+#: ../plugins/obs/obs.xml.in.h:5
+msgid "Increase the opacity of the selected window."
+msgstr "Povećaj neprozirnost odabranog prozora."
+
+#: ../plugins/obs/obs.xml.in.h:6
+msgid "Increase Opacity Button"
+msgstr "Povećaj tipku za neprozirnost"
+
+#: ../plugins/obs/obs.xml.in.h:7
+msgid "Increase the opacity of the window the pointer hovers."
+msgstr "Povećaj neprozirnost prozora po kojem se kreće kursor."
+
+#: ../plugins/obs/obs.xml.in.h:8
+msgid "Decrease Opacity Key"
+msgstr "Smanji ključ neprozirnosti"
+
+#: ../plugins/obs/obs.xml.in.h:9
+msgid "Decrease the opacity of the selected window."
+msgstr "Smanji neprozirnost odabranog prozora."
+
+#: ../plugins/obs/obs.xml.in.h:10
+msgid "Decrease Opacity Button"
+msgstr "Smanji tipku za neprozirnost"
+
+#: ../plugins/obs/obs.xml.in.h:11
+msgid "Decrease the opacity of the window the pointer hovers."
+msgstr "Smanji neprozirnost prozora po kojem se kreće kursor."
+
+#: ../plugins/obs/obs.xml.in.h:12
+msgid "New window default opacity value"
+msgstr "Zadana vrijednost prozirnosti novog prozora"
+
+#: ../plugins/obs/obs.xml.in.h:13
+msgid "Default opacity when a new window is created (in percent)."
+msgstr "Zadana prozirnost kada je novi prozor stvoren (u postotku)."
+
+#: ../plugins/obs/obs.xml.in.h:14
+msgid "Step Size"
+msgstr "Korak veličine"
+
+#: ../plugins/obs/obs.xml.in.h:15
+msgid "Opacity increment and decrement amount (in percent)."
+msgstr "Iznos povećanja i smanjenja neprozirnosti (u procentima)."
+
+#: ../plugins/obs/obs.xml.in.h:16
+msgid "Window Specific Settings"
+msgstr "Specifične postavke prozora"
+
+#: ../plugins/obs/obs.xml.in.h:18
+msgid "Windows that should have a specific default opacity."
+msgstr "Prozori koji bi trebali imati specifično zadanu neprozirnost."
+
+#: ../plugins/obs/obs.xml.in.h:19
+msgid "Window values"
+msgstr "Vrijednosti prozora"
+
+#: ../plugins/obs/obs.xml.in.h:20
+msgid "Opacity value for the windows (in percent)."
+msgstr "Vrijednost neprozirnosti za prozore (u procentima)."
+
+#: ../plugins/addhelper/addhelper.xml.in.h:11 ../plugins/expo/expo.xml.in.h:58
+#: ../plugins/group/group.xml.in.h:54 ../plugins/loginout/loginout.xml.in.h:10
+#: ../plugins/obs/obs.xml.in.h:21 ../plugins/splash/splash.xml.in.h:20
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:41
+#: ../plugins/switcher/switcher.xml.in.h:31
+#: ../plugins/trailfocus/trailfocus.xml.in.h:16
+msgid "Brightness"
+msgstr "Svjetlina"
+
+#: ../plugins/obs/obs.xml.in.h:22
+msgid "Increase Brightness Key"
+msgstr "Povećaj ključ svjetlosti"
+
+#: ../plugins/obs/obs.xml.in.h:23
+msgid "Increase the brightness of the selected window."
+msgstr "Povećaj svjetlinu odabranog prozora."
+
+#: ../plugins/obs/obs.xml.in.h:24
+msgid "Increase Brightness Button"
+msgstr "Povećaj tipku za svjetlinu"
+
+#: ../plugins/obs/obs.xml.in.h:25
+msgid "Increase the brightness of the window the pointer hovers."
+msgstr "Povećaj svjetlinu prozora kojim kruži kursor."
+
+#: ../plugins/obs/obs.xml.in.h:26
+msgid "Decrease Brightness Key"
+msgstr "Smanji ključ svjetline"
+
+#: ../plugins/obs/obs.xml.in.h:27
+msgid "Decrease the brightness of the selected window."
+msgstr "Smanji svjetlinu odabranog prozora."
+
+#: ../plugins/obs/obs.xml.in.h:28
+msgid "Decrease Brightness Button"
+msgstr "Smanji tipku za svjetlinu"
+
+#: ../plugins/obs/obs.xml.in.h:29
+msgid "Decrease the brightness of the window the pointer hovers."
+msgstr "Smanji svjetlinu prozora kojim kruži kursor."
+
+#: ../plugins/obs/obs.xml.in.h:30
+msgid "New window default brightness value"
+msgstr "Zadana vrijednost svjetline novog prozora"
+
+#: ../plugins/obs/obs.xml.in.h:31
+msgid "Default brightness when a new window is created (in percent)."
+msgstr "Zadana svjetlina kada je novi prozor napravljen (u procentima)."
+
+#: ../plugins/obs/obs.xml.in.h:32
+msgid "Brightness increment and decrement amount (in percent)."
+msgstr "Iznos povećanja i smanjena svjetline (u procentima)."
+
+#: ../plugins/obs/obs.xml.in.h:33
+msgid "Windows that should have a specific default brightness."
+msgstr "Prozori koji bi trebali imati specifično zadanu svjetlinu."
+
+#: ../plugins/obs/obs.xml.in.h:34
+msgid "Brightness value for windows (in percent)."
+msgstr "Vrijednost svjetline za prozore (u procentima)."
+
+#: ../plugins/addhelper/addhelper.xml.in.h:13
+#: ../plugins/animationjc/animationjc.xml.in.h:10
+#: ../plugins/expo/expo.xml.in.h:60 ../plugins/group/group.xml.in.h:52
+#: ../plugins/loginout/loginout.xml.in.h:8 ../plugins/obs/obs.xml.in.h:35
+#: ../plugins/splash/splash.xml.in.h:18
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:39
+#: ../plugins/switcher/switcher.xml.in.h:29
+#: ../plugins/trailfocus/trailfocus.xml.in.h:21
+msgid "Saturation"
+msgstr "Zasićenje"
+
+#: ../plugins/obs/obs.xml.in.h:36
+msgid "Increase Saturation Key"
+msgstr "Povećaj ključ zasićenja"
+
+#: ../plugins/obs/obs.xml.in.h:37
+msgid "Increase the saturation of the selected window."
+msgstr "Povećaj zasićenje odabranog prozora."
+
+#: ../plugins/obs/obs.xml.in.h:38
+msgid "Increase Saturation Button"
+msgstr "Povećaj tipku za zasićenje"
+
+#: ../plugins/obs/obs.xml.in.h:39
+msgid "Increase the saturation of the window the pointer hovers."
+msgstr "Povećaj zasićenje prozora kojim kruži kursor."
+
+#: ../plugins/obs/obs.xml.in.h:40
+msgid "Decrease Saturation Key"
+msgstr "Smanji ključ zasićenja"
+
+#: ../plugins/obs/obs.xml.in.h:41
+msgid "Decrease the saturation of the selected window."
+msgstr "Smanji zasićenje odabranog prozora."
+
+#: ../plugins/obs/obs.xml.in.h:42
+msgid "Decrease Saturation Button"
+msgstr "Smanji tipku za zasićenje"
+
+#: ../plugins/obs/obs.xml.in.h:43
+msgid "Decrease the saturation of the window the pointer hovers."
+msgstr "Smanji zasićenje prozora kojim kruži kursor."
+
+#: ../plugins/obs/obs.xml.in.h:44
+msgid "New window default saturation value"
+msgstr "Zadana vrijednost zasićenja novog prozora"
+
+#: ../plugins/obs/obs.xml.in.h:45
+msgid "Default saturation when a new window is created (in percent)."
+msgstr ""
+"Zadana vrijednost zasićenja kada je novi prozor napravljen (u procentima)."
+
+#: ../plugins/obs/obs.xml.in.h:46
+msgid "Saturation increment and decrement amount (in percent)."
+msgstr "Iznos povećanja i smanjenja zasićenja (u procentima)."
+
+#: ../plugins/obs/obs.xml.in.h:47
+msgid "Windows that should have a specific default saturation."
+msgstr "Prozori koji bi trebali imati specifično zadano zasićenje."
+
+#: ../plugins/obs/obs.xml.in.h:48
+msgid "Saturation value for the windows (in percent)."
+msgstr "Vrijednost zasićenja za prozore (u procentima)."
+
+#: ../plugins/opengl/opengl.xml.in.h:1
+msgid "OpenGL"
+msgstr "OpenGL"
+
+#: ../plugins/opengl/opengl.xml.in.h:2
+msgid "OpenGL Plugin"
+msgstr "OpenGL dodatak"
+
+#: ../plugins/opengl/opengl.xml.in.h:3
+msgid "Texture Filter"
+msgstr "Filter za teksture"
+
+#: ../plugins/opengl/opengl.xml.in.h:4
+msgid "Texture filtering"
+msgstr "Obrada podataka tekstura"
+
+#: ../plugins/opengl/opengl.xml.in.h:5
+msgid "Fast"
+msgstr "Brzo"
+
+#: ../plugins/opengl/opengl.xml.in.h:6
+msgid "Good"
+msgstr "Dobar"
+
+#: ../plugins/opengl/opengl.xml.in.h:7
+msgid "Best"
+msgstr "Najbolje"
+
+#: ../plugins/opengl/opengl.xml.in.h:8
+msgid "Lighting"
+msgstr "Osvjetljenje"
+
+#: ../plugins/opengl/opengl.xml.in.h:9
+msgid "Use diffuse light when screen is transformed"
+msgstr "Koristi rasipanje svjetlosti kad je ekran transformisan"
+
+#: ../plugins/opengl/opengl.xml.in.h:10
+msgid "Sync To VBlank"
+msgstr "Sinhronizuj na „Vertikalnu Prazninu“"
+
+#: ../plugins/opengl/opengl.xml.in.h:11
+msgid "Only perform screen updates during vertical blanking period"
+msgstr "Ekran osvježavaj samo u toku perioda vertikalne praznine"
+
+#: ../plugins/opengl/opengl.xml.in.h:12
+msgid "Texture Compression"
+msgstr "Sažimanje teksture"
+
+#: ../plugins/opengl/opengl.xml.in.h:13
+msgid "If available use compression for textures converted from images"
+msgstr ""
+"Ako je dostupno, koristi kompresiju za teksture konvertovane iz slika"
+
+#: ../plugins/opengl/opengl.xml.in.h:14
+msgid "Framebuffer object"
+msgstr "Objekt framebuffer područja"
+
+#: ../plugins/opengl/opengl.xml.in.h:15
+msgid ""
+"Render all frames indirectly using framebuffer objects "
+"(GL_EXT_framebuffer_object), if supported by the driver. Pros: Might be "
+"faster than the default buffer swapping method in some cases. Cons: This "
+"will come at the cost of (1) usually reduced graphics benchmark performance; "
+"(2) increased GPU resource consumption; and (3) possibly higher visible lag. "
+"Note: This feature is always on in OpenGL|ES builds such as ARM platforms."
+msgstr ""
+"Ako je podržano od strane upravljačkog programa, Iscrtati sve okvire "
+"posredno koristeći videomeđuspremnik (GL_EXT_framebuffer_object). Argument "
+"za: Može biti brže nego predodređena zamjena metode u nekim slučajevima. "
+"Argument protiv: doći će na trošak (1) obično se svode na slike referentne "
+"izvedbe; (2) povećana GPU potrošnja resursa; i (3) eventualno veći vidljivi "
+"pomak. Bilješka: Ova opcija je uvijek uključena u OpenGL|ES i temelji se na "
+"ARM platformi."
+
+#: ../plugins/opengl/opengl.xml.in.h:16
+msgid "Vertex buffer object"
+msgstr "Tjemeni međuspremni objekat"
+
+#: ../plugins/opengl/opengl.xml.in.h:17
+msgid ""
+"Render all graphics primitives using vertex buffer objects "
+"(GL_ARB_vertex_buffer_object), if supported by the driver. Pros: This "
+"provides higher graphics performance for some drivers. Cons: This is a new "
+"feature and may cause graphical problems. Note: This feature is always on in "
+"OpenGL|ES builds such as ARM platforms."
+msgstr ""
+"Ako je podržano od strane upravljačkog programa, uscrtaj sve grafičke "
+"primitive koristeći međuspremne objekte(GL_ARB_vertex_buffer_object). "
+"Prednosti: To osigurava veću grafičku performansu za neke upravljačke "
+"programe. Nedostaci: Ovo je nova funkcija i mogla bi prouzrakovati grafičke "
+"probleme. Bilješka: Ovo svojstvo je uvijek uključeno u OpenGL|ES građi kao "
+"što su ARM platforme."
+
+#: ../plugins/opengl/opengl.xml.in.h:18
+msgid "Always use buffer swapping"
+msgstr "Uvijek koristi međuspremnu zamjenu"
+
+#: ../plugins/opengl/opengl.xml.in.h:19
+msgid ""
+"Use glXSwapBuffers to display every frame. This eliminates visible tearing "
+"with most drivers and dramatically improves visual smoothness. Automatically "
+"enabled when framebuffer_object is on."
+msgstr ""
+"Koristi glXSwap međuspremnike za prikaz svakog okvira. To uklanja vidljivo "
+"kidanje kod većine upravljačkih programa i znaćajno povećava vizuelnu "
+"glatkoću."
+
+#: ../plugins/opengl/opengl.xml.in.h:20
+msgid "Unredirect Driver Blacklist"
+msgstr "Isključi preusmjerenje drajverove crne liste"
+
+#: ../plugins/opengl/opengl.xml.in.h:21
+msgid ""
+"If non-empty, specifies a POSIX (extended) regular expression to match "
+"against the OpenGL driver strings (newline separated): \"GL_VENDOR\\"
+"nGL_RENDERER\\nGL_VERSION\". If the regular expression matches a substring "
+"of that concatenation then no windows will ever be unredirected while using "
+"that particular graphics driver."
+msgstr ""
+"Ako nije prazno, navodi POSIX (prošireni) regularni izraz usaglašen prema "
+"OpenGL drajverskim stringovima (razdvojeno novim redovima): \"GL_VENDOR\\"
+"nGL_RENDERER\\nGL_VERSION\". Ako regularni izraz odgovara podnizu tog "
+"ulančavanja onda nijedan prozor neće biti vraćen na stanje prije "
+"preusmjerenja kada se koristi odgovarajući grafički upravljački program."
+
+#: ../plugins/opengl/opengl.xml.in.h:22
+msgid "X11 Sync Objects"
+msgstr "X11 Sinhronizirani objekti"
+
+#: ../plugins/cubeaddon/cubeaddon.xml.in.h:18
+#: ../plugins/opengl/opengl.xml.in.h:23
+msgid "Enabled"
+msgstr "Omogućeno"
+
+#: ../plugins/opengl/opengl.xml.in.h:24
+msgid ""
+"Use X11 Sync fences to synchronize rendering between X11 and OpenGL "
+"(GL_EXT_x11_sync_object). Without this, the contents of windows may not be "
+"completely redrawn."
+msgstr ""
+"Koristi X11 usklađivanje objekta za usklađivanje prikaza između X11 i OpenGL "
+"(GL_EXT_x11_sync_object). Bez ovoga, sadržaj prozora možda neće biti u "
+"potpunosti pravilno iscrtan."
+
+#: ../plugins/opengl/opengl.xml.in.h:25
+msgid "Cards Blacklist"
+msgstr "Nedozvoljene kartice"
+
+#: ../plugins/opengl/opengl.xml.in.h:26
+msgid "The list of the cards for which we should disable X11/GL syncing."
+msgstr "Popis kartica za koje treba biti onemogućeno X11/GL usklađivanje."
+
+#: ../plugins/opengl/opengl.xml.in.h:27
+msgid "Vendor"
+msgstr "Proizvođač"
+
+#: ../plugins/opengl/opengl.xml.in.h:28
+msgid "The card vendor for which X11 sync should be disabled."
+msgstr "Proizvođač kartice za koju X11 usklađivanje mora biti onomogućen."
+
+#: ../plugins/opengl/opengl.xml.in.h:29
+msgid "Model"
+msgstr "Model"
+
+#: ../plugins/place/place.xml.in.h:1
 msgid "Place Windows"
-msgstr "Windhoek"
+msgstr "Postavi prozore"
 
-#: ../metadata/place.xml.in.h:12
-msgid "Place across all outputs"
-msgstr ""
-
-#: ../metadata/place.xml.in.h:13
+#: ../plugins/place/place.xml.in.h:2
 msgid "Place windows at appropriate positions when mapped"
-msgstr ""
+msgstr "Kada su preslikani, postavi prozore na odgovarajuću poziciju"
 
-#: ../metadata/place.xml.in.h:14
+#: ../plugins/place/place.xml.in.h:3
+#: ../plugins/workarounds/workarounds.xml.in.h:1
+msgid "Workarounds"
+msgstr "Radna rješenja"
+
+#: ../plugins/place/place.xml.in.h:4
+msgid "Window placement workarounds"
+msgstr "Ispravke pri postavljanju prozora"
+
+#: ../plugins/place/place.xml.in.h:5
 msgid "Placement Mode"
-msgstr ""
+msgstr "Način postavke"
 
-#: ../metadata/place.xml.in.h:15
-msgid "Positioned windows"
-msgstr ""
+#: ../plugins/place/place.xml.in.h:6
+msgid "Algorithm to use for window placement"
+msgstr "Algoritam koji će se koristiti za postavljanje prozora"
 
-#: ../metadata/place.xml.in.h:16
+#: ../plugins/place/place.xml.in.h:7
+msgid "Cascade"
+msgstr "Naslagati"
+
+#: ../plugins/place/place.xml.in.h:8
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:54
+#: ../plugins/wallpaper/wallpaper.xml.in.h:10
+msgid "Centered"
+msgstr "Centrirano"
+
+#: ../plugins/place/place.xml.in.h:9
+msgid "Smart"
+msgstr "Pametno"
+
+#: ../plugins/grid/grid.xml.in.h:43 ../plugins/place/place.xml.in.h:10
+msgid "Maximize"
+msgstr "Maksimizirano"
+
+#: ../plugins/animation/animation.xml.in.h:109
+#: ../plugins/animationaddon/animationaddon.xml.in.h:39
+#: ../plugins/place/place.xml.in.h:11
 msgid "Random"
-msgstr ""
+msgstr "Slučajno"
 
-#: ../metadata/place.xml.in.h:17
+#: ../plugins/place/place.xml.in.h:12
+msgid "Pointer"
+msgstr "Pokazivač"
+
+#: ../plugins/place/place.xml.in.h:14
 msgid ""
 "Selects how window placement should behave if multiple outputs are selected"
 msgstr ""
+"Označava kako postavljanje prozora treba da se ponaša ako je izabrano više "
+"izlaza"
 
-#: ../metadata/place.xml.in.h:18
-msgid "Smart"
-msgstr ""
-
-#: ../metadata/place.xml.in.h:19
+#: ../plugins/place/place.xml.in.h:15
 msgid "Use active output device"
-msgstr ""
+msgstr "Koristi uključenu aktivnu jedinicu"
 
-#: ../metadata/place.xml.in.h:20
-msgid "Use output device of focussed window"
-msgstr ""
-
-#: ../metadata/place.xml.in.h:21
+#: ../plugins/place/place.xml.in.h:16
 msgid "Use output device with pointer"
-msgstr ""
+msgstr "Koristi izlaznu jedinicu sa pokazivačem"
 
-#: ../metadata/place.xml.in.h:22
-msgid "Vertical viewport positions"
-msgstr ""
+#: ../plugins/place/place.xml.in.h:17
+msgid "Use output device of focussed window"
+msgstr "Koristi izlaznu jedinicu usredotočenog prozora"
 
-#: ../metadata/place.xml.in.h:23
-msgid "Viewport positioned windows"
-msgstr ""
+#: ../plugins/place/place.xml.in.h:18
+msgid "Place across all outputs"
+msgstr "Postavi preko svih izlaza"
 
-# RU
-#: ../metadata/place.xml.in.h:24
-#, fuzzy
-msgid "Window placement workarounds"
-msgstr "Ruska Federacija"
+#: ../plugins/place/place.xml.in.h:19
+msgid "Force Placement Windows"
+msgstr "Prisiljeno postavljanje prozora"
 
-#: ../metadata/place.xml.in.h:25
-msgid "Windows that should be positioned by default"
-msgstr ""
-
-#: ../metadata/place.xml.in.h:26
-msgid "Windows that should be positioned in specific viewports by default"
-msgstr ""
-
-#: ../metadata/place.xml.in.h:27
+#: ../plugins/place/place.xml.in.h:20
 msgid ""
 "Windows that should forcedly be placed, even if they indicate the window "
 "manager should avoid placing them."
 msgstr ""
+"Prozori koji bi trebali biti prisilno postavljeni, čak i ako ukazuju da bi "
+"upravljač prozora trebao izbjeći njihovo postavljanje."
 
-# RU
-#: ../metadata/place.xml.in.h:28
-#, fuzzy
+#: ../plugins/place/place.xml.in.h:21
+msgid "Fixed Window Placement"
+msgstr "Stalno postavljanje prozora"
+
+#: ../plugins/place/place.xml.in.h:22
 msgid "Windows with fixed positions"
-msgstr "Ruska Federacija"
+msgstr "Prozori sa stalnim pozicijama"
 
-#: ../metadata/place.xml.in.h:29
-msgid "Windows with fixed viewport"
-msgstr ""
+#: ../plugins/place/place.xml.in.h:23
+msgid "Positioned windows"
+msgstr "Pozicionirani prozori"
 
-#: ../metadata/place.xml.in.h:30
-msgid "Workarounds"
-msgstr ""
+#: ../plugins/place/place.xml.in.h:24
+msgid "Windows that should be positioned by default"
+msgstr "Prozori koji bi predodređeno trebali biti pozicionirani"
 
-#: ../metadata/place.xml.in.h:31
+#: ../plugins/place/place.xml.in.h:25
 msgid "X Positions"
-msgstr ""
+msgstr "X pozicije"
 
-#: ../metadata/place.xml.in.h:32
-msgid "X Viewport Positions"
-msgstr ""
-
-#: ../metadata/place.xml.in.h:33
+#: ../plugins/place/place.xml.in.h:26
 msgid "X position values"
-msgstr ""
+msgstr "X vrijednosti pozicije"
 
-#: ../metadata/place.xml.in.h:34
+#: ../plugins/place/place.xml.in.h:27
 msgid "Y Positions"
-msgstr ""
+msgstr "Y pozicije"
 
-#: ../metadata/place.xml.in.h:35
-msgid "Y Viewport Positions"
-msgstr ""
-
-#: ../metadata/place.xml.in.h:36
+#: ../plugins/place/place.xml.in.h:28
 msgid "Y position values"
-msgstr ""
+msgstr "Y vrijednosti pozicije"
 
-#: ../metadata/png.xml.in.h:1
-msgid "Png"
-msgstr ""
+#: ../plugins/place/place.xml.in.h:29
+msgid "Keep In Workarea"
+msgstr "Zdrži u radnom prostoru"
 
-#: ../metadata/png.xml.in.h:2
-msgid "Png image loader"
+#: ../plugins/place/place.xml.in.h:30
+msgid ""
+"Keep placed window in work area, even if that means that the position might "
+"differ from the specified position"
 msgstr ""
+"Zadržava postavljeni prozor u radnom prostoru, čak i ako to znači da položaj "
+"može da odudara od određene pozicije"
 
-#: ../metadata/regex.xml.in.h:1
+#: ../plugins/place/place.xml.in.h:31
+msgid "Windows with fixed placement mode"
+msgstr "Prozori sa stalnim režimom postavljanja"
+
+#: ../plugins/place/place.xml.in.h:33
+msgid "Windows that should have a certain positioning mo+de"
+msgstr "Prozori koji bi trebali imati odgovarajući režim pozicioniranja"
+
+#: ../plugins/animation/animation.xml.in.h:49 ../plugins/mag/mag.xml.in.h:8
+#: ../plugins/place/place.xml.in.h:34
+msgid "Mode"
+msgstr "Način rada"
+
+#: ../plugins/place/place.xml.in.h:35
+msgid "Positioning modes"
+msgstr "Načini pozicioniranja"
+
+#: ../plugins/place/place.xml.in.h:36
+msgid "Windows with fixed viewport"
+msgstr "Prozori sa stalnim vidnim prostorom"
+
+#: ../plugins/place/place.xml.in.h:37
+msgid "Viewport positioned windows"
+msgstr "Pozicije prostora pozicioniranog prozora"
+
+#: ../plugins/place/place.xml.in.h:38
+msgid "Windows that should be positioned in specific viewports by default"
+msgstr ""
+"Prozori koji bi podrazumijevano trebali biti pozicionirani na određenim "
+"prikaznim prostorima"
+
+#: ../plugins/place/place.xml.in.h:39
+msgid "X Viewport Positions"
+msgstr "X pozicije prikaznog prostora"
+
+#: ../plugins/place/place.xml.in.h:40
+msgid "Horizontal viewport positions"
+msgstr "Pozicije horizontalno prikazanog prostora"
+
+#: ../plugins/place/place.xml.in.h:41
+msgid "Y Viewport Positions"
+msgstr "Y pozicije prikaznog prostora"
+
+#: ../plugins/place/place.xml.in.h:42
+msgid "Vertical viewport positions"
+msgstr "Pozicije vertikalno prikazanog prostora"
+
+#: ../plugins/regex/regex.xml.in.h:1
 msgid "Regex Matching"
-msgstr ""
+msgstr "Regex podudaranje"
 
-#: ../metadata/regex.xml.in.h:2
+#: ../plugins/regex/regex.xml.in.h:2
 msgid "Regex window matching"
-msgstr ""
+msgstr "Regex podudaranje prozora"
 
-#: ../metadata/resize.xml.in.h:1 ../metadata/rotate.xml.in.h:2
-#: ../metadata/scale.xml.in.h:5 ../metadata/switcher.xml.in.h:6
+#: ../plugins/resize/resize.xml.in.h:1
+msgid "Resize Window"
+msgstr "Promjeni veličinu prozora"
+
+#: ../plugins/addhelper/addhelper.xml.in.h:3
+#: ../plugins/cubeaddon/cubeaddon.xml.in.h:4 ../plugins/expo/expo.xml.in.h:3
+#: ../plugins/grid/grid.xml.in.h:3 ../plugins/mag/mag.xml.in.h:3
+#: ../plugins/maximumize/maximumize.xml.in.h:18
+#: ../plugins/opacify/opacify.xml.in.h:3 ../plugins/put/put.xml.in.h:5
+#: ../plugins/resize/resize.xml.in.h:3 ../plugins/ring/ring.xml.in.h:3
+#: ../plugins/rotate/rotate.xml.in.h:30 ../plugins/scale/scale.xml.in.h:42
+#: ../plugins/scaleaddon/scaleaddon.xml.in.h:3
+#: ../plugins/shelf/shelf.xml.in.h:3 ../plugins/shift/shift.xml.in.h:3
+#: ../plugins/snap/snap.xml.in.h:3
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:2
+#: ../plugins/switcher/switcher.xml.in.h:2 ../plugins/trip/trip.xml.in.h:3
+#: ../plugins/wall/wall.xml.in.h:44
 msgid "Bindings"
-msgstr ""
+msgstr "Povezivanja"
 
-#: ../metadata/resize.xml.in.h:2
-msgid "Border Color"
-msgstr ""
+#: ../plugins/resize/resize.xml.in.h:4
+msgid "Initiate Window Resize"
+msgstr "Pokreni promjenu veličine prozora"
 
-#: ../metadata/resize.xml.in.h:3
-msgid "Border color used for outline and rectangle resize modes"
-msgstr ""
+#: ../plugins/resize/resize.xml.in.h:5
+msgid "Start resizing window"
+msgstr "Započni promjenu veličine prozora"
 
-#: ../metadata/resize.xml.in.h:4
+#: ../plugins/resize/resize.xml.in.h:6
 msgid "Default Resize Mode"
-msgstr ""
+msgstr "Podrazumijevani način promjene veličine"
 
-#: ../metadata/resize.xml.in.h:5
+#: ../plugins/resize/resize.xml.in.h:7
 msgid "Default mode used for window resizing"
 msgstr ""
+"Podrazumijevana promjena veličine koja se koristi za promjenu veličine "
+"prozora"
 
-#: ../metadata/resize.xml.in.h:6
-msgid "Fill Color"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:7
-msgid "Fill color used for rectangle resize mode"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:8
-#, fuzzy
-msgid "Initiate Normal Window Resize"
-msgstr "Indija"
-
-#: ../metadata/resize.xml.in.h:9
-#, fuzzy
-msgid "Initiate Outline Window Resize"
-msgstr "Indija"
-
-#: ../metadata/resize.xml.in.h:10
-#, fuzzy
-msgid "Initiate Rectangle Window Resize"
-msgstr "Indija"
-
-#: ../metadata/resize.xml.in.h:11
-#, fuzzy
-msgid "Initiate Stretch Window Resize"
-msgstr "Indija"
-
-#: ../metadata/resize.xml.in.h:12
-#, fuzzy
-msgid "Initiate Window Resize"
-msgstr "Indija"
-
-#: ../metadata/resize.xml.in.h:14
-#, fuzzy
-msgid "Normal Resize Windows"
-msgstr "Windhoek"
-
-#: ../metadata/resize.xml.in.h:15
-msgid "Outline"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:16
-#, fuzzy
-msgid "Outline Resize Windows"
-msgstr "Windhoek"
-
-#: ../metadata/resize.xml.in.h:17
-msgid "Rectangle"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:18
-#, fuzzy
-msgid "Rectangle Resize Windows"
-msgstr "Windhoek"
-
-#: ../metadata/resize.xml.in.h:19
-msgid "Resize Window"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:20
-msgid "Resize window"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:21
-msgid "Start resizing window"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:22
-msgid "Start resizing window by stretching it"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:23
-msgid "Start resizing window normally"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:24
-msgid "Start resizing window with outline"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:25
-msgid "Start resizing window with rectangle"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:26
+#: ../plugins/resize/resize.xml.in.h:11
 msgid "Stretch"
-msgstr ""
+msgstr "Razvučeno"
 
-#: ../metadata/resize.xml.in.h:27
-#, fuzzy
-msgid "Stretch Resize Windows"
-msgstr "Windhoek"
+#: ../plugins/resize/resize.xml.in.h:17
+msgid "Border color used for outline and rectangle resize modes"
+msgstr "Boja ivica korištena za konturnu i pravougaonu promjenu veličine"
 
-#: ../metadata/resize.xml.in.h:28
+#: ../plugins/resize/resize.xml.in.h:19
+msgid "Fill color used for rectangle resize mode"
+msgstr "Boja punjenja koja se koristi za pravougaonu promjenu veličine"
+
+#: ../plugins/resize/resize.xml.in.h:22
+msgid "Specific Window Matches"
+msgstr "Posebna poklapanja prozora"
+
+#: ../plugins/resize/resize.xml.in.h:23
+msgid "Normal Resize Windows"
+msgstr "Normalna promjena veličine prozora"
+
+#: ../plugins/resize/resize.xml.in.h:24
 msgid "Windows that normal resize should be used for"
 msgstr ""
+"Prozori na koje bi trebala biti primijenjena normalna promjena veličine"
 
-#: ../metadata/resize.xml.in.h:29
+#: ../plugins/resize/resize.xml.in.h:25
+msgid "Outline Resize Windows"
+msgstr "Konturna promjena veličine prozora"
+
+#: ../plugins/resize/resize.xml.in.h:26
 msgid "Windows that outline resize should be used for"
-msgstr ""
+msgstr "Prozori na koje će se primjenjivati konturna promjena veličine"
 
-#: ../metadata/resize.xml.in.h:30
+#: ../plugins/resize/resize.xml.in.h:27
+msgid "Rectangle Resize Windows"
+msgstr "Pravougaona promjena veličine prozora"
+
+#: ../plugins/resize/resize.xml.in.h:28
 msgid "Windows that rectangle resize should be used for"
 msgstr ""
+"Prozori na koje bi trebala biti primijenjena pravougaona promjena veličine"
 
-#: ../metadata/resize.xml.in.h:31
+#: ../plugins/resize/resize.xml.in.h:29
+msgid "Stretch Resize Windows"
+msgstr "Razvlačenjem promijeni veličinu prozora"
+
+#: ../plugins/resize/resize.xml.in.h:30
 msgid "Windows that stretch resize should be used for"
 msgstr ""
+"Prozori na koje bi trebala biti primijenjena promjena veličine prozora "
+"razvlačenjem"
 
-#: ../metadata/rotate.xml.in.h:3
-msgid "Edge Flip DnD"
-msgstr ""
+#: ../plugins/resize/resize.xml.in.h:31
+msgid "Additional Modifier Keys"
+msgstr "Dodatni modifikatorski tasteri"
 
-#: ../metadata/rotate.xml.in.h:4
-msgid "Edge Flip Move"
-msgstr ""
+#: ../plugins/resize/resize.xml.in.h:32
+msgid "Outline Modifier"
+msgstr "Modifikator strukture"
 
-#: ../metadata/rotate.xml.in.h:5
+#: ../plugins/resize/resize.xml.in.h:33
+msgid "Use these bindings to resize with an outline."
+msgstr "Koristite ovu prečicu da promijenite veličinu sa obrisom"
+
+#: ../plugins/freewins/freewins.xml.in.h:17
+#: ../plugins/resize/resize.xml.in.h:34 ../plugins/snap/snap.xml.in.h:6
+msgid "Shift"
+msgstr "Shift"
+
+#: ../plugins/freewins/freewins.xml.in.h:18
+#: ../plugins/resize/resize.xml.in.h:35 ../plugins/snap/snap.xml.in.h:7
+msgid "Alt"
+msgstr "Alt"
+
+#: ../plugins/freewins/freewins.xml.in.h:19
+#: ../plugins/resize/resize.xml.in.h:36 ../plugins/snap/snap.xml.in.h:8
+msgid "Control"
+msgstr "Upravljanje"
+
+#: ../plugins/freewins/freewins.xml.in.h:20
+#: ../plugins/resize/resize.xml.in.h:37 ../plugins/snap/snap.xml.in.h:9
+msgid "Meta"
+msgstr "Meta"
+
+#: ../plugins/resize/resize.xml.in.h:38
+msgid "Rectangle Modifier"
+msgstr "Pravougaoni modifikator"
+
+#: ../plugins/resize/resize.xml.in.h:39
+msgid "Use these bindings to resize with an rectangle."
+msgstr "Koristite ovu prečicu da promijenite veličinu sa pravougaonikom"
+
+#: ../plugins/resize/resize.xml.in.h:40
+msgid "Stretch Modifier"
+msgstr "Modifikator razvlačenja"
+
+#: ../plugins/resize/resize.xml.in.h:41
+msgid "Use these bindings to resize by stretching."
+msgstr "Koristite ovu prečicu da mijenjate veličinu razvlačenjem"
+
+#: ../plugins/resize/resize.xml.in.h:42
+msgid "Centered Modifier"
+msgstr "Središnji modifikator"
+
+#: ../plugins/resize/resize.xml.in.h:43
+msgid "Use these bindings to resize from the center."
+msgstr "Koristite ovu prečicu da promijenite veličinu iz centra"
+
+#: ../plugins/rotate/rotate.xml.in.h:1
+msgid "Rotate Cube"
+msgstr "Rotiraj kocku"
+
+#: ../plugins/rotate/rotate.xml.in.h:2
+msgid "Rotate desktop cube"
+msgstr "Rotiraj kocku radne površi"
+
+#: ../plugins/rotate/rotate.xml.in.h:3 ../plugins/wall/wall.xml.in.h:81
 msgid "Edge Flip Pointer"
-msgstr ""
+msgstr "Prebaci na ivicu mišem"
 
-#: ../metadata/rotate.xml.in.h:6
-#, fuzzy
-msgid "Flip Time"
-msgstr "&Testiraj"
-
-#: ../metadata/rotate.xml.in.h:7
-msgid "Flip to left viewport and warp pointer"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:8
-msgid "Flip to next viewport when dragging object to screen edge"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:9
+#: ../plugins/rotate/rotate.xml.in.h:4
 msgid "Flip to next viewport when moving pointer to screen edge"
 msgstr ""
+"Prebaci na sljedeće prikazno polje kada pokazivač dođe na ivicu ekrana"
 
-#: ../metadata/rotate.xml.in.h:10
+#: ../plugins/rotate/rotate.xml.in.h:5 ../plugins/wall/wall.xml.in.h:83
+msgid "Edge Flip Move"
+msgstr "Prebaci na ivicu pomjeranjem"
+
+#: ../plugins/rotate/rotate.xml.in.h:6
 msgid "Flip to next viewport when moving window to screen edge"
 msgstr ""
+"Prebaci na sljedeće prikazno polje kada se prozor pomjeri na ivicu ekrana"
 
-#: ../metadata/rotate.xml.in.h:11
-msgid "Flip to right viewport and warp pointer"
+#: ../plugins/rotate/rotate.xml.in.h:7 ../plugins/wall/wall.xml.in.h:85
+msgid "Edge Flip DnD"
+msgstr "Prebaci na ivici „prevuci i otpusti“"
+
+#: ../plugins/rotate/rotate.xml.in.h:8
+msgid "Flip to next viewport when dragging object to screen edge"
 msgstr ""
+"Prebaci na sljedeće prikazno polje kada se objekat prevlači na ivicu ekrana"
 
-#: ../metadata/rotate.xml.in.h:13
-msgid "Invert Y axis for pointer movement"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:14
-msgid "Pointer Invert Y"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:15
-msgid "Pointer Sensitivity"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:16
+#: ../plugins/rotate/rotate.xml.in.h:9
 msgid "Raise on rotate"
-msgstr ""
+msgstr "Podigni zakretanjem"
 
-#: ../metadata/rotate.xml.in.h:17
+#: ../plugins/rotate/rotate.xml.in.h:10
 msgid "Raise window when rotating"
-msgstr ""
+msgstr "Podigni prozor prilikom zakretanja"
 
-#: ../metadata/rotate.xml.in.h:18
-msgid "Rotate Cube"
-msgstr ""
+#: ../plugins/rotate/rotate.xml.in.h:11
+msgid "Pointer Invert Y"
+msgstr "Obrni Y pokazivač"
 
-#: ../metadata/rotate.xml.in.h:19
-msgid "Rotate Flip Left"
-msgstr ""
+#: ../plugins/rotate/rotate.xml.in.h:12
+msgid "Invert Y axis for pointer movement"
+msgstr "Obrni Y osu za pokrete pokazivača"
 
-#: ../metadata/rotate.xml.in.h:20
-msgid "Rotate Flip Right"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:21
-msgid "Rotate Left"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:22
-msgid "Rotate Left with Window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:23
-msgid "Rotate Right"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:24
-msgid "Rotate Right with Window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:25
-#, fuzzy
-msgid "Rotate To"
-msgstr "Indija"
-
-#: ../metadata/rotate.xml.in.h:26
-msgid "Rotate To Face 1"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:27
-msgid "Rotate To Face 1 with Window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:28
-msgid "Rotate To Face 10"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:29
-msgid "Rotate To Face 10 with Window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:30
-msgid "Rotate To Face 11"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:31
-msgid "Rotate To Face 11 with Window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:32
-msgid "Rotate To Face 12"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:33
-msgid "Rotate To Face 12 with Window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:34
-msgid "Rotate To Face 2"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:35
-msgid "Rotate To Face 2 with Window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:36
-msgid "Rotate To Face 3"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:37
-msgid "Rotate To Face 3 with Window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:38
-msgid "Rotate To Face 4"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:39
-msgid "Rotate To Face 4 with Window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:40
-msgid "Rotate To Face 5"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:41
-msgid "Rotate To Face 5 with Window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:42
-msgid "Rotate To Face 6"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:43
-msgid "Rotate To Face 6 with Window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:44
-msgid "Rotate To Face 7"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:45
-msgid "Rotate To Face 7 with Window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:46
-msgid "Rotate To Face 8"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:47
-msgid "Rotate To Face 8 with Window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:48
-msgid "Rotate To Face 9"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:49
-msgid "Rotate To Face 9 with Window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:50
-#, fuzzy
-msgid "Rotate cube"
-msgstr "Desktop postavke"
-
-#: ../metadata/rotate.xml.in.h:51
-#, fuzzy
-msgid "Rotate desktop cube"
-msgstr "Desktop postavke"
-
-#: ../metadata/rotate.xml.in.h:52
-msgid "Rotate left"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:53
-msgid "Rotate left and bring active window along"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:54
-msgid "Rotate right"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:55
-msgid "Rotate right and bring active window along"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:56
-#, fuzzy
-msgid "Rotate to cube face"
-msgstr "Desktop postavke"
-
-#: ../metadata/rotate.xml.in.h:57
-msgid "Rotate to cube face with window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:58
-msgid "Rotate to face 1"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:59
-msgid "Rotate to face 1 and bring active window along"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:60
-msgid "Rotate to face 10"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:61
-msgid "Rotate to face 10 and bring active window along"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:62
-msgid "Rotate to face 11"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:63
-msgid "Rotate to face 11 and bring active window along"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:64
-msgid "Rotate to face 12"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:65
-msgid "Rotate to face 12 and bring active window along"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:66
-msgid "Rotate to face 2"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:67
-msgid "Rotate to face 2 and bring active window along"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:68
-msgid "Rotate to face 3"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:69
-msgid "Rotate to face 3 and bring active window along"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:70
-msgid "Rotate to face 4"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:71
-msgid "Rotate to face 4 and bring active window along"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:72
-msgid "Rotate to face 5"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:73
-msgid "Rotate to face 5 and bring active window along"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:74
-msgid "Rotate to face 6"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:75
-msgid "Rotate to face 6 and bring active window along"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:76
-msgid "Rotate to face 7"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:77
-msgid "Rotate to face 7 and bring active window along"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:78
-msgid "Rotate to face 8"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:79
-msgid "Rotate to face 8 and bring active window along"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:80
-msgid "Rotate to face 9"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:81
-msgid "Rotate to face 9 and bring active window along"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:82
-msgid "Rotate to viewport"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:83
-msgid "Rotate window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:84
-msgid "Rotate with window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:85
-#, fuzzy
-msgid "Rotation Acceleration"
-msgstr "3D ubrzanje:"
-
-#: ../metadata/rotate.xml.in.h:86
-#, fuzzy
-msgid "Rotation Speed"
-msgstr "&Testiraj"
-
-#: ../metadata/rotate.xml.in.h:87
-#, fuzzy
-msgid "Rotation Timestep"
-msgstr "&Testiraj"
-
-#: ../metadata/rotate.xml.in.h:88
-#, fuzzy
-msgid "Rotation Zoom"
-msgstr "&Testiraj"
-
-#: ../metadata/rotate.xml.in.h:89
-msgid "Sensitivity of pointer movement"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:90
-msgid "Snap Cube Rotation to Bottom Face"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:91
-msgid "Snap Cube Rotation to Top Face"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:92
-msgid "Snap To Bottom Face"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:93
+#: ../plugins/rotate/rotate.xml.in.h:13
 msgid "Snap To Top Face"
-msgstr ""
+msgstr "Prikači na gornju stranu"
 
-#: ../metadata/rotate.xml.in.h:95
-#, fuzzy
-msgid "Start Rotation"
-msgstr "Pono&vo pokreni detekciju"
+#: ../plugins/rotate/rotate.xml.in.h:14
+msgid "Snap Cube Rotation to Top Face"
+msgstr "Prikači rotaciju kocke na gornju stranu"
 
-#: ../metadata/rotate.xml.in.h:96
-msgid "Timeout before flipping viewport"
-msgstr ""
+#: ../plugins/rotate/rotate.xml.in.h:15
+msgid "Snap To Bottom Face"
+msgstr "Prikači na donju stranu"
 
-#: ../metadata/rotate.xml.in.h:98 ../metadata/switcher.xml.in.h:42
+#: ../plugins/rotate/rotate.xml.in.h:16
+msgid "Snap Cube Rotation to Bottom Face"
+msgstr "Prikači roraciju kocke na donju stranu"
+
+#: ../plugins/animation/animation.xml.in.h:105 ../plugins/expo/expo.xml.in.h:27
+#: ../plugins/mag/mag.xml.in.h:13 ../plugins/rotate/rotate.xml.in.h:17
+#: ../plugins/switcher/switcher.xml.in.h:39 ../plugins/trip/trip.xml.in.h:21
 msgid "Zoom"
-msgstr ""
+msgstr "Uvećavaj"
 
-#: ../metadata/scale.xml.in.h:1 ../metadata/switcher.xml.in.h:2
-msgid "Amount of opacity in percent"
-msgstr ""
+#: ../plugins/rotate/rotate.xml.in.h:18
+msgid "Rotation Zoom"
+msgstr "Uvećavanje zakretanja"
 
-#: ../metadata/scale.xml.in.h:4
-msgid "Big"
-msgstr ""
+#: ../plugins/rotate/rotate.xml.in.h:19
+msgid "Additional Settings"
+msgstr "Dodatna podešavanja"
 
-#: ../metadata/scale.xml.in.h:6
-msgid "Button Bindings Toggle Scale Mode"
-msgstr ""
+#: ../plugins/rotate/rotate.xml.in.h:20
+msgid "Flip Time"
+msgstr "Vrijeme prebacivanja"
 
-#: ../metadata/scale.xml.in.h:7
-msgid ""
-"Button bindings toggle scale mode instead of enabling it when pressed and "
-"disabling it when released."
-msgstr ""
+#: ../plugins/rotate/rotate.xml.in.h:21
+msgid "Timeout before flipping viewport"
+msgstr "Pauza prije prebacivanja prikaznog polja"
 
-#: ../metadata/scale.xml.in.h:8
-msgid "Click Desktop to Show Desktop"
-msgstr ""
+#: ../plugins/rotate/rotate.xml.in.h:22
+msgid "Pointer Sensitivity"
+msgstr "Osjetljivost pokazivača"
 
-#: ../metadata/scale.xml.in.h:9
+#: ../plugins/rotate/rotate.xml.in.h:23
+msgid "Sensitivity of pointer movement"
+msgstr "Osjetljivost pokreta pokazivača"
+
+#: ../plugins/rotate/rotate.xml.in.h:24
+msgid "Acceleration"
+msgstr "Ubrzanje"
+
+#: ../plugins/rotate/rotate.xml.in.h:25
+msgid "Rotation Acceleration"
+msgstr "Ubrzanje zakretanja"
+
+#: ../plugins/ezoom/ezoom.xml.in.h:142 ../plugins/mag/mag.xml.in.h:15
+#: ../plugins/put/put.xml.in.h:86 ../plugins/ring/ring.xml.in.h:31
+#: ../plugins/rotate/rotate.xml.in.h:26 ../plugins/scale/scale.xml.in.h:12
+#: ../plugins/showdesktop/showdesktop.xml.in.h:4
+#: ../plugins/stackswitch/stackswitch.xml.in.h:16
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:24
+#: ../plugins/switcher/switcher.xml.in.h:19 ../plugins/trip/trip.xml.in.h:23
+#: ../plugins/wizard/wizard.xml.in.h:19
+msgid "Speed"
+msgstr "Brzina"
+
+#: ../plugins/rotate/rotate.xml.in.h:27
+msgid "Rotation Speed"
+msgstr "Brzina zakretanja"
+
+#: ../plugins/rotate/rotate.xml.in.h:29
+msgid "Rotation Timestep"
+msgstr "Vremenski korak zakretanja"
+
+#: ../plugins/rotate/rotate.xml.in.h:31
+msgid "Rotate cube"
+msgstr "Zakreni kocku"
+
+#: ../plugins/rotate/rotate.xml.in.h:33
+msgid "Start Rotation"
+msgstr "Započni zakretanje"
+
+#: ../plugins/rotate/rotate.xml.in.h:34
+msgid "Rotate Left"
+msgstr "Okreni u lijevu stranu"
+
+#: ../plugins/rotate/rotate.xml.in.h:35
+msgid "Rotate left"
+msgstr "Zakreni u lijevu stranu"
+
+#: ../plugins/rotate/rotate.xml.in.h:36
+msgid "Rotate Right"
+msgstr "Zakreni u desnu stranu"
+
+#: ../plugins/rotate/rotate.xml.in.h:37
+msgid "Rotate right"
+msgstr "Zakreni u desnu stranu"
+
+#: ../plugins/rotate/rotate.xml.in.h:38
+msgid "Rotate Left with Window"
+msgstr "Zakreni u lijevo zajedno sa prozorom"
+
+#: ../plugins/rotate/rotate.xml.in.h:39
+msgid "Rotate left and bring active window along"
+msgstr "Zakreni u lijevo i ponesi aktivni prozor sa sobom"
+
+#: ../plugins/rotate/rotate.xml.in.h:40
+msgid "Rotate Right with Window"
+msgstr "Zakreni u desno zajedno sa prozorom"
+
+#: ../plugins/rotate/rotate.xml.in.h:41
+msgid "Rotate right and bring active window along"
+msgstr "Zakreni u desno i ponesi aktivni prozor sa sobom"
+
+#: ../plugins/rotate/rotate.xml.in.h:42
+msgid "Rotate To"
+msgstr "Zakreni do"
+
+#: ../plugins/rotate/rotate.xml.in.h:43
+msgid "Rotate to viewport"
+msgstr "Okreći do prikaznog polja"
+
+#: ../plugins/rotate/rotate.xml.in.h:44
+msgid "Rotate window"
+msgstr "Zakreni prozor"
+
+#: ../plugins/rotate/rotate.xml.in.h:45
+msgid "Rotate with window"
+msgstr "Zakreni sa prozorom"
+
+#: ../plugins/rotate/rotate.xml.in.h:46
+msgid "Rotate Flip Left"
+msgstr "Prebaci u lijevu stranu"
+
+#: ../plugins/rotate/rotate.xml.in.h:47
+msgid "Flip to left viewport and warp pointer"
+msgstr "Prebaci na lijevo prikazno polje i iskrivi pokazivač"
+
+#: ../plugins/rotate/rotate.xml.in.h:48
+msgid "Rotate Flip Right"
+msgstr "Prebaci u desnu stranu"
+
+#: ../plugins/rotate/rotate.xml.in.h:49
+msgid "Flip to right viewport and warp pointer"
+msgstr "Prebaci na desno prikazno polje i iskrivi pokazivač"
+
+#: ../plugins/rotate/rotate.xml.in.h:50
+msgid "Rotate to cube face"
+msgstr "Okreći do strane kocke"
+
+#: ../plugins/rotate/rotate.xml.in.h:51
+msgid "Rotate To Face 1"
+msgstr "Okreći do strane 1"
+
+#: ../plugins/rotate/rotate.xml.in.h:52
+msgid "Rotate to face 1"
+msgstr "Okreći do strane 1"
+
+#: ../plugins/rotate/rotate.xml.in.h:53
+msgid "Rotate To Face 2"
+msgstr "Okreći do strane 2"
+
+#: ../plugins/rotate/rotate.xml.in.h:54
+msgid "Rotate to face 2"
+msgstr "Okreći do strane 1"
+
+#: ../plugins/rotate/rotate.xml.in.h:55
+msgid "Rotate To Face 3"
+msgstr "Okreći do strane 3"
+
+#: ../plugins/rotate/rotate.xml.in.h:56
+msgid "Rotate to face 3"
+msgstr "Okreći do strane 3"
+
+#: ../plugins/rotate/rotate.xml.in.h:57
+msgid "Rotate To Face 4"
+msgstr "Okreći do strane 4"
+
+#: ../plugins/rotate/rotate.xml.in.h:58
+msgid "Rotate to face 4"
+msgstr "Okreći do strane 4"
+
+#: ../plugins/rotate/rotate.xml.in.h:59
+msgid "Rotate To Face 5"
+msgstr "Okreći do strane 5"
+
+#: ../plugins/rotate/rotate.xml.in.h:60
+msgid "Rotate to face 5"
+msgstr "Okreći do strane 5"
+
+#: ../plugins/rotate/rotate.xml.in.h:61
+msgid "Rotate To Face 6"
+msgstr "Okreći do strane 6"
+
+#: ../plugins/rotate/rotate.xml.in.h:62
+msgid "Rotate to face 6"
+msgstr "Okreći do strane 6"
+
+#: ../plugins/rotate/rotate.xml.in.h:63
+msgid "Rotate To Face 7"
+msgstr "Okreći do strane 7"
+
+#: ../plugins/rotate/rotate.xml.in.h:64
+msgid "Rotate to face 7"
+msgstr "Okreći do strane 7"
+
+#: ../plugins/rotate/rotate.xml.in.h:65
+msgid "Rotate To Face 8"
+msgstr "Okreći do strane 8"
+
+#: ../plugins/rotate/rotate.xml.in.h:66
+msgid "Rotate to face 8"
+msgstr "Okreći do strane 8"
+
+#: ../plugins/rotate/rotate.xml.in.h:67
+msgid "Rotate To Face 9"
+msgstr "Okreći do strane 9"
+
+#: ../plugins/rotate/rotate.xml.in.h:68
+msgid "Rotate to face 9"
+msgstr "Okreći do strane 9"
+
+#: ../plugins/rotate/rotate.xml.in.h:69
+msgid "Rotate To Face 10"
+msgstr "Okreći do strane 10"
+
+#: ../plugins/rotate/rotate.xml.in.h:70
+msgid "Rotate to face 10"
+msgstr "Okreći do strane 10"
+
+#: ../plugins/rotate/rotate.xml.in.h:71
+msgid "Rotate To Face 11"
+msgstr "Okreći do strane 11"
+
+#: ../plugins/rotate/rotate.xml.in.h:72
+msgid "Rotate to face 11"
+msgstr "Okreći do strane 11"
+
+#: ../plugins/rotate/rotate.xml.in.h:73
+msgid "Rotate To Face 12"
+msgstr "Okreći do strane 12"
+
+#: ../plugins/rotate/rotate.xml.in.h:74
+msgid "Rotate to face 12"
+msgstr "Okreći do strane 12"
+
+#: ../plugins/rotate/rotate.xml.in.h:75
+msgid "Rotate to cube face with window"
+msgstr "Okreći do strane kocke sa prozorom"
+
+#: ../plugins/rotate/rotate.xml.in.h:76
+msgid "Rotate To Face 1 with Window"
+msgstr "Okreći do strane 1 sa prozorom"
+
+#: ../plugins/rotate/rotate.xml.in.h:77
+msgid "Rotate to face 1 and bring active window along"
+msgstr "Okreći do strane 1 i ponesi aktivni prozor sa sobom"
+
+#: ../plugins/rotate/rotate.xml.in.h:78
+msgid "Rotate To Face 2 with Window"
+msgstr "Okreći do strane 2 sa prozorom"
+
+#: ../plugins/rotate/rotate.xml.in.h:79
+msgid "Rotate to face 2 and bring active window along"
+msgstr "Okreći do strane 2 i ponesi aktivni prozor sa sobom"
+
+#: ../plugins/rotate/rotate.xml.in.h:80
+msgid "Rotate To Face 3 with Window"
+msgstr "Okreći do strane 3 sa prozorom"
+
+#: ../plugins/rotate/rotate.xml.in.h:81
+msgid "Rotate to face 3 and bring active window along"
+msgstr "Okreći do strane 3 i ponesi aktivni prozor sa sobom"
+
+#: ../plugins/rotate/rotate.xml.in.h:82
+msgid "Rotate To Face 4 with Window"
+msgstr "Okreći do strane 4 sa prozorom"
+
+#: ../plugins/rotate/rotate.xml.in.h:83
+msgid "Rotate to face 4 and bring active window along"
+msgstr "Okreći do strane 4 i ponesi aktivni prozor sa sobom"
+
+#: ../plugins/rotate/rotate.xml.in.h:84
+msgid "Rotate To Face 5 with Window"
+msgstr "Okreći do strane 5 sa prozorom"
+
+#: ../plugins/rotate/rotate.xml.in.h:85
+msgid "Rotate to face 5 and bring active window along"
+msgstr "Okreći do strane 5 i ponesi aktivni prozor sa sobom"
+
+#: ../plugins/rotate/rotate.xml.in.h:86
+msgid "Rotate To Face 6 with Window"
+msgstr "Okreći do strane 6 sa prozorom"
+
+#: ../plugins/rotate/rotate.xml.in.h:87
+msgid "Rotate to face 6 and bring active window along"
+msgstr "Okreći do strane 6 i ponesi aktivni prozor sa sobom"
+
+#: ../plugins/rotate/rotate.xml.in.h:88
+msgid "Rotate To Face 7 with Window"
+msgstr "Okreći do strane 7 sa prozorom"
+
+#: ../plugins/rotate/rotate.xml.in.h:89
+msgid "Rotate to face 7 and bring active window along"
+msgstr "Okreći do strane 7 i ponesi aktivni prozor sa sobom"
+
+#: ../plugins/rotate/rotate.xml.in.h:90
+msgid "Rotate To Face 8 with Window"
+msgstr "Okreći do strane 8 sa prozorom"
+
+#: ../plugins/rotate/rotate.xml.in.h:91
+msgid "Rotate to face 8 and bring active window along"
+msgstr "Okreći do strane 8 i ponesi aktivni prozor sa sobom"
+
+#: ../plugins/rotate/rotate.xml.in.h:92
+msgid "Rotate To Face 9 with Window"
+msgstr "Okreći do strane 9 sa prozorom"
+
+#: ../plugins/rotate/rotate.xml.in.h:93
+msgid "Rotate to face 9 and bring active window along"
+msgstr "Okreći do strane 9 i ponesi aktivni prozor sa sobom"
+
+#: ../plugins/rotate/rotate.xml.in.h:94
+msgid "Rotate To Face 10 with Window"
+msgstr "Okreći do strane 10 sa prozorom"
+
+#: ../plugins/rotate/rotate.xml.in.h:95
+msgid "Rotate to face 10 and bring active window along"
+msgstr "Okreći do strane 10 i ponesi aktivni prozor sa sobom"
+
+#: ../plugins/rotate/rotate.xml.in.h:96
+msgid "Rotate To Face 11 with Window"
+msgstr "Okreći do strane 11 sa prozorom"
+
+#: ../plugins/rotate/rotate.xml.in.h:97
+msgid "Rotate to face 11 and bring active window along"
+msgstr "Okreći do strane 11 i ponesi aktivni prozor sa sobom"
+
+#: ../plugins/rotate/rotate.xml.in.h:98
+msgid "Rotate To Face 12 with Window"
+msgstr "Okreći do strane 12 sa prozorom"
+
+#: ../plugins/rotate/rotate.xml.in.h:99
+msgid "Rotate to face 12 and bring active window along"
+msgstr "Okreći do strane 12 i ponesi aktivni prozor sa sobom"
+
+#: ../plugins/scale/scale.xml.in.h:1
+msgid "Scale"
+msgstr "Proporcionalo smanji ili uvećaj"
+
+#: ../plugins/scale/scale.xml.in.h:2
+msgid "Scale windows"
+msgstr "Proporcionalo smanji ili uvećaj prozore"
+
+#: ../plugins/scale/scale.xml.in.h:4
+msgid "Spacing"
+msgstr "Razmještanje"
+
+#: ../plugins/scale/scale.xml.in.h:5
+msgid "Space between windows"
+msgstr "Prostor između prozora"
+
+#: ../plugins/expo/expo.xml.in.h:38 ../plugins/scale/scale.xml.in.h:6
+msgid "X Offset"
+msgstr "X pomak"
+
+#: ../plugins/expo/expo.xml.in.h:39 ../plugins/scale/scale.xml.in.h:7
+msgid "Horizontal offset (in pixels)."
+msgstr "Horizontalan pomak (u pikselima)."
+
+#: ../plugins/expo/expo.xml.in.h:40 ../plugins/scale/scale.xml.in.h:8
+msgid "Y Offset"
+msgstr "Y pomak"
+
+#: ../plugins/scale/scale.xml.in.h:9
+msgid "Vertical offset from the top (in pixels)."
+msgstr "Vertikalan pomak s vrha (u pikeselima)."
+
+#: ../plugins/expo/expo.xml.in.h:42 ../plugins/scale/scale.xml.in.h:10
+msgid "Y Bottom Offset"
+msgstr "Y pomak od dna"
+
+#: ../plugins/expo/expo.xml.in.h:43 ../plugins/scale/scale.xml.in.h:11
+msgid "Vertical offset from the bottom (in pixels)."
+msgstr "Vertikalan pomak od dna (u pokselima)."
+
+#: ../plugins/scale/scale.xml.in.h:13
+msgid "Scale speed"
+msgstr "Brzina proporcinalnog smanjivanja ili uvećavanja"
+
+#: ../plugins/scale/scale.xml.in.h:15
+msgid "Scale timestep"
+msgstr "Korak vremena proporcinalnog uvećavanja ili smanjivanja"
+
+#: ../plugins/ring/ring.xml.in.h:37 ../plugins/scale/scale.xml.in.h:16
+#: ../plugins/stackswitch/stackswitch.xml.in.h:26
 msgid "Darken Background"
-msgstr ""
+msgstr "Potamni pozadinu"
 
-#: ../metadata/scale.xml.in.h:10
+#: ../plugins/scale/scale.xml.in.h:17
 msgid "Darken background when scaling windows"
 msgstr ""
+"Potamni pozadinu kada se prozori proporcionalno smanjuju ili uvećavaju"
 
-#: ../metadata/scale.xml.in.h:11
+#: ../plugins/scale/scale.xml.in.h:19
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:44
+#: ../plugins/switcher/switcher.xml.in.h:34
+msgid "Amount of opacity in percent"
+msgstr "Iznos neprovidnosti u procentima"
+
+#: ../plugins/ring/ring.xml.in.h:26 ../plugins/scale/scale.xml.in.h:20
+#: ../plugins/shift/shift.xml.in.h:67
+msgid "Overlay Icon"
+msgstr "Ikona preklapanja"
+
+#: ../plugins/scale/scale.xml.in.h:21
+msgid "Overlay an icon on windows once they are scaled"
+msgstr ""
+"Ikona koja će preklapati prozore dok se oni proporcionalno smanjuju ili "
+"uvećavaju"
+
+#: ../plugins/animation/animation.xml.in.h:108
+#: ../plugins/cubeaddon/cubeaddon.xml.in.h:40 ../plugins/expo/expo.xml.in.h:30
+#: ../plugins/ezoom/ezoom.xml.in.h:19 ../plugins/grid/grid.xml.in.h:33
+#: ../plugins/ring/ring.xml.in.h:28 ../plugins/scale/scale.xml.in.h:22
+#: ../plugins/shift/shift.xml.in.h:69
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:63
+#: ../plugins/wobbly/wobbly.xml.in.h:19
+msgid "None"
+msgstr "Nijedno"
+
+#: ../plugins/ring/ring.xml.in.h:29 ../plugins/scale/scale.xml.in.h:23
+#: ../plugins/shift/shift.xml.in.h:70
 msgid "Emblem"
+msgstr "Amblem"
+
+#: ../plugins/ring/ring.xml.in.h:30 ../plugins/scale/scale.xml.in.h:24
+#: ../plugins/shift/shift.xml.in.h:71
+msgid "Big"
+msgstr "Veliki"
+
+#: ../plugins/scale/scale.xml.in.h:26
+msgid "Scale Windows"
+msgstr "Proporcionalno smanji / uvećaj prozore"
+
+#: ../plugins/scale/scale.xml.in.h:27
+msgid "Windows that should be scaled in scale mode"
 msgstr ""
+"Prozori koji bi trebali biti proporcionalno smanjeni / uvećani u modu "
+"proporcionalog smanjivanja / uvećavanja"
 
-#: ../metadata/scale.xml.in.h:12
-msgid "Enter Show Desktop mode when Desktop is clicked during Scale"
+#: ../plugins/scale/scale.xml.in.h:28
+msgid "Drag and Drop Hover Timeout"
+msgstr "Rok za prevlačenje i ispuštanje"
+
+#: ../plugins/scale/scale.xml.in.h:29
+msgid ""
+"Time (in ms) before scale mode is terminated when hovering over a window "
+"dragging and dropping an item"
 msgstr ""
+"Vrijeme (u ms) prije nego što režim skaliranja završi sa radom kada "
+"prelazite preko prozora prevlačenjem i otpuštanjem stavki"
 
-#: ../metadata/scale.xml.in.h:13
-msgid "Hover Time"
+#: ../plugins/scale/scale.xml.in.h:30
+msgid "Drag and Drop Distance"
+msgstr "Udaljenost prevlačenja i ispuštanja"
+
+#: ../plugins/scale/scale.xml.in.h:31
+msgid "The minimum distance (in px) beyond which the timeout is reset."
 msgstr ""
+"Minimalno rastojanje (u pikselima) iza kojeg se isteklo vrijeme vraća na "
+"početak."
 
-#: ../metadata/scale.xml.in.h:14
-#, fuzzy
-msgid "Initiate Window Picker"
-msgstr "Indija"
-
-#: ../metadata/scale.xml.in.h:15
-msgid "Initiate Window Picker For All Windows"
+#: ../plugins/scale/scale.xml.in.h:32
+msgid "Show a spinner during th Drag and Drop timeout"
 msgstr ""
+"Prikaži izbornik odabira tijekom isteka vremena povlačenja i ispuštanja."
 
-#: ../metadata/scale.xml.in.h:16
-msgid "Initiate Window Picker For Window Group"
+#: ../plugins/scale/scale.xml.in.h:33
+msgid "Whether to show a spinner over the windows during dnd Timeout."
+msgstr "Prikazuje izbornik odabira preko prozora tijekom isteka vremena."
+
+#: ../plugins/scale/scale.xml.in.h:34
+msgid "The speed of the DnD timeout spinner"
+msgstr "Brzina povlačenja i ispuštanja izbornika odabira."
+
+#: ../plugins/scale/scale.xml.in.h:35
+msgid "The animation speed (in ms) of the Drag and Drop spinner."
+msgstr "Brzina animacije (u ms) povlačenja i i spuštanja izbornika odabira."
+
+#: ../plugins/scale/scale.xml.in.h:37
+msgid "Selects where windows are scaled if multiple output devices are used."
 msgstr ""
+"Obilježava mjesto skaliranja prozora ako se koristi više izlaznih uređaja."
 
-#: ../metadata/scale.xml.in.h:17
-msgid "Initiate Window Picker For Windows on Current Output"
-msgstr ""
+#: ../plugins/scale/scale.xml.in.h:38
+msgid "On current output device"
+msgstr "Na trenutnom izlaznom uređaju"
 
-#: ../metadata/scale.xml.in.h:18
+#: ../plugins/scale/scale.xml.in.h:39
+msgid "On all output devices"
+msgstr "Na svim izlaznim uređajima"
+
+#: ../plugins/scale/scale.xml.in.h:40
+#: ../plugins/showdesktop/showdesktop.xml.in.h:25
+msgid "Skip Animation"
+msgstr "Preskoči animaciju"
+
+#: ../plugins/scale/scale.xml.in.h:41
+msgid "Skips the scale plugin animation."
+msgstr "Preskoči animaciju prilagodbe veličine."
+
+#: ../plugins/scale/scale.xml.in.h:43
 msgid "Key Bindings Toggle Scale Mode"
-msgstr ""
+msgstr "Tipke prečice za režim skalarnog preklopnika"
 
-#: ../metadata/scale.xml.in.h:19
+#: ../plugins/scale/scale.xml.in.h:44
 msgid ""
 "Key bindings toggle scale mode instead of enabling it when pressed and "
 "disabling it when released."
 msgstr ""
+"Tipke prečice režima skalarnog preklopnika će ga isključiti kada je "
+"pritisnut a isključiti kada je pušten."
 
-#: ../metadata/scale.xml.in.h:20
-msgid "Layout and start transforming all windows"
-msgstr ""
+#: ../plugins/scale/scale.xml.in.h:45
+msgid "Button Bindings Toggle Scale Mode"
+msgstr "Dugme prečica režima skalarnog preklopnika"
 
-#: ../metadata/scale.xml.in.h:21
-msgid "Layout and start transforming window group"
-msgstr ""
-
-#: ../metadata/scale.xml.in.h:22
-msgid "Layout and start transforming windows"
-msgstr ""
-
-#: ../metadata/scale.xml.in.h:23
-msgid "Layout and start transforming windows on current output"
-msgstr ""
-
-#: ../metadata/scale.xml.in.h:26
-msgid "On all output devices"
-msgstr ""
-
-#: ../metadata/scale.xml.in.h:27
-msgid "On current output device"
-msgstr ""
-
-#: ../metadata/scale.xml.in.h:29
-msgid "Overlay Icon"
-msgstr ""
-
-#: ../metadata/scale.xml.in.h:30
-msgid "Overlay an icon on windows once they are scaled"
-msgstr ""
-
-#: ../metadata/scale.xml.in.h:31
-#, fuzzy
-msgid "Scale"
-msgstr "Vrijednost"
-
-#: ../metadata/scale.xml.in.h:32
-#, fuzzy
-msgid "Scale Windows"
-msgstr "Windhoek"
-
-#: ../metadata/scale.xml.in.h:33
-#, fuzzy
-msgid "Scale speed"
-msgstr "lokalno vrijeme"
-
-#: ../metadata/scale.xml.in.h:34
-#, fuzzy
-msgid "Scale timestep"
-msgstr "lokalno vrijeme"
-
-#: ../metadata/scale.xml.in.h:35
-#, fuzzy
-msgid "Scale windows"
-msgstr "Windhoek"
-
-#: ../metadata/scale.xml.in.h:36
-msgid "Selects where windows are scaled if multiple output devices are used."
-msgstr ""
-
-#: ../metadata/scale.xml.in.h:37
-msgid "Space between windows"
-msgstr ""
-
-#: ../metadata/scale.xml.in.h:38
-#, fuzzy
-msgid "Spacing"
-msgstr "Španija"
-
-#: ../metadata/scale.xml.in.h:40
+#: ../plugins/scale/scale.xml.in.h:46
 msgid ""
-"Time (in ms) before scale mode is terminated when hovering over a window"
+"Button bindings toggle scale mode instead of enabling it when pressed and "
+"disabling it when released."
 msgstr ""
+"Dugme prečica režima skalarnog preklopnika će ga uključiti kada je pritisnut "
+"a isključiti kada je otpušten."
 
-#: ../metadata/scale.xml.in.h:42
-msgid "Windows that should be scaled in scale mode"
-msgstr ""
+#: ../plugins/scale/scale.xml.in.h:47
+msgid "Initiate Window Picker"
+msgstr "Pokreni birač prozora"
 
-#: ../metadata/screenshot.xml.in.h:1
-msgid "Automatically open screenshot in this application"
-msgstr ""
+#: ../plugins/scale/scale.xml.in.h:48
+msgid "Layout and start transforming windows"
+msgstr "Rasporedi i započni transformaciju prozora"
 
-#: ../metadata/screenshot.xml.in.h:2
-msgid "Directory"
-msgstr ""
+#: ../plugins/scale/scale.xml.in.h:49
+msgid "Initiate Window Picker For All Windows"
+msgstr "Pokreni birač prozora za sve prozore"
 
-#: ../metadata/screenshot.xml.in.h:4
-#, fuzzy
-msgid "Initiate rectangle screenshot"
-msgstr "Indija"
+#: ../plugins/scale/scale.xml.in.h:50
+msgid "Layout and start transforming all windows"
+msgstr "Rasporedi i započni transformaciju svih prozora"
 
-#: ../metadata/screenshot.xml.in.h:5
-msgid "Launch Application"
-msgstr ""
+#: ../plugins/scale/scale.xml.in.h:51
+msgid "Initiate Window Picker For Window Group"
+msgstr "Pokreni birač prozora za grupu prozora"
 
-#: ../metadata/screenshot.xml.in.h:6
-msgid "Put screenshot images in this directory"
-msgstr ""
+#: ../plugins/scale/scale.xml.in.h:52
+msgid "Layout and start transforming window group"
+msgstr "Rasporedi i započni transformaciju grupe prozora"
 
-#: ../metadata/screenshot.xml.in.h:7
+#: ../plugins/scale/scale.xml.in.h:53
+msgid "Initiate Window Picker For Windows on Current Output"
+msgstr "Pokreni birač prozora za prozore u trenutnom izlazu"
+
+#: ../plugins/scale/scale.xml.in.h:54
+msgid "Layout and start transforming windows on current output"
+msgstr "Rasporedi i započni transformaciju prozora na trenutnom izlazu"
+
+#: ../plugins/scale/scale.xml.in.h:55
+msgid "Click on empty area"
+msgstr "Klikni na prazan prostor"
+
+#: ../plugins/scale/scale.xml.in.h:56
+msgid "Action to perform on click on empty area"
+msgstr "Radnja za izvođenje pri kliku na prazan prostor"
+
+#: ../plugins/scale/scale.xml.in.h:57
+msgid "Show desktop"
+msgstr "Prikaži zaslon"
+
+#: ../plugins/scale/scale.xml.in.h:58
+msgid "Terminate scale"
+msgstr "Završi promjenu veličine"
+
+#: ../plugins/screenshot/screenshot.xml.in.h:1
 msgid "Screenshot"
-msgstr ""
+msgstr "Snimak ekrana"
 
-#: ../metadata/screenshot.xml.in.h:8
-msgid "Screenshot plugin"
+#: ../plugins/screenshot/screenshot.xml.in.h:2
+msgid "Easily capture parts of your screen and save them as .png image"
 msgstr ""
+"S lakoćom uslikajte područja vašeg zaslona i spremite ga kao .png sliku"
 
-#: ../metadata/svg.xml.in.h:1
-msgid "Svg"
+#: ../plugins/screenshot/screenshot.xml.in.h:4
+msgid "Initiate the capture, release the button to take the shot."
+msgstr "Pokrenite slikanje, oslobodite tipku za slikanje."
+
+#: ../plugins/screenshot/screenshot.xml.in.h:5
+msgid "Draw Screenshot Selection Indicator"
+msgstr "Iscrtaj pokazivač odabira zaslona snimka"
+
+#: ../plugins/screenshot/screenshot.xml.in.h:6
+msgid "Draw a rectangle outline indicating the screenshot selection."
+msgstr "scrtaj pravougaone granice koji prikazuje odabir snimke zaslona."
+
+#: ../plugins/screenshot/screenshot.xml.in.h:7
+msgid "Selection Indicator Outline Color"
+msgstr "Boja odabira granica pokazivača"
+
+#: ../plugins/screenshot/screenshot.xml.in.h:8
+msgid "Color and opacity of the screenshot selection rectangle outline."
+msgstr "Boja i zasićenost odabira pravougaonih granica snimke zaslona."
+
+#: ../plugins/screenshot/screenshot.xml.in.h:9
+msgid "Selection Indicator Fill Color"
+msgstr "Boja popune odabira pokazivača"
+
+#: ../plugins/screenshot/screenshot.xml.in.h:10
+msgid "Fill color and opacity of the screenshot selection rectangle."
+msgstr "Boja popune i zasićenosti pravougaonih granica snimke zaslona."
+
+#: ../plugins/screenshot/screenshot.xml.in.h:11
+msgid "Save Directory"
+msgstr "Spremi direktorij"
+
+#: ../plugins/screenshot/screenshot.xml.in.h:12
+msgid ""
+"Save screenshot images in this directory. If empty, the desktop directory "
+"will be used."
 msgstr ""
+"Spremi snimak zaslona u ovaj direktorij. Ako je polje prazno, koristiti će "
+"se direktorij radne površine."
 
-#: ../metadata/svg.xml.in.h:2
-msgid "Svg image loader"
-msgstr ""
+#: ../plugins/screenshot/screenshot.xml.in.h:13
+msgid "Launch Application"
+msgstr "Pokreni aplikaciju"
 
-#: ../metadata/switcher.xml.in.h:1
-msgid "Amount of brightness in percent"
-msgstr ""
+#: ../plugins/screenshot/screenshot.xml.in.h:14
+msgid "Automatically open the screenshot in this application."
+msgstr "Automatski otvara snimak zaslona u ovoj aplikaciji"
 
-#: ../metadata/switcher.xml.in.h:3
-msgid "Amount of saturation in percent"
-msgstr ""
-
-#: ../metadata/switcher.xml.in.h:4
+#: ../plugins/switcher/switcher.xml.in.h:1
 msgid "Application Switcher"
-msgstr ""
+msgstr "Prebacivač aplikacije"
 
-#: ../metadata/switcher.xml.in.h:5
-#, fuzzy
-msgid "Auto Rotate"
-msgstr "Indija"
-
-#: ../metadata/switcher.xml.in.h:8
-#, fuzzy
-msgid "Bring To Front"
-msgstr "Opis"
-
-#: ../metadata/switcher.xml.in.h:9
-msgid "Bring selected window to front"
-msgstr ""
-
-#: ../metadata/switcher.xml.in.h:10
-msgid "Distance desktop should be zoom out while switching windows"
-msgstr ""
-
-#: ../metadata/switcher.xml.in.h:12
-msgid "Icon"
-msgstr ""
-
-#: ../metadata/switcher.xml.in.h:13
-msgid "Minimized"
-msgstr ""
-
-#: ../metadata/switcher.xml.in.h:15
-#, fuzzy
-msgid "Next Panel"
-msgstr "Desktop postavke"
-
-#: ../metadata/switcher.xml.in.h:16
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:3
+#: ../plugins/switcher/switcher.xml.in.h:3
 msgid "Next window"
-msgstr ""
+msgstr "Sljedeći prozor"
 
-#: ../metadata/switcher.xml.in.h:17
-msgid "Next window (All windows)"
-msgstr ""
-
-#: ../metadata/switcher.xml.in.h:18
-msgid "Next window (No popup)"
-msgstr ""
-
-#: ../metadata/switcher.xml.in.h:20
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:4
+#: ../plugins/switcher/switcher.xml.in.h:4
 msgid "Popup switcher if not visible and select next window"
 msgstr ""
+"Prikaži prebacivač iskačućeg prozora, ako već nije prikazan, i označi "
+"sljedeći prozor"
 
-#: ../metadata/switcher.xml.in.h:21
-msgid "Popup switcher if not visible and select next window out of all windows"
-msgstr ""
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:5
+#: ../plugins/switcher/switcher.xml.in.h:5
+msgid "Prev window"
+msgstr "Prethodni prozor"
 
-#: ../metadata/switcher.xml.in.h:22
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:6
+#: ../plugins/switcher/switcher.xml.in.h:6
 msgid "Popup switcher if not visible and select previous window"
 msgstr ""
+"Prikaži prebacivač iskačućeg prozora, ako već nije prikazan, i označi "
+"prethodni prozor"
 
-#: ../metadata/switcher.xml.in.h:23
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:7
+#: ../plugins/switcher/switcher.xml.in.h:7
+msgid "Next window (All windows)"
+msgstr "Sljedeći prozor (svi prozori)"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:8
+#: ../plugins/switcher/switcher.xml.in.h:8
+msgid ""
+"Popup switcher if not visible and select next window out of all windows"
+msgstr ""
+"Prikaži prebacivač iskačućeg prozora, ako već nije prikazan, i označi "
+"sljedeći prozor izvan svih prozora"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:9
+#: ../plugins/switcher/switcher.xml.in.h:9
+msgid "Prev window (All windows)"
+msgstr "Prethodni prozor (svi prozori)"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:10
+#: ../plugins/switcher/switcher.xml.in.h:10
 msgid ""
 "Popup switcher if not visible and select previous window out of all windows"
 msgstr ""
+"Prikaži prebacivač iskačućeg prozora, ako već nije prikazan, i označi "
+"prethodni prozor"
 
-#: ../metadata/switcher.xml.in.h:24
-msgid "Prev Panel"
-msgstr ""
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:15
+#: ../plugins/switcher/switcher.xml.in.h:11
+msgid "Next window (No popup)"
+msgstr "Sljedeći prozor (bez iskačućeg prozora)"
 
-#: ../metadata/switcher.xml.in.h:25
-msgid "Prev window"
-msgstr ""
-
-#: ../metadata/switcher.xml.in.h:26
-msgid "Prev window (All windows)"
-msgstr ""
-
-#: ../metadata/switcher.xml.in.h:27
-msgid "Prev window (No popup)"
-msgstr ""
-
-#: ../metadata/switcher.xml.in.h:28
-msgid "Rotate to the selected window while switching"
-msgstr ""
-
-#: ../metadata/switcher.xml.in.h:30
-msgid "Select next panel type window."
-msgstr ""
-
-#: ../metadata/switcher.xml.in.h:31
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:16
+#: ../plugins/switcher/switcher.xml.in.h:12
 msgid "Select next window without showing the popup window."
-msgstr ""
+msgstr "Označi sljedeći prozor bez prikazivanja iskačućeg prozora"
 
-#: ../metadata/switcher.xml.in.h:32
-msgid "Select previous panel type window."
-msgstr ""
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:17
+#: ../plugins/switcher/switcher.xml.in.h:13
+msgid "Prev window (No popup)"
+msgstr "Prethodni prozor (bez iskačućeg prozora)"
 
-#: ../metadata/switcher.xml.in.h:33
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:18
+#: ../plugins/switcher/switcher.xml.in.h:14
 msgid "Select previous window without showing the popup window."
-msgstr ""
+msgstr "Označi sljedeći prozor bez prikazivanja iskačućeg prozora"
 
-#: ../metadata/switcher.xml.in.h:34
-msgid "Show icon next to thumbnail"
-msgstr ""
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:19
+#: ../plugins/switcher/switcher.xml.in.h:15
+msgid "Next Panel"
+msgstr "Sljedeća ploča"
 
-#: ../metadata/switcher.xml.in.h:35
-msgid "Show minimized windows"
-msgstr ""
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:20
+#: ../plugins/switcher/switcher.xml.in.h:16
+msgid "Select next panel type window."
+msgstr "Označi sljedeći tip prozora ploče"
 
-#: ../metadata/switcher.xml.in.h:37
-#, fuzzy
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:21
+#: ../plugins/switcher/switcher.xml.in.h:17
+msgid "Prev Panel"
+msgstr "Prethodna ploča"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:22
+#: ../plugins/switcher/switcher.xml.in.h:18
+msgid "Select previous panel type window."
+msgstr "Označi prethodni tip prozora ploče"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:25
+#: ../plugins/switcher/switcher.xml.in.h:20
 msgid "Switcher speed"
-msgstr "lokalno vrijeme"
+msgstr "Brzina birača"
 
-#: ../metadata/switcher.xml.in.h:38
-#, fuzzy
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:27
+#: ../plugins/switcher/switcher.xml.in.h:22
 msgid "Switcher timestep"
-msgstr "lokalno vrijeme"
+msgstr "Vremenski korak prebacivača"
 
-#: ../metadata/switcher.xml.in.h:39
+#: ../plugins/switcher/switcher.xml.in.h:23
+msgid "Size multiplier"
+msgstr "Veličina množioca"
+
+#: ../plugins/switcher/switcher.xml.in.h:24
+msgid "adjusts the size of the switch windows"
+msgstr "prilagođava veličinu promjene prozora"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:28
+#: ../plugins/switcher/switcher.xml.in.h:25
 msgid "Switcher windows"
-msgstr ""
+msgstr "Prozori birača"
 
-#: ../metadata/switcher.xml.in.h:41
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:29
+#: ../plugins/switcher/switcher.xml.in.h:26
 msgid "Windows that should be shown in switcher"
+msgstr "Prozori koji bi trebali biti prikazani u prebacivaču"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:50
+#: ../plugins/switcher/switcher.xml.in.h:28
+msgid "Generate mipmaps when possible for higher quality scaling"
+msgstr "Generiši mipmape za bolji kvalitet skaliranja, kada je to moguće"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:40
+#: ../plugins/switcher/switcher.xml.in.h:30
+msgid "Amount of saturation in percent"
+msgstr "Količina zasićenja u procentima"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:42
+#: ../plugins/switcher/switcher.xml.in.h:32
+msgid "Amount of brightness in percent"
+msgstr "Iznos osvjetljenja u procentima"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:56
+#: ../plugins/switcher/switcher.xml.in.h:35
+msgid "Focus on Switch"
+msgstr "Fokus pri prebacivanju"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:57
+#: ../plugins/switcher/switcher.xml.in.h:36
+msgid "Focus windows when they are visible during the switch"
+msgstr "Fokusiraj prozore kada su vidljivi prilikom prebacivanja"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:58
+#: ../plugins/switcher/switcher.xml.in.h:37
+msgid "Bring To Front"
+msgstr "Dovedi ispred"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:59
+#: ../plugins/switcher/switcher.xml.in.h:38
+msgid "Bring selected window to front"
+msgstr "Dovedi označeni prozor ispred"
+
+#: ../plugins/switcher/switcher.xml.in.h:40
+msgid "Distance desktop should be zoom out while switching windows"
 msgstr ""
+"Udaljenost od radne površine koja bi trebala biti umanjena dok se biraju "
+"prozori"
 
-#: ../metadata/video.xml.in.h:1
-msgid "Provide YV12 colorspace support"
-msgstr ""
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:45
+#: ../plugins/switcher/switcher.xml.in.h:41
+msgid "Icon"
+msgstr "Ikona"
 
-#: ../metadata/video.xml.in.h:2
-msgid "Video Playback"
-msgstr ""
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:46
+#: ../plugins/switcher/switcher.xml.in.h:42
+msgid "Show icon next to thumbnail"
+msgstr "Prikaži ikonu do sličice"
 
-#: ../metadata/video.xml.in.h:3
-msgid "Video playback"
-msgstr ""
+#: ../plugins/switcher/switcher.xml.in.h:43
+msgid "Only show icon"
+msgstr "Prikaži samo ikonu"
 
-#: ../metadata/video.xml.in.h:4
-msgid "YV12 colorspace"
-msgstr ""
+#: ../plugins/switcher/switcher.xml.in.h:44
+msgid "Only show the window icon and do not display a thumbnail at all"
+msgstr "Prikaži samo ikonu prozora i uopće ne prikazuj sličicu"
 
-#: ../metadata/water.xml.in.h:1
-msgid "Add line"
-msgstr ""
+#: ../plugins/switcher/switcher.xml.in.h:45
+msgid "Minimized"
+msgstr "Minimiziran"
 
-#: ../metadata/water.xml.in.h:2
-msgid "Add point"
-msgstr ""
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:31
+#: ../plugins/switcher/switcher.xml.in.h:46
+msgid "Show minimized windows"
+msgstr "Prikaži umanjene prozore"
 
-#: ../metadata/water.xml.in.h:3
-msgid "Adds water effects to different desktop actions"
-msgstr ""
+#: ../plugins/switcher/switcher.xml.in.h:47
+msgid "Auto Rotate"
+msgstr "Automatsko zakretanje"
 
-#: ../metadata/water.xml.in.h:4
-msgid "Delay (in ms) between each rain-drop"
-msgstr ""
+#: ../plugins/switcher/switcher.xml.in.h:48
+msgid "Rotate to the selected window while switching"
+msgstr "U toku prebacivanja zakreni do označenog prozora"
 
-#: ../metadata/water.xml.in.h:5
-msgid "Enable pointer water effects"
-msgstr ""
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:76
+#: ../plugins/switcher/switcher.xml.in.h:49
+msgid "Background"
+msgstr "Pozadina"
 
-#: ../metadata/water.xml.in.h:7
-msgid "Line"
-msgstr ""
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:77
+#: ../plugins/switcher/switcher.xml.in.h:50
+msgid "Set background color"
+msgstr "Postavi boju pozadine"
 
-#: ../metadata/water.xml.in.h:8
-msgid "Offset Scale"
-msgstr ""
+#: ../plugins/ring/ring.xml.in.h:65
+#: ../plugins/scaleaddon/scaleaddon.xml.in.h:26
+#: ../plugins/scalefilter/scalefilter.xml.in.h:19
+#: ../plugins/shift/shift.xml.in.h:103
+#: ../plugins/stackswitch/stackswitch.xml.in.h:39
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:78
+#: ../plugins/switcher/switcher.xml.in.h:51
+#: ../plugins/workspacenames/workspacenames.xml.in.h:27
+msgid "Background Color"
+msgstr "Boja pozadine"
 
-#: ../metadata/water.xml.in.h:9
-msgid "Point"
-msgstr ""
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:79
+#: ../plugins/switcher/switcher.xml.in.h:52
+msgid "Background color of the switcher window."
+msgstr "Boja pozadine mjenjača prozora."
 
-# SH
-#: ../metadata/water.xml.in.h:10
-#, fuzzy
-msgid "Rain Delay"
-msgstr "Saint Helena"
-
-#: ../metadata/water.xml.in.h:11
-msgid "Title wave"
-msgstr ""
-
-#: ../metadata/water.xml.in.h:12
-msgid "Toggle rain"
-msgstr ""
-
-#: ../metadata/water.xml.in.h:13
-msgid "Toggle rain effect"
-msgstr ""
-
-#: ../metadata/water.xml.in.h:14
-msgid "Toggle wiper"
-msgstr ""
-
-#: ../metadata/water.xml.in.h:15
-msgid "Toggle wiper effect"
-msgstr ""
-
-#: ../metadata/water.xml.in.h:16
+#: ../plugins/water/water.xml.in.h:1
 msgid "Water Effect"
-msgstr ""
+msgstr "Vodeni efekat"
 
-#: ../metadata/water.xml.in.h:17
+#: ../plugins/water/water.xml.in.h:2
+msgid "Adds water effects to different desktop actions"
+msgstr "Dodaj vodene efekte različitim aktivnostima radne površi"
+
+#: ../plugins/water/water.xml.in.h:4
+msgid "Enable pointer water effects"
+msgstr "Uključi vodene efekte pokazivača"
+
+#: ../plugins/water/water.xml.in.h:5
+msgid "Toggle rain"
+msgstr "Uključi/isključi kišu"
+
+#: ../plugins/water/water.xml.in.h:6
+msgid "Toggle rain effect"
+msgstr "Uključi / Isključi kišni efekat"
+
+#: ../plugins/water/water.xml.in.h:7
+msgid "Toggle wiper"
+msgstr "Uključi/isključi brisač"
+
+#: ../plugins/water/water.xml.in.h:8
+msgid "Toggle wiper effect"
+msgstr "Uključi/isključi efekat brisača"
+
+#: ../plugins/water/water.xml.in.h:9
+msgid "Offset Scale"
+msgstr "Skaliranje sa pomjerajem"
+
+#: ../plugins/water/water.xml.in.h:10
 msgid "Water offset scale"
-msgstr ""
+msgstr "Skaliranje sa pomjerajem vode"
 
-#: ../metadata/water.xml.in.h:18
+#: ../plugins/water/water.xml.in.h:11
+msgid "Rain Delay"
+msgstr "Kašnjenje kiše"
+
+#: ../plugins/water/water.xml.in.h:12
+msgid "Delay (in ms) between each rain-drop"
+msgstr "Kašnjenje (u ms) između svake kapi kiše"
+
+#: ../plugins/water/water.xml.in.h:13
+msgid "lightVec X"
+msgstr "lightVec X"
+
+#: ../plugins/water/water.xml.in.h:14
+msgid "Light vector X coordinate"
+msgstr "X koordinata svjetlosnog vektora"
+
+#: ../plugins/water/water.xml.in.h:15
+msgid "lightVec Y"
+msgstr "lightVec Y"
+
+#: ../plugins/water/water.xml.in.h:16
+msgid "Light vector Y coordinate"
+msgstr "Y koordinata svjetlosnog vektora"
+
+#: ../plugins/water/water.xml.in.h:17
+msgid "lightVec Z"
+msgstr "lightVec Z"
+
+#: ../plugins/water/water.xml.in.h:18
+msgid "Light vector Z coordinate"
+msgstr "Z  koordinata svjetlosnog vektora"
+
+#: ../plugins/water/water.xml.in.h:19
+msgid "Title wave"
+msgstr "Talas naslova"
+
+#: ../plugins/water/water.xml.in.h:20
 msgid "Wave effect from window title"
-msgstr ""
+msgstr "Talasni efekat za naslov prozora"
 
-#: ../metadata/wobbly.xml.in.h:1
-msgid "Focus Effect"
-msgstr ""
+#: ../plugins/water/water.xml.in.h:21
+msgid "Point"
+msgstr "Tačka"
 
-#: ../metadata/wobbly.xml.in.h:2
-msgid "Focus Window Effect"
-msgstr ""
+#: ../plugins/water/water.xml.in.h:22
+msgid "Add point"
+msgstr "Dodaj tačku"
 
-#: ../metadata/wobbly.xml.in.h:3
-#, fuzzy
-msgid "Focus Windows"
-msgstr "Windhoek"
+#: ../plugins/water/water.xml.in.h:23
+msgid "Line"
+msgstr "Linija"
 
-#: ../metadata/wobbly.xml.in.h:4
-#, fuzzy
-msgid "Friction"
-msgstr "Opis"
+#: ../plugins/water/water.xml.in.h:24
+msgid "Add line"
+msgstr "Dodaj liniju"
 
-#: ../metadata/wobbly.xml.in.h:5
-#, fuzzy
-msgid "Grab Windows"
-msgstr "Windhoek"
-
-#: ../metadata/wobbly.xml.in.h:6
-#, fuzzy
-msgid "Grid Resolution"
-msgstr "Rezolucije:"
-
-#: ../metadata/wobbly.xml.in.h:7
-msgid "Inverted window snapping"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:8
-#, fuzzy
-msgid "Make window shiver"
-msgstr "Windhoek"
-
-#: ../metadata/wobbly.xml.in.h:9
-msgid "Map Effect"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:10
-#, fuzzy
-msgid "Map Window Effect"
-msgstr "Windhoek"
-
-#: ../metadata/wobbly.xml.in.h:11
-#, fuzzy
-msgid "Map Windows"
-msgstr "Windhoek"
-
-#: ../metadata/wobbly.xml.in.h:12
-msgid "Maximize Effect"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:13
-msgid "Minimum Grid Size"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:14
-msgid "Minimum Vertex Grid Size"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:15
-#, fuzzy
-msgid "Move Windows"
-msgstr "Windhoek"
-
-#: ../metadata/wobbly.xml.in.h:17
-msgid "Shiver"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:18
-msgid "Snap Inverted"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:19
-#, fuzzy
-msgid "Snap windows"
-msgstr "Windhoek"
-
-#: ../metadata/wobbly.xml.in.h:20
-#, fuzzy
-msgid "Spring Friction"
-msgstr "Opis"
-
-#: ../metadata/wobbly.xml.in.h:21
-#, fuzzy
-msgid "Spring K"
-msgstr "Španija"
-
-#: ../metadata/wobbly.xml.in.h:22
-#, fuzzy
-msgid "Spring Konstant"
-msgstr "Španija"
-
-#: ../metadata/wobbly.xml.in.h:23
-msgid "Toggle window snapping"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:24
-msgid "Use spring model for wobbly window effect"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:25
-#, fuzzy
-msgid "Vertex Grid Resolution"
-msgstr "Rezolucije:"
-
-#: ../metadata/wobbly.xml.in.h:26
-msgid "Windows that should wobble when focused"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:27
-msgid "Windows that should wobble when grabbed"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:28
-msgid "Windows that should wobble when mapped"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:29
-msgid "Windows that should wobble when moved"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:30
-msgid "Wobble effect when maximizing and unmaximizing windows"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:31
-#, fuzzy
+#: ../plugins/wobbly/wobbly.xml.in.h:1
 msgid "Wobbly Windows"
-msgstr "Windhoek"
+msgstr "Lelujavi prozori"
 
-#, fuzzy
-#~ msgid "Filter Linear"
-#~ msgstr "Filter: %1"
+#: ../plugins/wobbly/wobbly.xml.in.h:2
+msgid "Use spring model for wobbly window effect"
+msgstr "Koristi model opruga za efekat talasastih prozora"
 
-#, fuzzy
-#~ msgid "Zoom Desktop"
-#~ msgstr "Desktop postavke"
+#: ../plugins/wobbly/wobbly.xml.in.h:3
+msgid "Snap windows"
+msgstr "Škljocaj prozore"
 
-#, fuzzy
-#~ msgid "Zoom Speed"
-#~ msgstr "&Testiraj"
+#: ../plugins/wobbly/wobbly.xml.in.h:4
+msgid "Toggle window snapping"
+msgstr "Uključi/isključi škljocanje prozora"
 
-#, fuzzy
-#~ msgid "Zoom Timestep"
-#~ msgstr "&Testiraj"
+#: ../plugins/wobbly/wobbly.xml.in.h:5
+msgid "Snap Inverted"
+msgstr "Obrnuto škljocanje"
 
-#, fuzzy
-#~ msgid "Zoom pan"
-#~ msgstr "&Testiraj"
+#: ../plugins/wobbly/wobbly.xml.in.h:6
+msgid "Inverted window snapping"
+msgstr "Obrnuto škljocanje prozora"
 
-#, fuzzy
-#~ msgid "Place windows on a plane"
-#~ msgstr "Windhoek"
+#: ../plugins/wobbly/wobbly.xml.in.h:7
+msgid "Shiver"
+msgstr "Drhtavo"
 
-#, fuzzy
-#~ msgid "Plane Down"
-#~ msgstr "Windhoek"
+#: ../plugins/wobbly/wobbly.xml.in.h:8
+msgid "Make window shiver"
+msgstr "Napravi prozor da drhti"
 
-#, fuzzy
-#~ msgid "Plane down"
-#~ msgstr "Windhoek"
+#: ../plugins/wobbly/wobbly.xml.in.h:9
+msgid "Friction"
+msgstr "Trenje"
 
-#, fuzzy
-#~ msgid "DropdownMenu"
-#~ msgstr "Windhoek"
+#: ../plugins/wobbly/wobbly.xml.in.h:10
+msgid "Spring Friction"
+msgstr "Trenje opruge"
 
-#, fuzzy
-#~ msgid "Notification"
-#~ msgstr "Opis"
+#: ../plugins/wobbly/wobbly.xml.in.h:11
+msgid "Spring K"
+msgstr "K opruge"
 
-#~ msgid "Unknown"
-#~ msgstr "Nepoznato"
+#: ../plugins/wobbly/wobbly.xml.in.h:12
+msgid "Spring Konstant"
+msgstr "Konstanta opruge"
 
-#, fuzzy
-#~ msgid "Blur saturation (0-100)"
-#~ msgstr "Sajgon"
+#: ../plugins/wobbly/wobbly.xml.in.h:13
+msgid "Grid Resolution"
+msgstr "Rezolucija koordinatne mreže"
 
-#, fuzzy
-#~ msgid "Fold Acceleration (1.0-20.0)"
-#~ msgstr "3D ubrzanje:"
+#: ../plugins/wobbly/wobbly.xml.in.h:14
+msgid "Vertex Grid Resolution"
+msgstr "Tjemena rezolucija koordinatne mreže"
 
-#, fuzzy
-#~ msgid "Fold Timestep (0.0-50.0)"
-#~ msgstr "&Testiraj"
+#: ../plugins/wobbly/wobbly.xml.in.h:15
+msgid "Minimum Grid Size"
+msgstr "Najmanja veličina koordinatne mreže"
 
-# RU
-#, fuzzy
-#~ msgid "Gaussian radius (1-15)"
-#~ msgstr "Ruska Federacija"
+#: ../plugins/wobbly/wobbly.xml.in.h:16
+msgid "Minimum Vertex Grid Size"
+msgstr "Najmanja veličina koordinatne mreže tjemena"
 
-#, fuzzy
-#~ msgid "Gaussian strength (0.00-1.00)"
-#~ msgstr "Ruski"
+#: ../plugins/wobbly/wobbly.xml.in.h:17
+msgid "Map Effect"
+msgstr "Efekat preslikavanja"
 
-#, fuzzy
-#~ msgid "Rotation Acceleration (1.0-20.0)"
-#~ msgstr "3D ubrzanje:"
+#: ../plugins/wobbly/wobbly.xml.in.h:18
+msgid "Map Window Effect"
+msgstr "Efekat preslikavanja prozora"
 
-#, fuzzy
-#~ msgid "Rotation Timestep (0.0-50.0)"
-#~ msgstr "&Testiraj"
+#: ../plugins/animation/animation.xml.in.h:34
+#: ../plugins/wobbly/wobbly.xml.in.h:20
+msgid "Focus Effect"
+msgstr "Efekat fokusiranja"
 
-#, fuzzy
-#~ msgid "Scale speed (0.0-50.0)"
-#~ msgstr "lokalno vrijeme"
+#: ../plugins/wobbly/wobbly.xml.in.h:21
+msgid "Focus Window Effect"
+msgstr "Efekat fokusiranja prozora"
 
-#, fuzzy
-#~ msgid "Scale timestep (0.0-50.0)"
-#~ msgstr "lokalno vrijeme"
+#: ../plugins/wobbly/wobbly.xml.in.h:22
+msgid "Map Windows"
+msgstr "Preslikaj prozore"
 
-#, fuzzy
-#~ msgid "Spring Friction (0.0-10.0)"
-#~ msgstr "Opis"
+#: ../plugins/wobbly/wobbly.xml.in.h:23
+msgid "Windows that should wobble when mapped"
+msgstr "Prozori koji bi trebali biti talasasti kada se preslikavaju"
 
-#, fuzzy
-#~ msgid "Spring Konstant (0.0-10.0)"
-#~ msgstr "Španija"
+#: ../plugins/wobbly/wobbly.xml.in.h:24
+msgid "Focus Windows"
+msgstr "Fokusiraj prozore"
 
-#, fuzzy
-#~ msgid "Texture filtering (Fast, Good, Best)"
-#~ msgstr "&Postavi filter"
+#: ../plugins/wobbly/wobbly.xml.in.h:25
+msgid "Windows that should wobble when focused"
+msgstr "Prozori koji bi trebali biti talasasti kada su fokusirani"
 
-#, fuzzy
-#~ msgid "Vertex Grid Resolution (1-64)"
-#~ msgstr "Rezolucije:"
+#: ../plugins/wobbly/wobbly.xml.in.h:26
+msgid "Grab Windows"
+msgstr "Zgrabi prozor"
 
-#, fuzzy
-#~ msgid "Window blur speed (0.0-10.0)"
-#~ msgstr "Windhoek"
+#: ../plugins/wobbly/wobbly.xml.in.h:27
+msgid "Windows that should wobble when grabbed"
+msgstr "Prozori koji bi trebali biti talasasti kada su zgrabljeni"
 
-#, fuzzy
-#~ msgid "Window fade speed (0.0-25.0)"
-#~ msgstr "Windhoek"
+#: ../plugins/wobbly/wobbly.xml.in.h:28
+msgid "Move Windows"
+msgstr "Pomjeri prozore"
 
-#, fuzzy
-#~ msgid "Zoom Timestep (0.0-50.0)"
-#~ msgstr "&Testiraj"
+#: ../plugins/wobbly/wobbly.xml.in.h:29
+msgid "Windows that should wobble when moved"
+msgstr "Prozori koji bi trebali biti talasasti kada su pomjereni"
 
-#, fuzzy
-#~ msgid "Corners"
-#~ msgstr "Štampači"
+#: ../plugins/wobbly/wobbly.xml.in.h:30
+msgid "Maximize Effect"
+msgstr "Efekat uvećavanja"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:31
+msgid "Wobble effect when maximizing and unmaximizing windows"
+msgstr "Talasasti efekat prilikom uvećavanja ili smanjivanja prozora"

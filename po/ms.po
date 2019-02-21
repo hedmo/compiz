@@ -1,0 +1,4210 @@
+# Malay translation for compiz
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the compiz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: compiz\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2017-06-16 15:24+0000\n"
+"PO-Revision-Date: 2016-12-19 14:52+0000\n"
+"Last-Translator: abuyop <Unknown>\n"
+"Language-Team: Malay <ms@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2019-02-21 18:45+0000\n"
+"X-Generator: Launchpad (build 18886)\n"
+
+#: ../gtk/gnome/compiz.desktop.in.h:1
+msgid "Compiz"
+msgstr "Compiz"
+
+#: ../gtk/window-decorator/events.c:159 ../metadata/core.xml.in.h:50
+#: ../plugins/scaleaddon/scaleaddon.xml.in.h:4
+msgid "Close Window"
+msgstr "Tutup Tetingkap"
+
+#: ../gtk/window-decorator/events.c:187 ../metadata/core.xml.in.h:60
+msgid "Unmaximize Window"
+msgstr "Nyahmaksimumkan Tetingkap"
+
+#: ../gtk/window-decorator/events.c:190 ../metadata/core.xml.in.h:58
+msgid "Maximize Window"
+msgstr "Maksimumkan tetingkap"
+
+#: ../gtk/window-decorator/events.c:245 ../metadata/core.xml.in.h:56
+msgid "Minimize Window"
+msgstr "Minimumkan Tetingkap"
+
+#: ../gtk/window-decorator/events.c:265 ../metadata/core.xml.in.h:68
+msgid "Window Menu"
+msgstr "Menu Tetingkap"
+
+#: ../gtk/window-decorator/events.c:288
+msgid "Shade"
+msgstr "Lorek"
+
+#: ../gtk/window-decorator/events.c:312
+msgid "Make Above"
+msgstr "Jadikan Diatas"
+
+#: ../gtk/window-decorator/events.c:334
+msgid "Stick"
+msgstr "Lekat"
+
+#: ../gtk/window-decorator/events.c:356
+msgid "Unshade"
+msgstr "Nyahlorek"
+
+#: ../gtk/window-decorator/events.c:378
+msgid "Unmake Above"
+msgstr "Jangan Buat Diatas"
+
+#: ../gtk/window-decorator/events.c:400
+msgid "Unstick"
+msgstr "Nyahlekat"
+
+#: ../gtk/window-decorator/forcequit.c:143
+#, c-format
+msgid "The window \"%s\" is not responding."
+msgstr "Tetingkap \"%s\" tidak bertindakbalas."
+
+#: ../gtk/window-decorator/forcequit.c:147
+msgid ""
+"Forcing this application to quit will cause you to lose any unsaved changes."
+msgstr ""
+"Memaksa aplikasi ini keluar akan menyebabkan anda kehilangan sebarang "
+"perubahan yang tidak disimpan."
+
+#: ../gtk/window-decorator/forcequit.c:159
+msgid "_Cancel"
+msgstr "_Batal"
+
+#: ../gtk/window-decorator/forcequit.c:161
+msgid "_Force Quit"
+msgstr "_Paksa keluar"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:1
+msgid "Navigation"
+msgstr "Navigasi"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:2
+msgid "Move window to workspace 1"
+msgstr "Pindah tetingkap ke ruang kerja 1"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:3
+msgid "Move window to workspace 2"
+msgstr "Pindah tetingkap ke ruang kerja 2"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:4
+msgid "Move window to workspace 3"
+msgstr "Pindah tetingkap ke ruang kerja 3"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:5
+msgid "Move window to workspace 4"
+msgstr "Pindah tetingkap ke ruang kerja 4"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:6
+msgid "Move window to workspace 5"
+msgstr "Pindah tetingkap ke  ruang kerja 5"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:7
+msgid "Move window to workspace 6"
+msgstr "Pindah tetingkap ke ruang kerja 6"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:8
+msgid "Move window to workspace 7"
+msgstr "Pindah tetingkap ke ruang kerja 7"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:9
+msgid "Move window to workspace 8"
+msgstr "Alih tetingkap ke ruang kerja 8"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:10
+msgid "Move window to workspace 9"
+msgstr "Alih tetingkap ke ruang kerja 9"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:11
+msgid "Move window to workspace 10"
+msgstr "Alih tetingkap ke ruang kerja 10"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:12
+msgid "Move window to workspace 11"
+msgstr "Alih tetingkap ke ruang kerja 11"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:13
+msgid "Move window to workspace 12"
+msgstr "Alih tetingkap ke ruang kerja 12"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:14
+msgid "Move window one workspace to the left"
+msgstr "Alih tetingkap satu ruang kerja ke kiri"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:15
+msgid "Move window one workspace to the right"
+msgstr "Alih tetingkap satu ruang kerja ke kanan"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:16
+msgid "Move window one workspace up"
+msgstr "Alih tetingkap satu ruang kerja  ke atas"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:17
+msgid "Move window one workspace down"
+msgstr "Alih tetingkap satu ruang kerja ke bawah"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:18
+msgid "Switch applications"
+msgstr "Tukar aplikasi"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:19
+msgid "Switch windows of an app directly"
+msgstr "Tukar tetingkap aplikasi secara terus"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:20
+msgid "Hide all normal windows"
+msgstr "Sembunyi semua tetingkap biasa"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:21
+msgid "Switch to workspace 1"
+msgstr "Tukar ke ruang kerja 1"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:22
+msgid "Switch to workspace 2"
+msgstr "Tukar ke  ruang kerja 2"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:23
+msgid "Switch to workspace 3"
+msgstr "Tukar ke ruang kerja 3"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:24
+msgid "Switch to workspace 4"
+msgstr "Tukar ke ruang kerja 4"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:25
+msgid "Switch to workspace 5"
+msgstr "Tukar ke  ruang kerja 5"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:26
+msgid "Switch to workspace 6"
+msgstr "Tukar ke ruang kerja 6"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:27
+msgid "Switch to workspace 7"
+msgstr "Tukar ke  ruang kerja 7"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:28
+msgid "Switch to workspace 8"
+msgstr "Tukar ke  ruang kerja 8"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:29
+msgid "Switch to workspace 9"
+msgstr "Tukar ke ruang kerja 9"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:30
+msgid "Switch to workspace 10"
+msgstr "Tukar ke ruang kerja 10"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:31
+msgid "Switch to workspace 11"
+msgstr "Tukar ke ruang kerja 11"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:32
+msgid "Switch to workspace 12"
+msgstr "Tukar ke ruang kerja 12"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:33
+msgid "Switch to workspace left"
+msgstr "Tukar ke ruang kerja kiri"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:34
+msgid "Switch to workspace right"
+msgstr "Tukar ke ruang kerja kanan"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:35
+msgid "Switch to workspace above"
+msgstr "Tukar ke ruang kerja atas"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:36
+msgid "Switch to workspace below"
+msgstr "Tukar ke ruang kerja bawah"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:1 ../plugins/obs/obs.xml.in.h:17
+#: ../plugins/place/place.xml.in.h:32
+#: ../plugins/stackswitch/stackswitch.xml.in.h:24
+msgid "Windows"
+msgstr "Tetingkap"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:2
+msgid "Activate the window menu"
+msgstr "Aktifkan menu tetingkap"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:3
+msgid "Toggle fullscreen mode"
+msgstr "Togol mod skrin penuh"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:4
+msgid "Toggle maximization state"
+msgstr "Togol keadaan maksimum"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:5
+msgid "Maximize window"
+msgstr "Maksimumkan tetingkap"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:6
+msgid "Restore window"
+msgstr "Pulihkan tetingkap"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:7
+msgid "Toggle shaded state"
+msgstr "Togol keadaan terlorek"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:8
+msgid "Close window"
+msgstr "Tutup tetingkap"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:9
+msgid "Minimize window"
+msgstr "Minimunkan tetingkap"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:10
+msgid "Move window"
+msgstr "Alih tetingkap"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:11
+#: ../plugins/resize/resize.xml.in.h:2
+msgid "Resize window"
+msgstr "Saiz semula tetingkap"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:12 ../metadata/core.xml.in.h:53
+msgid "Raise window above other windows"
+msgstr "Naikkan tetingkap di atas tetingkap lain"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:13
+msgid "Lower window below other windows"
+msgstr "Rendahkan tetingkap di bawah tetingkap lain"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:14
+msgid "Maximize window vertically"
+msgstr "Maksimumkan tetingkap menegak"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:15
+msgid "Maximize window horizontally"
+msgstr "Maksimumkan tetingkap mengufuk"
+
+#: ../metadata/core.xml.in.h:1 ../plugins/ring/ring.xml.in.h:23
+#: ../plugins/shift/shift.xml.in.h:34
+msgid "General Options"
+msgstr "Pilihan Am"
+
+#: ../metadata/core.xml.in.h:2
+msgid "General compiz options"
+msgstr "Pilihan am compiz"
+
+#: ../metadata/core.xml.in.h:3
+msgid "Active Plugins"
+msgstr "Pemalam Aktif"
+
+#: ../metadata/core.xml.in.h:4
+msgid "List of currently active plugins"
+msgstr "Senarai pemalam kini yang aktif"
+
+#: ../metadata/core.xml.in.h:5
+msgid "Audible Bell"
+msgstr "Loceng Boleh Dengar"
+
+#: ../metadata/core.xml.in.h:6
+msgid "Audible system beep"
+msgstr "Bip sistem boleh dengar"
+
+#: ../metadata/core.xml.in.h:7
+msgid "Ignore Hints When Maximized"
+msgstr "Abaikan Pembayang Bila Dimaksimumkan"
+
+#: ../metadata/core.xml.in.h:8
+msgid "Ignore size increment and aspect hints when window is maximized"
+msgstr ""
+"Abaikan pembayang tokokan saiz dan nisbah bila tetingkap dimaksimumkan"
+
+#: ../metadata/core.xml.in.h:9
+msgid "Hide Skip Taskbar Windows"
+msgstr "Sembunyik Tetingkap Palang Tugas Langkau"
+
+#: ../metadata/core.xml.in.h:10
+msgid "Hide windows not in taskbar when entering show desktop mode"
+msgstr ""
+"Sembunyi tetingkap yang tidak berada dalam palang tugas bila memasuki mod "
+"papar dekstop"
+
+#: ../metadata/core.xml.in.h:11
+msgid "Edge Trigger Delay"
+msgstr "Lengahan Pemicu Pinggir"
+
+#: ../metadata/core.xml.in.h:12
+msgid ""
+"Duration the pointer must rest in a screen edge before an edge action is "
+"taken."
+msgstr ""
+"Tempoh penuding mesti berhenti di pinggir skrin sebelum tindakan pinggir "
+"berlaku."
+
+#: ../metadata/core.xml.in.h:13
+msgid "Ping Delay"
+msgstr "Lengahan Ping"
+
+#: ../metadata/core.xml.in.h:14
+msgid "Interval between ping messages"
+msgstr "Sela diantara mesej ping"
+
+#: ../metadata/core.xml.in.h:15
+msgid "Default Icon"
+msgstr "Ikon Lalai"
+
+#: ../metadata/core.xml.in.h:16
+msgid "Default window icon image"
+msgstr "Imej ikon tetingkap lalai"
+
+#: ../metadata/core.xml.in.h:17
+msgid "Save plugin states on unload"
+msgstr "Simpan keadaan pemalam bila dinyahmuat"
+
+#: ../metadata/core.xml.in.h:18
+msgid ""
+"Save the state of plugins when they are unloaded such they will resume their "
+"past internal state when reloaded"
+msgstr ""
+"Simpan keadaan pemalam bila ia dinyahmuat kerana ia akan sambung semula "
+"keadaan dalaman terdahulu mereka bila dimuatkan semula"
+
+#: ../metadata/core.xml.in.h:19
+msgid "Display Settings"
+msgstr "Tetapan Paparan"
+
+#: ../metadata/core.xml.in.h:20
+msgid "Overlapping Output Handling"
+msgstr "Pengendalian Output Bertindih"
+
+#: ../metadata/core.xml.in.h:21
+msgid "Which one of overlapping output devices should be preferred"
+msgstr "Yang manakah peranti output yang bertindih patut diutamakan"
+
+#: ../metadata/core.xml.in.h:22
+msgid "Smart mode"
+msgstr "Mod pintar"
+
+#: ../metadata/core.xml.in.h:23
+msgid "Prefer larger output"
+msgstr "Output lebih besar diutamakan"
+
+#: ../metadata/core.xml.in.h:24
+msgid "Prefer smaller output"
+msgstr "Output lebih kecil diutamakan"
+
+#: ../metadata/core.xml.in.h:25
+msgid "Detect Outputs"
+msgstr "Kesan Output"
+
+#: ../metadata/core.xml.in.h:26
+msgid "Automatic detection of output devices"
+msgstr "Pengesanan automatik untuk peranti output"
+
+#: ../metadata/core.xml.in.h:27
+msgid "Outputs"
+msgstr "Output"
+
+#: ../metadata/core.xml.in.h:28
+msgid "List of strings describing output devices"
+msgstr "Senarai rentetan yang menerangkan peranti output"
+
+#: ../metadata/core.xml.in.h:29
+msgid "Focus &amp; Raise Behaviour"
+msgstr "Kelakuan Fokus &amp; Naik"
+
+#: ../metadata/core.xml.in.h:30
+msgid "Click To Focus"
+msgstr "Klik Untuk Fokus"
+
+#: ../metadata/core.xml.in.h:31
+msgid "Click on window moves input focus to it"
+msgstr "Klik pada tetingkap untuk alihkan fokus input kepadanya"
+
+#: ../metadata/core.xml.in.h:32
+msgid "Raise On Click"
+msgstr "Naikkan Bila Diklik"
+
+#: ../metadata/core.xml.in.h:33
+msgid "Raise windows when clicked"
+msgstr "Naikkan tetingkap bila diklik"
+
+#: ../metadata/core.xml.in.h:34
+msgid "Auto-Raise"
+msgstr "Naik-Sendiri"
+
+#: ../metadata/core.xml.in.h:35
+msgid "Raise selected windows after interval"
+msgstr "Naikkan tetingkap terpilih selepas sela masa"
+
+#: ../metadata/core.xml.in.h:36
+msgid "Auto-Raise Delay"
+msgstr "Lengahan Naik-Sendiri"
+
+#: ../metadata/core.xml.in.h:37
+msgid "Interval before raising selected windows"
+msgstr "Sela sebelum menaikkan tetingkap terpilih"
+
+#: ../metadata/core.xml.in.h:38
+msgid "Focus Desktop"
+msgstr "Fokus Desktop"
+
+#: ../metadata/core.xml.in.h:39
+msgid "Focus the desktop when click to focus is disabled"
+msgstr "Fokus desktop bila klik untuk fokus dilumpuhkan"
+
+#: ../metadata/core.xml.in.h:40
+msgid "Focus Prevention Level"
+msgstr "Aras Pencegahan Fokus"
+
+#: ../metadata/core.xml.in.h:41
+msgid "Level of focus stealing prevention"
+msgstr "Aras bagi pencegahan kecurian fokus"
+
+#: ../metadata/core.xml.in.h:42 ../plugins/animation/animation.xml.in.h:96
+msgid "Off"
+msgstr "Dimatikan"
+
+#: ../metadata/core.xml.in.h:43
+msgid "Low"
+msgstr "Rendah"
+
+#: ../metadata/core.xml.in.h:44 ../plugins/move/move.xml.in.h:24
+#: ../plugins/resize/resize.xml.in.h:8
+#: ../plugins/scaleaddon/scaleaddon.xml.in.h:36
+msgid "Normal"
+msgstr "Biasa"
+
+#: ../metadata/core.xml.in.h:45
+msgid "High"
+msgstr "Tinggi"
+
+#: ../metadata/core.xml.in.h:46
+msgid "Very High"
+msgstr "Sangat Tinggi"
+
+#: ../metadata/core.xml.in.h:47
+msgid "Focus Prevention Windows"
+msgstr "Tetingkap Pencegahan Fokus"
+
+#: ../metadata/core.xml.in.h:48
+msgid "Focus prevention windows"
+msgstr "Tetingkap pencegahan fokus"
+
+#: ../metadata/core.xml.in.h:49 ../plugins/group/group.xml.in.h:4
+#: ../plugins/stackswitch/stackswitch.xml.in.h:2
+msgid "Key bindings"
+msgstr "Pengikatan kekunci"
+
+#: ../metadata/core.xml.in.h:51
+msgid "Close active window"
+msgstr "Tutup tetingkap aktif"
+
+#: ../metadata/core.xml.in.h:52
+msgid "Raise Window"
+msgstr "Naikkan Tetingkap"
+
+#: ../metadata/core.xml.in.h:54
+msgid "Lower Window"
+msgstr "Turunkan Tetingkap"
+
+#: ../metadata/core.xml.in.h:55
+msgid "Lower window beneath other windows"
+msgstr "Turunkan tetingkap di bawah tetingkap lain"
+
+#: ../metadata/core.xml.in.h:57
+msgid "Minimize active window"
+msgstr "Minimumkan tetingkap aktif"
+
+#: ../metadata/core.xml.in.h:59
+msgid "Maximize active window"
+msgstr "Maksimumkan tetingkap aktif"
+
+#: ../metadata/core.xml.in.h:61
+msgid "Unmaximize active window"
+msgstr "Nyahmaksimumkan tetingkap aktif"
+
+#: ../metadata/core.xml.in.h:62
+msgid "Unmaximize or Minimize Window"
+msgstr "Nyahmaksimum atau Minimumkan Tetingkap"
+
+#: ../metadata/core.xml.in.h:63
+msgid "Unmaximize or minimize active window"
+msgstr "Nyahmaksimum atau minimumkan tetingkap aktif"
+
+#: ../metadata/core.xml.in.h:64
+msgid "Maximize Window Horizontally"
+msgstr "Maksimumkan Tetingkap Secara Melintang"
+
+#: ../metadata/core.xml.in.h:65
+msgid "Maximize active window horizontally"
+msgstr "Maksimumkan tetingkap aktif secara melintang"
+
+#: ../metadata/core.xml.in.h:66
+msgid "Maximize Window Vertically"
+msgstr "Maksimumkan Tetingkap Secara Menegak"
+
+#: ../metadata/core.xml.in.h:67
+msgid "Maximize active window vertically"
+msgstr "Maksimumkan tetingkap aktif secara menegak"
+
+#: ../metadata/core.xml.in.h:69
+msgid "Window menu key binding"
+msgstr "Pengikatan kekunci menu tetingkap"
+
+#: ../metadata/core.xml.in.h:70
+msgid "Window menu button binding"
+msgstr "Pengikatan butang menu tetingkap"
+
+#: ../metadata/core.xml.in.h:71 ../plugins/showdesktop/showdesktop.xml.in.h:1
+msgid "Show Desktop"
+msgstr "Papar Desktop"
+
+#: ../metadata/core.xml.in.h:72
+msgid "Hide all windows and focus desktop"
+msgstr "Sembunyi semua tetingkap dan fokuskan desktop"
+
+#: ../metadata/core.xml.in.h:73
+msgid "Toggle Window Maximized"
+msgstr "Togol Tetingkap Termaksimum"
+
+#: ../metadata/core.xml.in.h:74
+msgid "Toggle active window maximized"
+msgstr "Togol tetingkap termaksimum aktif"
+
+#: ../metadata/core.xml.in.h:75
+msgid "Toggle Window Maximized Horizontally"
+msgstr "Togol Tetingkap Termaksimum Secara Melintang"
+
+#: ../metadata/core.xml.in.h:76
+msgid "Toggle active window maximized horizontally"
+msgstr "Togol tetingkap termaksimum aktif secara melintang"
+
+#: ../metadata/core.xml.in.h:77
+msgid "Toggle Window Maximized Vertically"
+msgstr "Togol Tetingkap Termaksimum Secara Menegak"
+
+#: ../metadata/core.xml.in.h:78
+msgid "Toggle active window maximized vertically"
+msgstr "Togol tetingkap termaksimum aktif secara menegak"
+
+#: ../metadata/core.xml.in.h:79
+msgid "Toggle Window Shaded"
+msgstr "Togol Tetingkap Terlorek"
+
+#: ../metadata/core.xml.in.h:80
+msgid "Toggle active window shaded"
+msgstr "Togol tetingkap terlorek aktif"
+
+#: ../metadata/core.xml.in.h:81
+msgid "Desktop Size"
+msgstr "Saiz Desktop"
+
+#: ../metadata/core.xml.in.h:82
+msgid "Horizontal Virtual Size"
+msgstr "Saiz Maya Menegak"
+
+#: ../metadata/core.xml.in.h:83
+msgid "Screen size multiplier for horizontal virtual size"
+msgstr "Pendarap saiz skrin untuk saiz maya melintang"
+
+#: ../metadata/core.xml.in.h:84
+msgid "Vertical Virtual Size"
+msgstr "Saiz Maya Menegak"
+
+#: ../metadata/core.xml.in.h:85
+msgid "Screen size multiplier for vertical virtual size"
+msgstr "Pendarap saiz skrin untuk saiz maya menegak"
+
+#: ../plugins/annotate/annotate.xml.in.h:1
+msgid "Annotate"
+msgstr "Catatkan"
+
+#: ../plugins/annotate/annotate.xml.in.h:2
+msgid "Annotate plugin"
+msgstr "Anotasikan pemalam"
+
+#: ../plugins/annotate/annotate.xml.in.h:3
+msgid "Initiate Free Draw"
+msgstr "Awalkan Lukis Bebas"
+
+#: ../plugins/annotate/annotate.xml.in.h:4
+msgid "Initiate freehand drawing"
+msgstr "Awalkan pelukisan tangan bebas"
+
+#: ../plugins/annotate/annotate.xml.in.h:5
+msgid "Initiate Line"
+msgstr "Awalkan Garis"
+
+#: ../plugins/annotate/annotate.xml.in.h:6
+msgid "Initiate line drawing"
+msgstr "Awalkan pelukisan garis"
+
+#: ../plugins/annotate/annotate.xml.in.h:7
+msgid "Initiate Rectangle"
+msgstr "Awalkan Segiempat"
+
+#: ../plugins/annotate/annotate.xml.in.h:8
+msgid "Initiate rectangle drawing"
+msgstr "Awalkan pelukisan segiempat"
+
+#: ../plugins/annotate/annotate.xml.in.h:9
+msgid "Initiate Ellipse"
+msgstr "Awalkan Elips"
+
+#: ../plugins/annotate/annotate.xml.in.h:10
+msgid "Initiate ellipse drawing"
+msgstr "Awalkan pelukisan elips"
+
+#: ../plugins/annotate/annotate.xml.in.h:11
+msgid "Draw"
+msgstr "Lukis"
+
+#: ../plugins/annotate/annotate.xml.in.h:12
+msgid "Draw using tool"
+msgstr "Lukis menggunakan alatan"
+
+#: ../plugins/annotate/annotate.xml.in.h:13
+msgid "Initiate Erase"
+msgstr "Awalkan Padam"
+
+#: ../plugins/annotate/annotate.xml.in.h:14
+msgid "Initiate annotate erasing"
+msgstr "Mulakan pemadaman catatan"
+
+#: ../plugins/annotate/annotate.xml.in.h:15
+msgid "Clear"
+msgstr "Kosongkan"
+
+#: ../plugins/annotate/annotate.xml.in.h:16
+msgid "Draw shapes from center"
+msgstr "Lukis bentuk dari pusat"
+
+#: ../plugins/annotate/annotate.xml.in.h:17
+msgid "Uses the initial click point as the center of shapes."
+msgstr "Guna titik klik awal sebagai pusat bagi bentuk."
+
+#: ../plugins/annotate/annotate.xml.in.h:18
+msgid "Annotate Fill Color"
+msgstr "Catatkan Warna Isian"
+
+#: ../plugins/annotate/annotate.xml.in.h:19
+msgid "Fill color for annotations"
+msgstr "Isikan warna untuk catatan"
+
+#: ../plugins/annotate/annotate.xml.in.h:20
+msgid "Annotate Stroke Color"
+msgstr "Anotasikan Warna Lejang"
+
+#: ../plugins/annotate/annotate.xml.in.h:21
+msgid "Stroke color for annotations"
+msgstr "Warna lejang untuk anotasi"
+
+#: ../plugins/annotate/annotate.xml.in.h:22
+msgid "Erase width"
+msgstr "Lebar padam"
+
+#: ../plugins/annotate/annotate.xml.in.h:23
+msgid "Erase size"
+msgstr "Saiz padam"
+
+#: ../plugins/annotate/annotate.xml.in.h:24
+msgid "Stroke width"
+msgstr "Lebar lejang"
+
+#: ../plugins/annotate/annotate.xml.in.h:25
+msgid "Stroke width for annotations"
+msgstr "Lebar lejang untuk anotasi"
+
+#: ../plugins/blur/blur.xml.in.h:1
+msgid "Blur Windows"
+msgstr "Kabur Tetingkap"
+
+#: ../plugins/blur/blur.xml.in.h:2
+msgid "Blur windows"
+msgstr "Kabur tetingkap"
+
+#: ../plugins/blur/blur.xml.in.h:3
+#: ../plugins/simple-animations/animationsim.xml.in.h:43
+msgid "Pulse"
+msgstr "Denyut"
+
+#: ../plugins/blur/blur.xml.in.h:4
+msgid "Pulse effect"
+msgstr "Kesan denyut"
+
+#: ../plugins/blur/blur.xml.in.h:5
+msgid "Blur Speed"
+msgstr "Kelajuan Kabur"
+
+#: ../plugins/blur/blur.xml.in.h:6
+msgid "Window blur speed"
+msgstr "Kelajuan kekaburan tetingkap"
+
+#: ../plugins/blur/blur.xml.in.h:7
+msgid "Focus blur windows"
+msgstr "Kabur fokuskan tetingkap"
+
+#: ../plugins/blur/blur.xml.in.h:8
+msgid "Windows that should be affected by focus blur"
+msgstr "Tetingkap yang patut dipengaruhi oleh kabur berfokus"
+
+#: ../plugins/blur/blur.xml.in.h:9
+msgid "Focus Blur"
+msgstr "Kabur Fokus"
+
+#: ../plugins/blur/blur.xml.in.h:10
+msgid "Blur windows that doesn't have focus"
+msgstr "Tetingkap kabur yang tidak mempunyai fokus"
+
+#: ../plugins/blur/blur.xml.in.h:11
+msgid "Alpha blur windows"
+msgstr "Kabur alfakan tetingkap"
+
+#: ../plugins/blur/blur.xml.in.h:12
+msgid "Windows that should be use alpha blur by default"
+msgstr "Tetingkap yang patut gunakan kabur alfa secara lalai"
+
+#: ../plugins/blur/blur.xml.in.h:13
+msgid "Alpha Blur"
+msgstr "Kabur Alfa"
+
+#: ../plugins/blur/blur.xml.in.h:14
+msgid "Blur behind translucent parts of windows"
+msgstr "Kabur disebalik bahagian lutcahaya tetingkap"
+
+#: ../plugins/blur/blur.xml.in.h:15
+msgid "Blur Filter"
+msgstr "Penapis Kabur"
+
+#: ../plugins/blur/blur.xml.in.h:16
+msgid "Filter method used for blurring"
+msgstr "Kaedah tapisan yang digunakan untuk kekaburan"
+
+#: ../plugins/blur/blur.xml.in.h:17
+msgid "4xBilinear"
+msgstr "Dwilinear4x"
+
+#: ../plugins/blur/blur.xml.in.h:18
+msgid "Gaussian"
+msgstr "Gaussian"
+
+#: ../plugins/blur/blur.xml.in.h:19 ../plugins/cube/cube.xml.in.h:5
+#: ../plugins/decor/decor.xml.in.h:17
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:49
+#: ../plugins/switcher/switcher.xml.in.h:27
+msgid "Mipmap"
+msgstr "Mipmap"
+
+#: ../plugins/blur/blur.xml.in.h:20
+msgid "Gaussian Radius"
+msgstr "Jejari Gaussian"
+
+#: ../plugins/blur/blur.xml.in.h:21
+msgid "Gaussian radius"
+msgstr "Jejari Gaussian"
+
+#: ../plugins/blur/blur.xml.in.h:22
+msgid "Gaussian Strength"
+msgstr "Kekuatan Gaussian"
+
+#: ../plugins/blur/blur.xml.in.h:23
+msgid "Gaussian strength"
+msgstr "Kekuatan Gaussian"
+
+#: ../plugins/blur/blur.xml.in.h:24
+msgid "Mipmap LOD"
+msgstr "LOD Mipmap"
+
+#: ../plugins/blur/blur.xml.in.h:25
+msgid "Mipmap level-of-detail"
+msgstr "Aras-perincian Mipmap"
+
+#: ../plugins/blur/blur.xml.in.h:26
+msgid "Blur Saturation"
+msgstr "Ketepuan Kabur"
+
+#: ../plugins/blur/blur.xml.in.h:27
+msgid "Blur saturation"
+msgstr "Ketepuan kabur"
+
+#: ../plugins/blur/blur.xml.in.h:28
+msgid "Blur Occlusion"
+msgstr "Penyumbatan Kabur"
+
+#: ../plugins/blur/blur.xml.in.h:29
+msgid "Disable blurring of screen regions obscured by other windows."
+msgstr ""
+"Lumpuhkan fungsi kekaburan pada kawasan skrin yang dihalang oleh tetingkap "
+"lain."
+
+#: ../plugins/blur/blur.xml.in.h:30
+msgid "Independent texture fetch"
+msgstr "Perolehan tekstur bebas"
+
+#: ../plugins/blur/blur.xml.in.h:31
+msgid ""
+"Use the available texture units to do as many as possible independent "
+"texture fetches."
+msgstr ""
+"Guna unit tekstur tersedia untuk buat sebanyak mungkin perolehan tekstur "
+"bebas."
+
+#: ../plugins/clone/clone.xml.in.h:1
+msgid "Clone Output"
+msgstr "Klon Output"
+
+#: ../plugins/clone/clone.xml.in.h:2
+msgid "Output clone handler"
+msgstr "Pengendali klon output"
+
+#: ../plugins/bench/bench.xml.in.h:4 ../plugins/clone/clone.xml.in.h:3
+#: ../plugins/mag/mag.xml.in.h:4 ../plugins/rotate/rotate.xml.in.h:32
+#: ../plugins/screenshot/screenshot.xml.in.h:3
+#: ../plugins/showmouse/showmouse.xml.in.h:6 ../plugins/water/water.xml.in.h:3
+msgid "Initiate"
+msgstr "Awalkan"
+
+#: ../plugins/clone/clone.xml.in.h:4
+msgid "Initiate clone selection"
+msgstr "Awalkan pemilihan klon"
+
+#: ../plugins/commands/commands.xml.in.h:1
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:7
+#: ../plugins/matecompat/matecompat.xml.in.h:7
+msgid "Commands"
+msgstr "Perintah"
+
+#: ../plugins/commands/commands.xml.in.h:2
+msgid "Assigns bindings to arbitrary commands"
+msgstr "Umpuk pengikatan ke perintah arbitari"
+
+#: ../plugins/commands/commands.xml.in.h:3
+msgid "Command line 0"
+msgstr "Baris perintah 0"
+
+#: ../plugins/commands/commands.xml.in.h:4
+msgid "Command line to be executed in shell when run_command0 is invoked"
+msgstr ""
+"Baris perintah untuk dilakukan dalam shell bila baris_perintah0 diseru"
+
+#: ../plugins/commands/commands.xml.in.h:5
+msgid "Command line 1"
+msgstr "Baris perintah 1"
+
+#: ../plugins/commands/commands.xml.in.h:6
+msgid "Command line to be executed in shell when run_command1 is invoked"
+msgstr ""
+"Baris perintah untuk dilakukan dalam shell bila baris_perintah1 diseru"
+
+#: ../plugins/commands/commands.xml.in.h:7
+msgid "Command line 2"
+msgstr "Baris perintah 2"
+
+#: ../plugins/commands/commands.xml.in.h:8
+msgid "Command line to be executed in shell when run_command2 is invoked"
+msgstr ""
+"Baris perintah untuk dilakukan dalam shell bila baris_perintah2 diseru"
+
+#: ../plugins/commands/commands.xml.in.h:9
+msgid "Command line 3"
+msgstr "Baris perintah 3"
+
+#: ../plugins/commands/commands.xml.in.h:10
+msgid "Command line to be executed in shell when run_command3 is invoked"
+msgstr ""
+"Baris perintah untuk dilakukan dalam shell bila baris_perintah3 diseru"
+
+#: ../plugins/commands/commands.xml.in.h:11
+msgid "Command line 4"
+msgstr "Baris perintah 4"
+
+#: ../plugins/commands/commands.xml.in.h:12
+msgid "Command line to be executed in shell when run_command4 is invoked"
+msgstr ""
+"Baris perintah untuk dilakukan dalam shell bila baris_perintah4 diseru"
+
+#: ../plugins/commands/commands.xml.in.h:13
+msgid "Command line 5"
+msgstr "Baris perintah 5"
+
+#: ../plugins/commands/commands.xml.in.h:14
+msgid "Command line to be executed in shell when run_command5 is invoked"
+msgstr ""
+"Baris perintah untuk dilakukan dalam shell bila baris_perintah5 diseru"
+
+#: ../plugins/commands/commands.xml.in.h:15
+msgid "Command line 6"
+msgstr "Baris perintah 6"
+
+#: ../plugins/commands/commands.xml.in.h:16
+msgid "Command line to be executed in shell when run_command6 is invoked"
+msgstr ""
+"Baris perintah untuk dilakukan dalam shell bila baris_perintah6 diseru"
+
+#: ../plugins/commands/commands.xml.in.h:17
+msgid "Command line 7"
+msgstr "Baris perintah 7"
+
+#: ../plugins/commands/commands.xml.in.h:18
+msgid "Command line to be executed in shell when run_command7 is invoked"
+msgstr ""
+"Baris perintah untuk dilakukan dalam shell bila baris_perintah7 diseru"
+
+#: ../plugins/commands/commands.xml.in.h:19
+msgid "Command line 8"
+msgstr "Baris perintah 8"
+
+#: ../plugins/commands/commands.xml.in.h:20
+msgid "Command line to be executed in shell when run_command8 is invoked"
+msgstr ""
+"Baris perintah untuk dilakukan dalam shell bila baris_perintah8 diseru"
+
+#: ../plugins/commands/commands.xml.in.h:21
+msgid "Command line 9"
+msgstr "Baris perintah 9"
+
+#: ../plugins/commands/commands.xml.in.h:22
+msgid "Command line to be executed in shell when run_command9 is invoked"
+msgstr ""
+"Baris perintah untuk dilakukan dalam shell bila baris_perintah9 diseru"
+
+#: ../plugins/commands/commands.xml.in.h:23
+msgid "Command line 10"
+msgstr "Baris perintah 10"
+
+#: ../plugins/commands/commands.xml.in.h:24
+msgid "Command line to be executed in shell when run_command10 is invoked"
+msgstr ""
+"Baris perintah untuk dilakukan dalam shell bila baris_perintah10 diseru"
+
+#: ../plugins/commands/commands.xml.in.h:25
+msgid "Command line 11"
+msgstr "Baris perintah 11"
+
+#: ../plugins/commands/commands.xml.in.h:26
+msgid "Command line to be executed in shell when run_command11 is invoked"
+msgstr ""
+"Baris perintah untuk dilakukan dalam shell bila baris_perintah11 diseru"
+
+#: ../plugins/commands/commands.xml.in.h:27
+msgid "Command line 12"
+msgstr "Baris perintah 12"
+
+#: ../plugins/commands/commands.xml.in.h:28
+msgid "Command line to be executed in shell when run_command12 is invoked"
+msgstr ""
+"Baris perintah untuk dilakukan dalam shell bila baris_perintah12 diseru"
+
+#: ../plugins/commands/commands.xml.in.h:29
+msgid "Command line 13"
+msgstr "Baris perintah 13"
+
+#: ../plugins/commands/commands.xml.in.h:30
+msgid "Command line to be executed in shell when run_command13 is invoked"
+msgstr ""
+"Baris perintah untuk dilakukan dalam shell bila baris_perintah13 diseru"
+
+#: ../plugins/commands/commands.xml.in.h:31
+msgid "Command line 14"
+msgstr "Baris perintah 14"
+
+#: ../plugins/commands/commands.xml.in.h:32
+msgid "Command line to be executed in shell when run_command14 is invoked"
+msgstr ""
+"Baris perintah untuk dilakukan dalam shell bila baris_perintah14 diseru"
+
+#: ../plugins/commands/commands.xml.in.h:33
+msgid "Command line 15"
+msgstr "Baris perintah 15"
+
+#: ../plugins/commands/commands.xml.in.h:34
+msgid "Command line to be executed in shell when run_command15 is invoked"
+msgstr ""
+"Baris perintah untuk dilakukan dalam shell bila baris_perintah15 diseru"
+
+#: ../plugins/commands/commands.xml.in.h:35
+msgid "Command line 16"
+msgstr "Baris perintah 16"
+
+#: ../plugins/commands/commands.xml.in.h:36
+msgid "Command line to be executed in shell when run_command16 is invoked"
+msgstr ""
+"Baris perintah untuk dilakukan dalam shell bila baris_perintah16 diseru"
+
+#: ../plugins/commands/commands.xml.in.h:37
+msgid "Command line 17"
+msgstr "Baris perintah 17"
+
+#: ../plugins/commands/commands.xml.in.h:38
+msgid "Command line to be executed in shell when run_command17 is invoked"
+msgstr ""
+"Baris perintah untuk dilakukan dalam shell bila baris_perintah17 diseru"
+
+#: ../plugins/commands/commands.xml.in.h:39
+msgid "Command line 18"
+msgstr "Baris perintah 18"
+
+#: ../plugins/commands/commands.xml.in.h:40
+msgid "Command line to be executed in shell when run_command18 is invoked"
+msgstr ""
+"Baris perintah untuk dilakukan dalam shell bila baris_perintah18 diseru"
+
+#: ../plugins/commands/commands.xml.in.h:41
+msgid "Command line 19"
+msgstr "Baris perintah 19"
+
+#: ../plugins/commands/commands.xml.in.h:42
+msgid "Command line to be executed in shell when run_command19 is invoked"
+msgstr ""
+"Baris perintah untuk dilakukan dalam shell bila baris_perintah19 diseru"
+
+#: ../plugins/commands/commands.xml.in.h:43
+msgid "Command line 20"
+msgstr "Baris perintah 20"
+
+#: ../plugins/commands/commands.xml.in.h:44
+msgid "Command line to be executed in shell when run_command20 is invoked"
+msgstr ""
+"Baris perintah untuk dilakukan dalam shell bila baris_perintah20 diseru"
+
+#: ../plugins/commands/commands.xml.in.h:45
+msgid "Key Bindings"
+msgstr "Pengikatan Kekunci"
+
+#: ../plugins/commands/commands.xml.in.h:46
+msgid "Run command 0"
+msgstr "Jalankan perintah 0"
+
+#: ../plugins/commands/commands.xml.in.h:47
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command0"
+msgstr ""
+"Pengikatan kekunci bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command0"
+
+#: ../plugins/commands/commands.xml.in.h:48
+msgid "Run command 1"
+msgstr "Jalan perintah 1"
+
+#: ../plugins/commands/commands.xml.in.h:49
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command1"
+msgstr ""
+"Pengikatan kekunci bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command1"
+
+#: ../plugins/commands/commands.xml.in.h:50
+msgid "Run command 2"
+msgstr "Jalan perintah 2"
+
+#: ../plugins/commands/commands.xml.in.h:51
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command2"
+msgstr ""
+"Pengikatan kekunci bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command2"
+
+#: ../plugins/commands/commands.xml.in.h:52
+msgid "Run command 3"
+msgstr "Jalan perintah 3"
+
+#: ../plugins/commands/commands.xml.in.h:53
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command3"
+msgstr ""
+"Pengikatan kekunci bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command3"
+
+#: ../plugins/commands/commands.xml.in.h:54
+msgid "Run command 4"
+msgstr "Jalan perintah 4"
+
+#: ../plugins/commands/commands.xml.in.h:55
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command4"
+msgstr ""
+"Pengikatan kekunci bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command4"
+
+#: ../plugins/commands/commands.xml.in.h:56
+msgid "Run command 5"
+msgstr "Jalan perintah 5"
+
+#: ../plugins/commands/commands.xml.in.h:57
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command5"
+msgstr ""
+"Pengikatan kekunci bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command5"
+
+#: ../plugins/commands/commands.xml.in.h:58
+msgid "Run command 6"
+msgstr "Jalan perintah 6"
+
+#: ../plugins/commands/commands.xml.in.h:59
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command6"
+msgstr ""
+"Pengikatan kekunci bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command6"
+
+#: ../plugins/commands/commands.xml.in.h:60
+msgid "Run command 7"
+msgstr "Jalan perintah 7"
+
+#: ../plugins/commands/commands.xml.in.h:61
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command7"
+msgstr ""
+"Pengikatan kekunci bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command7"
+
+#: ../plugins/commands/commands.xml.in.h:62
+msgid "Run command 8"
+msgstr "Jalan perintah 8"
+
+#: ../plugins/commands/commands.xml.in.h:63
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command8"
+msgstr ""
+"Pengikatan kekunci bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command8"
+
+#: ../plugins/commands/commands.xml.in.h:64
+msgid "Run command 9"
+msgstr "Jalan perintah 9"
+
+#: ../plugins/commands/commands.xml.in.h:65
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command9"
+msgstr ""
+"Pengikatan kekunci bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command9"
+
+#: ../plugins/commands/commands.xml.in.h:66
+msgid "Run command 10"
+msgstr "Jalan perintah 10"
+
+#: ../plugins/commands/commands.xml.in.h:67
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command10"
+msgstr ""
+"Pengikatan kekunci bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command10"
+
+#: ../plugins/commands/commands.xml.in.h:68
+msgid "Run command 11"
+msgstr "Jalan perintah 11"
+
+#: ../plugins/commands/commands.xml.in.h:69
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command11"
+msgstr ""
+"Pengikatan kekunci bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command11"
+
+#: ../plugins/commands/commands.xml.in.h:70
+msgid "Run command 12"
+msgstr "Jalan perintah 12"
+
+#: ../plugins/commands/commands.xml.in.h:71
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command12"
+msgstr ""
+"Pengikatan kekunci bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command12"
+
+#: ../plugins/commands/commands.xml.in.h:72
+msgid "Run command 13"
+msgstr "Jalan perintah 13"
+
+#: ../plugins/commands/commands.xml.in.h:73
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command13"
+msgstr ""
+"Pengikatan kekunci bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command13"
+
+#: ../plugins/commands/commands.xml.in.h:74
+msgid "Run command 14"
+msgstr "Jalan perintah 14"
+
+#: ../plugins/commands/commands.xml.in.h:75
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command14"
+msgstr ""
+"Pengikatan kekunci bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command14"
+
+#: ../plugins/commands/commands.xml.in.h:76
+msgid "Run command 15"
+msgstr "Jalan perintah 15"
+
+#: ../plugins/commands/commands.xml.in.h:77
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command15"
+msgstr ""
+"Pengikatan kekunci bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command15"
+
+#: ../plugins/commands/commands.xml.in.h:78
+msgid "Run command 16"
+msgstr "Jalan perintah 16"
+
+#: ../plugins/commands/commands.xml.in.h:79
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command16"
+msgstr ""
+"Pengikatan kekunci bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command16"
+
+#: ../plugins/commands/commands.xml.in.h:80
+msgid "Run command 17"
+msgstr "Jalan perintah 17"
+
+#: ../plugins/commands/commands.xml.in.h:81
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command17"
+msgstr ""
+"Pengikatan kekunci bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command17"
+
+#: ../plugins/commands/commands.xml.in.h:82
+msgid "Run command 18"
+msgstr "Jalan perintah 18"
+
+#: ../plugins/commands/commands.xml.in.h:83
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command18"
+msgstr ""
+"Pengikatan kekunci bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command18"
+
+#: ../plugins/commands/commands.xml.in.h:84
+msgid "Run command 19"
+msgstr "Jalan perintah 19"
+
+#: ../plugins/commands/commands.xml.in.h:85
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command19"
+msgstr ""
+"Pengikatan kekunci bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command19"
+
+#: ../plugins/commands/commands.xml.in.h:86
+msgid "Run command 20"
+msgstr "Jalan perintah 20"
+
+#: ../plugins/commands/commands.xml.in.h:87
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command20"
+msgstr ""
+"Pengikatan kekunci bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command20"
+
+#: ../plugins/commands/commands.xml.in.h:88
+msgid "Button Bindings"
+msgstr "Pengikatan Butang"
+
+#: ../plugins/commands/commands.xml.in.h:89
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command0"
+msgstr ""
+"Pengikatan butang bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command0"
+
+#: ../plugins/commands/commands.xml.in.h:90
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command1"
+msgstr ""
+"Pengikatan butang bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command1"
+
+#: ../plugins/commands/commands.xml.in.h:91
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command2"
+msgstr ""
+"Pengikatan butang bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command2"
+
+#: ../plugins/commands/commands.xml.in.h:92
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command3"
+msgstr ""
+"Pengikatan butang bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command3"
+
+#: ../plugins/commands/commands.xml.in.h:93
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command4"
+msgstr ""
+"Pengikatan butang bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command4"
+
+#: ../plugins/commands/commands.xml.in.h:94
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command5"
+msgstr ""
+"Pengikatan butang bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command5"
+
+#: ../plugins/commands/commands.xml.in.h:95
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command6"
+msgstr ""
+"Pengikatan butang bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command6"
+
+#: ../plugins/commands/commands.xml.in.h:96
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command7"
+msgstr ""
+"Pengikatan butang bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command7"
+
+#: ../plugins/commands/commands.xml.in.h:97
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command8"
+msgstr ""
+"Pengikatan butang bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command8"
+
+#: ../plugins/commands/commands.xml.in.h:98
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command9"
+msgstr ""
+"Pengikatan butang bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command9"
+
+#: ../plugins/commands/commands.xml.in.h:99
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command10"
+msgstr ""
+"Pengikatan butang bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command10"
+
+#: ../plugins/commands/commands.xml.in.h:100
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command11"
+msgstr ""
+"Pengikatan butang bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command11"
+
+#: ../plugins/commands/commands.xml.in.h:101
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command12"
+msgstr ""
+"Pengikatan butang bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command12"
+
+#: ../plugins/commands/commands.xml.in.h:102
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command13"
+msgstr ""
+"Pengikatan butang bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command13"
+
+#: ../plugins/commands/commands.xml.in.h:103
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command14"
+msgstr ""
+"Pengikatan butang bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command14"
+
+#: ../plugins/commands/commands.xml.in.h:104
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command15"
+msgstr ""
+"Pengikatan butang bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command15"
+
+#: ../plugins/commands/commands.xml.in.h:105
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command16"
+msgstr ""
+"Pengikatan butang bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command16"
+
+#: ../plugins/commands/commands.xml.in.h:106
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command17"
+msgstr ""
+"Pengikatan butang bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command17"
+
+#: ../plugins/commands/commands.xml.in.h:107
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command18"
+msgstr ""
+"Pengikatan butang bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command18"
+
+#: ../plugins/commands/commands.xml.in.h:108
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command19"
+msgstr ""
+"Pengikatan butang bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command19"
+
+#: ../plugins/commands/commands.xml.in.h:109
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command20"
+msgstr ""
+"Pengikatan butang bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command20"
+
+#: ../plugins/commands/commands.xml.in.h:110
+msgid "Edge Bindings"
+msgstr "Pengikatan Pinggir"
+
+#: ../plugins/commands/commands.xml.in.h:111
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command0"
+msgstr ""
+"Pengikatan pinggir bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command0"
+
+#: ../plugins/commands/commands.xml.in.h:112
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command1"
+msgstr ""
+"Pengikatan pinggir bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command1"
+
+#: ../plugins/commands/commands.xml.in.h:113
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command2"
+msgstr ""
+"Pengikatan pinggir bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command2"
+
+#: ../plugins/commands/commands.xml.in.h:114
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command3"
+msgstr ""
+"Pengikatan pinggir bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command3"
+
+#: ../plugins/commands/commands.xml.in.h:115
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command4"
+msgstr ""
+"Pengikatan pinggir bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command4"
+
+#: ../plugins/commands/commands.xml.in.h:116
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command5"
+msgstr ""
+"Pengikatan pinggir bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command5"
+
+#: ../plugins/commands/commands.xml.in.h:117
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command6"
+msgstr ""
+"Pengikatan pinggir bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command6"
+
+#: ../plugins/commands/commands.xml.in.h:118
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command7"
+msgstr ""
+"Pengikatan pinggir bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command7"
+
+#: ../plugins/commands/commands.xml.in.h:119
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command8"
+msgstr ""
+"Pengikatan pinggir bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command8"
+
+#: ../plugins/commands/commands.xml.in.h:120
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command9"
+msgstr ""
+"Pengikatan pinggir bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command9"
+
+#: ../plugins/commands/commands.xml.in.h:121
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command10"
+msgstr ""
+"Pengikatan pinggir bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command10"
+
+#: ../plugins/commands/commands.xml.in.h:122
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command11"
+msgstr ""
+"Pengikatan pinggir bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command11"
+
+#: ../plugins/commands/commands.xml.in.h:123
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command12"
+msgstr ""
+"Pengikatan pinggir bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command12"
+
+#: ../plugins/commands/commands.xml.in.h:124
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command13"
+msgstr ""
+"Pengikatan pinggir bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command13"
+
+#: ../plugins/commands/commands.xml.in.h:125
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command14"
+msgstr ""
+"Pengikatan pinggir bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command14"
+
+#: ../plugins/commands/commands.xml.in.h:126
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command15"
+msgstr ""
+"Pengikatan pinggir bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command15"
+
+#: ../plugins/commands/commands.xml.in.h:127
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command16"
+msgstr ""
+"Pengikatan pinggir bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command16"
+
+#: ../plugins/commands/commands.xml.in.h:128
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command17"
+msgstr ""
+"Pengikatan pinggir bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command17"
+
+#: ../plugins/commands/commands.xml.in.h:129
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command18"
+msgstr ""
+"Pengikatan pinggir bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command18"
+
+#: ../plugins/commands/commands.xml.in.h:130
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command19"
+msgstr ""
+"Pengikatan pinggir bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command19"
+
+#: ../plugins/commands/commands.xml.in.h:131
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command20"
+msgstr ""
+"Pengikatan pinggir bila diseru, akan jalankan perintah shell yang "
+"dikenalpasti oleh command20"
+
+#: ../plugins/compiztoolbox/compiztoolbox.xml.in.h:1
+msgid "Compiz Library Toolbox"
+msgstr "Kotak Alat Pustaka Compiz"
+
+#: ../plugins/compiztoolbox/compiztoolbox.xml.in.h:2
+msgid "Commonly used routines by plugins separated into a separate library"
+msgstr ""
+"Rutin yang biasa digunakan oleh pemalam yang diasingkan dalam pustaka yang "
+"berasingan"
+
+#: ../plugins/composite/composite.xml.in.h:1
+msgid "Composite"
+msgstr "Komposit"
+
+#: ../plugins/composite/composite.xml.in.h:2
+msgid "Composite plugin"
+msgstr "Pemalam komposit"
+
+#: ../plugins/composite/composite.xml.in.h:3
+msgid "Slow Animations"
+msgstr "Animasi Perlahan"
+
+#: ../plugins/composite/composite.xml.in.h:4
+msgid "Toggle use of slow animations"
+msgstr "Togol untuk guna animasi perlahan"
+
+#: ../plugins/composite/composite.xml.in.h:5
+msgid "Detect Refresh Rate"
+msgstr "Kesan Kadar Segar Semula"
+
+#: ../plugins/composite/composite.xml.in.h:6
+msgid "Automatic detection of refresh rate"
+msgstr "Pengesanan kadar segar semula secara automatik"
+
+#: ../plugins/composite/composite.xml.in.h:7
+msgid "Refresh Rate"
+msgstr "Kadar Segar Semula"
+
+#: ../plugins/composite/composite.xml.in.h:8
+msgid "The rate at which the screen is redrawn (times/second)"
+msgstr "Kadar yang mana skrin dilukis semula (kali/saat)"
+
+#: ../plugins/composite/composite.xml.in.h:9
+msgid "Unredirect Fullscreen Windows"
+msgstr "Nyahubah Hala Tetingkap Berskrin Penuh"
+
+#: ../plugins/composite/composite.xml.in.h:10
+msgid ""
+"Allow drawing of fullscreen windows to not be redirected to offscreen pixmaps"
+msgstr ""
+"Benarkan pelukisan tetingkap berskrin penuh tidak dihala semula ke peta pix "
+"luar skrin"
+
+#: ../plugins/composite/composite.xml.in.h:11
+msgid "Unredirect Match"
+msgstr "Padanan Tidak Langsung"
+
+#: ../plugins/composite/composite.xml.in.h:12
+msgid ""
+"Specifies which windows will be unredirected when they are fullscreen. You "
+"might want to exclude video players for example, to avoid tearing. But this "
+"will be at the expense of performance/frame rate. Note: \"class=\" matching "
+"requires the regex plugin to work."
+msgstr ""
+"Nyatakan tetingkap yang manakah akan menjadi tidak langsung bila ia berskrin "
+"penuh. Anda mungkin mahu asingkan pemain video contohnya, untuk menghindari "
+"pengoyakan. tetapi akan menggugat prestasi/kadar bingkai. Perhatian: "
+"pemadanan \"class=\" memerlukan pemalam regex untuk berfungsi."
+
+#: ../plugins/composite/composite.xml.in.h:13
+msgid "Force independent output painting."
+msgstr "Paksa pengecatan output bebas"
+
+#: ../plugins/composite/composite.xml.in.h:14
+msgid ""
+"Paint each output device independly, even if the output devices overlap"
+msgstr ""
+"Cat setiap peranti output secara bebas, walaupun peranti output bertindan"
+
+#: ../plugins/copytex/copytex.xml.in.h:1
+msgid "Copy to texture"
+msgstr "Salin ke tekstur"
+
+#: ../plugins/copytex/copytex.xml.in.h:2
+msgid "Copy pixmap content to texture"
+msgstr "Salin kandungan peta pix ke tekstur"
+
+#: ../plugins/cube/cube.xml.in.h:1
+msgid "Desktop Cube"
+msgstr "Kiub Desktop"
+
+#: ../plugins/cube/cube.xml.in.h:2
+msgid "Place windows and viewports on a cube"
+msgstr "Letak tetingkap dan port pandang pada kiub"
+
+#: ../plugins/cube/cube.xml.in.h:3
+msgid "Unfold Cube Key"
+msgstr "Buka kekunci Kiub"
+
+#: ../plugins/cube/cube.xml.in.h:4
+msgid "Keyboard shortcut to unfold the cube."
+msgstr "Pintasan papan kekunci untuk membuka kiub."
+
+#: ../plugins/cube/cube.xml.in.h:6 ../plugins/shift/shift.xml.in.h:73
+msgid "Generate mipmaps for higher quality scaling."
+msgstr "Jana peta mip untuk penskalaan kualiti yang lebih tinggi."
+
+#: ../plugins/cube/cube.xml.in.h:7 ../plugins/expo/expo.xml.in.h:54
+#: ../plugins/place/place.xml.in.h:13 ../plugins/scale/scale.xml.in.h:36
+#: ../plugins/shift/shift.xml.in.h:74
+msgid "Multi Output Mode"
+msgstr "Mod Output Berbilang"
+
+#: ../plugins/cube/cube.xml.in.h:8
+msgid ""
+"Select how the cube is displayed, if multiple output devices are used."
+msgstr ""
+"Pilih bagaimana kiub dipapar, jika peranti output berbilang digunakan."
+
+#: ../plugins/animationaddon/animationaddon.xml.in.h:40
+#: ../plugins/cube/cube.xml.in.h:9
+msgid "Automatic"
+msgstr "Automatik"
+
+#: ../plugins/cube/cube.xml.in.h:10
+msgid "Multiple cubes"
+msgstr "Kiub berbilang"
+
+#: ../plugins/cube/cube.xml.in.h:11
+msgid "One big cube"
+msgstr "Satu kiub besar"
+
+#: ../plugins/cube/cube.xml.in.h:12 ../plugins/cubeaddon/cubeaddon.xml.in.h:51
+#: ../plugins/expo/expo.xml.in.h:20 ../plugins/scale/scale.xml.in.h:25
+#: ../plugins/scaleaddon/scaleaddon.xml.in.h:33
+#: ../plugins/scalefilter/scalefilter.xml.in.h:3
+#: ../plugins/snap/snap.xml.in.h:10
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:23
+#: ../plugins/trailfocus/trailfocus.xml.in.h:3
+#: ../plugins/widget/widget.xml.in.h:5
+msgid "Behaviour"
+msgstr "Kelakuan"
+
+#: ../plugins/cube/cube.xml.in.h:13
+msgid "Inside Cube"
+msgstr "Dalam Kiub"
+
+#: ../plugins/cube/cube.xml.in.h:14
+msgid "Place the camera inside the cube."
+msgstr "Letak kamera didalam kiub."
+
+#: ../plugins/cube/cube.xml.in.h:15
+msgid "Fold Acceleration"
+msgstr "Pecutan Lipat"
+
+#: ../plugins/cube/cube.xml.in.h:16
+msgid "The acceleration of folding and unfolding."
+msgstr "Pemecutan melipat dan menyahlipat."
+
+#: ../plugins/cube/cube.xml.in.h:17
+msgid "Fold Speed"
+msgstr "Kelajuan Lipat"
+
+#: ../plugins/cube/cube.xml.in.h:18
+msgid "The speed of folding and unfolding."
+msgstr "Kelajuan melipat dan menyahlipat."
+
+#: ../plugins/cube/cube.xml.in.h:19 ../plugins/ezoom/ezoom.xml.in.h:144
+#: ../plugins/mag/mag.xml.in.h:17 ../plugins/put/put.xml.in.h:88
+#: ../plugins/ring/ring.xml.in.h:33 ../plugins/rotate/rotate.xml.in.h:28
+#: ../plugins/scale/scale.xml.in.h:14 ../plugins/shift/shift.xml.in.h:43
+#: ../plugins/showdesktop/showdesktop.xml.in.h:6
+#: ../plugins/stackswitch/stackswitch.xml.in.h:18
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:26
+#: ../plugins/switcher/switcher.xml.in.h:21 ../plugins/trip/trip.xml.in.h:25
+msgid "Timestep"
+msgstr "Langkah Masa"
+
+#: ../plugins/cube/cube.xml.in.h:20
+msgid "The timestep of folding and unfolding."
+msgstr "Langkah masa melipat dan menyahlipat."
+
+#: ../plugins/cube/cube.xml.in.h:21 ../plugins/expo/expo.xml.in.h:31
+#: ../plugins/grid/grid.xml.in.h:69 ../plugins/group/group.xml.in.h:91
+#: ../plugins/move/move.xml.in.h:21 ../plugins/scale/scale.xml.in.h:3
+#: ../plugins/scaleaddon/scaleaddon.xml.in.h:11
+#: ../plugins/scalefilter/scalefilter.xml.in.h:10
+#: ../plugins/shift/shift.xml.in.h:50
+#: ../plugins/showdesktop/showdesktop.xml.in.h:27
+#: ../plugins/splash/splash.xml.in.h:13
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:38
+#: ../plugins/trailfocus/trailfocus.xml.in.h:10
+#: ../plugins/widget/widget.xml.in.h:10
+#: ../plugins/workspacenames/workspacenames.xml.in.h:9
+msgid "Appearance"
+msgstr "Penampilan"
+
+#: ../plugins/cube/cube.xml.in.h:22
+msgid "Cube Cap Colors"
+msgstr "Warna Penutup Kiub"
+
+#: ../plugins/cube/cube.xml.in.h:23 ../plugins/cubeaddon/cubeaddon.xml.in.h:72
+msgid "Top"
+msgstr "Atas"
+
+#: ../plugins/cube/cube.xml.in.h:24
+msgid "Color and opacity of top face of the cube."
+msgstr "Warna dan kelegapan permukaan atas kiub."
+
+#: ../plugins/cube/cube.xml.in.h:25 ../plugins/cubeaddon/cubeaddon.xml.in.h:75
+msgid "Bottom"
+msgstr "Bawah"
+
+#: ../plugins/cube/cube.xml.in.h:26
+msgid "Color and opacity of bottom face of the cube."
+msgstr "Warna dan kelegapan permukaan bawah kiub."
+
+#: ../plugins/cube/cube.xml.in.h:27
+msgid "Skydome"
+msgstr "Kubah Langit"
+
+#: ../plugins/cube/cube.xml.in.h:28
+msgid "Render a specified skydome texture."
+msgstr "Terap tekstur kubah langit tertentu."
+
+#: ../plugins/cube/cube.xml.in.h:29
+msgid "Skydome Image"
+msgstr "Imej Kubah Langit"
+
+#: ../plugins/cube/cube.xml.in.h:30
+msgid "Image to use as texture for the skydome."
+msgstr "Imej yang digunakan sebagai tekstur untuk kubah langit."
+
+#: ../plugins/cube/cube.xml.in.h:31
+msgid "Animate Skydome"
+msgstr "Animasikan Kubah Langit"
+
+#: ../plugins/cube/cube.xml.in.h:32
+msgid "Animate the skydome when rotating the cube."
+msgstr "Animasikan kubah langit bila memutar kiub."
+
+#: ../plugins/cube/cube.xml.in.h:33
+msgid "Skydome Gradient Start Color"
+msgstr "Warna Mula Gradien Kubah Langit"
+
+#: ../plugins/cube/cube.xml.in.h:34
+msgid ""
+"Color and opacity to use for the top color-stop of the skydome-fallback "
+"gradient."
+msgstr ""
+"Warna dan kelegapan yang diguna untuk hentian-warna atas bagi gradien jatuh "
+"balik kubah langit."
+
+#: ../plugins/cube/cube.xml.in.h:35
+msgid "Skydome Gradient End Color"
+msgstr "Warna Tamat Gradien Kubah Langit"
+
+#: ../plugins/cube/cube.xml.in.h:36
+msgid ""
+"Color and opacity to use for the bottom color-stop of the skydome-fallback "
+"gradient."
+msgstr ""
+"Warna dan kelegapan yang diguna untuk hentian-warna bawah bagi gradien jatuh "
+"balik kubah langit."
+
+#: ../plugins/cube/cube.xml.in.h:37
+msgid "Transparent Cube"
+msgstr "Kiub Lutsinar"
+
+#: ../plugins/cube/cube.xml.in.h:38
+msgid "Opacity During Rotation"
+msgstr "Kelegapan Semasa Putaran"
+
+#: ../plugins/cube/cube.xml.in.h:39
+msgid "Opacity of the desktop during cube rotation (in percent)."
+msgstr "Kelegapan dekstop semasa putaran kiub (dalam peratus)."
+
+#: ../plugins/cube/cube.xml.in.h:40
+msgid "Non Rotating Opacity"
+msgstr "Kelegapan Tidak Berputar"
+
+#: ../plugins/cube/cube.xml.in.h:41
+msgid "Opacity of the desktop when not rotating the cube (in percent)."
+msgstr "Kelegapan dekstop bila tidak memutarkan kiub (dalam peratus)."
+
+#: ../plugins/cube/cube.xml.in.h:42
+msgid "Transparency Only On Mouse Rotate"
+msgstr "Kelutsinaran Hanya Bila Putar Guna Tetikus"
+
+#: ../plugins/cube/cube.xml.in.h:43
+msgid "Initiates cube transparency only, if the rotation is mouse driven."
+msgstr "Memulakan kelutsinaran kiub sahaja, jika putaran dipacu tetikus."
+
+#: ../plugins/dbus/dbus.xml.in.h:1
+msgid "D-Bus"
+msgstr "D-Bus"
+
+#: ../plugins/dbus/dbus.xml.in.h:2
+msgid "D-Bus Control Backend"
+msgstr "Bahagian Belakang Kawalan D-Bus"
+
+#: ../plugins/decor/decor.xml.in.h:1
+msgid "Window Decoration"
+msgstr "Hiasan Tetingkap"
+
+#: ../plugins/decor/decor.xml.in.h:2
+msgid "Window decorations"
+msgstr "Hiasan tetingkap"
+
+#: ../plugins/decor/decor.xml.in.h:3
+msgid "Active Shadow"
+msgstr "Bayang Aktif"
+
+#: ../plugins/decor/decor.xml.in.h:4
+msgid "Shadow Radius"
+msgstr "Jejari Bayang"
+
+#: ../plugins/decor/decor.xml.in.h:5
+msgid "Drop shadow radius"
+msgstr "Jejari bayang jatuh"
+
+#: ../plugins/decor/decor.xml.in.h:6
+msgid "Shadow Opacity"
+msgstr "Kelegapan Bayang"
+
+#: ../plugins/decor/decor.xml.in.h:7
+msgid "Drop shadow opacity"
+msgstr "Kelegapan letak bayang"
+
+#: ../plugins/decor/decor.xml.in.h:8 ../plugins/wall/wall.xml.in.h:24
+msgid "Shadow Color"
+msgstr "Warna Bayang"
+
+#: ../plugins/decor/decor.xml.in.h:9
+msgid "Drop shadow color"
+msgstr "Warna letak bayang"
+
+#: ../plugins/decor/decor.xml.in.h:10
+msgid "Shadow Offset X"
+msgstr "Ofset X Bayang"
+
+#: ../plugins/decor/decor.xml.in.h:11
+msgid "Drop shadow X offset"
+msgstr "Ofset X  letak bayang"
+
+#: ../plugins/decor/decor.xml.in.h:12
+msgid "Shadow Offset Y"
+msgstr "Ofset Y Bayang"
+
+#: ../plugins/decor/decor.xml.in.h:13
+msgid "Drop shadow Y offset"
+msgstr "Ofset Y letak bayang"
+
+#: ../plugins/decor/decor.xml.in.h:14
+msgid "Inactive Shadow"
+msgstr "Bayang Tidak Aktif"
+
+#: ../plugins/decor/decor.xml.in.h:15
+msgid "Command"
+msgstr "Perintah"
+
+#: ../plugins/decor/decor.xml.in.h:16
+msgid ""
+"Decorator command line that is executed if no decorator is already running."
+msgstr "Baris perintah penghias yang dilakukan jika tiada penghias berjalan."
+
+#: ../plugins/decor/decor.xml.in.h:18
+msgid "Allow mipmaps to be generated for decoration textures"
+msgstr "Benarkan peta mip dijana untuk tekstur hiasan"
+
+#: ../plugins/decor/decor.xml.in.h:19
+msgid "Decoration windows"
+msgstr "Hiasan Tetingkap"
+
+#: ../plugins/decor/decor.xml.in.h:20
+msgid "Windows that should be decorated"
+msgstr "Tetingkap yang patut dihias"
+
+#: ../plugins/decor/decor.xml.in.h:21
+msgid "Shadow windows"
+msgstr "Bayang tetingkap"
+
+#: ../plugins/decor/decor.xml.in.h:22
+msgid "Windows that should have a shadow"
+msgstr "Tetingkap yang patut mempunyai bayang"
+
+#: ../plugins/fade/fade.xml.in.h:1
+msgid "Fading Windows"
+msgstr "Pemudaran Tetingkap"
+
+#: ../plugins/fade/fade.xml.in.h:2
+msgid "Fade in windows when mapped and fade out windows when unmapped"
+msgstr ""
+"Resap jelma dalam tetingkap bila dipetakan dan resap lenyap bila dinyahpeta"
+
+#: ../plugins/fade/fade.xml.in.h:3
+msgid "Fade Mode"
+msgstr "Mod Pudar"
+
+#: ../plugins/fade/fade.xml.in.h:4
+msgid "Window fade mode"
+msgstr "Mod resap tetingkap"
+
+#: ../plugins/fade/fade.xml.in.h:5
+msgid "Constant speed"
+msgstr "Kelajuan malar"
+
+#: ../plugins/fade/fade.xml.in.h:6
+msgid "Constant time"
+msgstr "Masa malar"
+
+#: ../plugins/fade/fade.xml.in.h:7 ../plugins/shift/shift.xml.in.h:39
+msgid "Fade Speed"
+msgstr "Kelajuan Pudar"
+
+#: ../plugins/fade/fade.xml.in.h:8
+msgid "Window fade speed"
+msgstr "Kelajuan resap tetingkap"
+
+#: ../plugins/fade/fade.xml.in.h:9
+#: ../plugins/fadedesktop/fadedesktop.xml.in.h:3
+#: ../plugins/resizeinfo/resizeinfo.xml.in.h:3
+#: ../plugins/splash/splash.xml.in.h:14 ../plugins/widget/widget.xml.in.h:11
+#: ../plugins/workspacenames/workspacenames.xml.in.h:12
+msgid "Fade Time"
+msgstr "Masa Pudar"
+
+#: ../plugins/fade/fade.xml.in.h:10
+msgid "Window fade time (in ms) in \"Constant time\" mode"
+msgstr "Masa tresap tetingkap (dalam ms) dalam mod \"Masa malar\""
+
+#: ../plugins/fade/fade.xml.in.h:11
+msgid "Fade windows"
+msgstr "Tetingkap pudar"
+
+#: ../plugins/fade/fade.xml.in.h:12
+msgid "Windows that should be fading"
+msgstr "Tetingkap yang sepatutnya resap"
+
+#: ../plugins/fade/fade.xml.in.h:13
+msgid "Visual Bell"
+msgstr "Visual Bell"
+
+#: ../plugins/fade/fade.xml.in.h:14
+msgid "Fade effect on system beep"
+msgstr "kesan pudar pada beep sistem"
+
+#: ../plugins/fade/fade.xml.in.h:15
+msgid "Fullscreen Visual Bell"
+msgstr "Visual Bell Berskrin Penuh"
+
+#: ../plugins/fade/fade.xml.in.h:16
+msgid "Fullscreen fade effect on system beep"
+msgstr "Kesap resap berskrin penuh bil sistem bip"
+
+#: ../plugins/fade/fade.xml.in.h:17
+msgid "Dim Unresponsive Windows"
+msgstr "Malapkan Tetingkap Tidak Bertindakbalas"
+
+#: ../plugins/fade/fade.xml.in.h:18
+msgid "Dim windows that are not responding to window manager requests"
+msgstr ""
+"Malapkan tetingkap tidak bertindakbalas berdasarkan permintaan pengurus "
+"tetingkap"
+
+#: ../plugins/fade/fade.xml.in.h:19
+msgid "Unresponsive Window Brightness"
+msgstr "Kecerahan Tetingkap Tanpa Responsif"
+
+#: ../plugins/fade/fade.xml.in.h:21
+#, no-c-format
+msgid "Brightness (in %) of unresponsive windows"
+msgstr "Kecerahan (dalam %) bagi tetingkap tidak bertindakbalas"
+
+#: ../plugins/fade/fade.xml.in.h:22
+msgid "Unresponsive Window Saturation"
+msgstr "Ketepuan Tetingkap Tanpa Responsif"
+
+#: ../plugins/fade/fade.xml.in.h:24
+#, no-c-format
+msgid "Saturation (in %) of unresponsive windows"
+msgstr "Ketepuan (dalam %) bagi tetingkap tanpa responsif"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:1
+msgid "Gnome Compatibility"
+msgstr "Keserasian Gnome"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:2
+msgid "Options that keep Compiz compatible to the Gnome desktop environment"
+msgstr ""
+"Pilihan yang memastikan Compiz serasi dengan persekitaran dekstop Gnome"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:3
+#: ../plugins/matecompat/matecompat.xml.in.h:3
+msgid "Show Main Menu"
+msgstr "Papar Menu Utama"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:4
+#: ../plugins/matecompat/matecompat.xml.in.h:4
+msgid "Show the main menu"
+msgstr "Paparkan menu utama"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:5
+#: ../plugins/matecompat/matecompat.xml.in.h:5
+msgid "Run Dialog"
+msgstr "Jalankan Dialog"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:6
+#: ../plugins/matecompat/matecompat.xml.in.h:6
+msgid "Show Run Application dialog"
+msgstr "Papar dialog Jalan Aplikasi"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:8
+#: ../plugins/matecompat/matecompat.xml.in.h:8
+msgid "Screenshot command line"
+msgstr "Baris perintah cekupan skrin"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:9
+#: ../plugins/matecompat/matecompat.xml.in.h:9
+msgid "Take a screenshot"
+msgstr "Ambil cekupan skrin"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:10
+#: ../plugins/matecompat/matecompat.xml.in.h:10
+msgid "Window screenshot command line"
+msgstr "Baris perintah cekupan skrin tetingkap"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:11
+#: ../plugins/matecompat/matecompat.xml.in.h:11
+msgid "Take a screenshot of a window"
+msgstr "Ambil cekupan skrin tetingkap"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:12
+#: ../plugins/matecompat/matecompat.xml.in.h:12
+msgid "Run terminal command"
+msgstr "Jalankan perintah terminal"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:13
+#: ../plugins/matecompat/matecompat.xml.in.h:13
+msgid "Terminal command line"
+msgstr "Baris perintah terminal"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:14
+#: ../plugins/matecompat/matecompat.xml.in.h:14
+msgid "Open a terminal"
+msgstr "Buka terminal"
+
+#: ../plugins/imgpng/imgpng.xml.in.h:1
+msgid "PNG"
+msgstr "PNG"
+
+#: ../plugins/imgpng/imgpng.xml.in.h:2
+msgid "PNG image loader"
+msgstr "Pemuat imej PNG"
+
+#: ../plugins/imgsvg/imgsvg.xml.in.h:1
+msgid "SVG"
+msgstr "SVG"
+
+#: ../plugins/imgsvg/imgsvg.xml.in.h:2
+msgid "SVG image loader"
+msgstr "Pemuat imej SVG"
+
+#: ../plugins/imgsvg/imgsvg.xml.in.h:3
+msgid "Set overlay"
+msgstr "Tetapkan tindihan atas"
+
+#: ../plugins/imgsvg/imgsvg.xml.in.h:4
+msgid "Set window overlay"
+msgstr "Tetapkan tindihan atas tetingkap"
+
+#: ../plugins/inotify/inotify.xml.in.h:1
+msgid "File Watcher"
+msgstr "Pemantau Fail"
+
+#: ../plugins/inotify/inotify.xml.in.h:2
+msgid "File change notification plugin"
+msgstr "Pemalam pemberitahuan perubahan fail"
+
+#: ../plugins/kde/kde.xml.in.h:1
+msgid "KDE/Qt Event Loop"
+msgstr "Gelung Peristiwa KDE/Qt"
+
+#: ../plugins/kde/kde.xml.in.h:2
+msgid "Integrates the KDE/Qt event loop into Compiz"
+msgstr "Sepadukan gelung peristiwa KDE/Qt ke dalam Compiz"
+
+#: ../plugins/move/move.xml.in.h:1
+msgid "Move Window"
+msgstr "Alih Tetingkap"
+
+#: ../plugins/move/move.xml.in.h:2
+msgid "Move your windows around"
+msgstr "Gerak tetingkap anda di sekeliling"
+
+#: ../plugins/move/move.xml.in.h:3
+msgid "Initiate Window Move"
+msgstr "Mulakan Gerakan Tetingkap"
+
+#: ../plugins/move/move.xml.in.h:4
+msgid "Start moving window"
+msgstr "Mula mengalihkan tetingkap"
+
+#: ../plugins/move/move.xml.in.h:5
+msgid "Moving Window Opacity"
+msgstr "Menggerakkan Kelegapan Tetingkap"
+
+#: ../plugins/move/move.xml.in.h:6
+msgid "Opacity level of moving windows (in percent)."
+msgstr "Aras kelegapan tetingkap bergerak (dalam peratus)."
+
+#: ../plugins/move/move.xml.in.h:7
+msgid "Keyboard Move Increment"
+msgstr "Tokokan Gerakan Papan Kekunci"
+
+#: ../plugins/move/move.xml.in.h:8
+msgid ""
+"Move the window by this amount of pixels for every press on one of the "
+"cursor keys."
+msgstr ""
+"Gerak tetingak dengan sejumlah piksel ini bagi setiap tekan pada salah satu "
+"kekunci kursor."
+
+#: ../plugins/move/move.xml.in.h:9
+msgid "Constrain Y"
+msgstr "Kekang Y"
+
+#: ../plugins/move/move.xml.in.h:10
+msgid "Constrain y-coordinate to workspace area."
+msgstr "Kekang koordinat-y ke kawasan ruang kerja."
+
+#: ../plugins/move/move.xml.in.h:11
+msgid "Snapoff Semimaximized Windows"
+msgstr "Tanggalkan Tetingkap Semi-Maksimum"
+
+#: ../plugins/move/move.xml.in.h:12
+msgid "Snapoff and auto-restore semimaximized windows when dragging them."
+msgstr ""
+"Tanggalkan dan pulih-sendiri tetingkap semi-maksimum bila menyeretnya."
+
+#: ../plugins/move/move.xml.in.h:13
+msgid "Snapoff Distance"
+msgstr "Jarak Tanggal"
+
+#: ../plugins/move/move.xml.in.h:14
+msgid ""
+"Distance of pixels you have to drag a snapped semimaximized window to unsnap "
+"it."
+msgstr ""
+"Jarak piksel yang anda perlu seret tetingkap semi-maksimum terlekat menjadi "
+"tertanggal."
+
+#: ../plugins/move/move.xml.in.h:15
+msgid "Snapback Semimaximized Windows"
+msgstr "Lekat Kembali Tetingkap Semi-Maksimum"
+
+#: ../plugins/move/move.xml.in.h:16
+msgid ""
+"Snapback and re-maximize semimaximized windows when dragging them back."
+msgstr ""
+"Lekat kembali dan maksimum semula tetingkap semi-maksimum bila menyeretnya "
+"kembali"
+
+#: ../plugins/move/move.xml.in.h:17
+msgid "Snapback Distance"
+msgstr "Jarak Lekat Semula"
+
+#: ../plugins/move/move.xml.in.h:18
+msgid ""
+"Number of pixels from top or sides to snap back semimaximized windows."
+msgstr ""
+"Bilangan piksel dari atas atau sisi untuk lekat kembali tetingkap semi-"
+"maksimum."
+
+#: ../plugins/move/move.xml.in.h:19
+msgid "Lazy Positioning"
+msgstr "kedudukan Malas"
+
+#: ../plugins/move/move.xml.in.h:20
+msgid ""
+"Do not update the server-side position of windows until finished moving."
+msgstr ""
+"Jangan kemaskini kedudukan sisi-pelayang tetingkap sehingga selesai bergerak."
+
+#: ../plugins/move/move.xml.in.h:22
+msgid "Default Moving Window Mode"
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:23
+msgid "Default mode used for window moving."
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:25 ../plugins/resize/resize.xml.in.h:9
+msgid "Outline"
+msgstr "Garis Luar"
+
+#: ../plugins/move/move.xml.in.h:26 ../plugins/resize/resize.xml.in.h:10
+msgid "Rectangle"
+msgstr "Segiempat"
+
+#: ../plugins/move/move.xml.in.h:31 ../plugins/resize/resize.xml.in.h:16
+msgid "Border Color"
+msgstr "Warna Sempadan"
+
+#: ../plugins/move/move.xml.in.h:32
+msgid "Border color used for outline and rectangle moving modes"
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:33 ../plugins/resize/resize.xml.in.h:18
+msgid "Fill Color"
+msgstr "Warna Isian"
+
+#: ../plugins/move/move.xml.in.h:34
+msgid "Fill color used for rectangle moving mode"
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:35
+msgid "Enable Transparency"
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:36
+msgid "Enable or disable blending."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:1
+msgid "Opacity, Brightness and Saturation"
+msgstr "Kelegapan, Kecerahan dan Ketepuan"
+
+#: ../plugins/obs/obs.xml.in.h:2
+msgid "Per window adjustments of opacity, brightness and saturation"
+msgstr "Pelarasan per tetingkap bagi kelegapan, kecerahan dan ketepuan"
+
+#: ../plugins/addhelper/addhelper.xml.in.h:15
+#: ../plugins/group/group.xml.in.h:50 ../plugins/loginout/loginout.xml.in.h:12
+#: ../plugins/obs/obs.xml.in.h:3 ../plugins/scale/scale.xml.in.h:18
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:43
+#: ../plugins/switcher/switcher.xml.in.h:33
+#: ../plugins/trailfocus/trailfocus.xml.in.h:11
+msgid "Opacity"
+msgstr "Kelegapan"
+
+#: ../plugins/obs/obs.xml.in.h:4
+msgid "Increase Opacity Key"
+msgstr "Tingkatkan Kunci Kelegapan"
+
+#: ../plugins/obs/obs.xml.in.h:5
+msgid "Increase the opacity of the selected window."
+msgstr "Tingkatkan kelegapan bagi tetingkap terpilih."
+
+#: ../plugins/obs/obs.xml.in.h:6
+msgid "Increase Opacity Button"
+msgstr "Tingkatkan Butang Kelegapan"
+
+#: ../plugins/obs/obs.xml.in.h:7
+msgid "Increase the opacity of the window the pointer hovers."
+msgstr "Tingkatkan kelegapan apung penuding di atas tetingkap."
+
+#: ../plugins/obs/obs.xml.in.h:8
+msgid "Decrease Opacity Key"
+msgstr "Kurangkan Kunci Kelegapan"
+
+#: ../plugins/obs/obs.xml.in.h:9
+msgid "Decrease the opacity of the selected window."
+msgstr "Kurangkan kelegapan tetingkap terpilih."
+
+#: ../plugins/obs/obs.xml.in.h:10
+msgid "Decrease Opacity Button"
+msgstr "Kurangkan Kelegapan Butang"
+
+#: ../plugins/obs/obs.xml.in.h:11
+msgid "Decrease the opacity of the window the pointer hovers."
+msgstr "Kurangkan kelegapan bagi tetingkap bila penuding diatasnya."
+
+#: ../plugins/obs/obs.xml.in.h:12
+msgid "New window default opacity value"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:13
+msgid "Default opacity when a new window is created (in percent)."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:14
+msgid "Step Size"
+msgstr "Saiz Langkah"
+
+#: ../plugins/obs/obs.xml.in.h:15
+msgid "Opacity increment and decrement amount (in percent)."
+msgstr "Jumlah tokokan dan pengurangan kelegpan (dalam peratus)."
+
+#: ../plugins/obs/obs.xml.in.h:16
+msgid "Window Specific Settings"
+msgstr "Tetapan Spesifik Tetingkap"
+
+#: ../plugins/obs/obs.xml.in.h:18
+msgid "Windows that should have a specific default opacity."
+msgstr "Tetingkap seharusnya mempunyai kelegapan lalai khusus."
+
+#: ../plugins/obs/obs.xml.in.h:19
+msgid "Window values"
+msgstr "Nilai tetingkap"
+
+#: ../plugins/obs/obs.xml.in.h:20
+msgid "Opacity value for the windows (in percent)."
+msgstr "Nilai kelegapan bagi tetingkap (dalam peratus)."
+
+#: ../plugins/addhelper/addhelper.xml.in.h:11 ../plugins/expo/expo.xml.in.h:58
+#: ../plugins/group/group.xml.in.h:54 ../plugins/loginout/loginout.xml.in.h:10
+#: ../plugins/obs/obs.xml.in.h:21 ../plugins/splash/splash.xml.in.h:20
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:41
+#: ../plugins/switcher/switcher.xml.in.h:31
+#: ../plugins/trailfocus/trailfocus.xml.in.h:16
+msgid "Brightness"
+msgstr "Kecerahan"
+
+#: ../plugins/obs/obs.xml.in.h:22
+msgid "Increase Brightness Key"
+msgstr "Tingkatkan Kecerahan Kekunci"
+
+#: ../plugins/obs/obs.xml.in.h:23
+msgid "Increase the brightness of the selected window."
+msgstr "Tingkatkan kecerahan bagi tetingkap terpilih."
+
+#: ../plugins/obs/obs.xml.in.h:24
+msgid "Increase Brightness Button"
+msgstr "Tingkatkan Kecerahan Butang"
+
+#: ../plugins/obs/obs.xml.in.h:25
+msgid "Increase the brightness of the window the pointer hovers."
+msgstr "Tingkatkan kecerahan tetingkap bila penuding diatasnya."
+
+#: ../plugins/obs/obs.xml.in.h:26
+msgid "Decrease Brightness Key"
+msgstr "Kurangkan Kecerahan Kekunci"
+
+#: ../plugins/obs/obs.xml.in.h:27
+msgid "Decrease the brightness of the selected window."
+msgstr "Kurangkan kecerahan tetingkap terpilih."
+
+#: ../plugins/obs/obs.xml.in.h:28
+msgid "Decrease Brightness Button"
+msgstr "Kurangkan Kecerahan Butang"
+
+#: ../plugins/obs/obs.xml.in.h:29
+msgid "Decrease the brightness of the window the pointer hovers."
+msgstr "Kurangkan kecerahan tetingkap bila penuding diatasnya."
+
+#: ../plugins/obs/obs.xml.in.h:30
+msgid "New window default brightness value"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:31
+msgid "Default brightness when a new window is created (in percent)."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:32
+msgid "Brightness increment and decrement amount (in percent)."
+msgstr "Jumlah tokokan dan pengurangan kecerahan (dalam peratus)."
+
+#: ../plugins/obs/obs.xml.in.h:33
+msgid "Windows that should have a specific default brightness."
+msgstr "Tetingkap seharusnya mempunyai kecerahan lalai khusus."
+
+#: ../plugins/obs/obs.xml.in.h:34
+msgid "Brightness value for windows (in percent)."
+msgstr "Nilai kecerahan untuk tetingkap (dalam peratus)."
+
+#: ../plugins/addhelper/addhelper.xml.in.h:13
+#: ../plugins/animationjc/animationjc.xml.in.h:10
+#: ../plugins/expo/expo.xml.in.h:60 ../plugins/group/group.xml.in.h:52
+#: ../plugins/loginout/loginout.xml.in.h:8 ../plugins/obs/obs.xml.in.h:35
+#: ../plugins/splash/splash.xml.in.h:18
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:39
+#: ../plugins/switcher/switcher.xml.in.h:29
+#: ../plugins/trailfocus/trailfocus.xml.in.h:21
+msgid "Saturation"
+msgstr "Ketepuan"
+
+#: ../plugins/obs/obs.xml.in.h:36
+msgid "Increase Saturation Key"
+msgstr "Tingkatkan Kekunci Ketepuan"
+
+#: ../plugins/obs/obs.xml.in.h:37
+msgid "Increase the saturation of the selected window."
+msgstr "Tingkatkan ketepuan bagi tetingkap terpilih."
+
+#: ../plugins/obs/obs.xml.in.h:38
+msgid "Increase Saturation Button"
+msgstr "Tingkatkan Butang Ketepuan"
+
+#: ../plugins/obs/obs.xml.in.h:39
+msgid "Increase the saturation of the window the pointer hovers."
+msgstr "Tingkatkan ketepuan tetigkap bila penuding diatasnya."
+
+#: ../plugins/obs/obs.xml.in.h:40
+msgid "Decrease Saturation Key"
+msgstr "Kurangkan Kekunci Ketepuan"
+
+#: ../plugins/obs/obs.xml.in.h:41
+msgid "Decrease the saturation of the selected window."
+msgstr "Kurangkan ketepuan bagi tetingkap terpilih."
+
+#: ../plugins/obs/obs.xml.in.h:42
+msgid "Decrease Saturation Button"
+msgstr "Kurangkan Butang Ketepuan"
+
+#: ../plugins/obs/obs.xml.in.h:43
+msgid "Decrease the saturation of the window the pointer hovers."
+msgstr "Kurangkan ketepuan tetingkap bila penuding diatasnya."
+
+#: ../plugins/obs/obs.xml.in.h:44
+msgid "New window default saturation value"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:45
+msgid "Default saturation when a new window is created (in percent)."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:46
+msgid "Saturation increment and decrement amount (in percent)."
+msgstr "Jumlah tokokan dan pengurangan ketepuan (dalam peratus)."
+
+#: ../plugins/obs/obs.xml.in.h:47
+msgid "Windows that should have a specific default saturation."
+msgstr "Tetingkap seharusnya mempunyai ketepuan lalai khusus."
+
+#: ../plugins/obs/obs.xml.in.h:48
+msgid "Saturation value for the windows (in percent)."
+msgstr "Nilai ketepuan bagi tetingkap (dalam peratus)."
+
+#: ../plugins/opengl/opengl.xml.in.h:1
+msgid "OpenGL"
+msgstr "OpenGL"
+
+#: ../plugins/opengl/opengl.xml.in.h:2
+msgid "OpenGL Plugin"
+msgstr "Pemalam OpenGL"
+
+#: ../plugins/opengl/opengl.xml.in.h:3
+msgid "Texture Filter"
+msgstr "Penapis Tekstur"
+
+#: ../plugins/opengl/opengl.xml.in.h:4
+msgid "Texture filtering"
+msgstr "Penapisan tekstur"
+
+#: ../plugins/opengl/opengl.xml.in.h:5
+msgid "Fast"
+msgstr "Pantas"
+
+#: ../plugins/opengl/opengl.xml.in.h:6
+msgid "Good"
+msgstr "Baik"
+
+#: ../plugins/opengl/opengl.xml.in.h:7
+msgid "Best"
+msgstr "Terbaik"
+
+#: ../plugins/opengl/opengl.xml.in.h:8
+msgid "Lighting"
+msgstr "Pencahayaan"
+
+#: ../plugins/opengl/opengl.xml.in.h:9
+msgid "Use diffuse light when screen is transformed"
+msgstr "Guna cahaya tersebar bila skrin terjelma"
+
+#: ../plugins/opengl/opengl.xml.in.h:10
+msgid "Sync To VBlank"
+msgstr "Segerak Ke VBlank"
+
+#: ../plugins/opengl/opengl.xml.in.h:11
+msgid "Only perform screen updates during vertical blanking period"
+msgstr "Hanya buat kemaskini skrin semasa tempoh penghitaman menegak"
+
+#: ../plugins/opengl/opengl.xml.in.h:12
+msgid "Texture Compression"
+msgstr "Pemampatan Tekstur"
+
+#: ../plugins/opengl/opengl.xml.in.h:13
+msgid "If available use compression for textures converted from images"
+msgstr "Jika tersedia guna pemampatan untuk tekstur yang ditukar dari imej"
+
+#: ../plugins/opengl/opengl.xml.in.h:14
+msgid "Framebuffer object"
+msgstr "Objek penimbal bingkai"
+
+#: ../plugins/opengl/opengl.xml.in.h:15
+msgid ""
+"Render all frames indirectly using framebuffer objects "
+"(GL_EXT_framebuffer_object), if supported by the driver. Pros: Might be "
+"faster than the default buffer swapping method in some cases. Cons: This "
+"will come at the cost of (1) usually reduced graphics benchmark performance; "
+"(2) increased GPU resource consumption; and (3) possibly higher visible lag. "
+"Note: This feature is always on in OpenGL|ES builds such as ARM platforms."
+msgstr ""
+"Terap semua bingkai secara tidak langsung menggunakan objek penimbal bingkai "
+"(GL_EXT_framebuffer_object), jika disokong oleh pemacu. Kebaikan: Mungkin "
+"lebih pantas berbanding kaedah penimbal lalai dalam sestengah kes. "
+"Keburukan: Ia memberi kesan pada (1) prestasi tanda aras grafik yang "
+"mengalami pengurangan; (2) meningkatkan penggunaan sumber CPU; dan (3) "
+"lambatan tampak yang lebih tinggi. Perhatian: Fitur ini biasanya dihidupkan "
+"dalam binaan OpenGL|ES seperti platform ARM."
+
+#: ../plugins/opengl/opengl.xml.in.h:16
+msgid "Vertex buffer object"
+msgstr "Objek penimbal verteks"
+
+#: ../plugins/opengl/opengl.xml.in.h:17
+msgid ""
+"Render all graphics primitives using vertex buffer objects "
+"(GL_ARB_vertex_buffer_object), if supported by the driver. Pros: This "
+"provides higher graphics performance for some drivers. Cons: This is a new "
+"feature and may cause graphical problems. Note: This feature is always on in "
+"OpenGL|ES builds such as ARM platforms."
+msgstr ""
+"Teras semua primitif grafik menggunakan objek penimbal verteks "
+"(GL_ARB_vertex_buffer_object), jika disokong oleh pemacu. Kebaikan: Ia "
+"sediakan prestasi grafik lebih tinggi untuk sesetengah pemacu. KeburukanL "
+"Ini merupakan fitur baru dan mungkin menyebabkan masalah grafik. Perhatian: "
+"Fitur ini sentiasa dihidupkan dalam binaan OpenGL|ES seperti platform ARM."
+
+#: ../plugins/opengl/opengl.xml.in.h:18
+msgid "Always use buffer swapping"
+msgstr "Sentiasa guna penyilihan penimbal"
+
+#: ../plugins/opengl/opengl.xml.in.h:19
+msgid ""
+"Use glXSwapBuffers to display every frame. This eliminates visible tearing "
+"with most drivers and dramatically improves visual smoothness. Automatically "
+"enabled when framebuffer_object is on."
+msgstr ""
+"Guna glXSwapBuffers untuk papar setiap bingkai. Ia singkirkan pengoyakan "
+"tampaka dengan kebanyakan pemacu dan pertingkatkan kelancara visual dengan "
+"mendadak. Dibenarkan secara automatik bila framebuffer_object dihidupkan."
+
+#: ../plugins/opengl/opengl.xml.in.h:20
+msgid "Unredirect Driver Blacklist"
+msgstr "Senarai Hitam Pemacu Tidak Langsung"
+
+#: ../plugins/opengl/opengl.xml.in.h:21
+msgid ""
+"If non-empty, specifies a POSIX (extended) regular expression to match "
+"against the OpenGL driver strings (newline separated): \"GL_VENDOR\\"
+"nGL_RENDERER\\nGL_VERSION\". If the regular expression matches a substring "
+"of that concatenation then no windows will ever be unredirected while using "
+"that particular graphics driver."
+msgstr ""
+"Jika bukan-kosong, nyatakan ungkapan nalar (lanjutan) POSIX untuk dipadankan "
+"dengan rentetan pemacu OpenGL (baris baru terpisah): \"GL_VENDOR\\"
+"nGL_RENDERER\\nGL_VERSION\". Jika ungkapan nalar sepadan dengan sub-rentetan "
+"yang dipangkas maka tiada tetingkap akan dinyahteruskan ketika menggunakan "
+"pemacu grafik tersebut."
+
+#: ../plugins/opengl/opengl.xml.in.h:22
+msgid "X11 Sync Objects"
+msgstr "X11 Sync Objects"
+
+#: ../plugins/cubeaddon/cubeaddon.xml.in.h:18
+#: ../plugins/opengl/opengl.xml.in.h:23
+msgid "Enabled"
+msgstr "Dibenarkan"
+
+#: ../plugins/opengl/opengl.xml.in.h:24
+msgid ""
+"Use X11 Sync fences to synchronize rendering between X11 and OpenGL "
+"(GL_EXT_x11_sync_object). Without this, the contents of windows may not be "
+"completely redrawn."
+msgstr ""
+"Guna X11 Sync fences untuk segerakkan penerapan diantara 11 dengan OpenGL "
+"(GL_EXT_x11_sync_object). Tanpa ia, kandungan tetingkap mungkin tidak "
+"sepenuhnya dilukis semula."
+
+#: ../plugins/opengl/opengl.xml.in.h:25
+msgid "Cards Blacklist"
+msgstr "Kad Senarai Hitam"
+
+#: ../plugins/opengl/opengl.xml.in.h:26
+msgid "The list of the cards for which we should disable X11/GL syncing."
+msgstr "Senarai kad yang mana perlu lumpuhkan penyegerakan X11/GL."
+
+#: ../plugins/opengl/opengl.xml.in.h:27
+msgid "Vendor"
+msgstr "Pembekal"
+
+#: ../plugins/opengl/opengl.xml.in.h:28
+msgid "The card vendor for which X11 sync should be disabled."
+msgstr "Vendor kad yang mana segerak X11 patut dilumpuhkan."
+
+#: ../plugins/opengl/opengl.xml.in.h:29
+msgid "Model"
+msgstr "Model"
+
+#: ../plugins/place/place.xml.in.h:1
+msgid "Place Windows"
+msgstr "Letak Tetingkap"
+
+#: ../plugins/place/place.xml.in.h:2
+msgid "Place windows at appropriate positions when mapped"
+msgstr "Letak tetingkap pada kedudukan sesuai bila dipetakan"
+
+#: ../plugins/place/place.xml.in.h:3
+#: ../plugins/workarounds/workarounds.xml.in.h:1
+msgid "Workarounds"
+msgstr "Pembaikan semasa"
+
+#: ../plugins/place/place.xml.in.h:4
+msgid "Window placement workarounds"
+msgstr "Pembaikan semasa peletakan tetingkap"
+
+#: ../plugins/place/place.xml.in.h:5
+msgid "Placement Mode"
+msgstr "Mod Pembaikan Semasa"
+
+#: ../plugins/place/place.xml.in.h:6
+msgid "Algorithm to use for window placement"
+msgstr "Algoritma yang digunakan untuk letakan tetingkap"
+
+#: ../plugins/place/place.xml.in.h:7
+msgid "Cascade"
+msgstr "Lata"
+
+#: ../plugins/place/place.xml.in.h:8
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:54
+#: ../plugins/wallpaper/wallpaper.xml.in.h:10
+msgid "Centered"
+msgstr "Ditengahkan"
+
+#: ../plugins/place/place.xml.in.h:9
+msgid "Smart"
+msgstr "Pintar"
+
+#: ../plugins/grid/grid.xml.in.h:43 ../plugins/place/place.xml.in.h:10
+msgid "Maximize"
+msgstr "Maksimumkan"
+
+#: ../plugins/animation/animation.xml.in.h:109
+#: ../plugins/animationaddon/animationaddon.xml.in.h:39
+#: ../plugins/place/place.xml.in.h:11
+msgid "Random"
+msgstr "Rawak"
+
+#: ../plugins/place/place.xml.in.h:12
+msgid "Pointer"
+msgstr "Penuding"
+
+#: ../plugins/place/place.xml.in.h:14
+msgid ""
+"Selects how window placement should behave if multiple outputs are selected"
+msgstr ""
+"Pilih bagaimana peletakan tetingkap patut berlaku jika output berbiang "
+"dipilih"
+
+#: ../plugins/place/place.xml.in.h:15
+msgid "Use active output device"
+msgstr "Guna peranti output aktif"
+
+#: ../plugins/place/place.xml.in.h:16
+msgid "Use output device with pointer"
+msgstr "Guna peranti output dengan penuding"
+
+#: ../plugins/place/place.xml.in.h:17
+msgid "Use output device of focussed window"
+msgstr "Guna peranti output bagi tetingkap terfokus"
+
+#: ../plugins/place/place.xml.in.h:18
+msgid "Place across all outputs"
+msgstr "Letak disekitar semua output"
+
+#: ../plugins/place/place.xml.in.h:19
+msgid "Force Placement Windows"
+msgstr "Paksa Letakan Tetingkap"
+
+#: ../plugins/place/place.xml.in.h:20
+msgid ""
+"Windows that should forcedly be placed, even if they indicate the window "
+"manager should avoid placing them."
+msgstr ""
+"Tetingkap yang patut dipaksa letak, walaupun ia menunjukkan pengurus "
+"tetingkap patut hindari meletaknya."
+
+#: ../plugins/place/place.xml.in.h:21
+msgid "Fixed Window Placement"
+msgstr "Letakan Tetingkap Tetap"
+
+#: ../plugins/place/place.xml.in.h:22
+msgid "Windows with fixed positions"
+msgstr "Tetingkap dengan kedudukan tetap"
+
+#: ../plugins/place/place.xml.in.h:23
+msgid "Positioned windows"
+msgstr "Tetingkap yang diletak"
+
+#: ../plugins/place/place.xml.in.h:24
+msgid "Windows that should be positioned by default"
+msgstr "Tetingkap yang patut diletak secara lalai"
+
+#: ../plugins/place/place.xml.in.h:25
+msgid "X Positions"
+msgstr "Kedudukan X"
+
+#: ../plugins/place/place.xml.in.h:26
+msgid "X position values"
+msgstr "Nilai kedudukan X"
+
+#: ../plugins/place/place.xml.in.h:27
+msgid "Y Positions"
+msgstr "Kedudukan Y"
+
+#: ../plugins/place/place.xml.in.h:28
+msgid "Y position values"
+msgstr "Nilai kedudukan Y"
+
+#: ../plugins/place/place.xml.in.h:29
+msgid "Keep In Workarea"
+msgstr "Kekal Dalam Ruang Kerja"
+
+#: ../plugins/place/place.xml.in.h:30
+msgid ""
+"Keep placed window in work area, even if that means that the position might "
+"differ from the specified position"
+msgstr ""
+"Kekalkan tetingkap yang diletak dalam ruang kerja, walaupun kedudukan "
+"tersebut berbeza dari kedudukan yang ditetapkan"
+
+#: ../plugins/place/place.xml.in.h:31
+msgid "Windows with fixed placement mode"
+msgstr "Tetingkap dengan mod peletakan tetap"
+
+#: ../plugins/place/place.xml.in.h:33
+msgid "Windows that should have a certain positioning mo+de"
+msgstr "Tetingkap yang patut mempunyai mod kedudukan yang tertentu"
+
+#: ../plugins/animation/animation.xml.in.h:49 ../plugins/mag/mag.xml.in.h:8
+#: ../plugins/place/place.xml.in.h:34
+msgid "Mode"
+msgstr "Mod"
+
+#: ../plugins/place/place.xml.in.h:35
+msgid "Positioning modes"
+msgstr "Mod kedudukan"
+
+#: ../plugins/place/place.xml.in.h:36
+msgid "Windows with fixed viewport"
+msgstr "Tetingkap dengan port pandang tetap"
+
+#: ../plugins/place/place.xml.in.h:37
+msgid "Viewport positioned windows"
+msgstr "Tetingkap diletak port pandang"
+
+#: ../plugins/place/place.xml.in.h:38
+msgid "Windows that should be positioned in specific viewports by default"
+msgstr "Tetingkap yang patut diletak dalam port pandang khusus secara lalai"
+
+#: ../plugins/place/place.xml.in.h:39
+msgid "X Viewport Positions"
+msgstr "Kedudukan Port Pandang X"
+
+#: ../plugins/place/place.xml.in.h:40
+msgid "Horizontal viewport positions"
+msgstr "Kedudukan port pandang mendatar"
+
+#: ../plugins/place/place.xml.in.h:41
+msgid "Y Viewport Positions"
+msgstr "Kedudukan Port Pandang Y"
+
+#: ../plugins/place/place.xml.in.h:42
+msgid "Vertical viewport positions"
+msgstr "Kedudukan port pandang menegak"
+
+#: ../plugins/regex/regex.xml.in.h:1
+msgid "Regex Matching"
+msgstr "Pemadanan Regex"
+
+#: ../plugins/regex/regex.xml.in.h:2
+msgid "Regex window matching"
+msgstr "Pemadanan tetingkap regex"
+
+#: ../plugins/resize/resize.xml.in.h:1
+msgid "Resize Window"
+msgstr "Sazi Semula Tetingkap"
+
+#: ../plugins/addhelper/addhelper.xml.in.h:3
+#: ../plugins/cubeaddon/cubeaddon.xml.in.h:4 ../plugins/expo/expo.xml.in.h:3
+#: ../plugins/grid/grid.xml.in.h:3 ../plugins/mag/mag.xml.in.h:3
+#: ../plugins/maximumize/maximumize.xml.in.h:18
+#: ../plugins/opacify/opacify.xml.in.h:3 ../plugins/put/put.xml.in.h:5
+#: ../plugins/resize/resize.xml.in.h:3 ../plugins/ring/ring.xml.in.h:3
+#: ../plugins/rotate/rotate.xml.in.h:30 ../plugins/scale/scale.xml.in.h:42
+#: ../plugins/scaleaddon/scaleaddon.xml.in.h:3
+#: ../plugins/shelf/shelf.xml.in.h:3 ../plugins/shift/shift.xml.in.h:3
+#: ../plugins/snap/snap.xml.in.h:3
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:2
+#: ../plugins/switcher/switcher.xml.in.h:2 ../plugins/trip/trip.xml.in.h:3
+#: ../plugins/wall/wall.xml.in.h:44
+msgid "Bindings"
+msgstr "Pengikatan"
+
+#: ../plugins/resize/resize.xml.in.h:4
+msgid "Initiate Window Resize"
+msgstr "Awalkan Saizkan Semula Tetingkap"
+
+#: ../plugins/resize/resize.xml.in.h:5
+msgid "Start resizing window"
+msgstr "Mulakan mensaiz semula tetingkap"
+
+#: ../plugins/resize/resize.xml.in.h:6
+msgid "Default Resize Mode"
+msgstr "Mod Saiz Semula Lalai"
+
+#: ../plugins/resize/resize.xml.in.h:7
+msgid "Default mode used for window resizing"
+msgstr "Mod lalai yang digunakan untuk mensaiz semula tetingkap"
+
+#: ../plugins/resize/resize.xml.in.h:11
+msgid "Stretch"
+msgstr "Regang"
+
+#: ../plugins/resize/resize.xml.in.h:17
+msgid "Border color used for outline and rectangle resize modes"
+msgstr ""
+"Warna sempadan yang digunakan untuk mod garis luar dan saiz semula segiempat"
+
+#: ../plugins/resize/resize.xml.in.h:19
+msgid "Fill color used for rectangle resize mode"
+msgstr "Warna isian yang digunakan untuk mod saiz semula segiempat"
+
+#: ../plugins/resize/resize.xml.in.h:22
+msgid "Specific Window Matches"
+msgstr "Padanan Tetingkap Khusus"
+
+#: ../plugins/resize/resize.xml.in.h:23
+msgid "Normal Resize Windows"
+msgstr "Saiz Semula Biasa Tetingkap"
+
+#: ../plugins/resize/resize.xml.in.h:24
+msgid "Windows that normal resize should be used for"
+msgstr "Tetingkap yang disaiz semula biasa yang patut digunakan"
+
+#: ../plugins/resize/resize.xml.in.h:25
+msgid "Outline Resize Windows"
+msgstr "Saiz Semula Garis Luar Tetingkap"
+
+#: ../plugins/resize/resize.xml.in.h:26
+msgid "Windows that outline resize should be used for"
+msgstr "Tetingkap yang mana saiz semula garis luar yang patut digunakan"
+
+#: ../plugins/resize/resize.xml.in.h:27
+msgid "Rectangle Resize Windows"
+msgstr "Saiz Semula Segiempat Tetingkap"
+
+#: ../plugins/resize/resize.xml.in.h:28
+msgid "Windows that rectangle resize should be used for"
+msgstr "Tetingkap yang mana saiz semula segiempat yang patut digunakan"
+
+#: ../plugins/resize/resize.xml.in.h:29
+msgid "Stretch Resize Windows"
+msgstr "Saiz Semula Regang Tetingkap"
+
+#: ../plugins/resize/resize.xml.in.h:30
+msgid "Windows that stretch resize should be used for"
+msgstr "Tetingkap yang mana saiz semula regang yang patut digunakan"
+
+#: ../plugins/resize/resize.xml.in.h:31
+msgid "Additional Modifier Keys"
+msgstr "Kekunci Pengubahsuai Tambahan"
+
+#: ../plugins/resize/resize.xml.in.h:32
+msgid "Outline Modifier"
+msgstr "Pengubahsuai Garis Luar"
+
+#: ../plugins/resize/resize.xml.in.h:33
+msgid "Use these bindings to resize with an outline."
+msgstr "Guna pengikatan ini untuk saiz semula dengan garis luar."
+
+#: ../plugins/freewins/freewins.xml.in.h:17
+#: ../plugins/resize/resize.xml.in.h:34 ../plugins/snap/snap.xml.in.h:6
+msgid "Shift"
+msgstr "Shift"
+
+#: ../plugins/freewins/freewins.xml.in.h:18
+#: ../plugins/resize/resize.xml.in.h:35 ../plugins/snap/snap.xml.in.h:7
+msgid "Alt"
+msgstr "Alt"
+
+#: ../plugins/freewins/freewins.xml.in.h:19
+#: ../plugins/resize/resize.xml.in.h:36 ../plugins/snap/snap.xml.in.h:8
+msgid "Control"
+msgstr "Control"
+
+#: ../plugins/freewins/freewins.xml.in.h:20
+#: ../plugins/resize/resize.xml.in.h:37 ../plugins/snap/snap.xml.in.h:9
+msgid "Meta"
+msgstr "Meta"
+
+#: ../plugins/resize/resize.xml.in.h:38
+msgid "Rectangle Modifier"
+msgstr "Pengubahsuai Segiempat"
+
+#: ../plugins/resize/resize.xml.in.h:39
+msgid "Use these bindings to resize with an rectangle."
+msgstr "Gena pengikatan ini untuk saiz semula dengan segiempat."
+
+#: ../plugins/resize/resize.xml.in.h:40
+msgid "Stretch Modifier"
+msgstr "Pengubahsuai Regang"
+
+#: ../plugins/resize/resize.xml.in.h:41
+msgid "Use these bindings to resize by stretching."
+msgstr "Guna pengikatan ini untuk saiz semula dengan regangan."
+
+#: ../plugins/resize/resize.xml.in.h:42
+msgid "Centered Modifier"
+msgstr "Pengubahsuai Ditengahkan"
+
+#: ../plugins/resize/resize.xml.in.h:43
+msgid "Use these bindings to resize from the center."
+msgstr "Guna pengikatan ini untuk saiz semula dari tengah."
+
+#: ../plugins/rotate/rotate.xml.in.h:1
+msgid "Rotate Cube"
+msgstr "Putar Kiub"
+
+#: ../plugins/rotate/rotate.xml.in.h:2
+msgid "Rotate desktop cube"
+msgstr "Putar kiub dekstop"
+
+#: ../plugins/rotate/rotate.xml.in.h:3 ../plugins/wall/wall.xml.in.h:81
+msgid "Edge Flip Pointer"
+msgstr "Penuding Kalih Pinggir"
+
+#: ../plugins/rotate/rotate.xml.in.h:4
+msgid "Flip to next viewport when moving pointer to screen edge"
+msgstr ""
+"Kalijh ke port pandang berikutnya bila gerak penuding ke pinggir skrin"
+
+#: ../plugins/rotate/rotate.xml.in.h:5 ../plugins/wall/wall.xml.in.h:83
+msgid "Edge Flip Move"
+msgstr "Alih Kalih Pinggir"
+
+#: ../plugins/rotate/rotate.xml.in.h:6
+msgid "Flip to next viewport when moving window to screen edge"
+msgstr ""
+"Kalih ke port pandang berikutnya bila mengerakkan tetingkap ke pinggir skrin"
+
+#: ../plugins/rotate/rotate.xml.in.h:7 ../plugins/wall/wall.xml.in.h:85
+msgid "Edge Flip DnD"
+msgstr "DnD Kalih Pinggir"
+
+#: ../plugins/rotate/rotate.xml.in.h:8
+msgid "Flip to next viewport when dragging object to screen edge"
+msgstr ""
+"Kalih ke port pandang berikutnya bila menyeret objek ke pinggir skrin"
+
+#: ../plugins/rotate/rotate.xml.in.h:9
+msgid "Raise on rotate"
+msgstr "Naik bila diputar"
+
+#: ../plugins/rotate/rotate.xml.in.h:10
+msgid "Raise window when rotating"
+msgstr "Naikkan tetingkap bila memutar"
+
+#: ../plugins/rotate/rotate.xml.in.h:11
+msgid "Pointer Invert Y"
+msgstr "Songsankan Y Penuding"
+
+#: ../plugins/rotate/rotate.xml.in.h:12
+msgid "Invert Y axis for pointer movement"
+msgstr "Songsangkan paksi Y untuk pergerakan penuding"
+
+#: ../plugins/rotate/rotate.xml.in.h:13
+msgid "Snap To Top Face"
+msgstr "Lekat Ke Permukaan Atas"
+
+#: ../plugins/rotate/rotate.xml.in.h:14
+msgid "Snap Cube Rotation to Top Face"
+msgstr "Lekat Putaran Kiub ke Permukaan Atas"
+
+#: ../plugins/rotate/rotate.xml.in.h:15
+msgid "Snap To Bottom Face"
+msgstr "Lekat Ke Permukaan Bawah"
+
+#: ../plugins/rotate/rotate.xml.in.h:16
+msgid "Snap Cube Rotation to Bottom Face"
+msgstr "Lekat Putaran Kiub ke Permukaan Bawah"
+
+#: ../plugins/animation/animation.xml.in.h:105 ../plugins/expo/expo.xml.in.h:27
+#: ../plugins/mag/mag.xml.in.h:13 ../plugins/rotate/rotate.xml.in.h:17
+#: ../plugins/switcher/switcher.xml.in.h:39 ../plugins/trip/trip.xml.in.h:21
+msgid "Zoom"
+msgstr "Zum"
+
+#: ../plugins/rotate/rotate.xml.in.h:18
+msgid "Rotation Zoom"
+msgstr "Zum Putaran"
+
+#: ../plugins/rotate/rotate.xml.in.h:19
+msgid "Additional Settings"
+msgstr "Tetapan Tambahan"
+
+#: ../plugins/rotate/rotate.xml.in.h:20
+msgid "Flip Time"
+msgstr "Masa Kalih"
+
+#: ../plugins/rotate/rotate.xml.in.h:21
+msgid "Timeout before flipping viewport"
+msgstr "Had masa tamat sebelum mengalih port pandang"
+
+#: ../plugins/rotate/rotate.xml.in.h:22
+msgid "Pointer Sensitivity"
+msgstr "Kepekaan Penuding"
+
+#: ../plugins/rotate/rotate.xml.in.h:23
+msgid "Sensitivity of pointer movement"
+msgstr "Kepekaan bagi pergerakan penuding"
+
+#: ../plugins/rotate/rotate.xml.in.h:24
+msgid "Acceleration"
+msgstr "Pecutan"
+
+#: ../plugins/rotate/rotate.xml.in.h:25
+msgid "Rotation Acceleration"
+msgstr "Pecutan Putaran"
+
+#: ../plugins/ezoom/ezoom.xml.in.h:142 ../plugins/mag/mag.xml.in.h:15
+#: ../plugins/put/put.xml.in.h:86 ../plugins/ring/ring.xml.in.h:31
+#: ../plugins/rotate/rotate.xml.in.h:26 ../plugins/scale/scale.xml.in.h:12
+#: ../plugins/showdesktop/showdesktop.xml.in.h:4
+#: ../plugins/stackswitch/stackswitch.xml.in.h:16
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:24
+#: ../plugins/switcher/switcher.xml.in.h:19 ../plugins/trip/trip.xml.in.h:23
+#: ../plugins/wizard/wizard.xml.in.h:19
+msgid "Speed"
+msgstr "Kelajuan"
+
+#: ../plugins/rotate/rotate.xml.in.h:27
+msgid "Rotation Speed"
+msgstr "Kelajuan Putaran"
+
+#: ../plugins/rotate/rotate.xml.in.h:29
+msgid "Rotation Timestep"
+msgstr "Langkah Masa Putaran"
+
+#: ../plugins/rotate/rotate.xml.in.h:31
+msgid "Rotate cube"
+msgstr "Putar kiub"
+
+#: ../plugins/rotate/rotate.xml.in.h:33
+msgid "Start Rotation"
+msgstr "Mula Putaran"
+
+#: ../plugins/rotate/rotate.xml.in.h:34
+msgid "Rotate Left"
+msgstr "Putar Ke Kiri"
+
+#: ../plugins/rotate/rotate.xml.in.h:35
+msgid "Rotate left"
+msgstr "Putar ke kiri"
+
+#: ../plugins/rotate/rotate.xml.in.h:36
+msgid "Rotate Right"
+msgstr "Putar Ke Kanan"
+
+#: ../plugins/rotate/rotate.xml.in.h:37
+msgid "Rotate right"
+msgstr "Putar ke kanan"
+
+#: ../plugins/rotate/rotate.xml.in.h:38
+msgid "Rotate Left with Window"
+msgstr "Putar Kiri dengan Tetingkap"
+
+#: ../plugins/rotate/rotate.xml.in.h:39
+msgid "Rotate left and bring active window along"
+msgstr "Putar ke kiri dan bawa sekali tetingkap aktif"
+
+#: ../plugins/rotate/rotate.xml.in.h:40
+msgid "Rotate Right with Window"
+msgstr "Putar ke Kanan dengan Tetingkap"
+
+#: ../plugins/rotate/rotate.xml.in.h:41
+msgid "Rotate right and bring active window along"
+msgstr "Putar ke kanan dan bawa sekali tetingkap aktif"
+
+#: ../plugins/rotate/rotate.xml.in.h:42
+msgid "Rotate To"
+msgstr "Putar Ke"
+
+#: ../plugins/rotate/rotate.xml.in.h:43
+msgid "Rotate to viewport"
+msgstr "Putar ke port pandang"
+
+#: ../plugins/rotate/rotate.xml.in.h:44
+msgid "Rotate window"
+msgstr "Putar tetingkap"
+
+#: ../plugins/rotate/rotate.xml.in.h:45
+msgid "Rotate with window"
+msgstr "Putar dengan tetingkap"
+
+#: ../plugins/rotate/rotate.xml.in.h:46
+msgid "Rotate Flip Left"
+msgstr "Putar Kalihan Kiri"
+
+#: ../plugins/rotate/rotate.xml.in.h:47
+msgid "Flip to left viewport and warp pointer"
+msgstr "Kalih ke port pandang kiri dan leding penuding"
+
+#: ../plugins/rotate/rotate.xml.in.h:48
+msgid "Rotate Flip Right"
+msgstr "Putar Kalihan Kanan"
+
+#: ../plugins/rotate/rotate.xml.in.h:49
+msgid "Flip to right viewport and warp pointer"
+msgstr "Kalih ke port pandang kanan dan leding penuding"
+
+#: ../plugins/rotate/rotate.xml.in.h:50
+msgid "Rotate to cube face"
+msgstr "Putar ke permukaan kiub"
+
+#: ../plugins/rotate/rotate.xml.in.h:51
+msgid "Rotate To Face 1"
+msgstr "Putar Ke Permukaan 1"
+
+#: ../plugins/rotate/rotate.xml.in.h:52
+msgid "Rotate to face 1"
+msgstr "Putar ke permukaan 1"
+
+#: ../plugins/rotate/rotate.xml.in.h:53
+msgid "Rotate To Face 2"
+msgstr "Putar Ke Permukaan 2"
+
+#: ../plugins/rotate/rotate.xml.in.h:54
+msgid "Rotate to face 2"
+msgstr "Putar ke permukaan 2"
+
+#: ../plugins/rotate/rotate.xml.in.h:55
+msgid "Rotate To Face 3"
+msgstr "Putar Ke Permukaan 3"
+
+#: ../plugins/rotate/rotate.xml.in.h:56
+msgid "Rotate to face 3"
+msgstr "Putar ke permukaan 3"
+
+#: ../plugins/rotate/rotate.xml.in.h:57
+msgid "Rotate To Face 4"
+msgstr "Putar Ke Permukaan 4"
+
+#: ../plugins/rotate/rotate.xml.in.h:58
+msgid "Rotate to face 4"
+msgstr "Putar ke permukaan 4"
+
+#: ../plugins/rotate/rotate.xml.in.h:59
+msgid "Rotate To Face 5"
+msgstr "Putar Ke Permukaan 5"
+
+#: ../plugins/rotate/rotate.xml.in.h:60
+msgid "Rotate to face 5"
+msgstr "Putar ke permukaan 5"
+
+#: ../plugins/rotate/rotate.xml.in.h:61
+msgid "Rotate To Face 6"
+msgstr "Putar Ke Permukaan 6"
+
+#: ../plugins/rotate/rotate.xml.in.h:62
+msgid "Rotate to face 6"
+msgstr "Putar ke permukaan 6"
+
+#: ../plugins/rotate/rotate.xml.in.h:63
+msgid "Rotate To Face 7"
+msgstr "Putar Ke Permukaan 7"
+
+#: ../plugins/rotate/rotate.xml.in.h:64
+msgid "Rotate to face 7"
+msgstr "Putar ke permukaan 7"
+
+#: ../plugins/rotate/rotate.xml.in.h:65
+msgid "Rotate To Face 8"
+msgstr "Putar Ke Permukaan 8"
+
+#: ../plugins/rotate/rotate.xml.in.h:66
+msgid "Rotate to face 8"
+msgstr "Putar ke permukaan 8"
+
+#: ../plugins/rotate/rotate.xml.in.h:67
+msgid "Rotate To Face 9"
+msgstr "Putar Ke Permukaan 9"
+
+#: ../plugins/rotate/rotate.xml.in.h:68
+msgid "Rotate to face 9"
+msgstr "Putar ke permukaan 9"
+
+#: ../plugins/rotate/rotate.xml.in.h:69
+msgid "Rotate To Face 10"
+msgstr "Putar Ke Permukaan 10"
+
+#: ../plugins/rotate/rotate.xml.in.h:70
+msgid "Rotate to face 10"
+msgstr "Putar ke permukaan 10"
+
+#: ../plugins/rotate/rotate.xml.in.h:71
+msgid "Rotate To Face 11"
+msgstr "Putar Ke Permukaan 11"
+
+#: ../plugins/rotate/rotate.xml.in.h:72
+msgid "Rotate to face 11"
+msgstr "Putar ke permukaan 11"
+
+#: ../plugins/rotate/rotate.xml.in.h:73
+msgid "Rotate To Face 12"
+msgstr "Putar Ke Permukaan 12"
+
+#: ../plugins/rotate/rotate.xml.in.h:74
+msgid "Rotate to face 12"
+msgstr "Putar ke permukaan 1"
+
+#: ../plugins/rotate/rotate.xml.in.h:75
+msgid "Rotate to cube face with window"
+msgstr "Putar ke permukaan kiub dengan tetingkap"
+
+#: ../plugins/rotate/rotate.xml.in.h:76
+msgid "Rotate To Face 1 with Window"
+msgstr "Putar ke Permukaan 1 dengan Tetingkap"
+
+#: ../plugins/rotate/rotate.xml.in.h:77
+msgid "Rotate to face 1 and bring active window along"
+msgstr "Putar ke permukaan 1 dan bawa sekali dialog tetingkap aktif"
+
+#: ../plugins/rotate/rotate.xml.in.h:78
+msgid "Rotate To Face 2 with Window"
+msgstr "Putar ke Permukaan 2 dengan Tetingkap"
+
+#: ../plugins/rotate/rotate.xml.in.h:79
+msgid "Rotate to face 2 and bring active window along"
+msgstr "Putar ke permukaan 2 dan bawa sekali dialog tetingkap aktif"
+
+#: ../plugins/rotate/rotate.xml.in.h:80
+msgid "Rotate To Face 3 with Window"
+msgstr "Putar ke Permukaan 3 dengan Tetingkap"
+
+#: ../plugins/rotate/rotate.xml.in.h:81
+msgid "Rotate to face 3 and bring active window along"
+msgstr "Putar ke permukaan 3 dan bawa sekali dialog tetingkap aktif"
+
+#: ../plugins/rotate/rotate.xml.in.h:82
+msgid "Rotate To Face 4 with Window"
+msgstr "Putar ke Permukaan 4 dengan Tetingkap"
+
+#: ../plugins/rotate/rotate.xml.in.h:83
+msgid "Rotate to face 4 and bring active window along"
+msgstr "Putar ke permukaan 4 dan bawa sekali dialog tetingkap aktif"
+
+#: ../plugins/rotate/rotate.xml.in.h:84
+msgid "Rotate To Face 5 with Window"
+msgstr "Putar ke Permukaan 5 dengan Tetingkap"
+
+#: ../plugins/rotate/rotate.xml.in.h:85
+msgid "Rotate to face 5 and bring active window along"
+msgstr "Putar ke permukaan 5 dan bawa sekali dialog tetingkap aktif"
+
+#: ../plugins/rotate/rotate.xml.in.h:86
+msgid "Rotate To Face 6 with Window"
+msgstr "Putar ke Permukaan 6 dengan Tetingkap"
+
+#: ../plugins/rotate/rotate.xml.in.h:87
+msgid "Rotate to face 6 and bring active window along"
+msgstr "Putar ke permukaan 6 dan bawa sekali dialog tetingkap aktif"
+
+#: ../plugins/rotate/rotate.xml.in.h:88
+msgid "Rotate To Face 7 with Window"
+msgstr "Putar ke Permukaan 7 dengan Tetingkap"
+
+#: ../plugins/rotate/rotate.xml.in.h:89
+msgid "Rotate to face 7 and bring active window along"
+msgstr "Putar ke permukaan 7 dan bawa sekali dialog tetingkap aktif"
+
+#: ../plugins/rotate/rotate.xml.in.h:90
+msgid "Rotate To Face 8 with Window"
+msgstr "Putar ke Permukaan 8 dengan Tetingkap"
+
+#: ../plugins/rotate/rotate.xml.in.h:91
+msgid "Rotate to face 8 and bring active window along"
+msgstr "Putar ke permukaan 8 dan bawa sekali dialog tetingkap aktif"
+
+#: ../plugins/rotate/rotate.xml.in.h:92
+msgid "Rotate To Face 9 with Window"
+msgstr "Putar ke Permukaan 9 dengan Tetingkap"
+
+#: ../plugins/rotate/rotate.xml.in.h:93
+msgid "Rotate to face 9 and bring active window along"
+msgstr "Putar ke permukaan 9 dan bawa sekali dialog tetingkap aktif"
+
+#: ../plugins/rotate/rotate.xml.in.h:94
+msgid "Rotate To Face 10 with Window"
+msgstr "Putar ke Permukaan 10 dengan Tetingkap"
+
+#: ../plugins/rotate/rotate.xml.in.h:95
+msgid "Rotate to face 10 and bring active window along"
+msgstr "Putar ke permukaan 10 dan bawa sekali dialog tetingkap aktif"
+
+#: ../plugins/rotate/rotate.xml.in.h:96
+msgid "Rotate To Face 11 with Window"
+msgstr "Putar ke Permukaan 11 dengan Tetingkap"
+
+#: ../plugins/rotate/rotate.xml.in.h:97
+msgid "Rotate to face 11 and bring active window along"
+msgstr "Putar ke permukaan 11 dan bawa sekali dialog tetingkap aktif"
+
+#: ../plugins/rotate/rotate.xml.in.h:98
+msgid "Rotate To Face 12 with Window"
+msgstr "Putar ke Permukaan 12 dengan Tetingkap"
+
+#: ../plugins/rotate/rotate.xml.in.h:99
+msgid "Rotate to face 12 and bring active window along"
+msgstr "Putar ke permukaan 12 dan bawa sekali dialog tetingkap aktif"
+
+#: ../plugins/scale/scale.xml.in.h:1
+msgid "Scale"
+msgstr "Skala"
+
+#: ../plugins/scale/scale.xml.in.h:2
+msgid "Scale windows"
+msgstr "Skalakan tetingkap"
+
+#: ../plugins/scale/scale.xml.in.h:4
+msgid "Spacing"
+msgstr "Penjarakan"
+
+#: ../plugins/scale/scale.xml.in.h:5
+msgid "Space between windows"
+msgstr "Jarak diantara tetingkap"
+
+#: ../plugins/expo/expo.xml.in.h:38 ../plugins/scale/scale.xml.in.h:6
+msgid "X Offset"
+msgstr "Ofset X"
+
+#: ../plugins/expo/expo.xml.in.h:39 ../plugins/scale/scale.xml.in.h:7
+msgid "Horizontal offset (in pixels)."
+msgstr "Ofset mengufuk (dalam piksel)."
+
+#: ../plugins/expo/expo.xml.in.h:40 ../plugins/scale/scale.xml.in.h:8
+msgid "Y Offset"
+msgstr "Ofset Y"
+
+#: ../plugins/scale/scale.xml.in.h:9
+msgid "Vertical offset from the top (in pixels)."
+msgstr "Ofset menegak dari atas (dalam piksel)."
+
+#: ../plugins/expo/expo.xml.in.h:42 ../plugins/scale/scale.xml.in.h:10
+msgid "Y Bottom Offset"
+msgstr "Ofset Bawah Y"
+
+#: ../plugins/expo/expo.xml.in.h:43 ../plugins/scale/scale.xml.in.h:11
+msgid "Vertical offset from the bottom (in pixels)."
+msgstr "Ofset menegak dari bawah (dalam piksel)."
+
+#: ../plugins/scale/scale.xml.in.h:13
+msgid "Scale speed"
+msgstr "Kelajuan skala"
+
+#: ../plugins/scale/scale.xml.in.h:15
+msgid "Scale timestep"
+msgstr "Langkah masa skala"
+
+#: ../plugins/ring/ring.xml.in.h:37 ../plugins/scale/scale.xml.in.h:16
+#: ../plugins/stackswitch/stackswitch.xml.in.h:26
+msgid "Darken Background"
+msgstr "Gelapkan Latar Belakang"
+
+#: ../plugins/scale/scale.xml.in.h:17
+msgid "Darken background when scaling windows"
+msgstr "Gelapkan latar belakang bila menskalakan tetingkap"
+
+#: ../plugins/scale/scale.xml.in.h:19
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:44
+#: ../plugins/switcher/switcher.xml.in.h:34
+msgid "Amount of opacity in percent"
+msgstr "Sejumlah kelegapan dalam peratus"
+
+#: ../plugins/ring/ring.xml.in.h:26 ../plugins/scale/scale.xml.in.h:20
+#: ../plugins/shift/shift.xml.in.h:67
+msgid "Overlay Icon"
+msgstr "Tindinan Atas Ikon"
+
+#: ../plugins/scale/scale.xml.in.h:21
+msgid "Overlay an icon on windows once they are scaled"
+msgstr "Tindihan atas ikon pada tetingkap bila ia diskalakan"
+
+#: ../plugins/animation/animation.xml.in.h:108
+#: ../plugins/cubeaddon/cubeaddon.xml.in.h:40 ../plugins/expo/expo.xml.in.h:30
+#: ../plugins/ezoom/ezoom.xml.in.h:19 ../plugins/grid/grid.xml.in.h:33
+#: ../plugins/ring/ring.xml.in.h:28 ../plugins/scale/scale.xml.in.h:22
+#: ../plugins/shift/shift.xml.in.h:69
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:63
+#: ../plugins/wobbly/wobbly.xml.in.h:19
+msgid "None"
+msgstr "Tiada"
+
+#: ../plugins/ring/ring.xml.in.h:29 ../plugins/scale/scale.xml.in.h:23
+#: ../plugins/shift/shift.xml.in.h:70
+msgid "Emblem"
+msgstr "Lambang"
+
+#: ../plugins/ring/ring.xml.in.h:30 ../plugins/scale/scale.xml.in.h:24
+#: ../plugins/shift/shift.xml.in.h:71
+msgid "Big"
+msgstr "Besar"
+
+#: ../plugins/scale/scale.xml.in.h:26
+msgid "Scale Windows"
+msgstr "Skalakan Tetingkap"
+
+#: ../plugins/scale/scale.xml.in.h:27
+msgid "Windows that should be scaled in scale mode"
+msgstr "Tetingkap patut diskalakan dalam mod skala"
+
+#: ../plugins/scale/scale.xml.in.h:28
+msgid "Drag and Drop Hover Timeout"
+msgstr "Had Masa Tamat Apung Seret dan Lepas"
+
+#: ../plugins/scale/scale.xml.in.h:29
+msgid ""
+"Time (in ms) before scale mode is terminated when hovering over a window "
+"dragging and dropping an item"
+msgstr ""
+"Masa (dalam ms) sebalum mod skala dihentikan bila mengapung diatas tetingkap "
+"yang menyeret dan melepas item"
+
+#: ../plugins/scale/scale.xml.in.h:30
+msgid "Drag and Drop Distance"
+msgstr "Jarak Seret dan Lepas"
+
+#: ../plugins/scale/scale.xml.in.h:31
+msgid "The minimum distance (in px) beyond which the timeout is reset."
+msgstr "Jarak minimum (dalam px) melebihi had masa tamat ditetapkan semula."
+
+#: ../plugins/scale/scale.xml.in.h:32
+msgid "Show a spinner during th Drag and Drop timeout"
+msgstr "Tunjuk pemusing ketika had masa tamat Drag and Drop"
+
+#: ../plugins/scale/scale.xml.in.h:33
+msgid "Whether to show a spinner over the windows during dnd Timeout."
+msgstr ""
+"Sama ada hendak tunjuk pemusing menerusi tetingkap semasa had masa tamat dnd."
+
+#: ../plugins/scale/scale.xml.in.h:34
+msgid "The speed of the DnD timeout spinner"
+msgstr "Kelajuan pemusing had masa tamat DnD"
+
+#: ../plugins/scale/scale.xml.in.h:35
+msgid "The animation speed (in ms) of the Drag and Drop spinner."
+msgstr "Kelajuan animasi (dalam ms) pemusing DnD."
+
+#: ../plugins/scale/scale.xml.in.h:37
+msgid "Selects where windows are scaled if multiple output devices are used."
+msgstr ""
+"Pilih dimana tetingkap diskalakan jika peranti output berbilang digunakan."
+
+#: ../plugins/scale/scale.xml.in.h:38
+msgid "On current output device"
+msgstr "Pada peranti output semasa"
+
+#: ../plugins/scale/scale.xml.in.h:39
+msgid "On all output devices"
+msgstr "pada semua peranti output"
+
+#: ../plugins/scale/scale.xml.in.h:40
+#: ../plugins/showdesktop/showdesktop.xml.in.h:25
+msgid "Skip Animation"
+msgstr "Langkau Animasi"
+
+#: ../plugins/scale/scale.xml.in.h:41
+msgid "Skips the scale plugin animation."
+msgstr "Langkau animasi pemalam skala."
+
+#: ../plugins/scale/scale.xml.in.h:43
+msgid "Key Bindings Toggle Scale Mode"
+msgstr "Pengikatan Kekunci Togol Mod Skala"
+
+#: ../plugins/scale/scale.xml.in.h:44
+msgid ""
+"Key bindings toggle scale mode instead of enabling it when pressed and "
+"disabling it when released."
+msgstr ""
+"Pengikatan kekunci togol mod skala selain dari membenarkannya bila ditekan "
+"dan lumpuhkannya bila dilepaskan."
+
+#: ../plugins/scale/scale.xml.in.h:45
+msgid "Button Bindings Toggle Scale Mode"
+msgstr "Pengikatan Butang Togol Mod Skala"
+
+#: ../plugins/scale/scale.xml.in.h:46
+msgid ""
+"Button bindings toggle scale mode instead of enabling it when pressed and "
+"disabling it when released."
+msgstr ""
+"Pengikatan butang togol mod skala selain dari membenarkannya bila ditekan "
+"dan lumpuhkannya bila dilepaskan."
+
+#: ../plugins/scale/scale.xml.in.h:47
+msgid "Initiate Window Picker"
+msgstr "Awalkan Pengambil Tetingkap"
+
+#: ../plugins/scale/scale.xml.in.h:48
+msgid "Layout and start transforming windows"
+msgstr "Bentang dan mula menjelmakan tetingkap"
+
+#: ../plugins/scale/scale.xml.in.h:49
+msgid "Initiate Window Picker For All Windows"
+msgstr "Awalkan Pengambil Tetingkap Untuk Semua Tetingkap"
+
+#: ../plugins/scale/scale.xml.in.h:50
+msgid "Layout and start transforming all windows"
+msgstr "Bentang dan mula menjelmakan semua tetingkap"
+
+#: ../plugins/scale/scale.xml.in.h:51
+msgid "Initiate Window Picker For Window Group"
+msgstr "Awalkan Pengambil Tetingkap Untuk Kumpulan Tetingkap"
+
+#: ../plugins/scale/scale.xml.in.h:52
+msgid "Layout and start transforming window group"
+msgstr "Bentang dan mula menjelmakan kumpulan tetingkap"
+
+#: ../plugins/scale/scale.xml.in.h:53
+msgid "Initiate Window Picker For Windows on Current Output"
+msgstr "Awalkan Pengambil Tetingkap Untuk Tetingkap pada Output Semasa"
+
+#: ../plugins/scale/scale.xml.in.h:54
+msgid "Layout and start transforming windows on current output"
+msgstr "Bentang dan mula menjelmakan tetingkap pada output semasa"
+
+#: ../plugins/scale/scale.xml.in.h:55
+msgid "Click on empty area"
+msgstr "Klik pada kawasan kosong"
+
+#: ../plugins/scale/scale.xml.in.h:56
+msgid "Action to perform on click on empty area"
+msgstr "Tindakan untuk dibuat bila klik pada kawasan kosong"
+
+#: ../plugins/scale/scale.xml.in.h:57
+msgid "Show desktop"
+msgstr "Tunjuk desktop"
+
+#: ../plugins/scale/scale.xml.in.h:58
+msgid "Terminate scale"
+msgstr "Tamatkan skala"
+
+#: ../plugins/screenshot/screenshot.xml.in.h:1
+msgid "Screenshot"
+msgstr "Cekupan Skrin"
+
+#: ../plugins/screenshot/screenshot.xml.in.h:2
+msgid "Easily capture parts of your screen and save them as .png image"
+msgstr ""
+"Tangkap bahagian skrin anda dengan mudah dan simpan ia sebagai imej .png"
+
+#: ../plugins/screenshot/screenshot.xml.in.h:4
+msgid "Initiate the capture, release the button to take the shot."
+msgstr "Awalkan tangkapan, lepaskan butang untuk membuat syot."
+
+#: ../plugins/screenshot/screenshot.xml.in.h:5
+msgid "Draw Screenshot Selection Indicator"
+msgstr "Lukis Penunjuk Pemilihan Cekupan Skrin"
+
+#: ../plugins/screenshot/screenshot.xml.in.h:6
+msgid "Draw a rectangle outline indicating the screenshot selection."
+msgstr "Lukis garis luar segiempat yang menunjukkan pemilihan cekupan skrin."
+
+#: ../plugins/screenshot/screenshot.xml.in.h:7
+msgid "Selection Indicator Outline Color"
+msgstr "Warna Garis Luar Penunjuk Pemilihan"
+
+#: ../plugins/screenshot/screenshot.xml.in.h:8
+msgid "Color and opacity of the screenshot selection rectangle outline."
+msgstr "Warna dan kelegapan garis luar segiempat pemilihan cekupan skrin."
+
+#: ../plugins/screenshot/screenshot.xml.in.h:9
+msgid "Selection Indicator Fill Color"
+msgstr "Warna Isian Penunjuk Pemilihan"
+
+#: ../plugins/screenshot/screenshot.xml.in.h:10
+msgid "Fill color and opacity of the screenshot selection rectangle."
+msgstr "Warna Isian dan kelegapan bagi segiempat pemilihan cekupan skrin."
+
+#: ../plugins/screenshot/screenshot.xml.in.h:11
+msgid "Save Directory"
+msgstr "Simpan Direktori"
+
+#: ../plugins/screenshot/screenshot.xml.in.h:12
+msgid ""
+"Save screenshot images in this directory. If empty, the desktop directory "
+"will be used."
+msgstr ""
+"Simpan imej cekupan skrin dalam direktori ini. Jika kosong, direktori "
+"dekstop akan digunakan,"
+
+#: ../plugins/screenshot/screenshot.xml.in.h:13
+msgid "Launch Application"
+msgstr "Lancarkan Aplikasi"
+
+#: ../plugins/screenshot/screenshot.xml.in.h:14
+msgid "Automatically open the screenshot in this application."
+msgstr "Buka cekupan skrin secara automatik dalam aplikasi ini."
+
+#: ../plugins/switcher/switcher.xml.in.h:1
+msgid "Application Switcher"
+msgstr "Penukar Aplikasi"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:3
+#: ../plugins/switcher/switcher.xml.in.h:3
+msgid "Next window"
+msgstr "Tetingkap berikutnya"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:4
+#: ../plugins/switcher/switcher.xml.in.h:4
+msgid "Popup switcher if not visible and select next window"
+msgstr ""
+"Timbulkan penukar jika tidak kelihatan dan pilih tetingkap berikutnya"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:5
+#: ../plugins/switcher/switcher.xml.in.h:5
+msgid "Prev window"
+msgstr "Tetingkap terdahulu"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:6
+#: ../plugins/switcher/switcher.xml.in.h:6
+msgid "Popup switcher if not visible and select previous window"
+msgstr "Timbulkan penukar jika tidak kelihatan dan pilih tetingkap terdahulu"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:7
+#: ../plugins/switcher/switcher.xml.in.h:7
+msgid "Next window (All windows)"
+msgstr "Tetingkap berikutnya (Semua tetingkap)"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:8
+#: ../plugins/switcher/switcher.xml.in.h:8
+msgid ""
+"Popup switcher if not visible and select next window out of all windows"
+msgstr ""
+"Timbulkan penukar jika tidak kelihatan dan pilih tetingkap berikut keluar "
+"dari semua tetingkap"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:9
+#: ../plugins/switcher/switcher.xml.in.h:9
+msgid "Prev window (All windows)"
+msgstr "Tetingkap terdahulu (Semua tetingkap)"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:10
+#: ../plugins/switcher/switcher.xml.in.h:10
+msgid ""
+"Popup switcher if not visible and select previous window out of all windows"
+msgstr ""
+"Timbulkan penukar jika tidak kelihatan dan pilih tetingkap terdahulu keluar "
+"dari semua tetingkap"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:15
+#: ../plugins/switcher/switcher.xml.in.h:11
+msgid "Next window (No popup)"
+msgstr "Tetingkap berikutnya (Tanpa timbul)"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:16
+#: ../plugins/switcher/switcher.xml.in.h:12
+msgid "Select next window without showing the popup window."
+msgstr "Pilih tetingkap berikutnya tanpa memaparkan tetingkap timbul."
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:17
+#: ../plugins/switcher/switcher.xml.in.h:13
+msgid "Prev window (No popup)"
+msgstr "Tetingkap terdahulu (Tanpa timbul)"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:18
+#: ../plugins/switcher/switcher.xml.in.h:14
+msgid "Select previous window without showing the popup window."
+msgstr "Pilih tetingkap terdahulu tanpa memaparkan tetingkap timbul."
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:19
+#: ../plugins/switcher/switcher.xml.in.h:15
+msgid "Next Panel"
+msgstr "Panel Berikutnya"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:20
+#: ../plugins/switcher/switcher.xml.in.h:16
+msgid "Select next panel type window."
+msgstr "Pilih tetingkap jenis panel berikutnya"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:21
+#: ../plugins/switcher/switcher.xml.in.h:17
+msgid "Prev Panel"
+msgstr "Panel Terdahulu"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:22
+#: ../plugins/switcher/switcher.xml.in.h:18
+msgid "Select previous panel type window."
+msgstr "Pilih tetingkap jenis panel terdahulu"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:25
+#: ../plugins/switcher/switcher.xml.in.h:20
+msgid "Switcher speed"
+msgstr "Kelajuan penukar"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:27
+#: ../plugins/switcher/switcher.xml.in.h:22
+msgid "Switcher timestep"
+msgstr "Langkah masa penukar"
+
+#: ../plugins/switcher/switcher.xml.in.h:23
+msgid "Size multiplier"
+msgstr "Saiz pendarab"
+
+#: ../plugins/switcher/switcher.xml.in.h:24
+msgid "adjusts the size of the switch windows"
+msgstr "laras saiz bagi tetingkap suis"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:28
+#: ../plugins/switcher/switcher.xml.in.h:25
+msgid "Switcher windows"
+msgstr "Tetingkap penukar"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:29
+#: ../plugins/switcher/switcher.xml.in.h:26
+msgid "Windows that should be shown in switcher"
+msgstr "Tetingkap yang patut dipaparkan dalam penukar"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:50
+#: ../plugins/switcher/switcher.xml.in.h:28
+msgid "Generate mipmaps when possible for higher quality scaling"
+msgstr "Jana peta mip bila boleh untuk penskalaan berkualiti tinggi"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:40
+#: ../plugins/switcher/switcher.xml.in.h:30
+msgid "Amount of saturation in percent"
+msgstr "Sejumlah ketepuan dalam peratus"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:42
+#: ../plugins/switcher/switcher.xml.in.h:32
+msgid "Amount of brightness in percent"
+msgstr "Sejumlah kecerahan dalam peratus"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:56
+#: ../plugins/switcher/switcher.xml.in.h:35
+msgid "Focus on Switch"
+msgstr "Fokus bila Tukar"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:57
+#: ../plugins/switcher/switcher.xml.in.h:36
+msgid "Focus windows when they are visible during the switch"
+msgstr "Fokus tetingkap bila ia kelihatan semasa tukar"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:58
+#: ../plugins/switcher/switcher.xml.in.h:37
+msgid "Bring To Front"
+msgstr "Bawa Ke Hadapan"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:59
+#: ../plugins/switcher/switcher.xml.in.h:38
+msgid "Bring selected window to front"
+msgstr "Bawa tetingkap terpilih ke hadapan"
+
+#: ../plugins/switcher/switcher.xml.in.h:40
+msgid "Distance desktop should be zoom out while switching windows"
+msgstr "Jarak dekstop patut dizum keluar semasa menukar tetingkap"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:45
+#: ../plugins/switcher/switcher.xml.in.h:41
+msgid "Icon"
+msgstr "Ikon"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:46
+#: ../plugins/switcher/switcher.xml.in.h:42
+msgid "Show icon next to thumbnail"
+msgstr "Papar ikon disebelah thumbnail"
+
+#: ../plugins/switcher/switcher.xml.in.h:43
+msgid "Only show icon"
+msgstr "Hanya papar ikon"
+
+#: ../plugins/switcher/switcher.xml.in.h:44
+msgid "Only show the window icon and do not display a thumbnail at all"
+msgstr "Hanya papar ikon tetingkap dan jangan papar thumbnail langsung"
+
+#: ../plugins/switcher/switcher.xml.in.h:45
+msgid "Minimized"
+msgstr "Diminimumkan"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:31
+#: ../plugins/switcher/switcher.xml.in.h:46
+msgid "Show minimized windows"
+msgstr "Papar tetingkap diminimumkan"
+
+#: ../plugins/switcher/switcher.xml.in.h:47
+msgid "Auto Rotate"
+msgstr "Putar Sendiri"
+
+#: ../plugins/switcher/switcher.xml.in.h:48
+msgid "Rotate to the selected window while switching"
+msgstr "Putar tetingkap terpilih semasa penukaran"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:76
+#: ../plugins/switcher/switcher.xml.in.h:49
+msgid "Background"
+msgstr "Latar Belakang"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:77
+#: ../plugins/switcher/switcher.xml.in.h:50
+msgid "Set background color"
+msgstr "Tetapkan warna latar belakang"
+
+#: ../plugins/ring/ring.xml.in.h:65
+#: ../plugins/scaleaddon/scaleaddon.xml.in.h:26
+#: ../plugins/scalefilter/scalefilter.xml.in.h:19
+#: ../plugins/shift/shift.xml.in.h:103
+#: ../plugins/stackswitch/stackswitch.xml.in.h:39
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:78
+#: ../plugins/switcher/switcher.xml.in.h:51
+#: ../plugins/workspacenames/workspacenames.xml.in.h:27
+msgid "Background Color"
+msgstr "Warna Latar Belakang"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:79
+#: ../plugins/switcher/switcher.xml.in.h:52
+msgid "Background color of the switcher window."
+msgstr "Warna latar belakang bagi tetingkap penukar."
+
+#: ../plugins/water/water.xml.in.h:1
+msgid "Water Effect"
+msgstr "Kesan Air"
+
+#: ../plugins/water/water.xml.in.h:2
+msgid "Adds water effects to different desktop actions"
+msgstr "Tambah kesan air ke tindakan desktop yang berbeza"
+
+#: ../plugins/water/water.xml.in.h:4
+msgid "Enable pointer water effects"
+msgstr "Benarkan kesan air penuding"
+
+#: ../plugins/water/water.xml.in.h:5
+msgid "Toggle rain"
+msgstr "Togol hujan"
+
+#: ../plugins/water/water.xml.in.h:6
+msgid "Toggle rain effect"
+msgstr "Togol kesan hujan"
+
+#: ../plugins/water/water.xml.in.h:7
+msgid "Toggle wiper"
+msgstr "Togol pengelap"
+
+#: ../plugins/water/water.xml.in.h:8
+msgid "Toggle wiper effect"
+msgstr "Togol kesan pengelap"
+
+#: ../plugins/water/water.xml.in.h:9
+msgid "Offset Scale"
+msgstr "Skala Ofset"
+
+#: ../plugins/water/water.xml.in.h:10
+msgid "Water offset scale"
+msgstr "Skala ofset air"
+
+#: ../plugins/water/water.xml.in.h:11
+msgid "Rain Delay"
+msgstr "Lengahan Hujan"
+
+#: ../plugins/water/water.xml.in.h:12
+msgid "Delay (in ms) between each rain-drop"
+msgstr "Lengahan (dalam ms) diantara setiap titisan-hujan"
+
+#: ../plugins/water/water.xml.in.h:13
+msgid "lightVec X"
+msgstr "lightVec X"
+
+#: ../plugins/water/water.xml.in.h:14
+msgid "Light vector X coordinate"
+msgstr "Koodinat X vektor cahaya"
+
+#: ../plugins/water/water.xml.in.h:15
+msgid "lightVec Y"
+msgstr "lightVec Y"
+
+#: ../plugins/water/water.xml.in.h:16
+msgid "Light vector Y coordinate"
+msgstr "Koordinat Y vektor cahaya"
+
+#: ../plugins/water/water.xml.in.h:17
+msgid "lightVec Z"
+msgstr "lightVec Z"
+
+#: ../plugins/water/water.xml.in.h:18
+msgid "Light vector Z coordinate"
+msgstr "Koordinat Z vektor cahaya"
+
+#: ../plugins/water/water.xml.in.h:19
+msgid "Title wave"
+msgstr "Gelombang tajuk"
+
+#: ../plugins/water/water.xml.in.h:20
+msgid "Wave effect from window title"
+msgstr "Kesan gelombang dari tajuk tetingkap"
+
+#: ../plugins/water/water.xml.in.h:21
+msgid "Point"
+msgstr "Titik"
+
+#: ../plugins/water/water.xml.in.h:22
+msgid "Add point"
+msgstr "Tambah titik"
+
+#: ../plugins/water/water.xml.in.h:23
+msgid "Line"
+msgstr "Garis"
+
+#: ../plugins/water/water.xml.in.h:24
+msgid "Add line"
+msgstr "Tambah garis"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:1
+msgid "Wobbly Windows"
+msgstr "Tetingkap Bergetar"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:2
+msgid "Use spring model for wobbly window effect"
+msgstr "Guna model spring untuk kesan tetingkap bergetar"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:3
+msgid "Snap windows"
+msgstr "Lekat tetingkap"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:4
+msgid "Toggle window snapping"
+msgstr "Togol pelekatan tetingkap"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:5
+msgid "Snap Inverted"
+msgstr "Lekat Tersongsang"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:6
+msgid "Inverted window snapping"
+msgstr "Pelekatan tetingkap tersongsang"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:7
+msgid "Shiver"
+msgstr "menggeletar"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:8
+msgid "Make window shiver"
+msgstr "Jadikan tetingkap menggeletar"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:9
+msgid "Friction"
+msgstr "Geseran"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:10
+msgid "Spring Friction"
+msgstr "Geseran Spring"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:11
+msgid "Spring K"
+msgstr "Spring K"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:12
+msgid "Spring Konstant"
+msgstr "Pemalar Spring"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:13
+msgid "Grid Resolution"
+msgstr "Resolusi Grid"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:14
+msgid "Vertex Grid Resolution"
+msgstr "Resolusi Grid Puncak"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:15
+msgid "Minimum Grid Size"
+msgstr "Saiz Grid Minimum"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:16
+msgid "Minimum Vertex Grid Size"
+msgstr "Saiz Grid Puncak Minimum"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:17
+msgid "Map Effect"
+msgstr "Kesap Peta"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:18
+msgid "Map Window Effect"
+msgstr "Kesan Peta Tetingkap"
+
+#: ../plugins/animation/animation.xml.in.h:34
+#: ../plugins/wobbly/wobbly.xml.in.h:20
+msgid "Focus Effect"
+msgstr "Kesan Fokus"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:21
+msgid "Focus Window Effect"
+msgstr "Kesan Fokus Tetingkap"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:22
+msgid "Map Windows"
+msgstr "Petakan Tetingkap"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:23
+msgid "Windows that should wobble when mapped"
+msgstr "Tetingkap yang patut bergegar bila dipetakan"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:24
+msgid "Focus Windows"
+msgstr "Fokus Tetingkap"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:25
+msgid "Windows that should wobble when focused"
+msgstr "Tetingkap yang patut bergegar bila difokus"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:26
+msgid "Grab Windows"
+msgstr "Cekau Tetingkap"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:27
+msgid "Windows that should wobble when grabbed"
+msgstr "Tetingkap yang patut bergegar bila dicekau"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:28
+msgid "Move Windows"
+msgstr "Alih Tetingkap"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:29
+msgid "Windows that should wobble when moved"
+msgstr "Tetingkap yang patut bergegar bila dialih"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:30
+msgid "Maximize Effect"
+msgstr "Kesan Maksimum"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:31
+msgid "Wobble effect when maximizing and unmaximizing windows"
+msgstr "Kesan bergegar bila maksimum dan nyahmaksimum tetingkap"

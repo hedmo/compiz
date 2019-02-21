@@ -8,97 +8,122 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Compiz-Fusion ccsm\n"
 "Report-Msgid-Bugs-To: http://bugs.opencompositing.org\n"
-"POT-Creation-Date: 2008-01-29 13:04+0100\n"
-"PO-Revision-Date: 2008-02-07 19:21+0100\n"
+"POT-Creation-Date: 2009-03-24 12:33+0530\n"
+"PO-Revision-Date: 2017-06-19 21:15+0000\n"
 "Last-Translator: Ali Tarihi <ali.tarihi@gmail.com>\n"
 "Language-Team: l10n.ir\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Pootle 1.0.2\n"
+"X-Launchpad-Export-Date: 2019-02-21 18:44+0000\n"
+"X-Generator: Launchpad (build 18886)\n"
 
 #, python-format
 msgid ""
 "The new value for the %(binding)s binding for the action <b>%(action)s</b> "
-"in plugin <b>%(plugin)s</b> conflicts with the action <b>%(action_conflict)"
-"s</b> of the <b>%(plugin_conflict)s</b> plugin.\n"
-"Do you wish to disable <b>%(action_conflict)s</b> in the <b>%"
-"(plugin_conflict)s</b> plugin?"
+"in plugin <b>%(plugin)s</b> conflicts with the action "
+"<b>%(action_conflict)s</b> of the <b>%(plugin_conflict)s</b> plugin.\n"
+"Do you wish to disable <b>%(action_conflict)s</b> in the "
+"<b>%(plugin_conflict)s</b> plugin?"
 msgstr ""
+"مقدار جدید برای الزامات %(binding)s عمل <b>%(action)s</b> در پلاگین "
+"<b>%(plugin)s</b> با عمل <b>%(action_conflict)s</b> از پلاگین "
+"<b>%(plugin_conflict)s</b> تداخل دارد.\n"
+"می‌خواهید <b>%(action_conflict)s</b> را در پلاگین <b>%(plugin_conflict)s</b> "
+"غیرفعّال کنید؟"
 
 #, python-format
 msgid "Disable %(action_conflict)s"
-msgstr "%(action_conflict)ها را غیرفعال کن"
+msgstr "%(action_conflict)s را غیرفعّال کن"
 
 #, python-format
 msgid "Don't set %(action)s"
-msgstr ""
+msgstr "%(action)s را تنظیم نکن"
 
 #, python-format
 msgid "Set %(action)s anyway"
-msgstr ""
+msgstr "به هر حال %(action)s را تمظیم کن"
+
+msgid "key"
+msgstr "کلید"
+
+msgid "button"
+msgstr "دکمه"
+
+msgid "edge"
+msgstr "لبه"
 
 #, python-format
-#, fuzzy
 msgid ""
 "You are trying to use the feature <b>%(feature)s</b> which is <b>not</b> "
 "provided by any plugin.\n"
 "Do you wish to use this feature anyway?"
 msgstr ""
-"شما سعی دارید که از قابلیت  <b>%(feature)ها</b> استفاده کنید که  توسط "
-"<b>هیچ</b>پلاگینی فراهم نشده است.\n"
-"آیا می‌خواید به هر حال از این قابلیت استفاده کنید؟"
+"در حال تلاش برای استفاده از ویژگی <b>%(feature)s</b> هستید که توسّط هیچ "
+"پلاگینی فراهم نمی‌شود.\n"
+"آیا باز هم مي‌خواهید از این ویژگی استفاده کنید؟"
 
 #, python-format
-#, fuzzy
 msgid "Use %(feature)s"
-msgstr "از %(feature)ها استفاده کن"
+msgstr "از %(feature)s استفاده کن"
 
 #, python-format
 msgid "Don't use %(feature)s"
-msgstr "از %(feature)ها استفاده نکن"
+msgstr "از %(feature)s استفاده نکن"
 
 #, python-format
-#, fuzzy
 msgid ""
-"You are trying to use the feature <b>%(feature)s</b> which is provided by <b>"
-"%(plugin)s</b>.\n"
+"You are trying to use the feature <b>%(feature)s</b> which is provided by "
+"<b>%(plugin)s</b>.\n"
 "This plugin is currently disabled.\n"
 "Do you wish to enable <b>%(plugin)s</b> so the feature is available?"
 msgstr ""
-"شما دارید سعی می‌کنید که از قابلیت <b>%(feature)ها</b> که توسط "
-"<b>%(plugin)ها</b> ایجاد شده است.\n"
-"این پلاگین هم اکنون غیرفعال است.\n"
-"آیا می‌خواهید که <b>%(plugin)ها</b> فعال گردد تا قابلیت در دسترس باشد؟"
+"در حال تلاش برای استفاده از ویژگی <b>%(feature)s</b> هستید که توسّط "
+"<b>%(plugin)s</b> فراهم می‌شود.\n"
+"این پلاگین در حال حاضر غیرفعّال است.\n"
+"آیا می‌خواهید <b>%(plugin)s</b> را فعّال کنید؟"
 
 #, python-format
 msgid "Enable %(plugin)s"
-msgstr "%(plugin)ها را فعال کن"
+msgstr "%(plugin)s را فعّال کن"
 
 #, python-format
 msgid "Don't enable %(feature)s"
-msgstr "%(feature)ها را فعال نکن"
+msgstr "%(feature)s را فعّال نکن"
 
 #, python-format
-#, fuzzy
+msgid ""
+"Some %(bindings)s bindings of Plugin <b>%(plugin)s</b> conflict with other "
+"plugins. Do you want to resolve these conflicts?"
+msgstr ""
+"برخی الزامات %(bindings)s پلاگین <b>%(plugin)s</b> با دیگر پلاگین‌ها تداخل "
+"دارد. می‌خواهید این تداخل‌ها را رفع کنید؟"
+
+msgid "Resolve conflicts"
+msgstr "حل کردن تداخل‌ها"
+
+msgid "Ignore conflicts"
+msgstr "درنظر نگرفتن تداخل‌ها"
+
+#, python-format
 msgid ""
 "Plugin <b>%(plugin_conflict)s</b> provides feature <b>%(feature)s</b> which "
 "is also provided by <b>%(plugin)s</b>"
 msgstr ""
-"پلاگین <b>%(plugin_conflict)ها</b> امکان <b>%(feature)ها</b> را اختیار "
-"می‌گذارد که به وسیله   <b>%(plugin)ها</b> نیز در اختیار قرار می‌گیرد."
+"پلاگین <b>%(plugin_conflict)s</b> ویژگی <b>%(feature)s</b> را فراهم می‌کند "
+"که توسّط <b>%(plugin)s</b> نیز فراهم می‌شود"
 
 #, python-format
 msgid "Disable %(plugin_conflict)s"
-msgstr "%(plugin_conflict)ها را غیرفعال کن"
+msgstr "%(plugin_conflict)s را غیرفعّال کن"
 
 #, python-format
 msgid "Don't enable %(plugin)s"
-msgstr "%(plugin)ها را فعال نکن"
+msgstr "%(plugin)s را فعّال نکن"
 
 #, python-format
 msgid "Plugin <b>%(plugin_conflict)s</b> conflicts with <b>%(plugin)s</b>."
-msgstr "پلاگین <b>%(plugin_conflict)ها</b> با <b>%(plugin)ها</b> ناسازگار است."
+msgstr "پلاگین <b>%(plugin_conflict)s</b> با <b>%(plugin)s</b> تداخل دارد."
 
 #, python-format
 msgid ""
@@ -106,51 +131,52 @@ msgid ""
 "the following plugins:\n"
 "%(plugin_list)s"
 msgstr ""
-"<b>%(plugin)ها</b> نیاز به قابلیت <b>%(feature)ها</b> دارد که به وسیله این "
-"پلاگینها بدست می‌آید:\n"
-"%(plugin_list)ها"
+"<b>%(plugin)s</b> نیاز به ویژگی <b>%(feature)s</b> دارد که توسّط پلاگین‌های "
+"زیر فراهم می‌شود:\n"
+" %(plugin_list)s"
 
 msgid "Enable these plugins"
 msgstr "این پلاگین ها را فعال کن"
 
 #, python-format
 msgid "<b>%(plugin)s</b> requires the plugin <b>%(require)s</b>."
-msgstr "<b>%(plugin)s</b> نیازمند پلاگین <b>%(require)ها</b> می‌باشد."
+msgstr "<b>%(plugin)s</b> نیازمند پلاگین <b>%(require)s</b> است."
 
 #, python-format
 msgid "Enable %(require)s"
-msgstr "%(require)ها را فعال کن"
+msgstr "فعّال کردن %(require)s"
 
 #, python-format
 msgid ""
 "<b>%(plugin)s</b> provides the feature <b>%(feature)s</b> which is required "
 "by the plugins <b>%(plugin_list)s</b>."
 msgstr ""
-"<b>%(plugin)ها</b> قابلیت <b>%(feature)ها</b> را که مورد نیاز پلاگینهای "
-"<b>%(plugin_list)ها</b> است، فراهم می‌آورد."
+"<b>%(plugin)s</b> ویژگی <b>%(feature)s</b> را فراهم می‌کند که توسّط "
+"پلاگین‌های <b>%(plugin_list)s</b> مورد نیاز است."
 
 msgid "Disable these plugins"
 msgstr "این پلاگینها را غیر فعال کن"
 
 #, python-format
 msgid "Don't disable %(plugin)s"
-msgstr "%(plugin)ها را غیر فعال کن"
+msgstr "غیر قعّال نکردن %(plugin)s"
 
 #, python-format
 msgid "<b>%(plugin)s</b> is required by the plugins <b>%(plugin_list)s</b>."
-msgstr "<b>%(plugin)ها</b> مورد نیاز <b>%(plugin_list)ها</b> می‌باشد."
+msgstr ""
+"<b>%(plugin)s</b> توسّط پلاگین‌های <b>%(plugin_list)s</b> مورد نیاز است."
 
 msgid "General"
 msgstr "همگانی"
 
 msgid "Accessibility"
-msgstr ""
+msgstr "دست‌رسی پذیری"
 
 msgid "Desktop"
 msgstr "رومیزی"
 
 msgid "Extras"
-msgstr ""
+msgstr "اضافی"
 
 msgid "Window Management"
 msgstr "مدیریت پنجره"
@@ -164,44 +190,29 @@ msgstr "بارگذاری تصویر"
 msgid "Utility"
 msgstr "ابزار"
 
-#, fuzzy
+msgid "All"
+msgstr "همه"
+
+msgid "Uncategorized"
+msgstr "دسته‌بندی نشده"
+
+msgid "N/A"
+msgstr "هیچ"
+
 msgid "Reset setting to the default value"
-msgstr "بازنشانی به مقدار پیش‌فرض"
-
-msgid "Browse for "
-msgstr ""
-
-msgid "Images"
-msgstr "تصاویر"
-
-msgid "File"
-msgstr "فایل"
-
-msgid "Open directory..."
-msgstr "بازکردن پوشه..."
-
-msgid "Open file..."
-msgstr "باز کردن فایل..."
-
-msgid "Multi-list settings. You can double-click a row to edit the values."
-msgstr ""
-"تنظیمات چند-لیستی. شما می‌توانید با دوکلیک کردن یک سطر، مقادیر آن را ویرایش "
-"کنید. "
+msgstr "بازنشانی تنظیمات به مقادیر پیش‌گزیده"
 
 msgid "Edit"
 msgstr "ویرایش"
 
-#, python-format
-msgid "Value (%s)"
-msgstr "مقدار (%s)"
+msgid "Multi-list settings. You can double-click a row to edit the values."
+msgstr ""
+"تنظیمات چند-لیستی. شما می‌توانید با دوکلیک کردن یک سطر، مقادیر آن را ویرایش "
+"کنید."
 
 #, python-format
 msgid "Edit %s"
 msgstr "ویرایش %s"
-
-#, python-format
-msgid "Value (%(value)s) for %(setting)s"
-msgstr "مقدار (%(value)ها) برای %(setting)ها"
 
 #, python-format
 msgid "\"%s\" is not a valid shortcut"
@@ -213,75 +224,34 @@ msgstr "غیرفعال"
 msgid "Enabled"
 msgstr "فعال"
 
-#, fuzzy
 msgid "Grab key combination"
 msgstr "گرفتن ترکیب کلیدها"
-
-msgid "Computing possible conflicts, please wait"
-msgstr "محاسبه ناسازگاریهای ممکن، لطفا صبر کنید"
 
 #, python-format
 msgid "\"%s\" is not a valid button"
 msgstr "\"%s\" یک دکمه معتبر نیست"
 
 #, python-format
-#, fuzzy
 msgid ""
 "Using Button1 without modifiers can prevent any left click and thus break "
 "your configuration. Do you really want to set \"%s\" button to Button1 ?"
 msgstr ""
-"استفاده از Button1 بدون تغییر دهنده می‌تواند جلوی هر کلیک چپی را بگیرد و "
-"بدین‌سان تنظیمات شما را خراب کند. آیا واقعا تمایل دارید که دکمه \"%s\" را به  "
-"Button1 اختصاص دهید؟"
+"استفاده از کلید ۱ بدون تغییردهنده می‌تواند از هر کلیک چپی جلوگیری کرده و "
+"بنابراین پیکربندیتان را خراب کند. آیا واقعاً می‌خواهید «%s» را به کلید ۱ "
+"اختصاص دهید؟"
 
 #, python-format
-#, fuzzy
 msgid "\"%s\" is not a valid edge mask"
-msgstr "\"%s\" یک Mask معتبر نیست"
+msgstr "\"%s\" یک ماسک لبه‌ی معتبر نیست"
 
 msgid "None"
 msgstr "هیچ یک"
 
-#, python-format
-msgid "Unhandled list type %s for %s"
-msgstr ""
-
 msgid "CompizConfig Settings Manager"
-msgstr ""
+msgstr "مدیر تنظیمات پیکربندی کامپیز"
 
-msgid "Filter"
-msgstr "فیلتر"
-
-msgid "Filter your Plugin list"
-msgstr "لیست پلاگین‌های خود را فیلتر نمایید"
-
-#, python-format
-msgid "Screen %i"
-msgstr "صفحه %i"
-
-msgid "Screen"
-msgstr "صفحه"
-
-#. Settings
-msgid "All"
-msgstr "همه"
-
-msgid "Uncategorized"
-msgstr "دسته‌بندی نشده"
-
-#, fuzzy
-msgid "Category"
-msgstr "دسته"
-
-msgid "Advanced Search"
-msgstr "جستجوی پیشرفته"
-
-msgid "Preferences"
-msgstr ""
-
-#, python-format
-msgid "Enable %s"
-msgstr "%s را فعال کن"
+msgid "Plugin"
+msgstr "پلاگین"
 
 msgid "Please press the new key combination"
 msgstr "لطفا ترکیب کلید جدید را فشار دهید"
@@ -290,7 +260,7 @@ msgid "Window Title"
 msgstr "عنوان پنجره"
 
 msgid "Window Role"
-msgstr ""
+msgstr "نقش پنجره"
 
 msgid "Window Name"
 msgstr "نام پنجره"
@@ -302,7 +272,7 @@ msgid "Window Type"
 msgstr "نوع پنجره"
 
 msgid "Window ID"
-msgstr ""
+msgstr "شناسه‌ی پنجره"
 
 msgid "And"
 msgstr "و"
@@ -311,7 +281,7 @@ msgid "Or"
 msgstr "یا"
 
 msgid "Edit match"
-msgstr ""
+msgstr "ویرایش تطابق"
 
 #. Type
 msgid "Type"
@@ -332,17 +302,42 @@ msgstr "ارتباط"
 msgid "Invert"
 msgstr "معکوس"
 
+msgid "Browse..."
+msgstr "مرور…"
+
+msgid "Images"
+msgstr "تصاویر"
+
+msgid "File"
+msgstr "فایل"
+
+msgid "Open directory..."
+msgstr "بازکردن پوشه..."
+
+msgid "Open file..."
+msgstr "باز کردن فایل..."
+
 msgid "This is a settings manager for the CompizConfig configuration system."
 msgstr "این یک مدیر تنظیمات برای سیستم تنظیمات CompizConfig می‌باشد"
 
 msgid "translator-credits"
 msgstr ""
+"Launchpad Contributions:\n"
+"  Ali Tarihi https://launchpad.net/~ali-tarihi\n"
+"  Danial Behzadi https://launchpad.net/~dani.behzi"
 
 msgid "An error has occured"
 msgstr "یک خطا رخ داده است."
 
 msgid "Warning"
 msgstr "هشدار"
+
+#, python-format
+msgid "Enable %s"
+msgstr "%s را فعال کن"
+
+msgid "Filter"
+msgstr "فیلتر"
 
 #, python-format
 msgid "Search %s Plugin Options"
@@ -357,9 +352,17 @@ msgstr "گزینه‌های هسته Compiz را جستجو کن"
 msgid "Error"
 msgstr "خطا"
 
+msgid ""
+"Enter a filter.\n"
+"Click the keyboard image to grab a key for which to search."
+msgstr ""
+"فیلتری را وارد کنید.\n"
+"روی عکس صفحه‌کلید کلیک کنید تا کلیدی را که برایش جست‌وجو شود بگیرد."
+
 msgid "Search in..."
 msgstr "جستجو کن در..."
 
+#. Options
 msgid "Short description and name"
 msgstr "توضیح کوتاه و نام"
 
@@ -369,123 +372,156 @@ msgstr "توضیح بلند"
 msgid "Settings value"
 msgstr "قرار دادن مقدار"
 
+msgid "Group"
+msgstr "گروه"
+
+msgid "Subgroup"
+msgstr "زیرگروه"
+
 #. Notebook
 msgid "Settings"
 msgstr "تنظیمات"
 
-#, fuzzy
-msgid "Add a New Profile"
-msgstr "اضافه کردن یک مشخصات جدید"
+msgid "Loading Advanced Search"
+msgstr "بار کردن جست‌وجوی پیش‌رفته"
 
-#, fuzzy
+msgid "Add a New Profile"
+msgstr "افزودن نمایه‌ی جدید"
+
 msgid "Remove This Profile"
-msgstr "حذف این مشخصات"
+msgstr "برداشتن این نمایه"
 
 msgid "Default"
 msgstr "پیش‌فرض"
 
-#, fuzzy
 msgid "Profile"
-msgstr "مشخصات"
+msgstr "نمایه"
 
 msgid "Import"
-msgstr ""
+msgstr "وارد کردن"
 
 msgid "Import a CompizConfig Profile"
-msgstr ""
+msgstr "وارد کردن یک نمایه‌ی تنظیمات کامپیز"
 
 msgid "Import as..."
-msgstr ""
+msgstr "وارد کردن به عنوان…"
 
 msgid "Import a CompizConfig Profile as a new profile"
-msgstr ""
+msgstr "وارد کردن یک نمایه‌ی تنظیمات کامپیز به عنوان یک نمایه‌ی جدید"
 
 msgid "Export"
-msgstr ""
+msgstr "صدور"
 
 msgid "Export your CompizConfig Profile"
-msgstr ""
+msgstr "صدور نمایه‌ی تنظیمات کامپیزتان"
 
 msgid "Reset to defaults"
-msgstr ""
+msgstr "بازنشانی به پیش‌گزیده‌ها"
 
 msgid "Reset your CompizConfig Profile to the global defaults"
-msgstr ""
+msgstr "بازنشانی نمایه‌ی تنظیمات کامپیزتان به پیش‌گزیده‌های جهانی"
 
 msgid "Backend"
-msgstr ""
+msgstr "پشتانه"
 
 msgid "Integration"
-msgstr ""
+msgstr "یک‌پارچگی"
 
 msgid "Enable integration into the desktop environment"
-msgstr ""
+msgstr "فعّال کردن یک‌پارچگی با محیط میزکار"
 
 msgid "Profiles (*.profile)"
-msgstr ""
+msgstr "نمایه‌ها (profile)"
 
 msgid "All files"
-msgstr ""
+msgstr "همه‌ی پرونده‌ها"
 
 msgid "Save file.."
-msgstr ""
+msgstr "دخیره‌ی پرونده"
 
-msgid "Do you want to skip default option values while exporting your profile?"
+msgid ""
+"Do you want to skip default option values while exporting your profile?"
 msgstr ""
+"آیا می‌خواهید هنگام صدور نمایه‌تان، مقادیر انتخابی پیش‌گزیده را نادیده "
+"بگیرید؟"
 
 msgid "Open file.."
-msgstr ""
+msgstr "گشودن پرونده…"
 
 msgid "Enter a profile name"
-msgstr ""
+msgstr "یک نام نمایه وارد کنید"
 
 msgid "Please enter a name for the new profile:"
-msgstr ""
+msgstr "لطفاً نامی برای نمایه‌ی جدید وارد کنید:"
 
 msgid "Backend not found."
-msgstr ""
+msgstr "پشتانه پیدا نشد."
 
 #. Auto sort
 msgid "Automatic plugin sorting"
-msgstr ""
+msgstr "چینش پلاگین خودکار"
 
 msgid "Disabled Plugins"
-msgstr ""
+msgstr "پلاگین‌های غیرفعّال"
 
 msgid "Enabled Plugins"
-msgstr ""
+msgstr "پلاگین‌های فعّال"
 
 msgid ""
 "Do you really want to disable automatic plugin sorting? This will also "
 "disable conflict handling. You should only do this if you know what you are "
 "doing."
 msgstr ""
+"آیا واقعاً می‌خواهید چینش خودکار  پلاگین‌ها را غیرفعّال کنید؟ این کار مدیریت "
+"تداخل را نیز غیرفعّال می‌کند. فقط درصورتی که می‌دانید دارید چه‌کار می‌کنید "
+"این کار را انجام دهید."
 
 msgid "Add plugin"
-msgstr ""
+msgstr "افزودن پلاگین"
 
 msgid "Plugin name:"
-msgstr ""
+msgstr "نام پلاگین:"
 
 msgid "Insert plugin name"
-msgstr ""
+msgstr "نام پلاگین را وارد کیند"
+
+msgid "Preferences"
+msgstr "ترجیحات"
 
 msgid ""
 "Configure the backend, profile and other internal settings used by the "
 "Compiz Configuration System."
 msgstr ""
+"پیکر بندی پشتانه، نمایه و تنظیمات درونی با استفاده از سامانه‌ی پیکربندی "
+"کامپیز."
 
 msgid "About"
-msgstr ""
+msgstr "درباره"
 
 msgid "About CCSM..."
-msgstr ""
+msgstr "درباره‌ی CCSM…"
 
 msgid "Profile & Backend"
-msgstr ""
+msgstr "نمایه و پشتانه"
 
 msgid "Plugin List"
-msgstr ""
+msgstr "فهرست پلاگین‌ها"
+
+msgid "Filter your Plugin list"
+msgstr "لیست پلاگین‌های خود را فیلتر نمایید"
+
+#, python-format
+msgid "Screen %i"
+msgstr "صفحه %i"
+
+msgid "Screen"
+msgstr "صفحه"
+
+msgid "Category"
+msgstr "دسته"
+
+msgid "Advanced Search"
+msgstr "جستجوی پیشرفته"
 
 #, python-format
 msgid ""
@@ -493,3 +529,9 @@ msgid ""
 "\n"
 " Your filter \"<b>%s</b>\" does not match any items.</span>"
 msgstr ""
+"<span size=\"large\"><b>هیچ مورد مطابقی یافت نشد.</b> </span><span>\n"
+"\n"
+"فیلتر \"<b>%s</b>\" شما با هیچ موردی تطابق نداشت.</span>"
+
+msgid "Configure Compiz with CompizConfig"
+msgstr "پیکربندی کامپیز با CompizConfig"

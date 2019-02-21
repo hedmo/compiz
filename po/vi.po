@@ -8,2993 +8,4041 @@ msgid ""
 msgstr ""
 "Project-Id-Version: @PACKAGE@\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-24 08:14+0100\n"
-"PO-Revision-Date: 2006-07-12 07:32+0200\n"
-"Last-Translator: Phan Vĩnh Thịnh <teppi82@gmail.com>\n"
+"POT-Creation-Date: 2017-06-16 15:24+0000\n"
+"PO-Revision-Date: 2012-01-29 13:57+0000\n"
+"Last-Translator: Nguyễn Hải Nam <hainam@jcisio.com>\n"
 "Language-Team: Vietnamese <i18n@suse.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
-
-#: ../gtk/gnome/50-compiz-desktop-key.xml.in.h:1
-msgid "Desktop"
-msgstr ""
-
-#: ../gtk/gnome/50-compiz-key.xml.in.h:1
-msgid "Window Management"
-msgstr ""
+"X-Launchpad-Export-Date: 2019-02-21 18:44+0000\n"
+"X-Generator: Launchpad (build 18886)\n"
 
 #: ../gtk/gnome/compiz.desktop.in.h:1
 msgid "Compiz"
-msgstr ""
+msgstr "Compiz"
 
-#: ../gtk/gnome/compiz-window-manager.c:426 ../metadata/scale.xml.in.h:25
-#: ../metadata/wobbly.xml.in.h:16
-msgid "None"
-msgstr ""
-
-#: ../gtk/gnome/compiz-window-manager.c:427
-#: ../gtk/window-decorator/gtk-window-decorator.c:4625
-msgid "Shade"
-msgstr ""
-
-#: ../gtk/gnome/compiz-window-manager.c:428 ../metadata/place.xml.in.h:9
-msgid "Maximize"
-msgstr ""
-
-#: ../gtk/gnome/compiz-window-manager.c:429
-msgid "Maximize Horizontally"
-msgstr ""
-
-#: ../gtk/gnome/compiz-window-manager.c:430
-msgid "Maximize Vertically"
-msgstr ""
-
-#: ../gtk/gnome/compiz-window-manager.c:431
-msgid "Minimize"
-msgstr ""
-
-#: ../gtk/gnome/compiz-window-manager.c:432
-msgid "Raise"
-msgstr ""
-
-#: ../gtk/gnome/compiz-window-manager.c:433
-msgid "Lower"
-msgstr ""
-
-#: ../gtk/gnome/compiz-window-manager.c:434
-#: ../gtk/window-decorator/gtk-window-decorator.c:4606
-#: ../metadata/core.xml.in.in.h:100
-msgid "Window Menu"
-msgstr ""
-
-#: ../gtk/window-decorator/gwd.schemas.in.h:1
-msgid "Action to take when scrolling the mouse wheel on a window title bar."
-msgstr ""
-
-#: ../gtk/window-decorator/gwd.schemas.in.h:2
-msgid "Blur type"
-msgstr ""
-
-#: ../gtk/window-decorator/gwd.schemas.in.h:3
-msgid "Metacity theme active window opacity"
-msgstr ""
-
-#: ../gtk/window-decorator/gwd.schemas.in.h:4
-msgid "Metacity theme active window opacity shade"
-msgstr ""
-
-#: ../gtk/window-decorator/gwd.schemas.in.h:5
-msgid "Metacity theme opacity"
-msgstr ""
-
-#: ../gtk/window-decorator/gwd.schemas.in.h:6
-msgid "Metacity theme opacity shade"
-msgstr ""
-
-#: ../gtk/window-decorator/gwd.schemas.in.h:7
-msgid "Opacity to use for active windows with metacity theme decorations"
-msgstr ""
-
-#: ../gtk/window-decorator/gwd.schemas.in.h:8
-msgid "Opacity to use for metacity theme decorations"
-msgstr ""
-
-#: ../gtk/window-decorator/gwd.schemas.in.h:9
-msgid ""
-"Shade active windows with metacity theme decorations from opaque to "
-"translucent"
-msgstr ""
-
-#: ../gtk/window-decorator/gwd.schemas.in.h:10
-msgid ""
-"Shade windows with metacity theme decorations from opaque to translucent"
-msgstr ""
-
-#: ../gtk/window-decorator/gwd.schemas.in.h:11
-msgid "Title bar mouse wheel action"
-msgstr ""
-
-#: ../gtk/window-decorator/gwd.schemas.in.h:12
-msgid "Type of blur used for window decorations"
-msgstr ""
-
-#: ../gtk/window-decorator/gwd.schemas.in.h:13
-msgid "Use metacity theme"
-msgstr ""
-
-#: ../gtk/window-decorator/gwd.schemas.in.h:14
-msgid "Use metacity theme when drawing window decorations"
-msgstr ""
-
-#: ../gtk/window-decorator/gtk-window-decorator.c:4414
-#: ../metadata/core.xml.in.in.h:12
+#: ../gtk/window-decorator/events.c:159 ../metadata/core.xml.in.h:50
+#: ../plugins/scaleaddon/scaleaddon.xml.in.h:4
 msgid "Close Window"
-msgstr ""
+msgstr "Đóng cửa sổ"
 
-#: ../gtk/window-decorator/gtk-window-decorator.c:4436
-#: ../metadata/core.xml.in.in.h:93
+#: ../gtk/window-decorator/events.c:187 ../metadata/core.xml.in.h:60
 msgid "Unmaximize Window"
-msgstr ""
+msgstr "Bỏ phóng to cửa sổ"
 
-#: ../gtk/window-decorator/gtk-window-decorator.c:4439
-#: ../metadata/core.xml.in.in.h:49
+#: ../gtk/window-decorator/events.c:190 ../metadata/core.xml.in.h:58
 msgid "Maximize Window"
-msgstr ""
+msgstr "Phóng to cửa sổ"
 
-#: ../gtk/window-decorator/gtk-window-decorator.c:4481
-#: ../metadata/core.xml.in.in.h:55
+#: ../gtk/window-decorator/events.c:245 ../metadata/core.xml.in.h:56
 msgid "Minimize Window"
-msgstr ""
+msgstr "Thu nhỏ cửa sổ"
 
-#: ../gtk/window-decorator/gtk-window-decorator.c:4645
+#: ../gtk/window-decorator/events.c:265 ../metadata/core.xml.in.h:68
+msgid "Window Menu"
+msgstr "Trình đơn cửa sổ"
+
+#: ../gtk/window-decorator/events.c:288
+msgid "Shade"
+msgstr "Thu gọn"
+
+#: ../gtk/window-decorator/events.c:312
 msgid "Make Above"
-msgstr ""
+msgstr "Đưa lên trên"
 
-#: ../gtk/window-decorator/gtk-window-decorator.c:4671
+#: ../gtk/window-decorator/events.c:334
 msgid "Stick"
-msgstr ""
+msgstr "Dán"
 
-#: ../gtk/window-decorator/gtk-window-decorator.c:4691
+#: ../gtk/window-decorator/events.c:356
 msgid "Unshade"
-msgstr ""
+msgstr "Bỏ thu gọn"
 
-#: ../gtk/window-decorator/gtk-window-decorator.c:4711
+#: ../gtk/window-decorator/events.c:378
 msgid "Unmake Above"
-msgstr ""
+msgstr "Bỏ đưa lên trên"
 
-#: ../gtk/window-decorator/gtk-window-decorator.c:4737
+#: ../gtk/window-decorator/events.c:400
 msgid "Unstick"
-msgstr ""
+msgstr "Bỏ dán"
 
-#: ../gtk/window-decorator/gtk-window-decorator.c:5085
+#: ../gtk/window-decorator/forcequit.c:143
 #, c-format
 msgid "The window \"%s\" is not responding."
-msgstr ""
+msgstr "Cửa sổ \"%s\" không trả lời."
 
-#: ../gtk/window-decorator/gtk-window-decorator.c:5094
+#: ../gtk/window-decorator/forcequit.c:147
 msgid ""
 "Forcing this application to quit will cause you to lose any unsaved changes."
 msgstr ""
+"Việc buộc thoát ứng dụng này sẽ làm mất những thông tin chưa được lưu."
 
-#: ../gtk/window-decorator/gtk-window-decorator.c:5109
+#: ../gtk/window-decorator/forcequit.c:159
+msgid "_Cancel"
+msgstr ""
+
+#: ../gtk/window-decorator/forcequit.c:161
 msgid "_Force Quit"
-msgstr ""
-
-#: ../metadata/annotate.xml.in.h:1
-msgid "Annotate"
-msgstr ""
-
-#: ../metadata/annotate.xml.in.h:2
-msgid "Annotate Fill Color"
-msgstr ""
-
-#: ../metadata/annotate.xml.in.h:3
-msgid "Annotate Stroke Color"
-msgstr ""
-
-#: ../metadata/annotate.xml.in.h:4
-msgid "Annotate plugin"
-msgstr ""
-
-#: ../metadata/annotate.xml.in.h:5
-msgid "Clear"
-msgstr ""
-
-#: ../metadata/annotate.xml.in.h:6
-msgid "Draw"
-msgstr ""
-
-#: ../metadata/annotate.xml.in.h:7
-msgid "Draw using tool"
-msgstr ""
-
-#: ../metadata/annotate.xml.in.h:8
-msgid "Fill color for annotations"
-msgstr ""
-
-#: ../metadata/annotate.xml.in.h:9 ../metadata/clone.xml.in.h:2
-#: ../metadata/rotate.xml.in.h:12 ../metadata/screenshot.xml.in.h:3
-#: ../metadata/water.xml.in.h:6
-msgid "Initiate"
-msgstr ""
-
-#: ../metadata/annotate.xml.in.h:10
-msgid "Initiate annotate drawing"
-msgstr ""
-
-#: ../metadata/annotate.xml.in.h:11
-msgid "Initiate annotate erasing"
-msgstr ""
-
-#: ../metadata/annotate.xml.in.h:12
-msgid "Initiate erase"
-msgstr ""
-
-#: ../metadata/annotate.xml.in.h:13
-msgid "Line width"
-msgstr ""
-
-#: ../metadata/annotate.xml.in.h:14
-msgid "Line width for annotations"
-msgstr ""
-
-#: ../metadata/annotate.xml.in.h:15
-msgid "Stroke color for annotations"
-msgstr ""
-
-#: ../metadata/annotate.xml.in.h:16
-msgid "Stroke width"
-msgstr ""
-
-#: ../metadata/annotate.xml.in.h:17
-msgid "Stroke width for annotations"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:1
-msgid "4xBilinear"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:2
-msgid "Alpha Blur"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:3
-msgid "Alpha blur windows"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:4
-msgid "Blur Filter"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:5
-msgid "Blur Occlusion"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:6
-msgid "Blur Saturation"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:7
-msgid "Blur Speed"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:8
-msgid "Blur Windows"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:9
-msgid "Blur behind translucent parts of windows"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:10
-msgid "Blur saturation"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:11
-msgid "Blur windows"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:12
-msgid "Blur windows that doesn't have focus"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:13
-msgid "Disable blurring of screen regions obscured by other windows."
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:14
-msgid "Filter method used for blurring"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:15
-msgid "Focus Blur"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:16
-msgid "Focus blur windows"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:17
-msgid "Gaussian"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:18
-msgid "Gaussian Radius"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:19
-msgid "Gaussian Strength"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:20
-msgid "Gaussian radius"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:21
-msgid "Gaussian strength"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:22
-msgid "Independent texture fetch"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:23 ../metadata/cube.xml.in.h:27
-#: ../metadata/decoration.xml.in.h:10 ../metadata/switcher.xml.in.h:14
-msgid "Mipmap"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:24
-msgid "Mipmap LOD"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:25
-msgid "Mipmap level-of-detail"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:26
-msgid "Pulse"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:27
-msgid "Pulse effect"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:28
-msgid ""
-"Use the available texture units to do as many as possible independent "
-"texture fetches."
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:29
-msgid "Window blur speed"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:30
-msgid "Windows that should be affected by focus blur"
-msgstr ""
-
-#: ../metadata/blur.xml.in.h:31
-msgid "Windows that should be use alpha blur by default"
-msgstr ""
-
-#: ../metadata/clone.xml.in.h:1
-msgid "Clone Output"
-msgstr ""
-
-#: ../metadata/clone.xml.in.h:3
-msgid "Initiate clone selection"
-msgstr ""
-
-#: ../metadata/clone.xml.in.h:4
-msgid "Output clone handler"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:1
-msgid ""
-"A button binding that when invoked, will run the shell command identified by "
-"command0"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:2
-msgid ""
-"A button binding that when invoked, will run the shell command identified by "
-"command1"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:3
-msgid ""
-"A button binding that when invoked, will run the shell command identified by "
-"command10"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:4
-msgid ""
-"A button binding that when invoked, will run the shell command identified by "
-"command11"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:5
-msgid ""
-"A button binding that when invoked, will run the shell command identified by "
-"command2"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:6
-msgid ""
-"A button binding that when invoked, will run the shell command identified by "
-"command3"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:7
-msgid ""
-"A button binding that when invoked, will run the shell command identified by "
-"command4"
-msgstr ""
+msgstr "_Buộc thoát"
 
-#: ../metadata/commands.xml.in.h:8
-msgid ""
-"A button binding that when invoked, will run the shell command identified by "
-"command5"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:1
+msgid "Navigation"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:9
-msgid ""
-"A button binding that when invoked, will run the shell command identified by "
-"command6"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:2
+msgid "Move window to workspace 1"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:10
-msgid ""
-"A button binding that when invoked, will run the shell command identified by "
-"command7"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:3
+msgid "Move window to workspace 2"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:11
-msgid ""
-"A button binding that when invoked, will run the shell command identified by "
-"command8"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:4
+msgid "Move window to workspace 3"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:12
-msgid ""
-"A button binding that when invoked, will run the shell command identified by "
-"command9"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:5
+msgid "Move window to workspace 4"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:13
-msgid ""
-"A keybinding that when invoked, will run the shell command identified by "
-"command0"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:6
+msgid "Move window to workspace 5"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:14
-msgid ""
-"A keybinding that when invoked, will run the shell command identified by "
-"command1"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:7
+msgid "Move window to workspace 6"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:15
-msgid ""
-"A keybinding that when invoked, will run the shell command identified by "
-"command10"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:8
+msgid "Move window to workspace 7"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:16
-msgid ""
-"A keybinding that when invoked, will run the shell command identified by "
-"command11"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:9
+msgid "Move window to workspace 8"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:17
-msgid ""
-"A keybinding that when invoked, will run the shell command identified by "
-"command2"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:10
+msgid "Move window to workspace 9"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:18
-msgid ""
-"A keybinding that when invoked, will run the shell command identified by "
-"command3"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:11
+msgid "Move window to workspace 10"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:19
-msgid ""
-"A keybinding that when invoked, will run the shell command identified by "
-"command4"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:12
+msgid "Move window to workspace 11"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:20
-msgid ""
-"A keybinding that when invoked, will run the shell command identified by "
-"command5"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:13
+msgid "Move window to workspace 12"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:21
-msgid ""
-"A keybinding that when invoked, will run the shell command identified by "
-"command6"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:14
+msgid "Move window one workspace to the left"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:22
-msgid ""
-"A keybinding that when invoked, will run the shell command identified by "
-"command7"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:15
+msgid "Move window one workspace to the right"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:23
-msgid ""
-"A keybinding that when invoked, will run the shell command identified by "
-"command8"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:16
+msgid "Move window one workspace up"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:24
-msgid ""
-"A keybinding that when invoked, will run the shell command identified by "
-"command9"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:17
+msgid "Move window one workspace down"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:25
-msgid ""
-"An edge binding that when invoked, will run the shell command identified by "
-"command0"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:18
+msgid "Switch applications"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:26
-msgid ""
-"An edge binding that when invoked, will run the shell command identified by "
-"command1"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:19
+msgid "Switch windows of an app directly"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:27
-msgid ""
-"An edge binding that when invoked, will run the shell command identified by "
-"command10"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:20
+msgid "Hide all normal windows"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:28
-msgid ""
-"An edge binding that when invoked, will run the shell command identified by "
-"command11"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:21
+msgid "Switch to workspace 1"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:29
-msgid ""
-"An edge binding that when invoked, will run the shell command identified by "
-"command2"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:22
+msgid "Switch to workspace 2"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:30
-msgid ""
-"An edge binding that when invoked, will run the shell command identified by "
-"command3"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:23
+msgid "Switch to workspace 3"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:31
-msgid ""
-"An edge binding that when invoked, will run the shell command identified by "
-"command4"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:24
+msgid "Switch to workspace 4"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:32
-msgid ""
-"An edge binding that when invoked, will run the shell command identified by "
-"command5"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:25
+msgid "Switch to workspace 5"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:33
-msgid ""
-"An edge binding that when invoked, will run the shell command identified by "
-"command6"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:26
+msgid "Switch to workspace 6"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:34
-msgid ""
-"An edge binding that when invoked, will run the shell command identified by "
-"command7"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:27
+msgid "Switch to workspace 7"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:35
-msgid ""
-"An edge binding that when invoked, will run the shell command identified by "
-"command8"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:28
+msgid "Switch to workspace 8"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:36
-msgid ""
-"An edge binding that when invoked, will run the shell command identified by "
-"command9"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:29
+msgid "Switch to workspace 9"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:37
-msgid "Assigns bindings to arbitrary commands"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:30
+msgid "Switch to workspace 10"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:38
-msgid "Button Bindings"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:31
+msgid "Switch to workspace 11"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:39
-msgid "Command line 1"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:32
+msgid "Switch to workspace 12"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:40
-msgid "Command line 10"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:33
+msgid "Switch to workspace left"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:41
-msgid "Command line 11"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:34
+msgid "Switch to workspace right"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:42
-msgid "Command line 12"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:35
+msgid "Switch to workspace above"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:43
-msgid "Command line 2"
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:36
+msgid "Switch to workspace below"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:44
-msgid "Command line 3"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:45
-msgid "Command line 4"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:46
-msgid "Command line 5"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:47
-msgid "Command line 6"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:48
-msgid "Command line 7"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:49
-msgid "Command line 8"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:50
-msgid "Command line 9"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:51
-msgid "Command line to be executed in shell when run_command0 is invoked"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:52
-msgid "Command line to be executed in shell when run_command1 is invoked"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:53
-msgid "Command line to be executed in shell when run_command10 is invoked"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:54
-msgid "Command line to be executed in shell when run_command11 is invoked"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:55
-msgid "Command line to be executed in shell when run_command2 is invoked"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:56
-msgid "Command line to be executed in shell when run_command3 is invoked"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:57
-msgid "Command line to be executed in shell when run_command4 is invoked"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:58
-msgid "Command line to be executed in shell when run_command5 is invoked"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:59
-msgid "Command line to be executed in shell when run_command6 is invoked"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:60
-msgid "Command line to be executed in shell when run_command7 is invoked"
-msgstr ""
-
-#: ../metadata/commands.xml.in.h:61
-msgid "Command line to be executed in shell when run_command8 is invoked"
-msgstr ""
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:1 ../plugins/obs/obs.xml.in.h:17
+#: ../plugins/place/place.xml.in.h:32
+#: ../plugins/stackswitch/stackswitch.xml.in.h:24
+msgid "Windows"
+msgstr "Cửa sổ"
 
-#: ../metadata/commands.xml.in.h:62
-msgid "Command line to be executed in shell when run_command9 is invoked"
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:2
+msgid "Activate the window menu"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:63 ../metadata/gnomecompat.xml.in.h:1
-msgid "Commands"
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:3
+msgid "Toggle fullscreen mode"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:64
-msgid "Edge Bindings"
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:4
+msgid "Toggle maximization state"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:65
-msgid "Key Bindings"
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:5
+msgid "Maximize window"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:66
-msgid "Run command 1"
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:6
+msgid "Restore window"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:67
-msgid "Run command 10"
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:7
+msgid "Toggle shaded state"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:68
-msgid "Run command 11"
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:8
+msgid "Close window"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:69
-msgid "Run command 12"
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:9
+msgid "Minimize window"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:70
-msgid "Run command 2"
-msgstr ""
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:10
+msgid "Move window"
+msgstr "Di chuyển cửa sổ"
 
-#: ../metadata/commands.xml.in.h:71
-msgid "Run command 3"
-msgstr ""
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:11
+#: ../plugins/resize/resize.xml.in.h:2
+msgid "Resize window"
+msgstr "Thay đổi kích thước cửa sổ"
 
-#: ../metadata/commands.xml.in.h:72
-msgid "Run command 4"
-msgstr ""
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:12 ../metadata/core.xml.in.h:53
+msgid "Raise window above other windows"
+msgstr "Đưa cửa sổ lên trên các cửa sổ khác"
 
-#: ../metadata/commands.xml.in.h:73
-msgid "Run command 5"
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:13
+msgid "Lower window below other windows"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:74
-msgid "Run command 6"
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:14
+msgid "Maximize window vertically"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:75
-msgid "Run command 7"
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:15
+msgid "Maximize window horizontally"
 msgstr ""
 
-#: ../metadata/commands.xml.in.h:76
-msgid "Run command 8"
-msgstr ""
+#: ../metadata/core.xml.in.h:1 ../plugins/ring/ring.xml.in.h:23
+#: ../plugins/shift/shift.xml.in.h:34
+msgid "General Options"
+msgstr "Tuỳ chọn chung"
 
-#: ../metadata/commands.xml.in.h:77
-msgid "Run command 9"
-msgstr ""
+#: ../metadata/core.xml.in.h:2
+msgid "General compiz options"
+msgstr "Tuỳ chọn compiz chung"
 
-#: ../metadata/core.xml.in.in.h:1
+#: ../metadata/core.xml.in.h:3
 msgid "Active Plugins"
-msgstr ""
+msgstr "Các phần bổ sung đang chạy"
 
-#: ../metadata/core.xml.in.in.h:2
-msgid ""
-"Allow drawing of fullscreen windows to not be redirected to offscreen pixmaps"
-msgstr ""
+#: ../metadata/core.xml.in.h:4
+msgid "List of currently active plugins"
+msgstr "Danh sách các trình bổ sung đang hoạt động"
 
-#: ../metadata/core.xml.in.in.h:3
+#: ../metadata/core.xml.in.h:5
 msgid "Audible Bell"
-msgstr ""
+msgstr "Chuông nghe được"
 
-#: ../metadata/core.xml.in.in.h:4
+#: ../metadata/core.xml.in.h:6
 msgid "Audible system beep"
-msgstr ""
+msgstr "Tiếng bíp hệ thống nghe được"
 
-#: ../metadata/core.xml.in.in.h:5
-msgid "Auto-Raise"
-msgstr ""
+#: ../metadata/core.xml.in.h:7
+msgid "Ignore Hints When Maximized"
+msgstr "Bỏ qua gợi ý khi đã phóng to"
 
-#: ../metadata/core.xml.in.in.h:6
-msgid "Auto-Raise Delay"
-msgstr ""
+#: ../metadata/core.xml.in.h:8
+msgid "Ignore size increment and aspect hints when window is maximized"
+msgstr "Bỏ qua lượng tăng kích thước và gợi ý tỉ lệ cạnh khi cửa sổ cực đại"
 
-#: ../metadata/core.xml.in.in.h:7
-msgid "Automatic detection of output devices"
-msgstr ""
+#: ../metadata/core.xml.in.h:9
+msgid "Hide Skip Taskbar Windows"
+msgstr "Ẩn cửa sổ thanh tác vụ bỏ qua"
 
-#: ../metadata/core.xml.in.in.h:8
-msgid "Automatic detection of refresh rate"
+#: ../metadata/core.xml.in.h:10
+msgid "Hide windows not in taskbar when entering show desktop mode"
 msgstr ""
+"Ẩn cửa sổ không trong thanh tác vụ khi vào chế độ xem màn hình làm việc"
 
-#: ../metadata/core.xml.in.in.h:9
-msgid "Best"
-msgstr ""
+#: ../metadata/core.xml.in.h:11
+msgid "Edge Trigger Delay"
+msgstr "Độ trễ hành động cạnh"
 
-#: ../metadata/core.xml.in.in.h:10
-msgid "Click To Focus"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:11
-msgid "Click on window moves input focus to it"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:13
-msgid "Close active window"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:14
-msgid "Default Icon"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:15
-msgid "Default window icon image"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:16
-msgid "Desktop Size"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:17
-msgid "Detect Outputs"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:18
-msgid "Detect Refresh Rate"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:19
-msgid "Display Settings"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:20
+#: ../metadata/core.xml.in.h:12
 msgid ""
 "Duration the pointer must rest in a screen edge before an edge action is "
 "taken."
 msgstr ""
+"Khoảng thời gian mà con trỏ dừng lại ở cạnh màn hình trước khi hành động ở "
+"cạnh được gọi."
 
-#: ../metadata/core.xml.in.in.h:21
-msgid "Edge Trigger Delay"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:22
-msgid "Fast"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:23
-msgid "Focus &amp; Raise Behaviour"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:24
-msgid "Focus Prevention Level"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:25
-msgid "Focus Prevention Windows"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:26
-msgid "Focus prevention windows"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:27
-msgid "Force independent output painting."
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:28
-msgid "General Options"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:29
-msgid "General compiz options"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:30
-msgid "Good"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:31
-msgid "Hide Skip Taskbar Windows"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:32
-msgid "Hide all windows and focus desktop"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:33
-msgid "Hide windows not in taskbar when entering show desktop mode"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:34
-msgid "High"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:35
-msgid "Horizontal Virtual Size"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:36
-msgid "If available use compression for textures converted from images"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:37
-msgid "Ignore Hints When Maximized"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:38
-msgid "Ignore size increment and aspect hints when window is maximized"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:39
-msgid "Interval before raising selected windows"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:40
-msgid "Interval between ping messages"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:41
-msgid "Key bindings"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:42
-msgid "Level of focus stealing prevention"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:43
-msgid "Lighting"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:44
-msgid "List of currently active plugins"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:45
-msgid "List of strings describing output devices"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:46
-msgid "Low"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:47
-msgid "Lower Window"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:48
-msgid "Lower window beneath other windows"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:50
-msgid "Maximize Window Horizontally"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:51
-msgid "Maximize Window Vertically"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:52
-msgid "Maximize active window"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:53
-msgid "Maximize active window horizontally"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:54
-msgid "Maximize active window vertically"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:56
-msgid "Minimize active window"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:57 ../metadata/resize.xml.in.h:13
-msgid "Normal"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:58
-msgid "Number of Desktops"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:59
-msgid "Number of virtual desktops"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:60
-msgid "Off"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:61
-msgid "Only perform screen updates during vertical blanking period"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:62
-msgid "Outputs"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:63
-msgid "Overlapping Output Handling"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:64
-msgid "Paint each output device independly, even if the output devices overlap"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:65
+#: ../metadata/core.xml.in.h:13
 msgid "Ping Delay"
-msgstr ""
+msgstr "Độ trễ ping"
 
-#: ../metadata/core.xml.in.in.h:66
-msgid "Prefer larger output"
-msgstr ""
+#: ../metadata/core.xml.in.h:14
+msgid "Interval between ping messages"
+msgstr "Khoảng nghỉ giữa các tin nhắn ping"
 
-#: ../metadata/core.xml.in.in.h:67
-msgid "Prefer smaller output"
-msgstr ""
+#: ../metadata/core.xml.in.h:15
+msgid "Default Icon"
+msgstr "Biểu tượng mặc định"
 
-#: ../metadata/core.xml.in.in.h:68
-msgid "Raise On Click"
-msgstr ""
+#: ../metadata/core.xml.in.h:16
+msgid "Default window icon image"
+msgstr "Ảnh biểu tượng cửa sổ mặc định"
 
-#: ../metadata/core.xml.in.in.h:69
-msgid "Raise Window"
-msgstr ""
+#: ../metadata/core.xml.in.h:17
+msgid "Save plugin states on unload"
+msgstr "Lưu trạng thái phần bổ sung khi tắt"
 
-#: ../metadata/core.xml.in.in.h:70
-msgid "Raise selected windows after interval"
+#: ../metadata/core.xml.in.h:18
+msgid ""
+"Save the state of plugins when they are unloaded such they will resume their "
+"past internal state when reloaded"
 msgstr ""
+"Lưu trạng thái các phần bổ sung khi chúng bị tắt để có thể phục hồi lại "
+"trạng thái cũ khi được bật"
 
-#: ../metadata/core.xml.in.in.h:71
-msgid "Raise window above other windows"
-msgstr ""
+#: ../metadata/core.xml.in.h:19
+msgid "Display Settings"
+msgstr "Thiết lập hiển thị"
 
-#: ../metadata/core.xml.in.in.h:72
-msgid "Raise windows when clicked"
-msgstr ""
+#: ../metadata/core.xml.in.h:20
+msgid "Overlapping Output Handling"
+msgstr "Xử lí đầu ra gối lên nhau"
 
-#: ../metadata/core.xml.in.in.h:73
-msgid "Refresh Rate"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:74
-msgid "Screen size multiplier for horizontal virtual size"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:75
-msgid "Screen size multiplier for vertical virtual size"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:76
-msgid "Show Desktop"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:77
-msgid "Slow Animations"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:78
-msgid "Smart mode"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:79
-msgid "Sync To VBlank"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:80
-msgid "Texture Compression"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:81
-msgid "Texture Filter"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:82
-msgid "Texture filtering"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:83
-msgid "The rate at which the screen is redrawn (times/second)"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:84
-msgid "Toggle Window Maximized"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:85
-msgid "Toggle Window Maximized Horizontally"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:86
-msgid "Toggle Window Maximized Vertically"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:87
-msgid "Toggle Window Shaded"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:88
-msgid "Toggle active window maximized"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:89
-msgid "Toggle active window maximized horizontally"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:90
-msgid "Toggle active window maximized vertically"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:91
-msgid "Toggle active window shaded"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:92
-msgid "Toggle use of slow animations"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:94
-msgid "Unmaximize active window"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:95
-msgid "Unredirect Fullscreen Windows"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:96
-msgid "Use diffuse light when screen is transformed"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:97
-msgid "Vertical Virtual Size"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:98
-msgid "Very High"
-msgstr ""
-
-#: ../metadata/core.xml.in.in.h:99
+#: ../metadata/core.xml.in.h:21
 msgid "Which one of overlapping output devices should be preferred"
+msgstr "Trong các đầu ra gối lên nhau, bạn thích đầu ra nào hơn"
+
+#: ../metadata/core.xml.in.h:22
+msgid "Smart mode"
+msgstr "Chế độ thông minh"
+
+#: ../metadata/core.xml.in.h:23
+msgid "Prefer larger output"
+msgstr "Thích đầu ra lớn hơn"
+
+#: ../metadata/core.xml.in.h:24
+msgid "Prefer smaller output"
+msgstr "Thích đầu ra nhỏ hơn"
+
+#: ../metadata/core.xml.in.h:25
+msgid "Detect Outputs"
+msgstr "Phát hiện thiết bị đầu ra"
+
+#: ../metadata/core.xml.in.h:26
+msgid "Automatic detection of output devices"
+msgstr "Tự động phát hiện thiết bị đầu ra"
+
+#: ../metadata/core.xml.in.h:27
+msgid "Outputs"
+msgstr "Các đầu ra"
+
+#: ../metadata/core.xml.in.h:28
+msgid "List of strings describing output devices"
+msgstr "Các chuỗi mô tả các thiết bị đầu ra"
+
+#: ../metadata/core.xml.in.h:29
+msgid "Focus &amp; Raise Behaviour"
+msgstr "Lấy tiêu điểm &amp; Đưa lên"
+
+#: ../metadata/core.xml.in.h:30
+msgid "Click To Focus"
+msgstr "Nhấn để lấy tiêu điểm"
+
+#: ../metadata/core.xml.in.h:31
+msgid "Click on window moves input focus to it"
+msgstr "Nhấn vào cửa sổ chuyển tiêu điểm nhập vào chúng"
+
+#: ../metadata/core.xml.in.h:32
+msgid "Raise On Click"
+msgstr "Đưa lên khi được nhấn"
+
+#: ../metadata/core.xml.in.h:33
+msgid "Raise windows when clicked"
+msgstr "Đưa cửa sổ lên khi được nhấn"
+
+#: ../metadata/core.xml.in.h:34
+msgid "Auto-Raise"
+msgstr "Tự động đưa lên"
+
+#: ../metadata/core.xml.in.h:35
+msgid "Raise selected windows after interval"
+msgstr "Đưa cửa sổ được chọn lên sau một khoảng thời gian"
+
+#: ../metadata/core.xml.in.h:36
+msgid "Auto-Raise Delay"
+msgstr "Độ trễ tự động đưa lên"
+
+#: ../metadata/core.xml.in.h:37
+msgid "Interval before raising selected windows"
+msgstr "Khoảng thời gian trước khi đưa cửa sổ được chọn lên"
+
+#: ../metadata/core.xml.in.h:38
+msgid "Focus Desktop"
 msgstr ""
 
-#: ../metadata/core.xml.in.in.h:101
-msgid "Window menu button binding"
+#: ../metadata/core.xml.in.h:39
+msgid "Focus the desktop when click to focus is disabled"
 msgstr ""
 
-#: ../metadata/core.xml.in.in.h:102
+#: ../metadata/core.xml.in.h:40
+msgid "Focus Prevention Level"
+msgstr "Mức độ cản trở tiêu điểm"
+
+#: ../metadata/core.xml.in.h:41
+msgid "Level of focus stealing prevention"
+msgstr "Mức độ chống mất tiêu điểm"
+
+#: ../metadata/core.xml.in.h:42 ../plugins/animation/animation.xml.in.h:96
+msgid "Off"
+msgstr "Tắt"
+
+#: ../metadata/core.xml.in.h:43
+msgid "Low"
+msgstr "Thấp"
+
+#: ../metadata/core.xml.in.h:44 ../plugins/move/move.xml.in.h:24
+#: ../plugins/resize/resize.xml.in.h:8
+#: ../plugins/scaleaddon/scaleaddon.xml.in.h:36
+msgid "Normal"
+msgstr "Bình thường"
+
+#: ../metadata/core.xml.in.h:45
+msgid "High"
+msgstr "Cao"
+
+#: ../metadata/core.xml.in.h:46
+msgid "Very High"
+msgstr "Rất cao"
+
+#: ../metadata/core.xml.in.h:47
+msgid "Focus Prevention Windows"
+msgstr "Cửa sổ cản trở tiêu điểm"
+
+#: ../metadata/core.xml.in.h:48
+msgid "Focus prevention windows"
+msgstr "Cửa sổ cản trở tiêu điểm"
+
+#: ../metadata/core.xml.in.h:49 ../plugins/group/group.xml.in.h:4
+#: ../plugins/stackswitch/stackswitch.xml.in.h:2
+msgid "Key bindings"
+msgstr "Tổ hợp phím"
+
+#: ../metadata/core.xml.in.h:51
+msgid "Close active window"
+msgstr "Tắt cửa sổ hiện tại"
+
+#: ../metadata/core.xml.in.h:52
+msgid "Raise Window"
+msgstr "Đưa cửa sổ lên"
+
+#: ../metadata/core.xml.in.h:54
+msgid "Lower Window"
+msgstr "Hạ cửa sổ xuống dưới"
+
+#: ../metadata/core.xml.in.h:55
+msgid "Lower window beneath other windows"
+msgstr "Hạ cửa sổ xuống dưới các cửa sổ khác"
+
+#: ../metadata/core.xml.in.h:57
+msgid "Minimize active window"
+msgstr "Thu nhỏ cửa sổ hiện tại"
+
+#: ../metadata/core.xml.in.h:59
+msgid "Maximize active window"
+msgstr "Phóng to cửa sổ hiện tại"
+
+#: ../metadata/core.xml.in.h:61
+msgid "Unmaximize active window"
+msgstr "Thôi phóng to cửa sổ hiện tại"
+
+#: ../metadata/core.xml.in.h:62
+msgid "Unmaximize or Minimize Window"
+msgstr ""
+
+#: ../metadata/core.xml.in.h:63
+msgid "Unmaximize or minimize active window"
+msgstr ""
+
+#: ../metadata/core.xml.in.h:64
+msgid "Maximize Window Horizontally"
+msgstr "Phóng to cửa sổ theo chiều ngang"
+
+#: ../metadata/core.xml.in.h:65
+msgid "Maximize active window horizontally"
+msgstr "Phóng to cửa sổ hiện tại theo chiều ngang"
+
+#: ../metadata/core.xml.in.h:66
+msgid "Maximize Window Vertically"
+msgstr "Phóng to cửa sổ theo chiều dọc"
+
+#: ../metadata/core.xml.in.h:67
+msgid "Maximize active window vertically"
+msgstr "Phóng to cửa sổ hiện tại theo chiều dọc"
+
+#: ../metadata/core.xml.in.h:69
 msgid "Window menu key binding"
+msgstr "Gán phím trình đơn cửa sổ"
+
+#: ../metadata/core.xml.in.h:70
+msgid "Window menu button binding"
+msgstr "Gán nút trình đơn cửa sổ"
+
+#: ../metadata/core.xml.in.h:71 ../plugins/showdesktop/showdesktop.xml.in.h:1
+msgid "Show Desktop"
+msgstr "Hiện màn hình làm việc"
+
+#: ../metadata/core.xml.in.h:72
+msgid "Hide all windows and focus desktop"
+msgstr "Ẩn mọi của sổ và lấy tiêu điểm màn hình làm việc"
+
+#: ../metadata/core.xml.in.h:73
+msgid "Toggle Window Maximized"
+msgstr "Bật/tắt phóng to cửa sổ"
+
+#: ../metadata/core.xml.in.h:74
+msgid "Toggle active window maximized"
+msgstr "Bật/tắt phóng to cửa sổ hiện tại"
+
+#: ../metadata/core.xml.in.h:75
+msgid "Toggle Window Maximized Horizontally"
+msgstr "Bật/tắt phóng to cửa sổ theo chiều ngang"
+
+#: ../metadata/core.xml.in.h:76
+msgid "Toggle active window maximized horizontally"
+msgstr "Bật/tắt phóng to cửa sổ hiện tại theo chiều ngang"
+
+#: ../metadata/core.xml.in.h:77
+msgid "Toggle Window Maximized Vertically"
+msgstr "Bật/tắt phóng to cửa sổ theo chiều dọc"
+
+#: ../metadata/core.xml.in.h:78
+msgid "Toggle active window maximized vertically"
+msgstr "Bật/tắt phóng to cửa sổ hiện tại theo chiều dọc"
+
+#: ../metadata/core.xml.in.h:79
+msgid "Toggle Window Shaded"
+msgstr "Bật/tắt thu gọn cửa sổ"
+
+#: ../metadata/core.xml.in.h:80
+msgid "Toggle active window shaded"
+msgstr "Bật/tắt thu gọn cửa sổ hiện tại"
+
+#: ../metadata/core.xml.in.h:81
+msgid "Desktop Size"
+msgstr "Kích thước màn hình làm việc"
+
+#: ../metadata/core.xml.in.h:82
+msgid "Horizontal Virtual Size"
+msgstr "Kích thước ảo ngang"
+
+#: ../metadata/core.xml.in.h:83
+msgid "Screen size multiplier for horizontal virtual size"
+msgstr "Hệ số kích thước màn hình cho kích thước ngang ảo"
+
+#: ../metadata/core.xml.in.h:84
+msgid "Vertical Virtual Size"
+msgstr "Kích thước chiều dọc ảo"
+
+#: ../metadata/core.xml.in.h:85
+msgid "Screen size multiplier for vertical virtual size"
+msgstr "Hệ số kích thước màn hình cho kích thước dọc ảo"
+
+#: ../plugins/annotate/annotate.xml.in.h:1
+msgid "Annotate"
+msgstr "Chú thích"
+
+#: ../plugins/annotate/annotate.xml.in.h:2
+msgid "Annotate plugin"
+msgstr "Phần bổ sung chú thích"
+
+#: ../plugins/annotate/annotate.xml.in.h:3
+msgid "Initiate Free Draw"
 msgstr ""
 
-#: ../metadata/cube.xml.in.h:1 ../metadata/rotate.xml.in.h:1
-msgid "Acceleration"
+#: ../plugins/annotate/annotate.xml.in.h:4
+msgid "Initiate freehand drawing"
 msgstr ""
 
-#: ../metadata/cube.xml.in.h:2
-msgid "Adjust Image"
+#: ../plugins/annotate/annotate.xml.in.h:5
+msgid "Initiate Line"
 msgstr ""
 
-#: ../metadata/cube.xml.in.h:3
-msgid "Adjust top face image to rotation"
+#: ../plugins/annotate/annotate.xml.in.h:6
+msgid "Initiate line drawing"
 msgstr ""
 
-#: ../metadata/cube.xml.in.h:4
-msgid "Advance to next slide"
+#: ../plugins/annotate/annotate.xml.in.h:7
+msgid "Initiate Rectangle"
 msgstr ""
 
-#: ../metadata/cube.xml.in.h:5
+#: ../plugins/annotate/annotate.xml.in.h:8
+msgid "Initiate rectangle drawing"
+msgstr ""
+
+#: ../plugins/annotate/annotate.xml.in.h:9
+msgid "Initiate Ellipse"
+msgstr ""
+
+#: ../plugins/annotate/annotate.xml.in.h:10
+msgid "Initiate ellipse drawing"
+msgstr ""
+
+#: ../plugins/annotate/annotate.xml.in.h:11
+msgid "Draw"
+msgstr "Vẽ"
+
+#: ../plugins/annotate/annotate.xml.in.h:12
+msgid "Draw using tool"
+msgstr "Vẽ sử dụng công cụ"
+
+#: ../plugins/annotate/annotate.xml.in.h:13
+msgid "Initiate Erase"
+msgstr ""
+
+#: ../plugins/annotate/annotate.xml.in.h:14
+msgid "Initiate annotate erasing"
+msgstr "Bắt đầu việc xoá chú thích"
+
+#: ../plugins/annotate/annotate.xml.in.h:15
+msgid "Clear"
+msgstr "Xóa"
+
+#: ../plugins/annotate/annotate.xml.in.h:16
+msgid "Draw shapes from center"
+msgstr ""
+
+#: ../plugins/annotate/annotate.xml.in.h:17
+msgid "Uses the initial click point as the center of shapes."
+msgstr ""
+
+#: ../plugins/annotate/annotate.xml.in.h:18
+msgid "Annotate Fill Color"
+msgstr "Màu nền chú thích"
+
+#: ../plugins/annotate/annotate.xml.in.h:19
+msgid "Fill color for annotations"
+msgstr "Màu nền cho chú thích"
+
+#: ../plugins/annotate/annotate.xml.in.h:20
+msgid "Annotate Stroke Color"
+msgstr "Màu nét chú thích"
+
+#: ../plugins/annotate/annotate.xml.in.h:21
+msgid "Stroke color for annotations"
+msgstr "Màu nét chú thích"
+
+#: ../plugins/annotate/annotate.xml.in.h:22
+msgid "Erase width"
+msgstr ""
+
+#: ../plugins/annotate/annotate.xml.in.h:23
+msgid "Erase size"
+msgstr ""
+
+#: ../plugins/annotate/annotate.xml.in.h:24
+msgid "Stroke width"
+msgstr "Bề rộng nét"
+
+#: ../plugins/annotate/annotate.xml.in.h:25
+msgid "Stroke width for annotations"
+msgstr "Bề rộng nét chú thích"
+
+#: ../plugins/blur/blur.xml.in.h:1
+msgid "Blur Windows"
+msgstr "Bóng mờ cửa sổ"
+
+#: ../plugins/blur/blur.xml.in.h:2
+msgid "Blur windows"
+msgstr "Bóng mờ cửa sổ"
+
+#: ../plugins/blur/blur.xml.in.h:3
+#: ../plugins/simple-animations/animationsim.xml.in.h:43
+msgid "Pulse"
+msgstr "Xung"
+
+#: ../plugins/blur/blur.xml.in.h:4
+msgid "Pulse effect"
+msgstr "Hiệu ứng xung"
+
+#: ../plugins/blur/blur.xml.in.h:5
+msgid "Blur Speed"
+msgstr "Tốc độ bóng mờ"
+
+#: ../plugins/blur/blur.xml.in.h:6
+msgid "Window blur speed"
+msgstr "Tốc độ bóng mờ cửa sổ"
+
+#: ../plugins/blur/blur.xml.in.h:7
+msgid "Focus blur windows"
+msgstr "Cửa sổ bóng mờ chú ý"
+
+#: ../plugins/blur/blur.xml.in.h:8
+msgid "Windows that should be affected by focus blur"
+msgstr "Cửa sổ sẽ bị ảnh hưởng bởi bóng mờ chú ý"
+
+#: ../plugins/blur/blur.xml.in.h:9
+msgid "Focus Blur"
+msgstr "Che mờ chú ý"
+
+#: ../plugins/blur/blur.xml.in.h:10
+msgid "Blur windows that doesn't have focus"
+msgstr "Mờ cửa sổ không có tiêu điểm"
+
+#: ../plugins/blur/blur.xml.in.h:11
+msgid "Alpha blur windows"
+msgstr "Cửa sổ mờ kênh alpha"
+
+#: ../plugins/blur/blur.xml.in.h:12
+msgid "Windows that should be use alpha blur by default"
+msgstr "Các cửa sổ sẽ sử dụng bóng mờ alpha mặc định"
+
+#: ../plugins/blur/blur.xml.in.h:13
+msgid "Alpha Blur"
+msgstr "Mờ kênh alpha"
+
+#: ../plugins/blur/blur.xml.in.h:14
+msgid "Blur behind translucent parts of windows"
+msgstr "Bóng mờ phía sau phần trong của cửa sổ"
+
+#: ../plugins/blur/blur.xml.in.h:15
+msgid "Blur Filter"
+msgstr "Bộ lọc bóng mờ"
+
+#: ../plugins/blur/blur.xml.in.h:16
+msgid "Filter method used for blurring"
+msgstr "Bộ lọc sử dụng cho làm mờ"
+
+#: ../plugins/blur/blur.xml.in.h:17
+msgid "4xBilinear"
+msgstr "4xSong tuyến tính"
+
+#: ../plugins/blur/blur.xml.in.h:18
+msgid "Gaussian"
+msgstr "Gauxơ"
+
+#: ../plugins/blur/blur.xml.in.h:19 ../plugins/cube/cube.xml.in.h:5
+#: ../plugins/decor/decor.xml.in.h:17
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:49
+#: ../plugins/switcher/switcher.xml.in.h:27
+msgid "Mipmap"
+msgstr "Mipmap"
+
+#: ../plugins/blur/blur.xml.in.h:20
+msgid "Gaussian Radius"
+msgstr "Bán kính Gauxơ"
+
+#: ../plugins/blur/blur.xml.in.h:21
+msgid "Gaussian radius"
+msgstr "Bán kính Gauxơ"
+
+#: ../plugins/blur/blur.xml.in.h:22
+msgid "Gaussian Strength"
+msgstr "Độ mạnh Gauxơ"
+
+#: ../plugins/blur/blur.xml.in.h:23
+msgid "Gaussian strength"
+msgstr "Độ mạnh Gauxơ"
+
+#: ../plugins/blur/blur.xml.in.h:24
+msgid "Mipmap LOD"
+msgstr "Mipmap LOD"
+
+#: ../plugins/blur/blur.xml.in.h:25
+msgid "Mipmap level-of-detail"
+msgstr "Mức độ chi tiết Mipmap"
+
+#: ../plugins/blur/blur.xml.in.h:26
+msgid "Blur Saturation"
+msgstr "Độ bão hòa bóng mờ"
+
+#: ../plugins/blur/blur.xml.in.h:27
+msgid "Blur saturation"
+msgstr "Độ bão hoà bóng mờ"
+
+#: ../plugins/blur/blur.xml.in.h:28
+msgid "Blur Occlusion"
+msgstr "Giữ lại bóng mờ"
+
+#: ../plugins/blur/blur.xml.in.h:29
+msgid "Disable blurring of screen regions obscured by other windows."
+msgstr "Không làm mờ vùng bị che khuất bởi cửa sổ khác."
+
+#: ../plugins/blur/blur.xml.in.h:30
+msgid "Independent texture fetch"
+msgstr "Lấy hoạ tiết độc lập"
+
+#: ../plugins/blur/blur.xml.in.h:31
+msgid ""
+"Use the available texture units to do as many as possible independent "
+"texture fetches."
+msgstr ""
+"Sử dụng các đơn vị hoạ tiết có sẵn để có thể lấy về nhiều nhất các hoạ tiết "
+"độc lập."
+
+#: ../plugins/clone/clone.xml.in.h:1
+msgid "Clone Output"
+msgstr "Nhân bản đầu ra"
+
+#: ../plugins/clone/clone.xml.in.h:2
+msgid "Output clone handler"
+msgstr "Bộ quản lý nhân bản đầu ra"
+
+#: ../plugins/bench/bench.xml.in.h:4 ../plugins/clone/clone.xml.in.h:3
+#: ../plugins/mag/mag.xml.in.h:4 ../plugins/rotate/rotate.xml.in.h:32
+#: ../plugins/screenshot/screenshot.xml.in.h:3
+#: ../plugins/showmouse/showmouse.xml.in.h:6 ../plugins/water/water.xml.in.h:3
+msgid "Initiate"
+msgstr "Bắt đầu"
+
+#: ../plugins/clone/clone.xml.in.h:4
+msgid "Initiate clone selection"
+msgstr "Khởi tạo chọn nhân bản"
+
+#: ../plugins/commands/commands.xml.in.h:1
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:7
+#: ../plugins/matecompat/matecompat.xml.in.h:7
+msgid "Commands"
+msgstr "Lệnh"
+
+#: ../plugins/commands/commands.xml.in.h:2
+msgid "Assigns bindings to arbitrary commands"
+msgstr "Gán tổ hợp cho lệnh tuỳ ý"
+
+#: ../plugins/commands/commands.xml.in.h:3
+msgid "Command line 0"
+msgstr "Dòng lệnh 0"
+
+#: ../plugins/commands/commands.xml.in.h:4
+msgid "Command line to be executed in shell when run_command0 is invoked"
+msgstr "Dòng lệnh được thực hiện trong hệ vỏ khi chạy lệnh 0 được gọi"
+
+#: ../plugins/commands/commands.xml.in.h:5
+msgid "Command line 1"
+msgstr "Dòng lệnh 1"
+
+#: ../plugins/commands/commands.xml.in.h:6
+msgid "Command line to be executed in shell when run_command1 is invoked"
+msgstr "Dòng lệnh được thực hiện trong hệ vỏ khi chạy lệnh 1 được gọi"
+
+#: ../plugins/commands/commands.xml.in.h:7
+msgid "Command line 2"
+msgstr "Dòng lệnh 2"
+
+#: ../plugins/commands/commands.xml.in.h:8
+msgid "Command line to be executed in shell when run_command2 is invoked"
+msgstr "Dòng lệnh được thực hiện trong hệ vỏ khi chạy lệnh 2 được gọi"
+
+#: ../plugins/commands/commands.xml.in.h:9
+msgid "Command line 3"
+msgstr "Dòng lệnh 3"
+
+#: ../plugins/commands/commands.xml.in.h:10
+msgid "Command line to be executed in shell when run_command3 is invoked"
+msgstr "Dòng lệnh được thực hiện trong hệ vỏ khi chạy lệnh 3 được gọi"
+
+#: ../plugins/commands/commands.xml.in.h:11
+msgid "Command line 4"
+msgstr "Dòng lệnh 4"
+
+#: ../plugins/commands/commands.xml.in.h:12
+msgid "Command line to be executed in shell when run_command4 is invoked"
+msgstr "Dòng lệnh được thực hiện trong hệ vỏ khi chạy lệnh 4 được gọi"
+
+#: ../plugins/commands/commands.xml.in.h:13
+msgid "Command line 5"
+msgstr "Dòng lệnh 5"
+
+#: ../plugins/commands/commands.xml.in.h:14
+msgid "Command line to be executed in shell when run_command5 is invoked"
+msgstr "Dòng lệnh được thực hiện trong hệ vỏ khi chạy lệnh 5 được gọi"
+
+#: ../plugins/commands/commands.xml.in.h:15
+msgid "Command line 6"
+msgstr "Dòng lệnh 6"
+
+#: ../plugins/commands/commands.xml.in.h:16
+msgid "Command line to be executed in shell when run_command6 is invoked"
+msgstr "Dòng lệnh được thực hiện trong hệ vỏ khi chạy lệnh 6 được gọi"
+
+#: ../plugins/commands/commands.xml.in.h:17
+msgid "Command line 7"
+msgstr "Dòng lệnh 7"
+
+#: ../plugins/commands/commands.xml.in.h:18
+msgid "Command line to be executed in shell when run_command7 is invoked"
+msgstr "Dòng lệnh được thực hiện trong hệ vỏ khi chạy lệnh 7 được gọi"
+
+#: ../plugins/commands/commands.xml.in.h:19
+msgid "Command line 8"
+msgstr "Dòng lệnh 8"
+
+#: ../plugins/commands/commands.xml.in.h:20
+msgid "Command line to be executed in shell when run_command8 is invoked"
+msgstr "Dòng lệnh được thực hiện trong hệ vỏ khi chạy lệnh 8 được gọi"
+
+#: ../plugins/commands/commands.xml.in.h:21
+msgid "Command line 9"
+msgstr "Dòng lệnh 9"
+
+#: ../plugins/commands/commands.xml.in.h:22
+msgid "Command line to be executed in shell when run_command9 is invoked"
+msgstr "Dòng lệnh được thực hiện trong hệ vỏ khi chạy lệnh 9 được gọi"
+
+#: ../plugins/commands/commands.xml.in.h:23
+msgid "Command line 10"
+msgstr "Dòng lệnh 10"
+
+#: ../plugins/commands/commands.xml.in.h:24
+msgid "Command line to be executed in shell when run_command10 is invoked"
+msgstr "Dòng lệnh được thực hiện trong hệ vỏ khi chạy lệnh 10 được gọi"
+
+#: ../plugins/commands/commands.xml.in.h:25
+msgid "Command line 11"
+msgstr "Dòng lệnh 11"
+
+#: ../plugins/commands/commands.xml.in.h:26
+msgid "Command line to be executed in shell when run_command11 is invoked"
+msgstr "Dòng lệnh được thực hiện trong hệ vỏ khi chạy lệnh 11 được gọi"
+
+#: ../plugins/commands/commands.xml.in.h:27
+msgid "Command line 12"
+msgstr "Dòng lệnh 12"
+
+#: ../plugins/commands/commands.xml.in.h:28
+msgid "Command line to be executed in shell when run_command12 is invoked"
+msgstr "Dòng lệnh được thực thi trong vỏ khi lệnh 12 được gọi"
+
+#: ../plugins/commands/commands.xml.in.h:29
+msgid "Command line 13"
+msgstr "Dòng lệnh 13"
+
+#: ../plugins/commands/commands.xml.in.h:30
+msgid "Command line to be executed in shell when run_command13 is invoked"
+msgstr "Dòng lệnh được thực thi trong vỏ khi lệnh 13 được gọi"
+
+#: ../plugins/commands/commands.xml.in.h:31
+msgid "Command line 14"
+msgstr "Dòng lệnh 14"
+
+#: ../plugins/commands/commands.xml.in.h:32
+msgid "Command line to be executed in shell when run_command14 is invoked"
+msgstr "Dòng lệnh được thực thi trong vỏ khi lệnh 14 được gọi"
+
+#: ../plugins/commands/commands.xml.in.h:33
+msgid "Command line 15"
+msgstr "Dòng lệnh 15"
+
+#: ../plugins/commands/commands.xml.in.h:34
+msgid "Command line to be executed in shell when run_command15 is invoked"
+msgstr "Dòng lệnh được thực thi trong vỏ khi lệnh 15 được gọi"
+
+#: ../plugins/commands/commands.xml.in.h:35
+msgid "Command line 16"
+msgstr "Dòng lệnh 16"
+
+#: ../plugins/commands/commands.xml.in.h:36
+msgid "Command line to be executed in shell when run_command16 is invoked"
+msgstr "Dòng lệnh được thực thi trong vỏ khi lệnh 16 được gọi"
+
+#: ../plugins/commands/commands.xml.in.h:37
+msgid "Command line 17"
+msgstr "Dòng lệnh 17"
+
+#: ../plugins/commands/commands.xml.in.h:38
+msgid "Command line to be executed in shell when run_command17 is invoked"
+msgstr "Dòng lệnh được thực thi trong vỏ khi lệnh 17 được gọi"
+
+#: ../plugins/commands/commands.xml.in.h:39
+msgid "Command line 18"
+msgstr "Dòng lệnh 18"
+
+#: ../plugins/commands/commands.xml.in.h:40
+msgid "Command line to be executed in shell when run_command18 is invoked"
+msgstr "Dòng lệnh được thực thi trong vỏ khi lệnh 18 được gọi"
+
+#: ../plugins/commands/commands.xml.in.h:41
+msgid "Command line 19"
+msgstr "Dòng lệnh 19"
+
+#: ../plugins/commands/commands.xml.in.h:42
+msgid "Command line to be executed in shell when run_command19 is invoked"
+msgstr "Dòng lệnh được thực thi trong vỏ khi lệnh 19 được gọi"
+
+#: ../plugins/commands/commands.xml.in.h:43
+msgid "Command line 20"
+msgstr "Dòng lệnh 20"
+
+#: ../plugins/commands/commands.xml.in.h:44
+msgid "Command line to be executed in shell when run_command20 is invoked"
+msgstr "Dòng lệnh được thực thi trong vỏ khi lệnh 20 được gọi"
+
+#: ../plugins/commands/commands.xml.in.h:45
+msgid "Key Bindings"
+msgstr "Tổ hợp phím"
+
+#: ../plugins/commands/commands.xml.in.h:46
+msgid "Run command 0"
+msgstr "Chạy lệnh 0"
+
+#: ../plugins/commands/commands.xml.in.h:47
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command0"
+msgstr ""
+"Một tổ hợp phím được gán, khi gọi sẽ chạy lệnh vỏ được xác định bởi lệnh 0"
+
+#: ../plugins/commands/commands.xml.in.h:48
+msgid "Run command 1"
+msgstr "Chạy lệnh 1"
+
+#: ../plugins/commands/commands.xml.in.h:49
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command1"
+msgstr ""
+"Một tổ hợp phím được gán, khi gọi sẽ chạy lệnh vỏ được xác định bởi lệnh 1"
+
+#: ../plugins/commands/commands.xml.in.h:50
+msgid "Run command 2"
+msgstr "Chạy lệnh 2"
+
+#: ../plugins/commands/commands.xml.in.h:51
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command2"
+msgstr ""
+"Một tổ hợp phím được gán, khi gọi sẽ chạy lệnh vỏ được xác định bởi lệnh 2"
+
+#: ../plugins/commands/commands.xml.in.h:52
+msgid "Run command 3"
+msgstr "Chạy lệnh 3"
+
+#: ../plugins/commands/commands.xml.in.h:53
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command3"
+msgstr ""
+"Một tổ hợp phím được gán, khi gọi sẽ chạy lệnh vỏ được xác định bởi lệnh 3"
+
+#: ../plugins/commands/commands.xml.in.h:54
+msgid "Run command 4"
+msgstr "Chạy lệnh 4"
+
+#: ../plugins/commands/commands.xml.in.h:55
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command4"
+msgstr ""
+"Một tổ hợp phím được gán, khi gọi sẽ chạy lệnh vỏ được xác định bởi lệnh 4"
+
+#: ../plugins/commands/commands.xml.in.h:56
+msgid "Run command 5"
+msgstr "Chạy lệnh 5"
+
+#: ../plugins/commands/commands.xml.in.h:57
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command5"
+msgstr ""
+"Một tổ hợp phím được gán, khi gọi sẽ chạy lệnh vỏ được xác định bởi lệnh 5"
+
+#: ../plugins/commands/commands.xml.in.h:58
+msgid "Run command 6"
+msgstr "Chạy lệnh 6"
+
+#: ../plugins/commands/commands.xml.in.h:59
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command6"
+msgstr ""
+"Một tổ hợp phím được gán, khi gọi sẽ chạy lệnh vỏ được xác định bởi lệnh 6"
+
+#: ../plugins/commands/commands.xml.in.h:60
+msgid "Run command 7"
+msgstr "Chạy lệnh 7"
+
+#: ../plugins/commands/commands.xml.in.h:61
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command7"
+msgstr ""
+"Một tổ hợp phím được gán, khi gọi sẽ chạy lệnh vỏ được xác định bởi lệnh 7"
+
+#: ../plugins/commands/commands.xml.in.h:62
+msgid "Run command 8"
+msgstr "Chạy lệnh 8"
+
+#: ../plugins/commands/commands.xml.in.h:63
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command8"
+msgstr ""
+"Một tổ hợp phím được gán, khi gọi sẽ chạy lệnh vỏ được xác định bởi lệnh 8"
+
+#: ../plugins/commands/commands.xml.in.h:64
+msgid "Run command 9"
+msgstr "Chạy lệnh 9"
+
+#: ../plugins/commands/commands.xml.in.h:65
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command9"
+msgstr ""
+"Một tổ hợp phím được gán, khi gọi sẽ chạy lệnh vỏ được xác định bởi lệnh 9"
+
+#: ../plugins/commands/commands.xml.in.h:66
+msgid "Run command 10"
+msgstr "Chạy lệnh 10"
+
+#: ../plugins/commands/commands.xml.in.h:67
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command10"
+msgstr ""
+"Một tổ hợp phím được gán, khi gọi sẽ chạy lệnh vỏ được xác định bởi lệnh 10"
+
+#: ../plugins/commands/commands.xml.in.h:68
+msgid "Run command 11"
+msgstr "Chạy lệnh 11"
+
+#: ../plugins/commands/commands.xml.in.h:69
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command11"
+msgstr ""
+"Một tổ hợp phím được gán, khi gọi sẽ chạy lệnh vỏ được xác định bởi lệnh 11"
+
+#: ../plugins/commands/commands.xml.in.h:70
+msgid "Run command 12"
+msgstr "Chạy lệnh 12"
+
+#: ../plugins/commands/commands.xml.in.h:71
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command12"
+msgstr ""
+"Một tổ hợp phím khi được sử dụng sẽ chạy lệnh vỏ xác định bởi lệnh 12"
+
+#: ../plugins/commands/commands.xml.in.h:72
+msgid "Run command 13"
+msgstr "Chạy lệnh 13"
+
+#: ../plugins/commands/commands.xml.in.h:73
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command13"
+msgstr ""
+"Một tổ hợp phím khi được sử dụng sẽ chạy lệnh vỏ xác định bởi lệnh 13"
+
+#: ../plugins/commands/commands.xml.in.h:74
+msgid "Run command 14"
+msgstr "Chạy lệnh 14"
+
+#: ../plugins/commands/commands.xml.in.h:75
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command14"
+msgstr ""
+"Một tổ hợp phím khi được sử dụng sẽ chạy lệnh vỏ xác định bởi lệnh 14"
+
+#: ../plugins/commands/commands.xml.in.h:76
+msgid "Run command 15"
+msgstr "Chạy lệnh 15"
+
+#: ../plugins/commands/commands.xml.in.h:77
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command15"
+msgstr ""
+"Một tổ hợp phím khi được sử dụng sẽ chạy lệnh vỏ xác định bởi lệnh 15"
+
+#: ../plugins/commands/commands.xml.in.h:78
+msgid "Run command 16"
+msgstr "Chạy lệnh 16"
+
+#: ../plugins/commands/commands.xml.in.h:79
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command16"
+msgstr ""
+"Một tổ hợp phím khi được sử dụng sẽ chạy lệnh vỏ xác định bởi lệnh 16"
+
+#: ../plugins/commands/commands.xml.in.h:80
+msgid "Run command 17"
+msgstr "Chạy lệnh 17"
+
+#: ../plugins/commands/commands.xml.in.h:81
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command17"
+msgstr ""
+"Một tổ hợp phím khi được sử dụng sẽ chạy lệnh vỏ xác định bởi lệnh 17"
+
+#: ../plugins/commands/commands.xml.in.h:82
+msgid "Run command 18"
+msgstr "Chạy lệnh 18"
+
+#: ../plugins/commands/commands.xml.in.h:83
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command18"
+msgstr ""
+"Một tổ hợp phím khi được sử dụng sẽ chạy lệnh vỏ xác định bởi lệnh 18"
+
+#: ../plugins/commands/commands.xml.in.h:84
+msgid "Run command 19"
+msgstr "Chạy lệnh 19"
+
+#: ../plugins/commands/commands.xml.in.h:85
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command19"
+msgstr ""
+"Một tổ hợp phím khi được sử dụng sẽ chạy lệnh vỏ xác định bởi lệnh 19"
+
+#: ../plugins/commands/commands.xml.in.h:86
+msgid "Run command 20"
+msgstr "Chạy lệnh 20"
+
+#: ../plugins/commands/commands.xml.in.h:87
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command20"
+msgstr ""
+"Một tổ hợp phím khi được sử dụng sẽ chạy lệnh vỏ xác định bởi lệnh 20"
+
+#: ../plugins/commands/commands.xml.in.h:88
+msgid "Button Bindings"
+msgstr "Gán nút bấm"
+
+#: ../plugins/commands/commands.xml.in.h:89
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command0"
+msgstr ""
+"Một liên kết giữa bấm chuột cạnh màn hình và bàn phím sẽ chạy lệnh vỏ xác "
+"định bởi lệnh 0"
+
+#: ../plugins/commands/commands.xml.in.h:90
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command1"
+msgstr ""
+"Một liên kết giữa bấm chuột cạnh màn hình và bàn phím sẽ chạy lệnh vỏ xác "
+"định bởi lệnh 1"
+
+#: ../plugins/commands/commands.xml.in.h:91
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command2"
+msgstr ""
+"Một liên kết giữa bấm chuột cạnh màn hình và bàn phím sẽ chạy lệnh vỏ xác "
+"định bởi lệnh 2"
+
+#: ../plugins/commands/commands.xml.in.h:92
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command3"
+msgstr ""
+"Một liên kết giữa bấm chuột cạnh màn hình và bàn phím sẽ chạy lệnh vỏ xác "
+"định bởi lệnh 3"
+
+#: ../plugins/commands/commands.xml.in.h:93
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command4"
+msgstr ""
+"Một liên kết giữa bấm chuột cạnh màn hình và bàn phím sẽ chạy lệnh vỏ xác "
+"định bởi lệnh 4"
+
+#: ../plugins/commands/commands.xml.in.h:94
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command5"
+msgstr ""
+"Một liên kết giữa bấm chuột cạnh màn hình và bàn phím sẽ chạy lệnh vỏ xác "
+"định bởi lệnh 5"
+
+#: ../plugins/commands/commands.xml.in.h:95
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command6"
+msgstr ""
+"Một liên kết giữa bấm chuột cạnh màn hình và bàn phím sẽ chạy lệnh vỏ xác "
+"định bởi lệnh 6"
+
+#: ../plugins/commands/commands.xml.in.h:96
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command7"
+msgstr ""
+"Một liên kết giữa bấm chuột cạnh màn hình và bàn phím sẽ chạy lệnh vỏ xác "
+"định bởi lệnh 7"
+
+#: ../plugins/commands/commands.xml.in.h:97
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command8"
+msgstr ""
+"Một liên kết giữa bấm chuột cạnh màn hình và bàn phím sẽ chạy lệnh vỏ xác "
+"định bởi lệnh 8"
+
+#: ../plugins/commands/commands.xml.in.h:98
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command9"
+msgstr ""
+"Một liên kết giữa bấm chuột cạnh màn hình và bàn phím sẽ chạy lệnh vỏ xác "
+"định bởi lệnh 9"
+
+#: ../plugins/commands/commands.xml.in.h:99
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command10"
+msgstr ""
+"Một liên kết giữa bấm chuột cạnh màn hình và bàn phím sẽ chạy lệnh vỏ xác "
+"định bởi lệnh 10"
+
+#: ../plugins/commands/commands.xml.in.h:100
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command11"
+msgstr ""
+"Một liên kết giữa bấm chuột cạnh màn hình và bàn phím sẽ chạy lệnh vỏ xác "
+"định bởi lệnh 11"
+
+#: ../plugins/commands/commands.xml.in.h:101
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command12"
+msgstr ""
+"Một liên kết giữa bấm chuột cạnh màn hình và bàn phím sẽ chạy lệnh vỏ xác "
+"định bởi lệnh 12"
+
+#: ../plugins/commands/commands.xml.in.h:102
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command13"
+msgstr ""
+"Một liên kết giữa bấm chuột cạnh màn hình và bàn phím sẽ chạy lệnh vỏ xác "
+"định bởi lệnh 13"
+
+#: ../plugins/commands/commands.xml.in.h:103
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command14"
+msgstr ""
+"Một liên kết giữa bấm chuột cạnh màn hình và bàn phím sẽ chạy lệnh vỏ xác "
+"định bởi lệnh 14"
+
+#: ../plugins/commands/commands.xml.in.h:104
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command15"
+msgstr ""
+
+#: ../plugins/commands/commands.xml.in.h:105
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command16"
+msgstr ""
+
+#: ../plugins/commands/commands.xml.in.h:106
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command17"
+msgstr ""
+
+#: ../plugins/commands/commands.xml.in.h:107
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command18"
+msgstr ""
+
+#: ../plugins/commands/commands.xml.in.h:108
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command19"
+msgstr ""
+
+#: ../plugins/commands/commands.xml.in.h:109
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command20"
+msgstr ""
+
+#: ../plugins/commands/commands.xml.in.h:110
+msgid "Edge Bindings"
+msgstr "Gán cạnh"
+
+#: ../plugins/commands/commands.xml.in.h:111
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command0"
+msgstr "Một cạnh được gán, khi gọi sẽ chạy lệnh vỏ được xác định bởi lệnh 0"
+
+#: ../plugins/commands/commands.xml.in.h:112
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command1"
+msgstr "Một cạnh được gán, khi gọi sẽ chạy lệnh vỏ được xác định bởi lệnh 1"
+
+#: ../plugins/commands/commands.xml.in.h:113
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command2"
+msgstr "Một cạnh được gán, khi gọi sẽ chạy lệnh vỏ được xác định bởi lệnh 2"
+
+#: ../plugins/commands/commands.xml.in.h:114
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command3"
+msgstr "Một cạnh được gán, khi gọi sẽ chạy lệnh vỏ được xác định bởi lệnh 3"
+
+#: ../plugins/commands/commands.xml.in.h:115
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command4"
+msgstr "Một cạnh được gán, khi gọi sẽ chạy lệnh vỏ được xác định bởi lệnh 4"
+
+#: ../plugins/commands/commands.xml.in.h:116
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command5"
+msgstr "Một cạnh được gán, khi gọi sẽ chạy lệnh vỏ được xác định bởi lệnh 5"
+
+#: ../plugins/commands/commands.xml.in.h:117
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command6"
+msgstr "Một cạnh được gán, khi gọi sẽ chạy lệnh vỏ được xác định bởi lệnh 6"
+
+#: ../plugins/commands/commands.xml.in.h:118
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command7"
+msgstr "Một cạnh được gán, khi gọi sẽ chạy lệnh vỏ được xác định bởi lệnh 7"
+
+#: ../plugins/commands/commands.xml.in.h:119
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command8"
+msgstr "Một cạnh được gán, khi gọi sẽ chạy lệnh vỏ được xác định bởi lệnh 8"
+
+#: ../plugins/commands/commands.xml.in.h:120
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command9"
+msgstr "Một cạnh được gán, khi gọi sẽ chạy lệnh vỏ được xác định bởi lệnh 9"
+
+#: ../plugins/commands/commands.xml.in.h:121
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command10"
+msgstr "Một cạnh được gán, khi gọi sẽ chạy lệnh vỏ được xác định bởi lệnh 10"
+
+#: ../plugins/commands/commands.xml.in.h:122
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command11"
+msgstr "Một cạnh được gán, khi gọi sẽ chạy lệnh vỏ được xác định bởi lệnh 11"
+
+#: ../plugins/commands/commands.xml.in.h:123
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command12"
+msgstr ""
+
+#: ../plugins/commands/commands.xml.in.h:124
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command13"
+msgstr ""
+
+#: ../plugins/commands/commands.xml.in.h:125
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command14"
+msgstr ""
+
+#: ../plugins/commands/commands.xml.in.h:126
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command15"
+msgstr ""
+
+#: ../plugins/commands/commands.xml.in.h:127
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command16"
+msgstr ""
+
+#: ../plugins/commands/commands.xml.in.h:128
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command17"
+msgstr ""
+
+#: ../plugins/commands/commands.xml.in.h:129
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command18"
+msgstr ""
+
+#: ../plugins/commands/commands.xml.in.h:130
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command19"
+msgstr ""
+
+#: ../plugins/commands/commands.xml.in.h:131
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command20"
+msgstr ""
+
+#: ../plugins/compiztoolbox/compiztoolbox.xml.in.h:1
+msgid "Compiz Library Toolbox"
+msgstr ""
+
+#: ../plugins/compiztoolbox/compiztoolbox.xml.in.h:2
+msgid "Commonly used routines by plugins separated into a separate library"
+msgstr ""
+
+#: ../plugins/composite/composite.xml.in.h:1
+msgid "Composite"
+msgstr "Composite"
+
+#: ../plugins/composite/composite.xml.in.h:2
+msgid "Composite plugin"
+msgstr "Phần bổ sung Composite"
+
+#: ../plugins/composite/composite.xml.in.h:3
+msgid "Slow Animations"
+msgstr "Hoạt họa chậm"
+
+#: ../plugins/composite/composite.xml.in.h:4
+msgid "Toggle use of slow animations"
+msgstr "Bật/tắt hoạt họa chậm"
+
+#: ../plugins/composite/composite.xml.in.h:5
+msgid "Detect Refresh Rate"
+msgstr "Phát hiện tốc độ cập nhật"
+
+#: ../plugins/composite/composite.xml.in.h:6
+msgid "Automatic detection of refresh rate"
+msgstr "Tự động phát hiện tốc độ cập nhập"
+
+#: ../plugins/composite/composite.xml.in.h:7
+msgid "Refresh Rate"
+msgstr "Tốc độ cập nhật"
+
+#: ../plugins/composite/composite.xml.in.h:8
+msgid "The rate at which the screen is redrawn (times/second)"
+msgstr "Tốc độ vẽ lại màn hình (số lần/giây)"
+
+#: ../plugins/composite/composite.xml.in.h:9
+msgid "Unredirect Fullscreen Windows"
+msgstr "Huỷ điều hướng các cửa sổ toàn màn hình"
+
+#: ../plugins/composite/composite.xml.in.h:10
+msgid ""
+"Allow drawing of fullscreen windows to not be redirected to offscreen pixmaps"
+msgstr ""
+"Cho phép vẽ cửa sổ đày màn hình không bị chuyển hướng sang ánh xạ điểm ngoài "
+"màn hình (offscreen pixmaps)"
+
+#: ../plugins/composite/composite.xml.in.h:11
+msgid "Unredirect Match"
+msgstr ""
+
+#: ../plugins/composite/composite.xml.in.h:12
+msgid ""
+"Specifies which windows will be unredirected when they are fullscreen. You "
+"might want to exclude video players for example, to avoid tearing. But this "
+"will be at the expense of performance/frame rate. Note: \"class=\" matching "
+"requires the regex plugin to work."
+msgstr ""
+
+#: ../plugins/composite/composite.xml.in.h:13
+msgid "Force independent output painting."
+msgstr "Bắt buộc vẽ đầu ra độc lập."
+
+#: ../plugins/composite/composite.xml.in.h:14
+msgid ""
+"Paint each output device independly, even if the output devices overlap"
+msgstr "Vẽ các đầu ra một cách độc lập dù chúng gối lên nhau"
+
+#: ../plugins/copytex/copytex.xml.in.h:1
+msgid "Copy to texture"
+msgstr "Sao chép vào ảnh phủ"
+
+#: ../plugins/copytex/copytex.xml.in.h:2
+msgid "Copy pixmap content to texture"
+msgstr "Sao chép nội dung pixmap vào ảnh phủ"
+
+#: ../plugins/cube/cube.xml.in.h:1
+msgid "Desktop Cube"
+msgstr "Khối màn hình"
+
+#: ../plugins/cube/cube.xml.in.h:2
+msgid "Place windows and viewports on a cube"
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:3
+msgid "Unfold Cube Key"
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:4
+msgid "Keyboard shortcut to unfold the cube."
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:6 ../plugins/shift/shift.xml.in.h:73
+msgid "Generate mipmaps for higher quality scaling."
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:7 ../plugins/expo/expo.xml.in.h:54
+#: ../plugins/place/place.xml.in.h:13 ../plugins/scale/scale.xml.in.h:36
+#: ../plugins/shift/shift.xml.in.h:74
+msgid "Multi Output Mode"
+msgstr "Chế độ đa đầu ra"
+
+#: ../plugins/cube/cube.xml.in.h:8
+msgid ""
+"Select how the cube is displayed, if multiple output devices are used."
+msgstr ""
+
+#: ../plugins/animationaddon/animationaddon.xml.in.h:40
+#: ../plugins/cube/cube.xml.in.h:9
+msgid "Automatic"
+msgstr "Tự động"
+
+#: ../plugins/cube/cube.xml.in.h:10
+msgid "Multiple cubes"
+msgstr "Đa khối"
+
+#: ../plugins/cube/cube.xml.in.h:11
+msgid "One big cube"
+msgstr "Một khối lớn"
+
+#: ../plugins/cube/cube.xml.in.h:12 ../plugins/cubeaddon/cubeaddon.xml.in.h:51
+#: ../plugins/expo/expo.xml.in.h:20 ../plugins/scale/scale.xml.in.h:25
+#: ../plugins/scaleaddon/scaleaddon.xml.in.h:33
+#: ../plugins/scalefilter/scalefilter.xml.in.h:3
+#: ../plugins/snap/snap.xml.in.h:10
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:23
+#: ../plugins/trailfocus/trailfocus.xml.in.h:3
+#: ../plugins/widget/widget.xml.in.h:5
+msgid "Behaviour"
+msgstr "Hành vi"
+
+#: ../plugins/cube/cube.xml.in.h:13
+msgid "Inside Cube"
+msgstr "Ở bên trong khối"
+
+#: ../plugins/cube/cube.xml.in.h:14
+msgid "Place the camera inside the cube."
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:15
+msgid "Fold Acceleration"
+msgstr "Gia tốc gấp"
+
+#: ../plugins/cube/cube.xml.in.h:16
+msgid "The acceleration of folding and unfolding."
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:17
+msgid "Fold Speed"
+msgstr "Tốc độ gấp"
+
+#: ../plugins/cube/cube.xml.in.h:18
+msgid "The speed of folding and unfolding."
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:19 ../plugins/ezoom/ezoom.xml.in.h:144
+#: ../plugins/mag/mag.xml.in.h:17 ../plugins/put/put.xml.in.h:88
+#: ../plugins/ring/ring.xml.in.h:33 ../plugins/rotate/rotate.xml.in.h:28
+#: ../plugins/scale/scale.xml.in.h:14 ../plugins/shift/shift.xml.in.h:43
+#: ../plugins/showdesktop/showdesktop.xml.in.h:6
+#: ../plugins/stackswitch/stackswitch.xml.in.h:18
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:26
+#: ../plugins/switcher/switcher.xml.in.h:21 ../plugins/trip/trip.xml.in.h:25
+msgid "Timestep"
+msgstr "Bước"
+
+#: ../plugins/cube/cube.xml.in.h:20
+msgid "The timestep of folding and unfolding."
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:21 ../plugins/expo/expo.xml.in.h:31
+#: ../plugins/grid/grid.xml.in.h:69 ../plugins/group/group.xml.in.h:91
+#: ../plugins/move/move.xml.in.h:21 ../plugins/scale/scale.xml.in.h:3
+#: ../plugins/scaleaddon/scaleaddon.xml.in.h:11
+#: ../plugins/scalefilter/scalefilter.xml.in.h:10
+#: ../plugins/shift/shift.xml.in.h:50
+#: ../plugins/showdesktop/showdesktop.xml.in.h:27
+#: ../plugins/splash/splash.xml.in.h:13
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:38
+#: ../plugins/trailfocus/trailfocus.xml.in.h:10
+#: ../plugins/widget/widget.xml.in.h:10
+#: ../plugins/workspacenames/workspacenames.xml.in.h:9
+msgid "Appearance"
+msgstr "Diện mạo"
+
+#: ../plugins/cube/cube.xml.in.h:22
+msgid "Cube Cap Colors"
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:23 ../plugins/cubeaddon/cubeaddon.xml.in.h:72
+msgid "Top"
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:24
+msgid "Color and opacity of top face of the cube."
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:25 ../plugins/cubeaddon/cubeaddon.xml.in.h:75
+msgid "Bottom"
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:26
+msgid "Color and opacity of bottom face of the cube."
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:27
+msgid "Skydome"
+msgstr "Vòm trời"
+
+#: ../plugins/cube/cube.xml.in.h:28
+msgid "Render a specified skydome texture."
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:29
+msgid "Skydome Image"
+msgstr "Ảnh vòm trời"
+
+#: ../plugins/cube/cube.xml.in.h:30
+msgid "Image to use as texture for the skydome."
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:31
 msgid "Animate Skydome"
 msgstr ""
 
-#: ../metadata/cube.xml.in.h:6
-msgid "Animate skydome when rotating cube"
+#: ../plugins/cube/cube.xml.in.h:32
+msgid "Animate the skydome when rotating the cube."
 msgstr ""
 
-#: ../metadata/cube.xml.in.h:7 ../metadata/scale.xml.in.h:2
-msgid "Appearance"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:8
-msgid "Automatic"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:9 ../metadata/scale.xml.in.h:3
-msgid "Behaviour"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:10
-msgid "Color of top and bottom sides of the cube"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:11
-msgid "Color to use for the bottom color-stop of the skydome-fallback gradient"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:12
-msgid "Color to use for the top color-stop of the skydome-fallback gradient"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:13
-msgid "Cube Caps"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:14
-msgid "Cube Color"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:15
-msgid "Desktop Cube"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:16
-msgid "Fold Acceleration"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:17
-msgid "Fold Speed"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:18
-msgid "Fold Timestep"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:19 ../metadata/switcher.xml.in.h:11
-msgid "Generate mipmaps when possible for higher quality scaling"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:20
-msgid "Go back to previous slide"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:21
-msgid "Image files"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:22
-msgid "Image to use as texture for the skydome"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:23
-msgid "Initiates Cube transparency only if rotation is mouse driven."
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:24
-msgid "Inside Cube"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:25
-msgid "Inside cube"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:26
-msgid "List of PNG and SVG files that should be rendered on top face of cube"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:28 ../metadata/place.xml.in.h:10
-#: ../metadata/scale.xml.in.h:24
-msgid "Multi Output Mode"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:29
-msgid "Multiple cubes"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:30
-msgid "Next Slide"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:31
-msgid "One big cube"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:32
-msgid "Opacity During Rotation"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:33
-msgid "Opacity When Not Rotating"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:34
-msgid "Opacity of desktop window during rotation."
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:35
-msgid "Opacity of desktop window when not rotating."
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:36
-msgid "Place windows on cube"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:37
-msgid "Prev Slide"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:38
-msgid "Render skydome"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:39
-msgid "Scale image"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:40
-msgid "Scale images to cover top face of cube"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:41
-msgid "Selects how the cube is displayed if multiple output devices are used."
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:42
-msgid "Skydome"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:43
-msgid "Skydome Gradient End Color"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:44
+#: ../plugins/cube/cube.xml.in.h:33
 msgid "Skydome Gradient Start Color"
-msgstr ""
+msgstr "Màu bắt đầu gra-đi-en vòm trời"
 
-#: ../metadata/cube.xml.in.h:45
-msgid "Skydome Image"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:46 ../metadata/minimize.xml.in.h:7
-#: ../metadata/rotate.xml.in.h:94 ../metadata/scale.xml.in.h:39
-#: ../metadata/switcher.xml.in.h:36
-msgid "Speed"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:47 ../metadata/minimize.xml.in.h:8
-#: ../metadata/rotate.xml.in.h:97 ../metadata/scale.xml.in.h:41
-#: ../metadata/switcher.xml.in.h:40
-msgid "Timestep"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:48
-msgid "Transparency Only on Mouse Rotate"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:49
-msgid "Transparent Cube"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:50
-msgid "Unfold"
-msgstr ""
-
-#: ../metadata/cube.xml.in.h:51
-msgid "Unfold cube"
-msgstr ""
-
-#: ../metadata/dbus.xml.in.h:1
-msgid "Dbus"
-msgstr ""
-
-#: ../metadata/dbus.xml.in.h:2
-msgid "Dbus Control Backend"
-msgstr ""
-
-#: ../metadata/decoration.xml.in.h:1
-msgid "Allow mipmaps to be generated for decoration textures"
-msgstr ""
-
-#: ../metadata/decoration.xml.in.h:2
-msgid "Command"
-msgstr ""
-
-#: ../metadata/decoration.xml.in.h:3
-msgid "Decoration windows"
-msgstr ""
-
-#: ../metadata/decoration.xml.in.h:4
+#: ../plugins/cube/cube.xml.in.h:34
 msgid ""
-"Decorator command line that is executed if no decorator is already running"
+"Color and opacity to use for the top color-stop of the skydome-fallback "
+"gradient."
 msgstr ""
 
-#: ../metadata/decoration.xml.in.h:5
-msgid "Drop shadow X offset"
+#: ../plugins/cube/cube.xml.in.h:35
+msgid "Skydome Gradient End Color"
+msgstr "Màu kết thúc gra-đi-en vòm trời"
+
+#: ../plugins/cube/cube.xml.in.h:36
+msgid ""
+"Color and opacity to use for the bottom color-stop of the skydome-fallback "
+"gradient."
 msgstr ""
 
-#: ../metadata/decoration.xml.in.h:6
-msgid "Drop shadow Y offset"
+#: ../plugins/cube/cube.xml.in.h:37
+msgid "Transparent Cube"
+msgstr "Khối trong suốt"
+
+#: ../plugins/cube/cube.xml.in.h:38
+msgid "Opacity During Rotation"
+msgstr "Độ trong suốt khi quay"
+
+#: ../plugins/cube/cube.xml.in.h:39
+msgid "Opacity of the desktop during cube rotation (in percent)."
 msgstr ""
 
-#: ../metadata/decoration.xml.in.h:7
-msgid "Drop shadow color"
+#: ../plugins/cube/cube.xml.in.h:40
+msgid "Non Rotating Opacity"
 msgstr ""
 
-#: ../metadata/decoration.xml.in.h:8
-msgid "Drop shadow opacity"
+#: ../plugins/cube/cube.xml.in.h:41
+msgid "Opacity of the desktop when not rotating the cube (in percent)."
 msgstr ""
 
-#: ../metadata/decoration.xml.in.h:9
-msgid "Drop shadow radius"
+#: ../plugins/cube/cube.xml.in.h:42
+msgid "Transparency Only On Mouse Rotate"
 msgstr ""
 
-#: ../metadata/decoration.xml.in.h:11
-msgid "Shadow Color"
+#: ../plugins/cube/cube.xml.in.h:43
+msgid "Initiates cube transparency only, if the rotation is mouse driven."
 msgstr ""
 
-#: ../metadata/decoration.xml.in.h:12
-msgid "Shadow Offset X"
+#: ../plugins/dbus/dbus.xml.in.h:1
+msgid "D-Bus"
 msgstr ""
 
-#: ../metadata/decoration.xml.in.h:13
-msgid "Shadow Offset Y"
+#: ../plugins/dbus/dbus.xml.in.h:2
+msgid "D-Bus Control Backend"
 msgstr ""
 
-#: ../metadata/decoration.xml.in.h:14
-msgid "Shadow Opacity"
-msgstr ""
-
-#: ../metadata/decoration.xml.in.h:15
-msgid "Shadow Radius"
-msgstr ""
-
-#: ../metadata/decoration.xml.in.h:16
-msgid "Shadow windows"
-msgstr ""
-
-#: ../metadata/decoration.xml.in.h:17
+#: ../plugins/decor/decor.xml.in.h:1
 msgid "Window Decoration"
-msgstr ""
+msgstr "Trang trí cửa sổ"
 
-#: ../metadata/decoration.xml.in.h:18
+#: ../plugins/decor/decor.xml.in.h:2
 msgid "Window decorations"
+msgstr "Trang trí cửa sổ"
+
+#: ../plugins/decor/decor.xml.in.h:3
+msgid "Active Shadow"
 msgstr ""
 
-#: ../metadata/decoration.xml.in.h:19
+#: ../plugins/decor/decor.xml.in.h:4
+msgid "Shadow Radius"
+msgstr "Bán kính bóng"
+
+#: ../plugins/decor/decor.xml.in.h:5
+msgid "Drop shadow radius"
+msgstr "Bán kính đổ bóng"
+
+#: ../plugins/decor/decor.xml.in.h:6
+msgid "Shadow Opacity"
+msgstr "Độ trong suốt bóng"
+
+#: ../plugins/decor/decor.xml.in.h:7
+msgid "Drop shadow opacity"
+msgstr "Độ trong suốt đổ bóng"
+
+#: ../plugins/decor/decor.xml.in.h:8 ../plugins/wall/wall.xml.in.h:24
+msgid "Shadow Color"
+msgstr "Màu bóng"
+
+#: ../plugins/decor/decor.xml.in.h:9
+msgid "Drop shadow color"
+msgstr "Màu đổ bóng"
+
+#: ../plugins/decor/decor.xml.in.h:10
+msgid "Shadow Offset X"
+msgstr "Độ lệch X đổ bóng"
+
+#: ../plugins/decor/decor.xml.in.h:11
+msgid "Drop shadow X offset"
+msgstr "Độ lệch X đổ bóng"
+
+#: ../plugins/decor/decor.xml.in.h:12
+msgid "Shadow Offset Y"
+msgstr "Độ lệch Y đổ bóng"
+
+#: ../plugins/decor/decor.xml.in.h:13
+msgid "Drop shadow Y offset"
+msgstr "Độ lệch Y đổ bóng"
+
+#: ../plugins/decor/decor.xml.in.h:14
+msgid "Inactive Shadow"
+msgstr ""
+
+#: ../plugins/decor/decor.xml.in.h:15
+msgid "Command"
+msgstr "Câu lệnh"
+
+#: ../plugins/decor/decor.xml.in.h:16
+msgid ""
+"Decorator command line that is executed if no decorator is already running."
+msgstr ""
+
+#: ../plugins/decor/decor.xml.in.h:18
+msgid "Allow mipmaps to be generated for decoration textures"
+msgstr "Cho phép tạo các mipmap cho các ảnh phủ trang trí"
+
+#: ../plugins/decor/decor.xml.in.h:19
+msgid "Decoration windows"
+msgstr "Trang trí cửa sổ"
+
+#: ../plugins/decor/decor.xml.in.h:20
 msgid "Windows that should be decorated"
-msgstr ""
+msgstr "Những cửa sổ được trang trí"
 
-#: ../metadata/decoration.xml.in.h:20
+#: ../plugins/decor/decor.xml.in.h:21
+msgid "Shadow windows"
+msgstr "Đổ bóng cửa sổ"
+
+#: ../plugins/decor/decor.xml.in.h:22
 msgid "Windows that should have a shadow"
-msgstr ""
+msgstr "Những cửa sổ có bóng"
 
-#: ../metadata/fade.xml.in.h:2
+#: ../plugins/fade/fade.xml.in.h:1
+msgid "Fading Windows"
+msgstr "Mờ dần/hiện dần cửa sổ"
+
+#: ../plugins/fade/fade.xml.in.h:2
+msgid "Fade in windows when mapped and fade out windows when unmapped"
+msgstr "Hiện dần cửa sổ khi mở và mờ dần khi đóng"
+
+#: ../plugins/fade/fade.xml.in.h:3
+msgid "Fade Mode"
+msgstr "Hiệu ứng mờ/hiện dần"
+
+#: ../plugins/fade/fade.xml.in.h:4
+msgid "Window fade mode"
+msgstr "Chế độ mờ/hiện dần cửa sổ"
+
+#: ../plugins/fade/fade.xml.in.h:5
+msgid "Constant speed"
+msgstr "Tốc độ không đổi"
+
+#: ../plugins/fade/fade.xml.in.h:6
+msgid "Constant time"
+msgstr "Thời gian không đổi"
+
+#: ../plugins/fade/fade.xml.in.h:7 ../plugins/shift/shift.xml.in.h:39
+msgid "Fade Speed"
+msgstr "Tốc độ mờ/hiện dần"
+
+#: ../plugins/fade/fade.xml.in.h:8
+msgid "Window fade speed"
+msgstr "Tốc độ mờ cửa sổ"
+
+#: ../plugins/fade/fade.xml.in.h:9
+#: ../plugins/fadedesktop/fadedesktop.xml.in.h:3
+#: ../plugins/resizeinfo/resizeinfo.xml.in.h:3
+#: ../plugins/splash/splash.xml.in.h:14 ../plugins/widget/widget.xml.in.h:11
+#: ../plugins/workspacenames/workspacenames.xml.in.h:12
+msgid "Fade Time"
+msgstr "Thời gian mờ/hiện dần"
+
+#: ../plugins/fade/fade.xml.in.h:10
+msgid "Window fade time (in ms) in \"Constant time\" mode"
+msgstr "Tốc độ mờ/hiện dần trong chế độ \"Thời gian không đổi\""
+
+#: ../plugins/fade/fade.xml.in.h:11
+msgid "Fade windows"
+msgstr "Mờ/hiện dần cửa sổ"
+
+#: ../plugins/fade/fade.xml.in.h:12
+msgid "Windows that should be fading"
+msgstr "Những cửa sổ sử dụng hiệu ứng mờ/hiện dần"
+
+#: ../plugins/fade/fade.xml.in.h:13
+msgid "Visual Bell"
+msgstr "Chuông thị giác"
+
+#: ../plugins/fade/fade.xml.in.h:14
+msgid "Fade effect on system beep"
+msgstr "Hiệu ứng mờ/hiện dần khi có tiếng bíp hệ thống"
+
+#: ../plugins/fade/fade.xml.in.h:15
+msgid "Fullscreen Visual Bell"
+msgstr "Chuông thị giác toàn màn hình"
+
+#: ../plugins/fade/fade.xml.in.h:16
+msgid "Fullscreen fade effect on system beep"
+msgstr "Hiệu ứng mờ/hiện dần trên toàn bộ màn hình khi có tiếng bíp hệ thống"
+
+#: ../plugins/fade/fade.xml.in.h:17
+msgid "Dim Unresponsive Windows"
+msgstr "Làm tối các cửa sổ không trả lời"
+
+#: ../plugins/fade/fade.xml.in.h:18
+msgid "Dim windows that are not responding to window manager requests"
+msgstr "Làm tối các cửa sổ không trả lời yêu cầu của trình quản lí cửa sổ"
+
+#: ../plugins/fade/fade.xml.in.h:19
+msgid "Unresponsive Window Brightness"
+msgstr "Độ sáng của cửa sổ không trả lời"
+
+#: ../plugins/fade/fade.xml.in.h:21
 #, no-c-format
 msgid "Brightness (in %) of unresponsive windows"
-msgstr ""
+msgstr "Độ sáng (theo %) của các cửa sổ không trả lời"
 
-#: ../metadata/fade.xml.in.h:3
-msgid "Constant speed"
-msgstr ""
+#: ../plugins/fade/fade.xml.in.h:22
+msgid "Unresponsive Window Saturation"
+msgstr "Độ bão hòa của cửa sổ không trả lời"
 
-#: ../metadata/fade.xml.in.h:4
-msgid "Constant time"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:5
-msgid "Dim Unresponsive Windows"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:6
-msgid "Dim windows that are not responding to window manager requests"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:7
-msgid "Fade Mode"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:8
-msgid "Fade On Minimize/Open/Close"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:9
-msgid "Fade Speed"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:10
-msgid "Fade Time"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:11
-msgid "Fade effect on minimize/open/close window events"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:12
-msgid "Fade effect on system beep"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:13
-msgid "Fade in windows when mapped and fade out windows when unmapped"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:14
-msgid "Fade windows"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:15
-msgid "Fading Windows"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:16
-msgid "Fullscreen Visual Bell"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:17
-msgid "Fullscreen fade effect on system beep"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:19
+#: ../plugins/fade/fade.xml.in.h:24
 #, no-c-format
 msgid "Saturation (in %) of unresponsive windows"
-msgstr ""
+msgstr "Độ bão hòa (theo %) của các cửa sổ không trả lời"
 
-#: ../metadata/fade.xml.in.h:20
-msgid "Unresponsive Window Brightness"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:21
-msgid "Unresponsive Window Saturation"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:22
-msgid "Visual Bell"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:23
-msgid "Window fade mode"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:24
-msgid "Window fade speed in \"Constant speed\" mode"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:25
-msgid "Window fade time (in ms) in \"Constant time\" mode"
-msgstr ""
-
-#: ../metadata/fade.xml.in.h:26
-msgid "Windows that should be fading"
-msgstr ""
-
-#: ../metadata/fs.xml.in.h:1
-msgid "Mount Point"
-msgstr ""
-
-#: ../metadata/fs.xml.in.h:2
-msgid "Mount point"
-msgstr ""
-
-#: ../metadata/fs.xml.in.h:3
-msgid "Userspace File System"
-msgstr ""
-
-#: ../metadata/fs.xml.in.h:4
-msgid "Userspace file system"
-msgstr ""
-
-#: ../metadata/gconf.xml.in.h:1
-msgid "GConf"
-msgstr ""
-
-#: ../metadata/gconf.xml.in.h:2
-msgid "GConf Control Backend"
-msgstr ""
-
-#: ../metadata/glib.xml.in.h:1
-msgid "GLib"
-msgstr ""
-
-#: ../metadata/glib.xml.in.h:2
-msgid "GLib main loop support"
-msgstr ""
-
-#: ../metadata/gnomecompat.xml.in.h:2
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:1
 msgid "Gnome Compatibility"
-msgstr ""
+msgstr "Tương thích với Gnome"
 
-#: ../metadata/gnomecompat.xml.in.h:3
-msgid "Open a terminal"
-msgstr ""
-
-#: ../metadata/gnomecompat.xml.in.h:4
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:2
 msgid "Options that keep Compiz compatible to the Gnome desktop environment"
-msgstr ""
+msgstr "Tùy chọn cho phép Compiz hoạt động tương thích với môi trường Gnome"
 
-#: ../metadata/gnomecompat.xml.in.h:5
-msgid "Run Dialog"
-msgstr ""
-
-#: ../metadata/gnomecompat.xml.in.h:6
-msgid "Run terminal command"
-msgstr ""
-
-#: ../metadata/gnomecompat.xml.in.h:7
-msgid "Screenshot command line"
-msgstr ""
-
-#: ../metadata/gnomecompat.xml.in.h:8
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:3
+#: ../plugins/matecompat/matecompat.xml.in.h:3
 msgid "Show Main Menu"
-msgstr ""
+msgstr "Hiện trình đơn chính"
 
-#: ../metadata/gnomecompat.xml.in.h:9
-msgid "Show Run Application dialog"
-msgstr ""
-
-#: ../metadata/gnomecompat.xml.in.h:10
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:4
+#: ../plugins/matecompat/matecompat.xml.in.h:4
 msgid "Show the main menu"
-msgstr ""
+msgstr "Hiện trình đơn chính"
 
-#: ../metadata/gnomecompat.xml.in.h:11
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:5
+#: ../plugins/matecompat/matecompat.xml.in.h:5
+msgid "Run Dialog"
+msgstr "Hộp thoại khởi chạy"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:6
+#: ../plugins/matecompat/matecompat.xml.in.h:6
+msgid "Show Run Application dialog"
+msgstr "Hiện hộp thoại khởi động ứng dựng"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:8
+#: ../plugins/matecompat/matecompat.xml.in.h:8
+msgid "Screenshot command line"
+msgstr "Chạy câu lệnh chụp màn hình"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:9
+#: ../plugins/matecompat/matecompat.xml.in.h:9
 msgid "Take a screenshot"
-msgstr ""
+msgstr "Chụp màn hình"
 
-#: ../metadata/gnomecompat.xml.in.h:12
-msgid "Take a screenshot of a window"
-msgstr ""
-
-#: ../metadata/gnomecompat.xml.in.h:13
-msgid "Terminal command line"
-msgstr ""
-
-#: ../metadata/gnomecompat.xml.in.h:14
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:10
+#: ../plugins/matecompat/matecompat.xml.in.h:10
 msgid "Window screenshot command line"
+msgstr "Câu lệnh chụp ảnh cửa sổ"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:11
+#: ../plugins/matecompat/matecompat.xml.in.h:11
+msgid "Take a screenshot of a window"
+msgstr "Chụp một cửa sổ"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:12
+#: ../plugins/matecompat/matecompat.xml.in.h:12
+msgid "Run terminal command"
+msgstr "Chạy câu lệnh mở thiết bị cuối"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:13
+#: ../plugins/matecompat/matecompat.xml.in.h:13
+msgid "Terminal command line"
+msgstr "Câu lệnh gọi thiết bị cuối"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:14
+#: ../plugins/matecompat/matecompat.xml.in.h:14
+msgid "Open a terminal"
+msgstr "Mở một thiết bị cuối"
+
+#: ../plugins/imgpng/imgpng.xml.in.h:1
+msgid "PNG"
 msgstr ""
 
-#: ../metadata/ini.xml.in.h:1
-msgid "Ini"
+#: ../plugins/imgpng/imgpng.xml.in.h:2
+msgid "PNG image loader"
 msgstr ""
 
-#: ../metadata/ini.xml.in.h:2
-msgid "Ini Flat File Backend"
+#: ../plugins/imgsvg/imgsvg.xml.in.h:1
+msgid "SVG"
 msgstr ""
 
-#: ../metadata/inotify.xml.in.h:1
+#: ../plugins/imgsvg/imgsvg.xml.in.h:2
+msgid "SVG image loader"
+msgstr ""
+
+#: ../plugins/imgsvg/imgsvg.xml.in.h:3
+msgid "Set overlay"
+msgstr "Đặt màn phủ"
+
+#: ../plugins/imgsvg/imgsvg.xml.in.h:4
+msgid "Set window overlay"
+msgstr "Đặt màn phủ cửa sổ"
+
+#: ../plugins/inotify/inotify.xml.in.h:1
+msgid "File Watcher"
+msgstr "Theo dõi tập tin"
+
+#: ../plugins/inotify/inotify.xml.in.h:2
 msgid "File change notification plugin"
+msgstr "Trình bổ sung theo dõi sự thay đổi của tệp"
+
+#: ../plugins/kde/kde.xml.in.h:1
+msgid "KDE/Qt Event Loop"
 msgstr ""
 
-#: ../metadata/inotify.xml.in.h:2
-msgid "Inotify"
+#: ../plugins/kde/kde.xml.in.h:2
+msgid "Integrates the KDE/Qt event loop into Compiz"
 msgstr ""
 
-#: ../metadata/kconfig.xml.in.h:1
-msgid "Kconfig"
-msgstr ""
-
-#: ../metadata/kconfig.xml.in.h:2
-msgid "Kconfig Control Backend"
-msgstr ""
-
-#: ../metadata/minimize.xml.in.h:1
-msgid "Minimize Effect"
-msgstr ""
-
-#: ../metadata/minimize.xml.in.h:2
-msgid "Minimize Windows"
-msgstr ""
-
-#: ../metadata/minimize.xml.in.h:3
-msgid "Minimize speed"
-msgstr ""
-
-#: ../metadata/minimize.xml.in.h:4
-msgid "Minimize timestep"
-msgstr ""
-
-#: ../metadata/minimize.xml.in.h:5
-msgid "Shade Resistance"
-msgstr ""
-
-#: ../metadata/minimize.xml.in.h:6
-msgid "Shade resistance"
-msgstr ""
-
-#: ../metadata/minimize.xml.in.h:9
-msgid "Transform windows when they are minimized and unminimized"
-msgstr ""
-
-#: ../metadata/minimize.xml.in.h:10
-msgid "Windows that should be transformed when minimized"
-msgstr ""
-
-#: ../metadata/move.xml.in.h:1
-msgid "Constrain Y"
-msgstr ""
-
-#: ../metadata/move.xml.in.h:2
-msgid "Constrain Y coordinate to workspace area"
-msgstr ""
-
-#: ../metadata/move.xml.in.h:3
-msgid "Do not update the server-side position of windows until finished moving"
-msgstr ""
-
-#: ../metadata/move.xml.in.h:4
-msgid "Initiate Window Move"
-msgstr ""
-
-#: ../metadata/move.xml.in.h:5
-msgid "Lazy Positioning"
-msgstr ""
-
-#: ../metadata/move.xml.in.h:6
+#: ../plugins/move/move.xml.in.h:1
 msgid "Move Window"
+msgstr "Di chuyển cửa sổ"
+
+#: ../plugins/move/move.xml.in.h:2
+msgid "Move your windows around"
 msgstr ""
 
-#: ../metadata/move.xml.in.h:7
-msgid "Move window"
-msgstr ""
+#: ../plugins/move/move.xml.in.h:3
+msgid "Initiate Window Move"
+msgstr "Bắt đầu di chuyển cửa sổ"
 
-#: ../metadata/move.xml.in.h:8 ../metadata/obs.xml.in.h:8
-#: ../metadata/scale.xml.in.h:28 ../metadata/switcher.xml.in.h:19
-msgid "Opacity"
-msgstr ""
-
-#: ../metadata/move.xml.in.h:9
-msgid "Opacity level of moving windows"
-msgstr ""
-
-#: ../metadata/move.xml.in.h:10
-msgid "Snapoff and auto unmaximized maximized windows when dragging"
-msgstr ""
-
-#: ../metadata/move.xml.in.h:11
-msgid "Snapoff maximized windows"
-msgstr ""
-
-#: ../metadata/move.xml.in.h:12
+#: ../plugins/move/move.xml.in.h:4
 msgid "Start moving window"
+msgstr "Bắt đầu di chuyển cửa sổ"
+
+#: ../plugins/move/move.xml.in.h:5
+msgid "Moving Window Opacity"
 msgstr ""
 
-#: ../metadata/obs.xml.in.h:1 ../metadata/switcher.xml.in.h:7
-msgid "Brightness"
+#: ../plugins/move/move.xml.in.h:6
+msgid "Opacity level of moving windows (in percent)."
 msgstr ""
 
-#: ../metadata/obs.xml.in.h:2
-msgid "Brightness Decrease"
+#: ../plugins/move/move.xml.in.h:7
+msgid "Keyboard Move Increment"
 msgstr ""
 
-#: ../metadata/obs.xml.in.h:3
-msgid "Brightness Increase"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:4
-msgid "Brightness Step"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:5
-msgid "Brightness values for windows"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:6
-msgid "Decrease"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:7
-msgid "Increase"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:9
-msgid "Opacity Decrease"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:10
-msgid "Opacity Increase"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:11
-msgid "Opacity Step"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:12
-msgid "Opacity values for windows"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:13
-msgid "Opacity, Brightness and Saturation"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:14
-msgid "Opacity, Brightness and Saturation adjustments"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:15 ../metadata/switcher.xml.in.h:29
-msgid "Saturation"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:16
-msgid "Saturation Decrease"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:17
-msgid "Saturation Increase"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:18
-msgid "Saturation Step"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:19
-msgid "Saturation values for windows"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:20
-msgid "Step"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:21
-msgid "Window specific settings"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:22
-msgid "Window values"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:23
-msgid "Windows"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:24
-msgid "Windows that should have a different brightness by default"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:25
-msgid "Windows that should have a different opacity by default"
-msgstr ""
-
-#: ../metadata/obs.xml.in.h:26
-msgid "Windows that should have a different saturation by default"
-msgstr ""
-
-#: ../metadata/place.xml.in.h:1
-msgid "Algorithm to use for window placement"
-msgstr ""
-
-#: ../metadata/place.xml.in.h:2
-msgid "Cascade"
-msgstr ""
-
-#: ../metadata/place.xml.in.h:3
-msgid "Centered"
-msgstr ""
-
-#: ../metadata/place.xml.in.h:4
-msgid "Fixed Window Placement"
-msgstr ""
-
-#: ../metadata/place.xml.in.h:5
-msgid "Force Placement Windows"
-msgstr ""
-
-#: ../metadata/place.xml.in.h:6
-msgid "Horizontal viewport positions"
-msgstr ""
-
-#: ../metadata/place.xml.in.h:7
-msgid "Keep In Workarea"
-msgstr ""
-
-#: ../metadata/place.xml.in.h:8
+#: ../plugins/move/move.xml.in.h:8
 msgid ""
-"Keep placed window in work area, even if that means that the position might "
-"differ from the specified position"
+"Move the window by this amount of pixels for every press on one of the "
+"cursor keys."
 msgstr ""
 
-#: ../metadata/place.xml.in.h:11
+#: ../plugins/move/move.xml.in.h:9
+msgid "Constrain Y"
+msgstr "Ràng buộc Y"
+
+#: ../plugins/move/move.xml.in.h:10
+msgid "Constrain y-coordinate to workspace area."
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:11
+msgid "Snapoff Semimaximized Windows"
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:12
+msgid "Snapoff and auto-restore semimaximized windows when dragging them."
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:13
+msgid "Snapoff Distance"
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:14
+msgid ""
+"Distance of pixels you have to drag a snapped semimaximized window to unsnap "
+"it."
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:15
+msgid "Snapback Semimaximized Windows"
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:16
+msgid ""
+"Snapback and re-maximize semimaximized windows when dragging them back."
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:17
+msgid "Snapback Distance"
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:18
+msgid ""
+"Number of pixels from top or sides to snap back semimaximized windows."
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:19
+msgid "Lazy Positioning"
+msgstr "Định vị chậm"
+
+#: ../plugins/move/move.xml.in.h:20
+msgid ""
+"Do not update the server-side position of windows until finished moving."
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:22
+msgid "Default Moving Window Mode"
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:23
+msgid "Default mode used for window moving."
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:25 ../plugins/resize/resize.xml.in.h:9
+msgid "Outline"
+msgstr "Viền"
+
+#: ../plugins/move/move.xml.in.h:26 ../plugins/resize/resize.xml.in.h:10
+msgid "Rectangle"
+msgstr "Hình chữ nhật"
+
+#: ../plugins/move/move.xml.in.h:31 ../plugins/resize/resize.xml.in.h:16
+msgid "Border Color"
+msgstr "Màu viền"
+
+#: ../plugins/move/move.xml.in.h:32
+msgid "Border color used for outline and rectangle moving modes"
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:33 ../plugins/resize/resize.xml.in.h:18
+msgid "Fill Color"
+msgstr "Màu đổ"
+
+#: ../plugins/move/move.xml.in.h:34
+msgid "Fill color used for rectangle moving mode"
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:35
+msgid "Enable Transparency"
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:36
+msgid "Enable or disable blending."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:1
+msgid "Opacity, Brightness and Saturation"
+msgstr "Độ trong suốt, độ sáng và độ bão hòa"
+
+#: ../plugins/obs/obs.xml.in.h:2
+msgid "Per window adjustments of opacity, brightness and saturation"
+msgstr ""
+
+#: ../plugins/addhelper/addhelper.xml.in.h:15
+#: ../plugins/group/group.xml.in.h:50 ../plugins/loginout/loginout.xml.in.h:12
+#: ../plugins/obs/obs.xml.in.h:3 ../plugins/scale/scale.xml.in.h:18
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:43
+#: ../plugins/switcher/switcher.xml.in.h:33
+#: ../plugins/trailfocus/trailfocus.xml.in.h:11
+msgid "Opacity"
+msgstr "Độ trong suốt"
+
+#: ../plugins/obs/obs.xml.in.h:4
+msgid "Increase Opacity Key"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:5
+msgid "Increase the opacity of the selected window."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:6
+msgid "Increase Opacity Button"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:7
+msgid "Increase the opacity of the window the pointer hovers."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:8
+msgid "Decrease Opacity Key"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:9
+msgid "Decrease the opacity of the selected window."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:10
+msgid "Decrease Opacity Button"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:11
+msgid "Decrease the opacity of the window the pointer hovers."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:12
+msgid "New window default opacity value"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:13
+msgid "Default opacity when a new window is created (in percent)."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:14
+msgid "Step Size"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:15
+msgid "Opacity increment and decrement amount (in percent)."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:16
+msgid "Window Specific Settings"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:18
+msgid "Windows that should have a specific default opacity."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:19
+msgid "Window values"
+msgstr "Giá trị cửa sổ"
+
+#: ../plugins/obs/obs.xml.in.h:20
+msgid "Opacity value for the windows (in percent)."
+msgstr ""
+
+#: ../plugins/addhelper/addhelper.xml.in.h:11 ../plugins/expo/expo.xml.in.h:58
+#: ../plugins/group/group.xml.in.h:54 ../plugins/loginout/loginout.xml.in.h:10
+#: ../plugins/obs/obs.xml.in.h:21 ../plugins/splash/splash.xml.in.h:20
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:41
+#: ../plugins/switcher/switcher.xml.in.h:31
+#: ../plugins/trailfocus/trailfocus.xml.in.h:16
+msgid "Brightness"
+msgstr "Độ sáng"
+
+#: ../plugins/obs/obs.xml.in.h:22
+msgid "Increase Brightness Key"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:23
+msgid "Increase the brightness of the selected window."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:24
+msgid "Increase Brightness Button"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:25
+msgid "Increase the brightness of the window the pointer hovers."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:26
+msgid "Decrease Brightness Key"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:27
+msgid "Decrease the brightness of the selected window."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:28
+msgid "Decrease Brightness Button"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:29
+msgid "Decrease the brightness of the window the pointer hovers."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:30
+msgid "New window default brightness value"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:31
+msgid "Default brightness when a new window is created (in percent)."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:32
+msgid "Brightness increment and decrement amount (in percent)."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:33
+msgid "Windows that should have a specific default brightness."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:34
+msgid "Brightness value for windows (in percent)."
+msgstr ""
+
+#: ../plugins/addhelper/addhelper.xml.in.h:13
+#: ../plugins/animationjc/animationjc.xml.in.h:10
+#: ../plugins/expo/expo.xml.in.h:60 ../plugins/group/group.xml.in.h:52
+#: ../plugins/loginout/loginout.xml.in.h:8 ../plugins/obs/obs.xml.in.h:35
+#: ../plugins/splash/splash.xml.in.h:18
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:39
+#: ../plugins/switcher/switcher.xml.in.h:29
+#: ../plugins/trailfocus/trailfocus.xml.in.h:21
+msgid "Saturation"
+msgstr "Độ bão hòa"
+
+#: ../plugins/obs/obs.xml.in.h:36
+msgid "Increase Saturation Key"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:37
+msgid "Increase the saturation of the selected window."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:38
+msgid "Increase Saturation Button"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:39
+msgid "Increase the saturation of the window the pointer hovers."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:40
+msgid "Decrease Saturation Key"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:41
+msgid "Decrease the saturation of the selected window."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:42
+msgid "Decrease Saturation Button"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:43
+msgid "Decrease the saturation of the window the pointer hovers."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:44
+msgid "New window default saturation value"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:45
+msgid "Default saturation when a new window is created (in percent)."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:46
+msgid "Saturation increment and decrement amount (in percent)."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:47
+msgid "Windows that should have a specific default saturation."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:48
+msgid "Saturation value for the windows (in percent)."
+msgstr ""
+
+#: ../plugins/opengl/opengl.xml.in.h:1
+msgid "OpenGL"
+msgstr "OpenGL"
+
+#: ../plugins/opengl/opengl.xml.in.h:2
+msgid "OpenGL Plugin"
+msgstr "Phần bổ sung OpenGL"
+
+#: ../plugins/opengl/opengl.xml.in.h:3
+msgid "Texture Filter"
+msgstr "Lọc hoạt tiết"
+
+#: ../plugins/opengl/opengl.xml.in.h:4
+msgid "Texture filtering"
+msgstr "Lọc họa tiết"
+
+#: ../plugins/opengl/opengl.xml.in.h:5
+msgid "Fast"
+msgstr "Nhanh"
+
+#: ../plugins/opengl/opengl.xml.in.h:6
+msgid "Good"
+msgstr "Tốt"
+
+#: ../plugins/opengl/opengl.xml.in.h:7
+msgid "Best"
+msgstr "Tốt nhất"
+
+#: ../plugins/opengl/opengl.xml.in.h:8
+msgid "Lighting"
+msgstr "Ánh sáng"
+
+#: ../plugins/opengl/opengl.xml.in.h:9
+msgid "Use diffuse light when screen is transformed"
+msgstr "Sử dụng nguồn sáng khuếch tán khi màn hình bị biến đổi"
+
+#: ../plugins/opengl/opengl.xml.in.h:10
+msgid "Sync To VBlank"
+msgstr "Đồng bộ theo VBlank"
+
+#: ../plugins/opengl/opengl.xml.in.h:11
+msgid "Only perform screen updates during vertical blanking period"
+msgstr "Chỉ thực hiện cập nhật màn hình trong kỳ xoá dọc"
+
+#: ../plugins/opengl/opengl.xml.in.h:12
+msgid "Texture Compression"
+msgstr "Nén họa tiết"
+
+#: ../plugins/opengl/opengl.xml.in.h:13
+msgid "If available use compression for textures converted from images"
+msgstr "Nén các hoạt tiết có nguồn gốc từ ảnh nếu có thể"
+
+#: ../plugins/opengl/opengl.xml.in.h:14
+msgid "Framebuffer object"
+msgstr ""
+
+#: ../plugins/opengl/opengl.xml.in.h:15
+msgid ""
+"Render all frames indirectly using framebuffer objects "
+"(GL_EXT_framebuffer_object), if supported by the driver. Pros: Might be "
+"faster than the default buffer swapping method in some cases. Cons: This "
+"will come at the cost of (1) usually reduced graphics benchmark performance; "
+"(2) increased GPU resource consumption; and (3) possibly higher visible lag. "
+"Note: This feature is always on in OpenGL|ES builds such as ARM platforms."
+msgstr ""
+
+#: ../plugins/opengl/opengl.xml.in.h:16
+msgid "Vertex buffer object"
+msgstr ""
+
+#: ../plugins/opengl/opengl.xml.in.h:17
+msgid ""
+"Render all graphics primitives using vertex buffer objects "
+"(GL_ARB_vertex_buffer_object), if supported by the driver. Pros: This "
+"provides higher graphics performance for some drivers. Cons: This is a new "
+"feature and may cause graphical problems. Note: This feature is always on in "
+"OpenGL|ES builds such as ARM platforms."
+msgstr ""
+
+#: ../plugins/opengl/opengl.xml.in.h:18
+msgid "Always use buffer swapping"
+msgstr ""
+
+#: ../plugins/opengl/opengl.xml.in.h:19
+msgid ""
+"Use glXSwapBuffers to display every frame. This eliminates visible tearing "
+"with most drivers and dramatically improves visual smoothness. Automatically "
+"enabled when framebuffer_object is on."
+msgstr ""
+
+#: ../plugins/opengl/opengl.xml.in.h:20
+msgid "Unredirect Driver Blacklist"
+msgstr ""
+
+#: ../plugins/opengl/opengl.xml.in.h:21
+msgid ""
+"If non-empty, specifies a POSIX (extended) regular expression to match "
+"against the OpenGL driver strings (newline separated): \"GL_VENDOR\\"
+"nGL_RENDERER\\nGL_VERSION\". If the regular expression matches a substring "
+"of that concatenation then no windows will ever be unredirected while using "
+"that particular graphics driver."
+msgstr ""
+
+#: ../plugins/opengl/opengl.xml.in.h:22
+msgid "X11 Sync Objects"
+msgstr ""
+
+#: ../plugins/cubeaddon/cubeaddon.xml.in.h:18
+#: ../plugins/opengl/opengl.xml.in.h:23
+msgid "Enabled"
+msgstr ""
+
+#: ../plugins/opengl/opengl.xml.in.h:24
+msgid ""
+"Use X11 Sync fences to synchronize rendering between X11 and OpenGL "
+"(GL_EXT_x11_sync_object). Without this, the contents of windows may not be "
+"completely redrawn."
+msgstr ""
+
+#: ../plugins/opengl/opengl.xml.in.h:25
+msgid "Cards Blacklist"
+msgstr ""
+
+#: ../plugins/opengl/opengl.xml.in.h:26
+msgid "The list of the cards for which we should disable X11/GL syncing."
+msgstr ""
+
+#: ../plugins/opengl/opengl.xml.in.h:27
+msgid "Vendor"
+msgstr ""
+
+#: ../plugins/opengl/opengl.xml.in.h:28
+msgid "The card vendor for which X11 sync should be disabled."
+msgstr ""
+
+#: ../plugins/opengl/opengl.xml.in.h:29
+msgid "Model"
+msgstr ""
+
+#: ../plugins/place/place.xml.in.h:1
 msgid "Place Windows"
-msgstr ""
+msgstr "Sắp xếp cửa sổ"
 
-#: ../metadata/place.xml.in.h:12
-msgid "Place across all outputs"
-msgstr ""
-
-#: ../metadata/place.xml.in.h:13
+#: ../plugins/place/place.xml.in.h:2
 msgid "Place windows at appropriate positions when mapped"
-msgstr ""
+msgstr "Đặt cửa sổ ở vị trí hợp lí khi mở"
 
-#: ../metadata/place.xml.in.h:14
+#: ../plugins/place/place.xml.in.h:3
+#: ../plugins/workarounds/workarounds.xml.in.h:1
+msgid "Workarounds"
+msgstr "Cách khắc phục"
+
+#: ../plugins/place/place.xml.in.h:4
+msgid "Window placement workarounds"
+msgstr "Những cách khắc phục sắp đặt cửa sổ"
+
+#: ../plugins/place/place.xml.in.h:5
 msgid "Placement Mode"
-msgstr ""
+msgstr "Chế độ sắp đặt"
 
-#: ../metadata/place.xml.in.h:15
-msgid "Positioned windows"
-msgstr ""
+#: ../plugins/place/place.xml.in.h:6
+msgid "Algorithm to use for window placement"
+msgstr "Thuật toán được dùng để sắp đặt cửa sổ"
 
-#: ../metadata/place.xml.in.h:16
+#: ../plugins/place/place.xml.in.h:7
+msgid "Cascade"
+msgstr "Xếp tầng"
+
+#: ../plugins/place/place.xml.in.h:8
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:54
+#: ../plugins/wallpaper/wallpaper.xml.in.h:10
+msgid "Centered"
+msgstr "Ở giữa"
+
+#: ../plugins/place/place.xml.in.h:9
+msgid "Smart"
+msgstr "Thông minh"
+
+#: ../plugins/grid/grid.xml.in.h:43 ../plugins/place/place.xml.in.h:10
+msgid "Maximize"
+msgstr "Phóng to"
+
+#: ../plugins/animation/animation.xml.in.h:109
+#: ../plugins/animationaddon/animationaddon.xml.in.h:39
+#: ../plugins/place/place.xml.in.h:11
 msgid "Random"
-msgstr ""
+msgstr "Ngẫu nhiên"
 
-#: ../metadata/place.xml.in.h:17
+#: ../plugins/place/place.xml.in.h:12
+msgid "Pointer"
+msgstr "Con trỏ"
+
+#: ../plugins/place/place.xml.in.h:14
 msgid ""
 "Selects how window placement should behave if multiple outputs are selected"
-msgstr ""
+msgstr "Thiết lập cách sắp xếp cửa sổ khi có nhiều thiết bị đầu ra"
 
-#: ../metadata/place.xml.in.h:18
-msgid "Smart"
-msgstr ""
-
-#: ../metadata/place.xml.in.h:19
+#: ../plugins/place/place.xml.in.h:15
 msgid "Use active output device"
-msgstr ""
+msgstr "Sử dụng thiết bị đầu ra hiện tại"
 
-#: ../metadata/place.xml.in.h:20
-msgid "Use output device of focussed window"
-msgstr ""
-
-#: ../metadata/place.xml.in.h:21
+#: ../plugins/place/place.xml.in.h:16
 msgid "Use output device with pointer"
-msgstr ""
+msgstr "Sử dụng thiết bị đầu ra có con trỏ"
 
-#: ../metadata/place.xml.in.h:22
-msgid "Vertical viewport positions"
-msgstr ""
+#: ../plugins/place/place.xml.in.h:17
+msgid "Use output device of focussed window"
+msgstr "Sử dụng thiết bị đầu ra của cửa sổ hiện tại"
 
-#: ../metadata/place.xml.in.h:23
-msgid "Viewport positioned windows"
-msgstr ""
+#: ../plugins/place/place.xml.in.h:18
+msgid "Place across all outputs"
+msgstr "Hiển thị trên tất cả các thiết bị đầu ra"
 
-#: ../metadata/place.xml.in.h:24
-msgid "Window placement workarounds"
-msgstr ""
+#: ../plugins/place/place.xml.in.h:19
+msgid "Force Placement Windows"
+msgstr "Các cửa sổ ép sắp đặt"
 
-#: ../metadata/place.xml.in.h:25
-msgid "Windows that should be positioned by default"
-msgstr ""
-
-#: ../metadata/place.xml.in.h:26
-msgid "Windows that should be positioned in specific viewports by default"
-msgstr ""
-
-#: ../metadata/place.xml.in.h:27
+#: ../plugins/place/place.xml.in.h:20
 msgid ""
 "Windows that should forcedly be placed, even if they indicate the window "
 "manager should avoid placing them."
 msgstr ""
+"Các cửa sổ vẫn bị xếp chỗ dù chúng yêu cầu trình quản lí cửa sổ tránh sắp "
+"đặt chúng."
 
-#: ../metadata/place.xml.in.h:28
+#: ../plugins/place/place.xml.in.h:21
+msgid "Fixed Window Placement"
+msgstr "Vị trí cửa sổ cố định"
+
+#: ../plugins/place/place.xml.in.h:22
 msgid "Windows with fixed positions"
-msgstr ""
+msgstr "Các cửa sổ có vị trí cố định"
 
-#: ../metadata/place.xml.in.h:29
-msgid "Windows with fixed viewport"
-msgstr ""
+#: ../plugins/place/place.xml.in.h:23
+msgid "Positioned windows"
+msgstr "Các cửa sổ đã có vị trí"
 
-#: ../metadata/place.xml.in.h:30
-msgid "Workarounds"
-msgstr ""
+#: ../plugins/place/place.xml.in.h:24
+msgid "Windows that should be positioned by default"
+msgstr "Các cửa sổ được sắp đặt mặc định"
 
-#: ../metadata/place.xml.in.h:31
+#: ../plugins/place/place.xml.in.h:25
 msgid "X Positions"
-msgstr ""
+msgstr "Tọa độ X"
 
-#: ../metadata/place.xml.in.h:32
-msgid "X Viewport Positions"
-msgstr ""
-
-#: ../metadata/place.xml.in.h:33
+#: ../plugins/place/place.xml.in.h:26
 msgid "X position values"
-msgstr ""
+msgstr "Giá trị tọa độ X"
 
-#: ../metadata/place.xml.in.h:34
+#: ../plugins/place/place.xml.in.h:27
 msgid "Y Positions"
-msgstr ""
+msgstr "Tọa độ Y"
 
-#: ../metadata/place.xml.in.h:35
-msgid "Y Viewport Positions"
-msgstr ""
-
-#: ../metadata/place.xml.in.h:36
+#: ../plugins/place/place.xml.in.h:28
 msgid "Y position values"
-msgstr ""
+msgstr "Giá trị tọa độ Y"
 
-#: ../metadata/png.xml.in.h:1
-msgid "Png"
-msgstr ""
+#: ../plugins/place/place.xml.in.h:29
+msgid "Keep In Workarea"
+msgstr "Đặt trong vùng làm việc"
 
-#: ../metadata/png.xml.in.h:2
-msgid "Png image loader"
+#: ../plugins/place/place.xml.in.h:30
+msgid ""
+"Keep placed window in work area, even if that means that the position might "
+"differ from the specified position"
 msgstr ""
+"Xếp cửa sổ vào trong vùng làm việc dù vị trí đó khác với vị trí chỉ định"
 
-#: ../metadata/regex.xml.in.h:1
+#: ../plugins/place/place.xml.in.h:31
+msgid "Windows with fixed placement mode"
+msgstr "Các cửa sổ được sắp đặt cố định"
+
+#: ../plugins/place/place.xml.in.h:33
+msgid "Windows that should have a certain positioning mo+de"
+msgstr "Những cửa sổ nên có chế độ định vị nhất định"
+
+#: ../plugins/animation/animation.xml.in.h:49 ../plugins/mag/mag.xml.in.h:8
+#: ../plugins/place/place.xml.in.h:34
+msgid "Mode"
+msgstr "Chế độ"
+
+#: ../plugins/place/place.xml.in.h:35
+msgid "Positioning modes"
+msgstr "Các chế độ sắp  đặt"
+
+#: ../plugins/place/place.xml.in.h:36
+msgid "Windows with fixed viewport"
+msgstr "Các cửa sổ có cổng nhìn cố định"
+
+#: ../plugins/place/place.xml.in.h:37
+msgid "Viewport positioned windows"
+msgstr "Các cửa sổ đã có cổng nhìn xác định"
+
+#: ../plugins/place/place.xml.in.h:38
+msgid "Windows that should be positioned in specific viewports by default"
+msgstr "Các cửa sổ được sắp đặt mặc định ở các cổng nhìn cho trước"
+
+#: ../plugins/place/place.xml.in.h:39
+msgid "X Viewport Positions"
+msgstr "Tọa độ cổng nhìn X"
+
+#: ../plugins/place/place.xml.in.h:40
+msgid "Horizontal viewport positions"
+msgstr "Vị trí cổng nhìn ngang"
+
+#: ../plugins/place/place.xml.in.h:41
+msgid "Y Viewport Positions"
+msgstr "Tọa độ cổng nhìn Y"
+
+#: ../plugins/place/place.xml.in.h:42
+msgid "Vertical viewport positions"
+msgstr "Ví trí cổng nhìn dọc"
+
+#: ../plugins/regex/regex.xml.in.h:1
 msgid "Regex Matching"
-msgstr ""
+msgstr "So khớp biểu thức chính quy"
 
-#: ../metadata/regex.xml.in.h:2
+#: ../plugins/regex/regex.xml.in.h:2
 msgid "Regex window matching"
-msgstr ""
+msgstr "So khớp cửa sổ dựa trên biểu thức chính quy"
 
-#: ../metadata/resize.xml.in.h:1 ../metadata/rotate.xml.in.h:2
-#: ../metadata/scale.xml.in.h:5 ../metadata/switcher.xml.in.h:6
+#: ../plugins/resize/resize.xml.in.h:1
+msgid "Resize Window"
+msgstr "Thay đổi kích thước cửa sổ"
+
+#: ../plugins/addhelper/addhelper.xml.in.h:3
+#: ../plugins/cubeaddon/cubeaddon.xml.in.h:4 ../plugins/expo/expo.xml.in.h:3
+#: ../plugins/grid/grid.xml.in.h:3 ../plugins/mag/mag.xml.in.h:3
+#: ../plugins/maximumize/maximumize.xml.in.h:18
+#: ../plugins/opacify/opacify.xml.in.h:3 ../plugins/put/put.xml.in.h:5
+#: ../plugins/resize/resize.xml.in.h:3 ../plugins/ring/ring.xml.in.h:3
+#: ../plugins/rotate/rotate.xml.in.h:30 ../plugins/scale/scale.xml.in.h:42
+#: ../plugins/scaleaddon/scaleaddon.xml.in.h:3
+#: ../plugins/shelf/shelf.xml.in.h:3 ../plugins/shift/shift.xml.in.h:3
+#: ../plugins/snap/snap.xml.in.h:3
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:2
+#: ../plugins/switcher/switcher.xml.in.h:2 ../plugins/trip/trip.xml.in.h:3
+#: ../plugins/wall/wall.xml.in.h:44
 msgid "Bindings"
-msgstr ""
+msgstr "Gán"
 
-#: ../metadata/resize.xml.in.h:2
-msgid "Border Color"
-msgstr ""
+#: ../plugins/resize/resize.xml.in.h:4
+msgid "Initiate Window Resize"
+msgstr "Bắt đầu thay đổi kích thước cửa sổ"
 
-#: ../metadata/resize.xml.in.h:3
+#: ../plugins/resize/resize.xml.in.h:5
+msgid "Start resizing window"
+msgstr "Bắt đầu thay đổi kích thước cửa sổ"
+
+#: ../plugins/resize/resize.xml.in.h:6
+msgid "Default Resize Mode"
+msgstr "Chế độ thay đổi kích thước mặc định"
+
+#: ../plugins/resize/resize.xml.in.h:7
+msgid "Default mode used for window resizing"
+msgstr "Chế độ mặc định dùng cho thay đổi kích thước cửa sổ"
+
+#: ../plugins/resize/resize.xml.in.h:11
+msgid "Stretch"
+msgstr "Kéo giãn"
+
+#: ../plugins/resize/resize.xml.in.h:17
 msgid "Border color used for outline and rectangle resize modes"
 msgstr ""
+"Màu viền được sử dụng cho nét ngoài và các chế độ thay đổi kích thước chữ "
+"nhật"
 
-#: ../metadata/resize.xml.in.h:4
-msgid "Default Resize Mode"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:5
-msgid "Default mode used for window resizing"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:6
-msgid "Fill Color"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:7
+#: ../plugins/resize/resize.xml.in.h:19
 msgid "Fill color used for rectangle resize mode"
-msgstr ""
+msgstr "Màu đổ được dùng cho chế độ thay đổi kích thước chữ nhật"
 
-#: ../metadata/resize.xml.in.h:8
-msgid "Initiate Normal Window Resize"
-msgstr ""
+#: ../plugins/resize/resize.xml.in.h:22
+msgid "Specific Window Matches"
+msgstr "Cửa sổ trùng khớp"
 
-#: ../metadata/resize.xml.in.h:9
-msgid "Initiate Outline Window Resize"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:10
-msgid "Initiate Rectangle Window Resize"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:11
-msgid "Initiate Stretch Window Resize"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:12
-msgid "Initiate Window Resize"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:14
+#: ../plugins/resize/resize.xml.in.h:23
 msgid "Normal Resize Windows"
-msgstr ""
+msgstr "Thay đổi kích thước cửa sổ bình thường"
 
-#: ../metadata/resize.xml.in.h:15
-msgid "Outline"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:16
-msgid "Outline Resize Windows"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:17
-msgid "Rectangle"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:18
-msgid "Rectangle Resize Windows"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:19
-msgid "Resize Window"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:20
-msgid "Resize window"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:21
-msgid "Start resizing window"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:22
-msgid "Start resizing window by stretching it"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:23
-msgid "Start resizing window normally"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:24
-msgid "Start resizing window with outline"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:25
-msgid "Start resizing window with rectangle"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:26
-msgid "Stretch"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:27
-msgid "Stretch Resize Windows"
-msgstr ""
-
-#: ../metadata/resize.xml.in.h:28
+#: ../plugins/resize/resize.xml.in.h:24
 msgid "Windows that normal resize should be used for"
-msgstr ""
+msgstr "Các cửa sổ dùng cách thay đổi đổi kích thước bình thường"
 
-#: ../metadata/resize.xml.in.h:29
+#: ../plugins/resize/resize.xml.in.h:25
+msgid "Outline Resize Windows"
+msgstr "Thay đổi kích thước cửa sổ với viền"
+
+#: ../plugins/resize/resize.xml.in.h:26
 msgid "Windows that outline resize should be used for"
-msgstr ""
+msgstr "Các cửa sổ dùng cách thay đổi đổi kích thước với đường viền"
 
-#: ../metadata/resize.xml.in.h:30
+#: ../plugins/resize/resize.xml.in.h:27
+msgid "Rectangle Resize Windows"
+msgstr "Thay đổi kích thước cửa sổ với hình chữ nhật"
+
+#: ../plugins/resize/resize.xml.in.h:28
 msgid "Windows that rectangle resize should be used for"
-msgstr ""
+msgstr "Các cửa sổ dùng cách thay đổi đổi kích thước với hình chữ nhật"
 
-#: ../metadata/resize.xml.in.h:31
+#: ../plugins/resize/resize.xml.in.h:29
+msgid "Stretch Resize Windows"
+msgstr "Thay đổi kích thước cửa sổ bằng kéo giãn"
+
+#: ../plugins/resize/resize.xml.in.h:30
 msgid "Windows that stretch resize should be used for"
-msgstr ""
+msgstr "Các cửa sổ dùng cách thay đổi đổi kích thước bằng kéo giãn"
 
-#: ../metadata/rotate.xml.in.h:3
-msgid "Edge Flip DnD"
-msgstr ""
+#: ../plugins/resize/resize.xml.in.h:31
+msgid "Additional Modifier Keys"
+msgstr "Phím biến đổi khác"
 
-#: ../metadata/rotate.xml.in.h:4
-msgid "Edge Flip Move"
-msgstr ""
+#: ../plugins/resize/resize.xml.in.h:32
+msgid "Outline Modifier"
+msgstr "Hỗ trợ đường viền"
 
-#: ../metadata/rotate.xml.in.h:5
-msgid "Edge Flip Pointer"
+#: ../plugins/resize/resize.xml.in.h:33
+msgid "Use these bindings to resize with an outline."
 msgstr ""
+"Sử dụng những phím liên kết này để thay đổi kích cỡ với một đường viền."
 
-#: ../metadata/rotate.xml.in.h:6
-msgid "Flip Time"
+#: ../plugins/freewins/freewins.xml.in.h:17
+#: ../plugins/resize/resize.xml.in.h:34 ../plugins/snap/snap.xml.in.h:6
+msgid "Shift"
+msgstr "Shift"
+
+#: ../plugins/freewins/freewins.xml.in.h:18
+#: ../plugins/resize/resize.xml.in.h:35 ../plugins/snap/snap.xml.in.h:7
+msgid "Alt"
+msgstr "Alt"
+
+#: ../plugins/freewins/freewins.xml.in.h:19
+#: ../plugins/resize/resize.xml.in.h:36 ../plugins/snap/snap.xml.in.h:8
+msgid "Control"
+msgstr "Control"
+
+#: ../plugins/freewins/freewins.xml.in.h:20
+#: ../plugins/resize/resize.xml.in.h:37 ../plugins/snap/snap.xml.in.h:9
+msgid "Meta"
+msgstr "Meta"
+
+#: ../plugins/resize/resize.xml.in.h:38
+msgid "Rectangle Modifier"
+msgstr "Hỗ trợ hình chữ nhật"
+
+#: ../plugins/resize/resize.xml.in.h:39
+msgid "Use these bindings to resize with an rectangle."
 msgstr ""
+"Sử dụng những phím liên kết này để thay đổi kích thước với một hình chữ nhật"
 
-#: ../metadata/rotate.xml.in.h:7
-msgid "Flip to left viewport and warp pointer"
+#: ../plugins/resize/resize.xml.in.h:40
+msgid "Stretch Modifier"
+msgstr "Hỗ trợ kéo giãn"
+
+#: ../plugins/resize/resize.xml.in.h:41
+msgid "Use these bindings to resize by stretching."
 msgstr ""
+"Sử dụng những phím liên kết này để thay đổi kích cỡ bằng cách kéo giãn."
 
-#: ../metadata/rotate.xml.in.h:8
-msgid "Flip to next viewport when dragging object to screen edge"
-msgstr ""
+#: ../plugins/resize/resize.xml.in.h:42
+msgid "Centered Modifier"
+msgstr "Hỗ trợ căn giữa"
 
-#: ../metadata/rotate.xml.in.h:9
-msgid "Flip to next viewport when moving pointer to screen edge"
-msgstr ""
+#: ../plugins/resize/resize.xml.in.h:43
+msgid "Use these bindings to resize from the center."
+msgstr "Sử dụng những phím liên kết này để thay đổi kích cỡ từ trung tâm."
 
-#: ../metadata/rotate.xml.in.h:10
-msgid "Flip to next viewport when moving window to screen edge"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:11
-msgid "Flip to right viewport and warp pointer"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:13
-msgid "Invert Y axis for pointer movement"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:14
-msgid "Pointer Invert Y"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:15
-msgid "Pointer Sensitivity"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:16
-msgid "Raise on rotate"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:17
-msgid "Raise window when rotating"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:18
+#: ../plugins/rotate/rotate.xml.in.h:1
 msgid "Rotate Cube"
-msgstr ""
+msgstr "Xoay khối"
 
-#: ../metadata/rotate.xml.in.h:19
-msgid "Rotate Flip Left"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:20
-msgid "Rotate Flip Right"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:21
-msgid "Rotate Left"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:22
-msgid "Rotate Left with Window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:23
-msgid "Rotate Right"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:24
-msgid "Rotate Right with Window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:25
-msgid "Rotate To"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:26
-msgid "Rotate To Face 1"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:27
-msgid "Rotate To Face 1 with Window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:28
-msgid "Rotate To Face 10"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:29
-msgid "Rotate To Face 10 with Window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:30
-msgid "Rotate To Face 11"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:31
-msgid "Rotate To Face 11 with Window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:32
-msgid "Rotate To Face 12"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:33
-msgid "Rotate To Face 12 with Window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:34
-msgid "Rotate To Face 2"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:35
-msgid "Rotate To Face 2 with Window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:36
-msgid "Rotate To Face 3"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:37
-msgid "Rotate To Face 3 with Window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:38
-msgid "Rotate To Face 4"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:39
-msgid "Rotate To Face 4 with Window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:40
-msgid "Rotate To Face 5"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:41
-msgid "Rotate To Face 5 with Window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:42
-msgid "Rotate To Face 6"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:43
-msgid "Rotate To Face 6 with Window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:44
-msgid "Rotate To Face 7"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:45
-msgid "Rotate To Face 7 with Window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:46
-msgid "Rotate To Face 8"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:47
-msgid "Rotate To Face 8 with Window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:48
-msgid "Rotate To Face 9"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:49
-msgid "Rotate To Face 9 with Window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:50
-msgid "Rotate cube"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:51
+#: ../plugins/rotate/rotate.xml.in.h:2
 msgid "Rotate desktop cube"
-msgstr ""
+msgstr "Xoay khối màn hình làm việc"
 
-#: ../metadata/rotate.xml.in.h:52
-msgid "Rotate left"
-msgstr ""
+#: ../plugins/rotate/rotate.xml.in.h:3 ../plugins/wall/wall.xml.in.h:81
+msgid "Edge Flip Pointer"
+msgstr "Con trỏ lật cạnh"
 
-#: ../metadata/rotate.xml.in.h:53
-msgid "Rotate left and bring active window along"
-msgstr ""
+#: ../plugins/rotate/rotate.xml.in.h:4
+msgid "Flip to next viewport when moving pointer to screen edge"
+msgstr "Lật sang cổng nhìn tiếp theo khi di chuyển con trỏ tới cạnh màn hình"
 
-#: ../metadata/rotate.xml.in.h:54
-msgid "Rotate right"
-msgstr ""
+#: ../plugins/rotate/rotate.xml.in.h:5 ../plugins/wall/wall.xml.in.h:83
+msgid "Edge Flip Move"
+msgstr "Di chuyển lật cạnh"
 
-#: ../metadata/rotate.xml.in.h:55
-msgid "Rotate right and bring active window along"
-msgstr ""
+#: ../plugins/rotate/rotate.xml.in.h:6
+msgid "Flip to next viewport when moving window to screen edge"
+msgstr "Lật sang cổng nhìn tiếp theo khi di chuyển cửa sổ đến cạnh màn hình"
 
-#: ../metadata/rotate.xml.in.h:56
-msgid "Rotate to cube face"
-msgstr ""
+#: ../plugins/rotate/rotate.xml.in.h:7 ../plugins/wall/wall.xml.in.h:85
+msgid "Edge Flip DnD"
+msgstr "Kéo thả lật cạnh"
 
-#: ../metadata/rotate.xml.in.h:57
-msgid "Rotate to cube face with window"
-msgstr ""
+#: ../plugins/rotate/rotate.xml.in.h:8
+msgid "Flip to next viewport when dragging object to screen edge"
+msgstr "Lật sang cổng nhìn tiếp theo khi kéo đối tượng tới cạnh màn hình"
 
-#: ../metadata/rotate.xml.in.h:58
-msgid "Rotate to face 1"
-msgstr ""
+#: ../plugins/rotate/rotate.xml.in.h:9
+msgid "Raise on rotate"
+msgstr "Đưa lên khi xoay"
 
-#: ../metadata/rotate.xml.in.h:59
-msgid "Rotate to face 1 and bring active window along"
-msgstr ""
+#: ../plugins/rotate/rotate.xml.in.h:10
+msgid "Raise window when rotating"
+msgstr "Đưa cửa sổ lên khi xoay"
 
-#: ../metadata/rotate.xml.in.h:60
-msgid "Rotate to face 10"
-msgstr ""
+#: ../plugins/rotate/rotate.xml.in.h:11
+msgid "Pointer Invert Y"
+msgstr "Đảo ngược Y con trỏ"
 
-#: ../metadata/rotate.xml.in.h:61
-msgid "Rotate to face 10 and bring active window along"
-msgstr ""
+#: ../plugins/rotate/rotate.xml.in.h:12
+msgid "Invert Y axis for pointer movement"
+msgstr "Đảo ngược trục Y cho chuyển động con trỏ"
 
-#: ../metadata/rotate.xml.in.h:62
-msgid "Rotate to face 11"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:63
-msgid "Rotate to face 11 and bring active window along"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:64
-msgid "Rotate to face 12"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:65
-msgid "Rotate to face 12 and bring active window along"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:66
-msgid "Rotate to face 2"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:67
-msgid "Rotate to face 2 and bring active window along"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:68
-msgid "Rotate to face 3"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:69
-msgid "Rotate to face 3 and bring active window along"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:70
-msgid "Rotate to face 4"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:71
-msgid "Rotate to face 4 and bring active window along"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:72
-msgid "Rotate to face 5"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:73
-msgid "Rotate to face 5 and bring active window along"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:74
-msgid "Rotate to face 6"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:75
-msgid "Rotate to face 6 and bring active window along"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:76
-msgid "Rotate to face 7"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:77
-msgid "Rotate to face 7 and bring active window along"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:78
-msgid "Rotate to face 8"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:79
-msgid "Rotate to face 8 and bring active window along"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:80
-msgid "Rotate to face 9"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:81
-msgid "Rotate to face 9 and bring active window along"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:82
-msgid "Rotate to viewport"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:83
-msgid "Rotate window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:84
-msgid "Rotate with window"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:85
-msgid "Rotation Acceleration"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:86
-msgid "Rotation Speed"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:87
-msgid "Rotation Timestep"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:88
-msgid "Rotation Zoom"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:89
-msgid "Sensitivity of pointer movement"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:90
-msgid "Snap Cube Rotation to Bottom Face"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:91
-msgid "Snap Cube Rotation to Top Face"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:92
-msgid "Snap To Bottom Face"
-msgstr ""
-
-#: ../metadata/rotate.xml.in.h:93
+#: ../plugins/rotate/rotate.xml.in.h:13
 msgid "Snap To Top Face"
 msgstr ""
 
-#: ../metadata/rotate.xml.in.h:95
-msgid "Start Rotation"
+#: ../plugins/rotate/rotate.xml.in.h:14
+msgid "Snap Cube Rotation to Top Face"
 msgstr ""
 
-#: ../metadata/rotate.xml.in.h:96
-msgid "Timeout before flipping viewport"
+#: ../plugins/rotate/rotate.xml.in.h:15
+msgid "Snap To Bottom Face"
 msgstr ""
 
-#: ../metadata/rotate.xml.in.h:98 ../metadata/switcher.xml.in.h:42
+#: ../plugins/rotate/rotate.xml.in.h:16
+msgid "Snap Cube Rotation to Bottom Face"
+msgstr ""
+
+#: ../plugins/animation/animation.xml.in.h:105 ../plugins/expo/expo.xml.in.h:27
+#: ../plugins/mag/mag.xml.in.h:13 ../plugins/rotate/rotate.xml.in.h:17
+#: ../plugins/switcher/switcher.xml.in.h:39 ../plugins/trip/trip.xml.in.h:21
 msgid "Zoom"
+msgstr "Phóng to/Thu nhỏ"
+
+#: ../plugins/rotate/rotate.xml.in.h:18
+msgid "Rotation Zoom"
+msgstr "Phóng to/thu nhỏ khi xoay"
+
+#: ../plugins/rotate/rotate.xml.in.h:19
+msgid "Additional Settings"
 msgstr ""
 
-#: ../metadata/scale.xml.in.h:1 ../metadata/switcher.xml.in.h:2
-msgid "Amount of opacity in percent"
+#: ../plugins/rotate/rotate.xml.in.h:20
+msgid "Flip Time"
+msgstr "Thời gian lật"
+
+#: ../plugins/rotate/rotate.xml.in.h:21
+msgid "Timeout before flipping viewport"
+msgstr "Thời gian trễ trước khi lật cổng nhìn"
+
+#: ../plugins/rotate/rotate.xml.in.h:22
+msgid "Pointer Sensitivity"
+msgstr "Độ nhạy con trỏ"
+
+#: ../plugins/rotate/rotate.xml.in.h:23
+msgid "Sensitivity of pointer movement"
+msgstr "Độ nhạy của chuyển động con trỏ"
+
+#: ../plugins/rotate/rotate.xml.in.h:24
+msgid "Acceleration"
+msgstr "Gia tốc"
+
+#: ../plugins/rotate/rotate.xml.in.h:25
+msgid "Rotation Acceleration"
+msgstr "Gia tốc xoay"
+
+#: ../plugins/ezoom/ezoom.xml.in.h:142 ../plugins/mag/mag.xml.in.h:15
+#: ../plugins/put/put.xml.in.h:86 ../plugins/ring/ring.xml.in.h:31
+#: ../plugins/rotate/rotate.xml.in.h:26 ../plugins/scale/scale.xml.in.h:12
+#: ../plugins/showdesktop/showdesktop.xml.in.h:4
+#: ../plugins/stackswitch/stackswitch.xml.in.h:16
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:24
+#: ../plugins/switcher/switcher.xml.in.h:19 ../plugins/trip/trip.xml.in.h:23
+#: ../plugins/wizard/wizard.xml.in.h:19
+msgid "Speed"
+msgstr "Tốc độ"
+
+#: ../plugins/rotate/rotate.xml.in.h:27
+msgid "Rotation Speed"
+msgstr "Tốc độ xoay"
+
+#: ../plugins/rotate/rotate.xml.in.h:29
+msgid "Rotation Timestep"
+msgstr "Bước xoay"
+
+#: ../plugins/rotate/rotate.xml.in.h:31
+msgid "Rotate cube"
+msgstr "Xoay khối"
+
+#: ../plugins/rotate/rotate.xml.in.h:33
+msgid "Start Rotation"
+msgstr "Bắt đầu xoay"
+
+#: ../plugins/rotate/rotate.xml.in.h:34
+msgid "Rotate Left"
+msgstr "Xoay sang trái"
+
+#: ../plugins/rotate/rotate.xml.in.h:35
+msgid "Rotate left"
+msgstr "Xoay sang trái"
+
+#: ../plugins/rotate/rotate.xml.in.h:36
+msgid "Rotate Right"
+msgstr "Xoay sang phải"
+
+#: ../plugins/rotate/rotate.xml.in.h:37
+msgid "Rotate right"
+msgstr "Xoay sang phải"
+
+#: ../plugins/rotate/rotate.xml.in.h:38
+msgid "Rotate Left with Window"
+msgstr "Xoay sang trái với cửa sổ"
+
+#: ../plugins/rotate/rotate.xml.in.h:39
+msgid "Rotate left and bring active window along"
+msgstr "Xoay sang trái và mang theo cửa sổ hiện hành"
+
+#: ../plugins/rotate/rotate.xml.in.h:40
+msgid "Rotate Right with Window"
+msgstr "Xoay sang phải với cửa sổ"
+
+#: ../plugins/rotate/rotate.xml.in.h:41
+msgid "Rotate right and bring active window along"
+msgstr "Xoay sang phải và mang theo cửa sổ hiện hành"
+
+#: ../plugins/rotate/rotate.xml.in.h:42
+msgid "Rotate To"
+msgstr "Xoay sang"
+
+#: ../plugins/rotate/rotate.xml.in.h:43
+msgid "Rotate to viewport"
+msgstr "Xoay sang cổng nhìn"
+
+#: ../plugins/rotate/rotate.xml.in.h:44
+msgid "Rotate window"
+msgstr "Xoay cửa sổ"
+
+#: ../plugins/rotate/rotate.xml.in.h:45
+msgid "Rotate with window"
+msgstr "Xoay với cửa sổ"
+
+#: ../plugins/rotate/rotate.xml.in.h:46
+msgid "Rotate Flip Left"
+msgstr "Xoay lật trái"
+
+#: ../plugins/rotate/rotate.xml.in.h:47
+msgid "Flip to left viewport and warp pointer"
+msgstr "Lật sang cổng nhìn bên trái"
+
+#: ../plugins/rotate/rotate.xml.in.h:48
+msgid "Rotate Flip Right"
+msgstr "Xoay lật phải"
+
+#: ../plugins/rotate/rotate.xml.in.h:49
+msgid "Flip to right viewport and warp pointer"
+msgstr "Lật sang cổng nhìn bên phải"
+
+#: ../plugins/rotate/rotate.xml.in.h:50
+msgid "Rotate to cube face"
+msgstr "Xoay sang mặt khối"
+
+#: ../plugins/rotate/rotate.xml.in.h:51
+msgid "Rotate To Face 1"
+msgstr "Xoay sang mặt 1"
+
+#: ../plugins/rotate/rotate.xml.in.h:52
+msgid "Rotate to face 1"
+msgstr "Xoay sang mặt 1"
+
+#: ../plugins/rotate/rotate.xml.in.h:53
+msgid "Rotate To Face 2"
+msgstr "Xoay sang mặt 2"
+
+#: ../plugins/rotate/rotate.xml.in.h:54
+msgid "Rotate to face 2"
+msgstr "Xoay sang mặt 2"
+
+#: ../plugins/rotate/rotate.xml.in.h:55
+msgid "Rotate To Face 3"
+msgstr "Xoay sang mặt 3"
+
+#: ../plugins/rotate/rotate.xml.in.h:56
+msgid "Rotate to face 3"
+msgstr "Xoay sang mặt 3"
+
+#: ../plugins/rotate/rotate.xml.in.h:57
+msgid "Rotate To Face 4"
+msgstr "Xoay sang mặt 4"
+
+#: ../plugins/rotate/rotate.xml.in.h:58
+msgid "Rotate to face 4"
+msgstr "Xoay sang mặt 4"
+
+#: ../plugins/rotate/rotate.xml.in.h:59
+msgid "Rotate To Face 5"
+msgstr "Xoay sang mặt 5"
+
+#: ../plugins/rotate/rotate.xml.in.h:60
+msgid "Rotate to face 5"
+msgstr "Xoay sang mặt 5"
+
+#: ../plugins/rotate/rotate.xml.in.h:61
+msgid "Rotate To Face 6"
+msgstr "Xoay sang mặt 6"
+
+#: ../plugins/rotate/rotate.xml.in.h:62
+msgid "Rotate to face 6"
+msgstr "Xoay sang mặt 6"
+
+#: ../plugins/rotate/rotate.xml.in.h:63
+msgid "Rotate To Face 7"
+msgstr "Xoay sang mặt 7"
+
+#: ../plugins/rotate/rotate.xml.in.h:64
+msgid "Rotate to face 7"
+msgstr "Xoay sang mặt 7"
+
+#: ../plugins/rotate/rotate.xml.in.h:65
+msgid "Rotate To Face 8"
+msgstr "Xoay sang mặt 8"
+
+#: ../plugins/rotate/rotate.xml.in.h:66
+msgid "Rotate to face 8"
+msgstr "Xoay sang mặt 8"
+
+#: ../plugins/rotate/rotate.xml.in.h:67
+msgid "Rotate To Face 9"
+msgstr "Xoay sang mặt 9"
+
+#: ../plugins/rotate/rotate.xml.in.h:68
+msgid "Rotate to face 9"
+msgstr "Xoay sang mặt 9"
+
+#: ../plugins/rotate/rotate.xml.in.h:69
+msgid "Rotate To Face 10"
+msgstr "Xoay sang mặt 10"
+
+#: ../plugins/rotate/rotate.xml.in.h:70
+msgid "Rotate to face 10"
+msgstr "Xoay sang mặt 10"
+
+#: ../plugins/rotate/rotate.xml.in.h:71
+msgid "Rotate To Face 11"
+msgstr "Xoay sang mặt 11"
+
+#: ../plugins/rotate/rotate.xml.in.h:72
+msgid "Rotate to face 11"
+msgstr "Xoay sang mặt 11"
+
+#: ../plugins/rotate/rotate.xml.in.h:73
+msgid "Rotate To Face 12"
+msgstr "Xoay sang mặt 12"
+
+#: ../plugins/rotate/rotate.xml.in.h:74
+msgid "Rotate to face 12"
+msgstr "Xoay sang mặt 12"
+
+#: ../plugins/rotate/rotate.xml.in.h:75
+msgid "Rotate to cube face with window"
+msgstr "Xoay sang mặt khối với cửa sổ"
+
+#: ../plugins/rotate/rotate.xml.in.h:76
+msgid "Rotate To Face 1 with Window"
+msgstr "Xoay sang mặt 1 với cửa sổ"
+
+#: ../plugins/rotate/rotate.xml.in.h:77
+msgid "Rotate to face 1 and bring active window along"
+msgstr "Xoay sang mặt 1 và mang theo cửa sổ hiện hành"
+
+#: ../plugins/rotate/rotate.xml.in.h:78
+msgid "Rotate To Face 2 with Window"
+msgstr "Xoay sang mặt 2 với cửa sổ"
+
+#: ../plugins/rotate/rotate.xml.in.h:79
+msgid "Rotate to face 2 and bring active window along"
+msgstr "Xoay sang mặt 2 và mang theo cửa sổ hiện hành"
+
+#: ../plugins/rotate/rotate.xml.in.h:80
+msgid "Rotate To Face 3 with Window"
+msgstr "Xoay sang mặt 3 với cửa sổ"
+
+#: ../plugins/rotate/rotate.xml.in.h:81
+msgid "Rotate to face 3 and bring active window along"
+msgstr "Xoay sang mặt 3 và mang theo cửa sổ hiện hành"
+
+#: ../plugins/rotate/rotate.xml.in.h:82
+msgid "Rotate To Face 4 with Window"
+msgstr "Xoay sang mặt 4 với cửa sổ"
+
+#: ../plugins/rotate/rotate.xml.in.h:83
+msgid "Rotate to face 4 and bring active window along"
+msgstr "Xoay sang mặt 4 và mang theo cửa sổ hiện hành"
+
+#: ../plugins/rotate/rotate.xml.in.h:84
+msgid "Rotate To Face 5 with Window"
+msgstr "Xoay sang mặt 5 với cửa sổ"
+
+#: ../plugins/rotate/rotate.xml.in.h:85
+msgid "Rotate to face 5 and bring active window along"
+msgstr "Xoay sang mặt 5 và mang theo cửa sổ hiện hành"
+
+#: ../plugins/rotate/rotate.xml.in.h:86
+msgid "Rotate To Face 6 with Window"
+msgstr "Xoay sang mặt 6 với cửa sổ"
+
+#: ../plugins/rotate/rotate.xml.in.h:87
+msgid "Rotate to face 6 and bring active window along"
+msgstr "Xoay sang mặt 6 và mang theo cửa sổ hiện hành"
+
+#: ../plugins/rotate/rotate.xml.in.h:88
+msgid "Rotate To Face 7 with Window"
+msgstr "Xoay sang mặt 7 với cửa sổ"
+
+#: ../plugins/rotate/rotate.xml.in.h:89
+msgid "Rotate to face 7 and bring active window along"
+msgstr "Xoay sang mặt 7 và mang theo cửa sổ hiện hành"
+
+#: ../plugins/rotate/rotate.xml.in.h:90
+msgid "Rotate To Face 8 with Window"
+msgstr "Xoay sang mặt 8 với cửa sổ"
+
+#: ../plugins/rotate/rotate.xml.in.h:91
+msgid "Rotate to face 8 and bring active window along"
+msgstr "Xoay sang mặt 8 và mang theo cửa sổ hiện hành"
+
+#: ../plugins/rotate/rotate.xml.in.h:92
+msgid "Rotate To Face 9 with Window"
+msgstr "Xoay sang mặt 9 với cửa sổ"
+
+#: ../plugins/rotate/rotate.xml.in.h:93
+msgid "Rotate to face 9 and bring active window along"
+msgstr "Xoay sang mặt 9 và mang theo cửa sổ hiện hành"
+
+#: ../plugins/rotate/rotate.xml.in.h:94
+msgid "Rotate To Face 10 with Window"
+msgstr "Xoay sang mặt 10 với cửa sổ"
+
+#: ../plugins/rotate/rotate.xml.in.h:95
+msgid "Rotate to face 10 and bring active window along"
+msgstr "Xoay sang mặt 10 và mang theo cửa sổ hiện hành"
+
+#: ../plugins/rotate/rotate.xml.in.h:96
+msgid "Rotate To Face 11 with Window"
+msgstr "Xoay sang mặt 11 với cửa sổ"
+
+#: ../plugins/rotate/rotate.xml.in.h:97
+msgid "Rotate to face 11 and bring active window along"
+msgstr "Xoay sang mặt 11 và mang theo cửa sổ hiện hành"
+
+#: ../plugins/rotate/rotate.xml.in.h:98
+msgid "Rotate To Face 12 with Window"
+msgstr "Xoay sang mặt 12 với cửa sổ"
+
+#: ../plugins/rotate/rotate.xml.in.h:99
+msgid "Rotate to face 12 and bring active window along"
+msgstr "Xoay sang mặt 12 và mang theo cửa sổ hiện hành"
+
+#: ../plugins/scale/scale.xml.in.h:1
+msgid "Scale"
+msgstr "Co giãn"
+
+#: ../plugins/scale/scale.xml.in.h:2
+msgid "Scale windows"
+msgstr "Co giãn các cửa sổ"
+
+#: ../plugins/scale/scale.xml.in.h:4
+msgid "Spacing"
+msgstr "Khoảng cách"
+
+#: ../plugins/scale/scale.xml.in.h:5
+msgid "Space between windows"
+msgstr "Khoảng cách giữa các cửa sổ"
+
+#: ../plugins/expo/expo.xml.in.h:38 ../plugins/scale/scale.xml.in.h:6
+msgid "X Offset"
 msgstr ""
 
-#: ../metadata/scale.xml.in.h:4
-msgid "Big"
+#: ../plugins/expo/expo.xml.in.h:39 ../plugins/scale/scale.xml.in.h:7
+msgid "Horizontal offset (in pixels)."
 msgstr ""
 
-#: ../metadata/scale.xml.in.h:6
-msgid "Button Bindings Toggle Scale Mode"
+#: ../plugins/expo/expo.xml.in.h:40 ../plugins/scale/scale.xml.in.h:8
+msgid "Y Offset"
 msgstr ""
 
-#: ../metadata/scale.xml.in.h:7
-msgid ""
-"Button bindings toggle scale mode instead of enabling it when pressed and "
-"disabling it when released."
+#: ../plugins/scale/scale.xml.in.h:9
+msgid "Vertical offset from the top (in pixels)."
 msgstr ""
 
-#: ../metadata/scale.xml.in.h:8
-msgid "Click Desktop to Show Desktop"
+#: ../plugins/expo/expo.xml.in.h:42 ../plugins/scale/scale.xml.in.h:10
+msgid "Y Bottom Offset"
 msgstr ""
 
-#: ../metadata/scale.xml.in.h:9
+#: ../plugins/expo/expo.xml.in.h:43 ../plugins/scale/scale.xml.in.h:11
+msgid "Vertical offset from the bottom (in pixels)."
+msgstr ""
+
+#: ../plugins/scale/scale.xml.in.h:13
+msgid "Scale speed"
+msgstr "Tốc độ co giãn"
+
+#: ../plugins/scale/scale.xml.in.h:15
+msgid "Scale timestep"
+msgstr "Bước co giãn"
+
+#: ../plugins/ring/ring.xml.in.h:37 ../plugins/scale/scale.xml.in.h:16
+#: ../plugins/stackswitch/stackswitch.xml.in.h:26
 msgid "Darken Background"
-msgstr ""
+msgstr "Làm tối nền"
 
-#: ../metadata/scale.xml.in.h:10
+#: ../plugins/scale/scale.xml.in.h:17
 msgid "Darken background when scaling windows"
-msgstr ""
+msgstr "Làm tối nền khi co giãn cửa sổ"
 
-#: ../metadata/scale.xml.in.h:11
+#: ../plugins/scale/scale.xml.in.h:19
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:44
+#: ../plugins/switcher/switcher.xml.in.h:34
+msgid "Amount of opacity in percent"
+msgstr "Độ trong suốt tính theo phần trăm"
+
+#: ../plugins/ring/ring.xml.in.h:26 ../plugins/scale/scale.xml.in.h:20
+#: ../plugins/shift/shift.xml.in.h:67
+msgid "Overlay Icon"
+msgstr "Biểu tượng"
+
+#: ../plugins/scale/scale.xml.in.h:21
+msgid "Overlay an icon on windows once they are scaled"
+msgstr "Biểu tượng đặt trên cửa sổ khi nó đã được co giãn"
+
+#: ../plugins/animation/animation.xml.in.h:108
+#: ../plugins/cubeaddon/cubeaddon.xml.in.h:40 ../plugins/expo/expo.xml.in.h:30
+#: ../plugins/ezoom/ezoom.xml.in.h:19 ../plugins/grid/grid.xml.in.h:33
+#: ../plugins/ring/ring.xml.in.h:28 ../plugins/scale/scale.xml.in.h:22
+#: ../plugins/shift/shift.xml.in.h:69
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:63
+#: ../plugins/wobbly/wobbly.xml.in.h:19
+msgid "None"
+msgstr "Không chọn"
+
+#: ../plugins/ring/ring.xml.in.h:29 ../plugins/scale/scale.xml.in.h:23
+#: ../plugins/shift/shift.xml.in.h:70
 msgid "Emblem"
+msgstr "Tượng trưng"
+
+#: ../plugins/ring/ring.xml.in.h:30 ../plugins/scale/scale.xml.in.h:24
+#: ../plugins/shift/shift.xml.in.h:71
+msgid "Big"
+msgstr "Lớn"
+
+#: ../plugins/scale/scale.xml.in.h:26
+msgid "Scale Windows"
+msgstr "Co giãn cửa sổ"
+
+#: ../plugins/scale/scale.xml.in.h:27
+msgid "Windows that should be scaled in scale mode"
+msgstr "Các cửa sổ bị co giãn trong chế độ co giãn"
+
+#: ../plugins/scale/scale.xml.in.h:28
+msgid "Drag and Drop Hover Timeout"
+msgstr "Thời gian hết hạn giữ kéo thả"
+
+#: ../plugins/scale/scale.xml.in.h:29
+msgid ""
+"Time (in ms) before scale mode is terminated when hovering over a window "
+"dragging and dropping an item"
+msgstr ""
+"Thời gian (theo ms) trước khi chế độ co giãn bị tắt lúc giữ chuột khi đang "
+"kéo thả một mục trên một cửa sổ"
+
+#: ../plugins/scale/scale.xml.in.h:30
+msgid "Drag and Drop Distance"
+msgstr "Khoảng cách kéo và thả"
+
+#: ../plugins/scale/scale.xml.in.h:31
+msgid "The minimum distance (in px) beyond which the timeout is reset."
+msgstr "Khoảng cách tối thiểu (theo px) để đặt lại timeout."
+
+#: ../plugins/scale/scale.xml.in.h:32
+msgid "Show a spinner during th Drag and Drop timeout"
 msgstr ""
 
-#: ../metadata/scale.xml.in.h:12
-msgid "Enter Show Desktop mode when Desktop is clicked during Scale"
+#: ../plugins/scale/scale.xml.in.h:33
+msgid "Whether to show a spinner over the windows during dnd Timeout."
 msgstr ""
 
-#: ../metadata/scale.xml.in.h:13
-msgid "Hover Time"
+#: ../plugins/scale/scale.xml.in.h:34
+msgid "The speed of the DnD timeout spinner"
 msgstr ""
 
-#: ../metadata/scale.xml.in.h:14
-msgid "Initiate Window Picker"
+#: ../plugins/scale/scale.xml.in.h:35
+msgid "The animation speed (in ms) of the Drag and Drop spinner."
 msgstr ""
 
-#: ../metadata/scale.xml.in.h:15
-msgid "Initiate Window Picker For All Windows"
+#: ../plugins/scale/scale.xml.in.h:37
+msgid "Selects where windows are scaled if multiple output devices are used."
+msgstr "Chọn vị trí đặt cửa sổ khi co giãn khi dùng nhiều thiết bị đầu ra."
+
+#: ../plugins/scale/scale.xml.in.h:38
+msgid "On current output device"
+msgstr "Hiển thị trên thiết  bị đầu ra hiện tại"
+
+#: ../plugins/scale/scale.xml.in.h:39
+msgid "On all output devices"
+msgstr "Hiển thị trên tất cả các thiết bị đầu ra"
+
+#: ../plugins/scale/scale.xml.in.h:40
+#: ../plugins/showdesktop/showdesktop.xml.in.h:25
+msgid "Skip Animation"
 msgstr ""
 
-#: ../metadata/scale.xml.in.h:16
-msgid "Initiate Window Picker For Window Group"
+#: ../plugins/scale/scale.xml.in.h:41
+msgid "Skips the scale plugin animation."
 msgstr ""
 
-#: ../metadata/scale.xml.in.h:17
-msgid "Initiate Window Picker For Windows on Current Output"
-msgstr ""
-
-#: ../metadata/scale.xml.in.h:18
+#: ../plugins/scale/scale.xml.in.h:43
 msgid "Key Bindings Toggle Scale Mode"
-msgstr ""
+msgstr "Tổ hợp phím bật/tắt chế độ co giãn"
 
-#: ../metadata/scale.xml.in.h:19
+#: ../plugins/scale/scale.xml.in.h:44
 msgid ""
 "Key bindings toggle scale mode instead of enabling it when pressed and "
 "disabling it when released."
 msgstr ""
+"Tổ hợp phím bật/tắt chế độ co giãn thay vì bật khi được ấn và tắt khi nhả "
+"phím."
 
-#: ../metadata/scale.xml.in.h:20
-msgid "Layout and start transforming all windows"
-msgstr ""
+#: ../plugins/scale/scale.xml.in.h:45
+msgid "Button Bindings Toggle Scale Mode"
+msgstr "Tổ hợp nút bật/tắt chế độ co giãn"
 
-#: ../metadata/scale.xml.in.h:21
-msgid "Layout and start transforming window group"
-msgstr ""
-
-#: ../metadata/scale.xml.in.h:22
-msgid "Layout and start transforming windows"
-msgstr ""
-
-#: ../metadata/scale.xml.in.h:23
-msgid "Layout and start transforming windows on current output"
-msgstr ""
-
-#: ../metadata/scale.xml.in.h:26
-msgid "On all output devices"
-msgstr ""
-
-#: ../metadata/scale.xml.in.h:27
-msgid "On current output device"
-msgstr ""
-
-#: ../metadata/scale.xml.in.h:29
-msgid "Overlay Icon"
-msgstr ""
-
-#: ../metadata/scale.xml.in.h:30
-msgid "Overlay an icon on windows once they are scaled"
-msgstr ""
-
-#: ../metadata/scale.xml.in.h:31
-msgid "Scale"
-msgstr ""
-
-#: ../metadata/scale.xml.in.h:32
-msgid "Scale Windows"
-msgstr ""
-
-#: ../metadata/scale.xml.in.h:33
-msgid "Scale speed"
-msgstr ""
-
-#: ../metadata/scale.xml.in.h:34
-msgid "Scale timestep"
-msgstr ""
-
-#: ../metadata/scale.xml.in.h:35
-msgid "Scale windows"
-msgstr ""
-
-#: ../metadata/scale.xml.in.h:36
-msgid "Selects where windows are scaled if multiple output devices are used."
-msgstr ""
-
-#: ../metadata/scale.xml.in.h:37
-msgid "Space between windows"
-msgstr ""
-
-#: ../metadata/scale.xml.in.h:38
-msgid "Spacing"
-msgstr ""
-
-#: ../metadata/scale.xml.in.h:40
+#: ../plugins/scale/scale.xml.in.h:46
 msgid ""
-"Time (in ms) before scale mode is terminated when hovering over a window"
+"Button bindings toggle scale mode instead of enabling it when pressed and "
+"disabling it when released."
+msgstr ""
+"Tổ hợp nút bật/tắt chế độ co giãn thay vì bật khi được ấn và tắt khi nhả nút."
+
+#: ../plugins/scale/scale.xml.in.h:47
+msgid "Initiate Window Picker"
+msgstr "Bắt đầu lựa chọn cửa sổ"
+
+#: ../plugins/scale/scale.xml.in.h:48
+msgid "Layout and start transforming windows"
+msgstr "Sắp xếp và bắt đầu biến đổi các cửa sổ"
+
+#: ../plugins/scale/scale.xml.in.h:49
+msgid "Initiate Window Picker For All Windows"
+msgstr "Bắt đầu lựa chọn cửa sổ từ tất cả các cửa sổ"
+
+#: ../plugins/scale/scale.xml.in.h:50
+msgid "Layout and start transforming all windows"
+msgstr "Sắp xếp và bắt đầu biến đổi tất cả các cửa sổ"
+
+#: ../plugins/scale/scale.xml.in.h:51
+msgid "Initiate Window Picker For Window Group"
+msgstr "Bắt đầu lựa chọn cửa sổ từ các cửa sổ trong nhóm"
+
+#: ../plugins/scale/scale.xml.in.h:52
+msgid "Layout and start transforming window group"
+msgstr "Sắp xếp và bắt đầu biến đổi các cửa sổ trong nhóm"
+
+#: ../plugins/scale/scale.xml.in.h:53
+msgid "Initiate Window Picker For Windows on Current Output"
+msgstr "Bắt đầu lựa chọn cửa sổ trên thiết bị đầu ra hiện tại"
+
+#: ../plugins/scale/scale.xml.in.h:54
+msgid "Layout and start transforming windows on current output"
+msgstr "Sắp xếp và bắt đầu biến đổi các cửa sổ trên thiết bị đầu ra hiện tại"
+
+#: ../plugins/scale/scale.xml.in.h:55
+msgid "Click on empty area"
 msgstr ""
 
-#: ../metadata/scale.xml.in.h:42
-msgid "Windows that should be scaled in scale mode"
+#: ../plugins/scale/scale.xml.in.h:56
+msgid "Action to perform on click on empty area"
 msgstr ""
 
-#: ../metadata/screenshot.xml.in.h:1
-msgid "Automatically open screenshot in this application"
+#: ../plugins/scale/scale.xml.in.h:57
+msgid "Show desktop"
 msgstr ""
 
-#: ../metadata/screenshot.xml.in.h:2
-msgid "Directory"
+#: ../plugins/scale/scale.xml.in.h:58
+msgid "Terminate scale"
 msgstr ""
 
-#: ../metadata/screenshot.xml.in.h:4
-msgid "Initiate rectangle screenshot"
-msgstr ""
-
-#: ../metadata/screenshot.xml.in.h:5
-msgid "Launch Application"
-msgstr ""
-
-#: ../metadata/screenshot.xml.in.h:6
-msgid "Put screenshot images in this directory"
-msgstr ""
-
-#: ../metadata/screenshot.xml.in.h:7
+#: ../plugins/screenshot/screenshot.xml.in.h:1
 msgid "Screenshot"
+msgstr "Chụp màn hình"
+
+#: ../plugins/screenshot/screenshot.xml.in.h:2
+msgid "Easily capture parts of your screen and save them as .png image"
 msgstr ""
 
-#: ../metadata/screenshot.xml.in.h:8
-msgid "Screenshot plugin"
+#: ../plugins/screenshot/screenshot.xml.in.h:4
+msgid "Initiate the capture, release the button to take the shot."
 msgstr ""
 
-#: ../metadata/svg.xml.in.h:1
-msgid "Svg"
+#: ../plugins/screenshot/screenshot.xml.in.h:5
+msgid "Draw Screenshot Selection Indicator"
 msgstr ""
 
-#: ../metadata/svg.xml.in.h:2
-msgid "Svg image loader"
+#: ../plugins/screenshot/screenshot.xml.in.h:6
+msgid "Draw a rectangle outline indicating the screenshot selection."
 msgstr ""
 
-#: ../metadata/switcher.xml.in.h:1
-msgid "Amount of brightness in percent"
+#: ../plugins/screenshot/screenshot.xml.in.h:7
+msgid "Selection Indicator Outline Color"
 msgstr ""
 
-#: ../metadata/switcher.xml.in.h:3
-msgid "Amount of saturation in percent"
+#: ../plugins/screenshot/screenshot.xml.in.h:8
+msgid "Color and opacity of the screenshot selection rectangle outline."
 msgstr ""
 
-#: ../metadata/switcher.xml.in.h:4
+#: ../plugins/screenshot/screenshot.xml.in.h:9
+msgid "Selection Indicator Fill Color"
+msgstr ""
+
+#: ../plugins/screenshot/screenshot.xml.in.h:10
+msgid "Fill color and opacity of the screenshot selection rectangle."
+msgstr ""
+
+#: ../plugins/screenshot/screenshot.xml.in.h:11
+msgid "Save Directory"
+msgstr ""
+
+#: ../plugins/screenshot/screenshot.xml.in.h:12
+msgid ""
+"Save screenshot images in this directory. If empty, the desktop directory "
+"will be used."
+msgstr ""
+
+#: ../plugins/screenshot/screenshot.xml.in.h:13
+msgid "Launch Application"
+msgstr "Chạy ứng dụng"
+
+#: ../plugins/screenshot/screenshot.xml.in.h:14
+msgid "Automatically open the screenshot in this application."
+msgstr ""
+
+#: ../plugins/switcher/switcher.xml.in.h:1
 msgid "Application Switcher"
-msgstr ""
+msgstr "Bộ chuyển đổi ứng dụng"
 
-#: ../metadata/switcher.xml.in.h:5
-msgid "Auto Rotate"
-msgstr ""
-
-#: ../metadata/switcher.xml.in.h:8
-msgid "Bring To Front"
-msgstr ""
-
-#: ../metadata/switcher.xml.in.h:9
-msgid "Bring selected window to front"
-msgstr ""
-
-#: ../metadata/switcher.xml.in.h:10
-msgid "Distance desktop should be zoom out while switching windows"
-msgstr ""
-
-#: ../metadata/switcher.xml.in.h:12
-msgid "Icon"
-msgstr ""
-
-#: ../metadata/switcher.xml.in.h:13
-msgid "Minimized"
-msgstr ""
-
-#: ../metadata/switcher.xml.in.h:15
-msgid "Next Panel"
-msgstr ""
-
-#: ../metadata/switcher.xml.in.h:16
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:3
+#: ../plugins/switcher/switcher.xml.in.h:3
 msgid "Next window"
-msgstr ""
+msgstr "Cửa sổ tiếp theo"
 
-#: ../metadata/switcher.xml.in.h:17
-msgid "Next window (All windows)"
-msgstr ""
-
-#: ../metadata/switcher.xml.in.h:18
-msgid "Next window (No popup)"
-msgstr ""
-
-#: ../metadata/switcher.xml.in.h:20
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:4
+#: ../plugins/switcher/switcher.xml.in.h:4
 msgid "Popup switcher if not visible and select next window"
-msgstr ""
+msgstr "Hiện bộ chuyển đổi và chọn cửa sổ tiếp theo"
 
-#: ../metadata/switcher.xml.in.h:21
-msgid "Popup switcher if not visible and select next window out of all windows"
-msgstr ""
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:5
+#: ../plugins/switcher/switcher.xml.in.h:5
+msgid "Prev window"
+msgstr "Cửa sổ trước"
 
-#: ../metadata/switcher.xml.in.h:22
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:6
+#: ../plugins/switcher/switcher.xml.in.h:6
 msgid "Popup switcher if not visible and select previous window"
-msgstr ""
+msgstr "Hiện bộ chuyển đổi và chọn cửa sổ trước"
 
-#: ../metadata/switcher.xml.in.h:23
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:7
+#: ../plugins/switcher/switcher.xml.in.h:7
+msgid "Next window (All windows)"
+msgstr "Cửa sổ tiếp theo (Tất cả các cửa sổ)"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:8
+#: ../plugins/switcher/switcher.xml.in.h:8
+msgid ""
+"Popup switcher if not visible and select next window out of all windows"
+msgstr "Hiện bộ chuyển đổi và chọn cửa sổ tiếp theo trong tất cả các cửa sổ"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:9
+#: ../plugins/switcher/switcher.xml.in.h:9
+msgid "Prev window (All windows)"
+msgstr "Cửa sổ trước (Tất cả các cửa sổ)"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:10
+#: ../plugins/switcher/switcher.xml.in.h:10
 msgid ""
 "Popup switcher if not visible and select previous window out of all windows"
-msgstr ""
+msgstr "Hiện bộ chuyển đổi và chọn cửa sổ trước trong tất cả các cửa sổ"
 
-#: ../metadata/switcher.xml.in.h:24
-msgid "Prev Panel"
-msgstr ""
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:15
+#: ../plugins/switcher/switcher.xml.in.h:11
+msgid "Next window (No popup)"
+msgstr "Cửa sổ tiếp theo (Không bật lên)"
 
-#: ../metadata/switcher.xml.in.h:25
-msgid "Prev window"
-msgstr ""
-
-#: ../metadata/switcher.xml.in.h:26
-msgid "Prev window (All windows)"
-msgstr ""
-
-#: ../metadata/switcher.xml.in.h:27
-msgid "Prev window (No popup)"
-msgstr ""
-
-#: ../metadata/switcher.xml.in.h:28
-msgid "Rotate to the selected window while switching"
-msgstr ""
-
-#: ../metadata/switcher.xml.in.h:30
-msgid "Select next panel type window."
-msgstr ""
-
-#: ../metadata/switcher.xml.in.h:31
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:16
+#: ../plugins/switcher/switcher.xml.in.h:12
 msgid "Select next window without showing the popup window."
-msgstr ""
+msgstr "Chuyển tới cửa sổ tiếp theo mà không hiện bộ chuyển đổi lên."
 
-#: ../metadata/switcher.xml.in.h:32
-msgid "Select previous panel type window."
-msgstr ""
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:17
+#: ../plugins/switcher/switcher.xml.in.h:13
+msgid "Prev window (No popup)"
+msgstr "Cửa sổ trước (Không bật lện)"
 
-#: ../metadata/switcher.xml.in.h:33
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:18
+#: ../plugins/switcher/switcher.xml.in.h:14
 msgid "Select previous window without showing the popup window."
-msgstr ""
+msgstr "Chuyển tới cửa sổ trước mà không hiện bộ chuyển đổi lên."
 
-#: ../metadata/switcher.xml.in.h:34
-msgid "Show icon next to thumbnail"
-msgstr ""
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:19
+#: ../plugins/switcher/switcher.xml.in.h:15
+msgid "Next Panel"
+msgstr "Bảng điều khiển tiếp theo"
 
-#: ../metadata/switcher.xml.in.h:35
-msgid "Show minimized windows"
-msgstr ""
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:20
+#: ../plugins/switcher/switcher.xml.in.h:16
+msgid "Select next panel type window."
+msgstr "Chuyển tới bảng điều khiển tiếp theo."
 
-#: ../metadata/switcher.xml.in.h:37
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:21
+#: ../plugins/switcher/switcher.xml.in.h:17
+msgid "Prev Panel"
+msgstr "Bảng điều khiển trước"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:22
+#: ../plugins/switcher/switcher.xml.in.h:18
+msgid "Select previous panel type window."
+msgstr "Chuyển tới bảng điều khiển trước."
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:25
+#: ../plugins/switcher/switcher.xml.in.h:20
 msgid "Switcher speed"
-msgstr ""
+msgstr "Tốc độ chuyển đổi"
 
-#: ../metadata/switcher.xml.in.h:38
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:27
+#: ../plugins/switcher/switcher.xml.in.h:22
 msgid "Switcher timestep"
+msgstr "Bước chuyển đổi"
+
+#: ../plugins/switcher/switcher.xml.in.h:23
+msgid "Size multiplier"
 msgstr ""
 
-#: ../metadata/switcher.xml.in.h:39
+#: ../plugins/switcher/switcher.xml.in.h:24
+msgid "adjusts the size of the switch windows"
+msgstr ""
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:28
+#: ../plugins/switcher/switcher.xml.in.h:25
 msgid "Switcher windows"
-msgstr ""
+msgstr "Các cửa sổ chuyển đổi"
 
-#: ../metadata/switcher.xml.in.h:41
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:29
+#: ../plugins/switcher/switcher.xml.in.h:26
 msgid "Windows that should be shown in switcher"
+msgstr "Các cửa sổ được hiện trong bộ chuyển đổi"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:50
+#: ../plugins/switcher/switcher.xml.in.h:28
+msgid "Generate mipmaps when possible for higher quality scaling"
+msgstr "Tạo ra mipmap khi có thể để có chất lượng co giãn tốt hơn"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:40
+#: ../plugins/switcher/switcher.xml.in.h:30
+msgid "Amount of saturation in percent"
+msgstr "Độ bão hòa tính theo phần trăm"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:42
+#: ../plugins/switcher/switcher.xml.in.h:32
+msgid "Amount of brightness in percent"
+msgstr "Độ sáng tính theo phần trăm"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:56
+#: ../plugins/switcher/switcher.xml.in.h:35
+msgid "Focus on Switch"
+msgstr "Chọn vào khi chuyển đổi"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:57
+#: ../plugins/switcher/switcher.xml.in.h:36
+msgid "Focus windows when they are visible during the switch"
+msgstr "Chọn vào cửa sổ khi chúng được nhìn thấy trong khi chuyển đổi"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:58
+#: ../plugins/switcher/switcher.xml.in.h:37
+msgid "Bring To Front"
+msgstr "Đưa lên phía trước"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:59
+#: ../plugins/switcher/switcher.xml.in.h:38
+msgid "Bring selected window to front"
+msgstr "Đưa cửa sổ được chọn lên phía trước"
+
+#: ../plugins/switcher/switcher.xml.in.h:40
+msgid "Distance desktop should be zoom out while switching windows"
+msgstr "Khoảng cách thu nhỏ màn hình khi chuyển cửa sổ"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:45
+#: ../plugins/switcher/switcher.xml.in.h:41
+msgid "Icon"
+msgstr "Biểu tượng"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:46
+#: ../plugins/switcher/switcher.xml.in.h:42
+msgid "Show icon next to thumbnail"
+msgstr "Hiện biểu tượng bên cạnh hình thu nhỏ"
+
+#: ../plugins/switcher/switcher.xml.in.h:43
+msgid "Only show icon"
+msgstr "Chỉ hiện biểu tượng"
+
+#: ../plugins/switcher/switcher.xml.in.h:44
+msgid "Only show the window icon and do not display a thumbnail at all"
+msgstr "Chỉ hiện biểu tượng cửa sổ và không hiện hình xem trước"
+
+#: ../plugins/switcher/switcher.xml.in.h:45
+msgid "Minimized"
+msgstr "Bị thu nhỏ"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:31
+#: ../plugins/switcher/switcher.xml.in.h:46
+msgid "Show minimized windows"
+msgstr "Hiện các cửa sổ bị thu nhỏ"
+
+#: ../plugins/switcher/switcher.xml.in.h:47
+msgid "Auto Rotate"
+msgstr "Tự động chuyển"
+
+#: ../plugins/switcher/switcher.xml.in.h:48
+msgid "Rotate to the selected window while switching"
+msgstr "Chuyển tới cửa sổ được chọn khi đang lựa chọn"
+
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:76
+#: ../plugins/switcher/switcher.xml.in.h:49
+msgid "Background"
 msgstr ""
 
-#: ../metadata/video.xml.in.h:1
-msgid "Provide YV12 colorspace support"
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:77
+#: ../plugins/switcher/switcher.xml.in.h:50
+msgid "Set background color"
 msgstr ""
 
-#: ../metadata/video.xml.in.h:2
-msgid "Video Playback"
+#: ../plugins/ring/ring.xml.in.h:65
+#: ../plugins/scaleaddon/scaleaddon.xml.in.h:26
+#: ../plugins/scalefilter/scalefilter.xml.in.h:19
+#: ../plugins/shift/shift.xml.in.h:103
+#: ../plugins/stackswitch/stackswitch.xml.in.h:39
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:78
+#: ../plugins/switcher/switcher.xml.in.h:51
+#: ../plugins/workspacenames/workspacenames.xml.in.h:27
+msgid "Background Color"
 msgstr ""
 
-#: ../metadata/video.xml.in.h:3
-msgid "Video playback"
+#: ../plugins/staticswitcher/staticswitcher.xml.in.h:79
+#: ../plugins/switcher/switcher.xml.in.h:52
+msgid "Background color of the switcher window."
 msgstr ""
 
-#: ../metadata/video.xml.in.h:4
-msgid "YV12 colorspace"
-msgstr ""
-
-#: ../metadata/water.xml.in.h:1
-msgid "Add line"
-msgstr ""
-
-#: ../metadata/water.xml.in.h:2
-msgid "Add point"
-msgstr ""
-
-#: ../metadata/water.xml.in.h:3
-msgid "Adds water effects to different desktop actions"
-msgstr ""
-
-#: ../metadata/water.xml.in.h:4
-msgid "Delay (in ms) between each rain-drop"
-msgstr ""
-
-#: ../metadata/water.xml.in.h:5
-msgid "Enable pointer water effects"
-msgstr ""
-
-#: ../metadata/water.xml.in.h:7
-msgid "Line"
-msgstr ""
-
-#: ../metadata/water.xml.in.h:8
-msgid "Offset Scale"
-msgstr ""
-
-#: ../metadata/water.xml.in.h:9
-msgid "Point"
-msgstr ""
-
-#: ../metadata/water.xml.in.h:10
-msgid "Rain Delay"
-msgstr ""
-
-#: ../metadata/water.xml.in.h:11
-msgid "Title wave"
-msgstr ""
-
-#: ../metadata/water.xml.in.h:12
-msgid "Toggle rain"
-msgstr ""
-
-#: ../metadata/water.xml.in.h:13
-msgid "Toggle rain effect"
-msgstr ""
-
-#: ../metadata/water.xml.in.h:14
-msgid "Toggle wiper"
-msgstr ""
-
-#: ../metadata/water.xml.in.h:15
-msgid "Toggle wiper effect"
-msgstr ""
-
-#: ../metadata/water.xml.in.h:16
+#: ../plugins/water/water.xml.in.h:1
 msgid "Water Effect"
-msgstr ""
+msgstr "Hiệu ứng nước"
 
-#: ../metadata/water.xml.in.h:17
+#: ../plugins/water/water.xml.in.h:2
+msgid "Adds water effects to different desktop actions"
+msgstr "Thêm hiệu ứng nước vào các thao tác màn hình khác nhau"
+
+#: ../plugins/water/water.xml.in.h:4
+msgid "Enable pointer water effects"
+msgstr "Bật hiệu ứng nước cho con trỏ"
+
+#: ../plugins/water/water.xml.in.h:5
+msgid "Toggle rain"
+msgstr "Bật/tắt mưa"
+
+#: ../plugins/water/water.xml.in.h:6
+msgid "Toggle rain effect"
+msgstr "Bật/tắt hiệu ứng mưa"
+
+#: ../plugins/water/water.xml.in.h:7
+msgid "Toggle wiper"
+msgstr "Bật/tắt gạt nước"
+
+#: ../plugins/water/water.xml.in.h:8
+msgid "Toggle wiper effect"
+msgstr "Bật/tắt hiệu ứng gạt nước"
+
+#: ../plugins/water/water.xml.in.h:9
+msgid "Offset Scale"
+msgstr "Tỉ lệ độ lệch"
+
+#: ../plugins/water/water.xml.in.h:10
 msgid "Water offset scale"
+msgstr "Tỉ lệ độ lệch nước"
+
+#: ../plugins/water/water.xml.in.h:11
+msgid "Rain Delay"
+msgstr "Độ trễ mưa"
+
+#: ../plugins/water/water.xml.in.h:12
+msgid "Delay (in ms) between each rain-drop"
+msgstr "Độ trễ (theo ms) giữa các hạt mưa"
+
+#: ../plugins/water/water.xml.in.h:13
+msgid "lightVec X"
 msgstr ""
 
-#: ../metadata/water.xml.in.h:18
+#: ../plugins/water/water.xml.in.h:14
+msgid "Light vector X coordinate"
+msgstr ""
+
+#: ../plugins/water/water.xml.in.h:15
+msgid "lightVec Y"
+msgstr ""
+
+#: ../plugins/water/water.xml.in.h:16
+msgid "Light vector Y coordinate"
+msgstr ""
+
+#: ../plugins/water/water.xml.in.h:17
+msgid "lightVec Z"
+msgstr ""
+
+#: ../plugins/water/water.xml.in.h:18
+msgid "Light vector Z coordinate"
+msgstr ""
+
+#: ../plugins/water/water.xml.in.h:19
+msgid "Title wave"
+msgstr "Sóng tiêu đề"
+
+#: ../plugins/water/water.xml.in.h:20
 msgid "Wave effect from window title"
-msgstr ""
+msgstr "Hiệu ứng sóng từ tiêu đề cửa sổ"
 
-#: ../metadata/wobbly.xml.in.h:1
-msgid "Focus Effect"
-msgstr ""
+#: ../plugins/water/water.xml.in.h:21
+msgid "Point"
+msgstr "Điểm"
 
-#: ../metadata/wobbly.xml.in.h:2
-msgid "Focus Window Effect"
-msgstr ""
+#: ../plugins/water/water.xml.in.h:22
+msgid "Add point"
+msgstr "Thêm điểm"
 
-#: ../metadata/wobbly.xml.in.h:3
-msgid "Focus Windows"
-msgstr ""
+#: ../plugins/water/water.xml.in.h:23
+msgid "Line"
+msgstr "Đường thẳng"
 
-#: ../metadata/wobbly.xml.in.h:4
-msgid "Friction"
-msgstr ""
+#: ../plugins/water/water.xml.in.h:24
+msgid "Add line"
+msgstr "Thêm đường"
 
-#: ../metadata/wobbly.xml.in.h:5
-msgid "Grab Windows"
-msgstr ""
+#: ../plugins/wobbly/wobbly.xml.in.h:1
+msgid "Wobbly Windows"
+msgstr "Rung cửa sổ"
 
-#: ../metadata/wobbly.xml.in.h:6
-msgid "Grid Resolution"
-msgstr ""
+#: ../plugins/wobbly/wobbly.xml.in.h:2
+msgid "Use spring model for wobbly window effect"
+msgstr "Sử dụng mô hình lò xo cho hiệu ứng rung cửa sổ"
 
-#: ../metadata/wobbly.xml.in.h:7
-msgid "Inverted window snapping"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:8
-msgid "Make window shiver"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:9
-msgid "Map Effect"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:10
-msgid "Map Window Effect"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:11
-msgid "Map Windows"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:12
-msgid "Maximize Effect"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:13
-msgid "Minimum Grid Size"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:14
-msgid "Minimum Vertex Grid Size"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:15
-msgid "Move Windows"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:17
-msgid "Shiver"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:18
-msgid "Snap Inverted"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:19
+#: ../plugins/wobbly/wobbly.xml.in.h:3
 msgid "Snap windows"
 msgstr ""
 
-#: ../metadata/wobbly.xml.in.h:20
-msgid "Spring Friction"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:21
-msgid "Spring K"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:22
-msgid "Spring Konstant"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:23
+#: ../plugins/wobbly/wobbly.xml.in.h:4
 msgid "Toggle window snapping"
 msgstr ""
 
-#: ../metadata/wobbly.xml.in.h:24
-msgid "Use spring model for wobbly window effect"
+#: ../plugins/wobbly/wobbly.xml.in.h:5
+msgid "Snap Inverted"
 msgstr ""
 
-#: ../metadata/wobbly.xml.in.h:25
+#: ../plugins/wobbly/wobbly.xml.in.h:6
+msgid "Inverted window snapping"
+msgstr ""
+
+#: ../plugins/wobbly/wobbly.xml.in.h:7
+msgid "Shiver"
+msgstr "Rung"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:8
+msgid "Make window shiver"
+msgstr "Làm rung cửa sổ"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:9
+msgid "Friction"
+msgstr "Ma sát"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:10
+msgid "Spring Friction"
+msgstr "Ma sát lò xo"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:11
+msgid "Spring K"
+msgstr "Hệ số đàn hồi K"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:12
+msgid "Spring Konstant"
+msgstr "Hệ số đàn hồi K"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:13
+msgid "Grid Resolution"
+msgstr "Độ phân giải lưới"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:14
 msgid "Vertex Grid Resolution"
+msgstr "Độ phân giải lưới đỉnh"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:15
+msgid "Minimum Grid Size"
+msgstr "Kích thước lưới tối thiểu"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:16
+msgid "Minimum Vertex Grid Size"
+msgstr "Kích thước lưới đỉnh tối thiểu"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:17
+msgid "Map Effect"
 msgstr ""
 
-#: ../metadata/wobbly.xml.in.h:26
-msgid "Windows that should wobble when focused"
+#: ../plugins/wobbly/wobbly.xml.in.h:18
+msgid "Map Window Effect"
 msgstr ""
 
-#: ../metadata/wobbly.xml.in.h:27
-msgid "Windows that should wobble when grabbed"
+#: ../plugins/animation/animation.xml.in.h:34
+#: ../plugins/wobbly/wobbly.xml.in.h:20
+msgid "Focus Effect"
+msgstr "Hiệu ứng tiêu điểm"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:21
+msgid "Focus Window Effect"
+msgstr "Hiệu ứng cửa sổ tiêu điểm"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:22
+msgid "Map Windows"
 msgstr ""
 
-#: ../metadata/wobbly.xml.in.h:28
+#: ../plugins/wobbly/wobbly.xml.in.h:23
 msgid "Windows that should wobble when mapped"
+msgstr "Các cửa sổ rung khi mở"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:24
+msgid "Focus Windows"
+msgstr "Tiêu điểm cửa sổ"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:25
+msgid "Windows that should wobble when focused"
+msgstr "Các cửa sổ rung khi có tiêu điểm"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:26
+msgid "Grab Windows"
 msgstr ""
 
-#: ../metadata/wobbly.xml.in.h:29
+#: ../plugins/wobbly/wobbly.xml.in.h:27
+msgid "Windows that should wobble when grabbed"
+msgstr "Các cửa sổ rung khi được nắm"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:28
+msgid "Move Windows"
+msgstr "Di chuyển cửa sổ"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:29
 msgid "Windows that should wobble when moved"
-msgstr ""
+msgstr "Các cửa sổ rung khi di chuyển"
 
-#: ../metadata/wobbly.xml.in.h:30
+#: ../plugins/wobbly/wobbly.xml.in.h:30
+msgid "Maximize Effect"
+msgstr "Hiệu ứng phóng to"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:31
 msgid "Wobble effect when maximizing and unmaximizing windows"
-msgstr ""
-
-#: ../metadata/wobbly.xml.in.h:31
-msgid "Wobbly Windows"
-msgstr ""
+msgstr "Hiệu ứng rung khi phóng to và bỏ phóng to cửa sổ"

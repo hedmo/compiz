@@ -1,28 +1,29 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Malayalam translation for compiz
+# Copyright (c) 2019 Rosetta Contributors and Canonical Ltd 2019
+# This file is distributed under the same license as the compiz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://bugs.opencompositing.org\n"
-"POT-Creation-Date: 2009-03-24 08:12+0100\n"
-"PO-Revision-Date: 2009-04-10 13:32+0200\n"
-"Last-Translator: Jesse P Francis <atjesse2@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Project-Id-Version: compiz\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-03-24 12:33+0530\n"
+"PO-Revision-Date: 2019-02-21 10:28+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Malayalam <ml@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Pootle 1.1.0\n"
+"X-Launchpad-Export-Date: 2019-02-21 18:44+0000\n"
+"X-Generator: Launchpad (build 18886)\n"
 
 #, python-format
 msgid ""
 "The new value for the %(binding)s binding for the action <b>%(action)s</b> "
-"in plugin <b>%(plugin)s</b> conflicts with the action <b>%(action_conflict)"
-"s</b> of the <b>%(plugin_conflict)s</b> plugin.\n"
-"Do you wish to disable <b>%(action_conflict)s</b> in the <b>%"
-"(plugin_conflict)s</b> plugin?"
+"in plugin <b>%(plugin)s</b> conflicts with the action "
+"<b>%(action_conflict)s</b> of the <b>%(plugin_conflict)s</b> plugin.\n"
+"Do you wish to disable <b>%(action_conflict)s</b> in the "
+"<b>%(plugin_conflict)s</b> plugin?"
 msgstr ""
 "<b>%(plugin)s</b> എന്ന പ്ലഗിനിലെ <b>%(action)s</b> എന്ന നടപടിയുടെ "
 "%(binding)s എന്ന ബൈന്‍ഡിങ്ങിന്റെ പുതിയ മൂല്യം <b>%(plugin_conflict)s</b> "
@@ -72,16 +73,15 @@ msgstr "%(feature)s ഉപയോഗിക്കാതിരിക്കുക"
 
 #, python-format
 msgid ""
-"You are trying to use the feature <b>%(feature)s</b> which is provided by <b>"
-"%(plugin)s</b>.\n"
+"You are trying to use the feature <b>%(feature)s</b> which is provided by "
+"<b>%(plugin)s</b>.\n"
 "This plugin is currently disabled.\n"
 "Do you wish to enable <b>%(plugin)s</b> so the feature is available?"
 msgstr ""
 "<b>%(plugin)s</b> എന്ന പ്ലഗിന്‍ നല്‍കുന്ന <b>%(feature)s</b> എന്ന വിശേഷത "
 "നിങ്ങള്‍ ഉപയോഗിക്കാന്‍ ശ്രമിക്കുന്നു.\n"
 "ഈ പ്ലഗിന്‍ ഇപ്പോള്‍ അപ്രാവര്‍ത്തികമാണു്.\n"
-"ഈ വിശേഷത ലഭ്യമാക്കാനായി <b>%(plugin)s</b> എന്ന പ്ലഗിന്‍ "
-"പ്രാവര്‍ത്തികമാക്കണോ?"
+"ഈ വിശേഷത ലഭ്യമാക്കാനായി <b>%(plugin)s</b> എന്ന പ്ലഗിന്‍ പ്രാവര്‍ത്തികമാക്കണോ?"
 
 #, python-format
 msgid "Enable %(plugin)s"
@@ -321,6 +321,8 @@ msgstr ""
 
 msgid "translator-credits"
 msgstr ""
+"Launchpad Contributions:\n"
+"  Jesse P Francis https://launchpad.net/~atjesse2"
 
 msgid "An error has occured"
 msgstr ""
@@ -345,9 +347,8 @@ msgstr "ഈ പ്ലഗ്ഗിന്‍ ഉപയോഗിക്കുക"
 msgid "Search Compiz Core Options"
 msgstr ""
 
-#, fuzzy
 msgid "Error"
-msgstr "പിഴവ്"
+msgstr ""
 
 msgid ""
 "Enter a filter.\n"
@@ -364,9 +365,8 @@ msgstr "ചെറു വിവരണവും പേരും"
 msgid "Long description"
 msgstr "വിവരണം"
 
-#, fuzzy
 msgid "Settings value"
-msgstr "ക്രമീകരണ മൂല്യം"
+msgstr ""
 
 msgid "Group"
 msgstr "കൂട്ടം"
@@ -435,7 +435,8 @@ msgstr "എല്ലാ ഫയലുകളും"
 msgid "Save file.."
 msgstr "സേവ് ചെയ്യുക.."
 
-msgid "Do you want to skip default option values while exporting your profile?"
+msgid ""
+"Do you want to skip default option values while exporting your profile?"
 msgstr ""
 
 msgid "Open file.."

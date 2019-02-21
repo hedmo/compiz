@@ -1,0 +1,538 @@
+# Romanian translation for compiz
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the compiz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: compiz\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-03-24 12:33+0530\n"
+"PO-Revision-Date: 2014-07-21 16:41+0000\n"
+"Last-Translator: Meriuță Cornel <meriutacornel@neacornel.eu>\n"
+"Language-Team: Romanian <ro@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2019-02-21 18:44+0000\n"
+"X-Generator: Launchpad (build 18886)\n"
+
+#, python-format
+msgid ""
+"The new value for the %(binding)s binding for the action <b>%(action)s</b> "
+"in plugin <b>%(plugin)s</b> conflicts with the action "
+"<b>%(action_conflict)s</b> of the <b>%(plugin_conflict)s</b> plugin.\n"
+"Do you wish to disable <b>%(action_conflict)s</b> in the "
+"<b>%(plugin_conflict)s</b> plugin?"
+msgstr ""
+"Noua valoare %(binding)s a asocierii pentru acțiunea <b>%(action)s</b> în "
+"modulul <b>%(plugin)s</b> este în conflict cu acțiunea "
+"<b>%(action_conflict)s</b> a <b>%(plugin_conflict)s</b> modulului.\n"
+"Doriți să dezactivați <b>%(action_conflict)s</b> în modulul "
+"<b>%(plugin_conflict)s</b>?"
+
+#, python-format
+msgid "Disable %(action_conflict)s"
+msgstr "Deazctivare %(action_conflict)s"
+
+#, python-format
+msgid "Don't set %(action)s"
+msgstr "Nu defini %(action)s"
+
+#, python-format
+msgid "Set %(action)s anyway"
+msgstr "Definește %(action)s oricum"
+
+msgid "key"
+msgstr "tastă"
+
+msgid "button"
+msgstr "buton"
+
+msgid "edge"
+msgstr "margine"
+
+#, python-format
+msgid ""
+"You are trying to use the feature <b>%(feature)s</b> which is <b>not</b> "
+"provided by any plugin.\n"
+"Do you wish to use this feature anyway?"
+msgstr ""
+"Se pare că încercați să folosiți funcția <b>%(feature)s</b> care <b>nu</b> "
+"nu este oferită de niciun modul.\n"
+"Vreți, totuși, să utilizați această funcție?"
+
+#, python-format
+msgid "Use %(feature)s"
+msgstr "Utilizează %(feature)s"
+
+#, python-format
+msgid "Don't use %(feature)s"
+msgstr "Nu utiliza %(feature)s"
+
+#, python-format
+msgid ""
+"You are trying to use the feature <b>%(feature)s</b> which is provided by "
+"<b>%(plugin)s</b>.\n"
+"This plugin is currently disabled.\n"
+"Do you wish to enable <b>%(plugin)s</b> so the feature is available?"
+msgstr ""
+"Se pare că încercați să folosiți funcția <b>%(feature)s</b> care este "
+"oferită de modulul <b>%(plugin)s</b>.\n"
+"Acest modul este momentan dezactivat.\n"
+"Doriți activarea <b>%(plugin)s</b> pentru ca funcția să fie disponibilă?"
+
+#, python-format
+msgid "Enable %(plugin)s"
+msgstr "Activează %(plugin)s"
+
+#, python-format
+msgid "Don't enable %(feature)s"
+msgstr "Nu activa %(feature)s"
+
+#, python-format
+msgid ""
+"Some %(bindings)s bindings of Plugin <b>%(plugin)s</b> conflict with other "
+"plugins. Do you want to resolve these conflicts?"
+msgstr ""
+"Unele asocieri %(bindings)s ale modulului <b>%(plugin)s</b> se află în "
+"conflict cu alte module. Doriți rezolvarea acestor conflicte?"
+
+msgid "Resolve conflicts"
+msgstr "Rezolvă conflictele"
+
+msgid "Ignore conflicts"
+msgstr "Ignoră conflictele"
+
+#, python-format
+msgid ""
+"Plugin <b>%(plugin_conflict)s</b> provides feature <b>%(feature)s</b> which "
+"is also provided by <b>%(plugin)s</b>"
+msgstr ""
+"Modulul <b>%(plugin_conflict)s</b> oferă funcția <b>%(feature)s</b> care "
+"este oferită și de <b>%(plugin)s</b>"
+
+#, python-format
+msgid "Disable %(plugin_conflict)s"
+msgstr "Deazctivează %(plugin_conflict)s"
+
+#, python-format
+msgid "Don't enable %(plugin)s"
+msgstr "Nu activa %(plugin)s"
+
+#, python-format
+msgid "Plugin <b>%(plugin_conflict)s</b> conflicts with <b>%(plugin)s</b>."
+msgstr ""
+"Modulul <b>%(plugin_conflict)s</b> este în conflict cu <b>%(plugin)s</b>."
+
+#, python-format
+msgid ""
+"<b>%(plugin)s</b> requires feature <b>%(feature)s</b> which is provided by "
+"the following plugins:\n"
+"%(plugin_list)s"
+msgstr ""
+"<b>%(plugin)s</b> necesită funcția <b>%(feature)s</b> care este oferită de "
+"următoarele module:\n"
+"%(plugin_list)s"
+
+msgid "Enable these plugins"
+msgstr "Activează aceste module"
+
+#, python-format
+msgid "<b>%(plugin)s</b> requires the plugin <b>%(require)s</b>."
+msgstr "<b>%(plugin)s</b> necesită modulul <b>%(require)s</b>."
+
+#, python-format
+msgid "Enable %(require)s"
+msgstr "Activează %(require)s"
+
+#, python-format
+msgid ""
+"<b>%(plugin)s</b> provides the feature <b>%(feature)s</b> which is required "
+"by the plugins <b>%(plugin_list)s</b>."
+msgstr ""
+"<b>%(plugin)s</b> oferă funcția <b>%(feature)s</b> care este cerută de "
+"modulele <b>%(plugin_list)s</b>."
+
+msgid "Disable these plugins"
+msgstr "Dezactivați aceste module"
+
+#, python-format
+msgid "Don't disable %(plugin)s"
+msgstr "Nu dezactiva %(plugin)s"
+
+#, python-format
+msgid "<b>%(plugin)s</b> is required by the plugins <b>%(plugin_list)s</b>."
+msgstr "<b>%(plugin)s</b> este cerut de modulele <b>%(plugin_list)s</b>."
+
+msgid "General"
+msgstr "General"
+
+msgid "Accessibility"
+msgstr "Accesibilitate"
+
+msgid "Desktop"
+msgstr "Desktop"
+
+msgid "Extras"
+msgstr "Suplimentare"
+
+msgid "Window Management"
+msgstr "Gestiune ferestre"
+
+msgid "Effects"
+msgstr "Efecte"
+
+msgid "Image Loading"
+msgstr "Încărcare imagine"
+
+msgid "Utility"
+msgstr "Utilitar"
+
+msgid "All"
+msgstr "Tot"
+
+msgid "Uncategorized"
+msgstr "Neclasificat"
+
+msgid "N/A"
+msgstr "N/A"
+
+msgid "Reset setting to the default value"
+msgstr "Resetați configurările la valoarea implicită"
+
+msgid "Edit"
+msgstr "Editare"
+
+msgid "Multi-list settings. You can double-click a row to edit the values."
+msgstr ""
+"Configurări listă multiplă. Puteți să faceți dublu clic pe un rând pentru "
+"editarea valorilor."
+
+#, python-format
+msgid "Edit %s"
+msgstr "Editare %s"
+
+#, python-format
+msgid "\"%s\" is not a valid shortcut"
+msgstr "\"%s\" nu este o scurtătură validă"
+
+msgid "Disabled"
+msgstr "Dezactivat"
+
+msgid "Enabled"
+msgstr "Activat"
+
+msgid "Grab key combination"
+msgstr "Capturează combinație de taste"
+
+#, python-format
+msgid "\"%s\" is not a valid button"
+msgstr "\"%s\" nu este un buton valid"
+
+#, python-format
+msgid ""
+"Using Button1 without modifiers can prevent any left click and thus break "
+"your configuration. Do you really want to set \"%s\" button to Button1 ?"
+msgstr ""
+"Dacă utilizați Buton1 fără modificatori nu veți putea efectua clic și astfel "
+"configurația poate fi deteriorată. Sigur doriți să desemnați butonul \"%s\" "
+"ca Buton1?"
+
+#, python-format
+msgid "\"%s\" is not a valid edge mask"
+msgstr ""
+
+msgid "None"
+msgstr "Nimic"
+
+msgid "CompizConfig Settings Manager"
+msgstr "Administrator configurări CompizConfig"
+
+msgid "Plugin"
+msgstr "Modul"
+
+msgid "Please press the new key combination"
+msgstr "Apăsați o combinație nouă de taste"
+
+msgid "Window Title"
+msgstr "Titlu fereastră"
+
+msgid "Window Role"
+msgstr "Rol fereastră"
+
+msgid "Window Name"
+msgstr "Nume fereastră"
+
+msgid "Window Class"
+msgstr "Clasă fereastră"
+
+msgid "Window Type"
+msgstr "Tip fereastră"
+
+msgid "Window ID"
+msgstr "ID fereastră"
+
+msgid "And"
+msgstr "Și"
+
+msgid "Or"
+msgstr "Sau"
+
+msgid "Edit match"
+msgstr "Editare potrivire"
+
+#. Type
+msgid "Type"
+msgstr "Tip"
+
+#. Value
+msgid "Value"
+msgstr "Valoare"
+
+msgid "Grab"
+msgstr "_Capturează"
+
+#. Relation
+msgid "Relation"
+msgstr "Relație"
+
+#. Invert
+msgid "Invert"
+msgstr "Inversare"
+
+msgid "Browse..."
+msgstr "Răsfoire..."
+
+msgid "Images"
+msgstr "Imagini"
+
+msgid "File"
+msgstr "Fișier"
+
+msgid "Open directory..."
+msgstr "Deschidere dosar..."
+
+msgid "Open file..."
+msgstr "Deschidere fișier..."
+
+msgid "This is a settings manager for the CompizConfig configuration system."
+msgstr ""
+"Acesta este un administrator de configurări pentru sistemul de configurare "
+"CompizConfig."
+
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Drago S. https://launchpad.net/~srbux2009-deactivatedaccount-"
+"deactivatedaccount\n"
+"  Meriuță Cornel https://launchpad.net/~meriutacornel-c\n"
+"  Radu Rădeanu https://launchpad.net/~radu-radeanu\n"
+"  marcelbanu https://launchpad.net/~marcelbanu"
+
+msgid "An error has occured"
+msgstr "A intervenit o eroare"
+
+msgid "Warning"
+msgstr "Avertizare"
+
+#, python-format
+msgid "Enable %s"
+msgstr "Activare %s"
+
+msgid "Filter"
+msgstr "Filtru"
+
+#, python-format
+msgid "Search %s Plugin Options"
+msgstr ""
+
+msgid "Use This Plugin"
+msgstr "Se folosește acest modul"
+
+msgid "Search Compiz Core Options"
+msgstr ""
+
+msgid "Error"
+msgstr "Eroare"
+
+msgid ""
+"Enter a filter.\n"
+"Click the keyboard image to grab a key for which to search."
+msgstr ""
+"Adăugați un filtru.\n"
+"Faceți click pe imaginea tastaturii pentru a captura tasta pentru căutare."
+
+msgid "Search in..."
+msgstr "Căutare în.."
+
+#. Options
+msgid "Short description and name"
+msgstr "Descriere scurtă și nume"
+
+msgid "Long description"
+msgstr "Descriere lungă"
+
+msgid "Settings value"
+msgstr "Valoarea setărilor"
+
+msgid "Group"
+msgstr "Grup"
+
+msgid "Subgroup"
+msgstr "Subgrup"
+
+#. Notebook
+msgid "Settings"
+msgstr "Configurări"
+
+msgid "Loading Advanced Search"
+msgstr "Are loc încărcarea căutării avansate"
+
+msgid "Add a New Profile"
+msgstr "Adăugare profil nou"
+
+msgid "Remove This Profile"
+msgstr "Înlătură acest profil"
+
+msgid "Default"
+msgstr "Implicit"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Import"
+msgstr "Importare"
+
+msgid "Import a CompizConfig Profile"
+msgstr "Importare un profil CompizConfig"
+
+msgid "Import as..."
+msgstr "Importare ca..."
+
+msgid "Import a CompizConfig Profile as a new profile"
+msgstr "Importare un profil CompizConfig ca un profil nou"
+
+msgid "Export"
+msgstr "Exportare"
+
+msgid "Export your CompizConfig Profile"
+msgstr "Exportare profil CompizConfig"
+
+msgid "Reset to defaults"
+msgstr "Resetează la valori implicite."
+
+msgid "Reset your CompizConfig Profile to the global defaults"
+msgstr "Resetează profilul CompizConfig la valorile globale implicite."
+
+msgid "Backend"
+msgstr "Suport"
+
+msgid "Integration"
+msgstr "Integrare"
+
+msgid "Enable integration into the desktop environment"
+msgstr "Activează integrarea în mediul desktop"
+
+msgid "Profiles (*.profile)"
+msgstr "Profiluri (*.profile)"
+
+msgid "All files"
+msgstr "Toate fișierele"
+
+msgid "Save file.."
+msgstr "Salvează fișierul..."
+
+msgid ""
+"Do you want to skip default option values while exporting your profile?"
+msgstr ""
+"Doriți să omiteți valorile implicite ale opțiunii în timp ce se exportă "
+"profilul Dvs.?"
+
+msgid "Open file.."
+msgstr "Deschide fișier..."
+
+msgid "Enter a profile name"
+msgstr "Introduceți un nume de profil"
+
+msgid "Please enter a name for the new profile:"
+msgstr "Introduceți un nume pentru noului profil:"
+
+msgid "Backend not found."
+msgstr "Suportul nu a fost găsit."
+
+#. Auto sort
+msgid "Automatic plugin sorting"
+msgstr "Sortare automată a modulelor."
+
+msgid "Disabled Plugins"
+msgstr "Module dezactivate"
+
+msgid "Enabled Plugins"
+msgstr "Module active"
+
+msgid ""
+"Do you really want to disable automatic plugin sorting? This will also "
+"disable conflict handling. You should only do this if you know what you are "
+"doing."
+msgstr ""
+"Sigur doriți să dezactivați sortarea automată a modulelor? Aceasta va "
+"dezactiva și gestionarea conflictelor. Procedați astfel doar dacă știți ce "
+"faceți."
+
+msgid "Add plugin"
+msgstr "Adaugă modul"
+
+msgid "Plugin name:"
+msgstr "Nume modul:"
+
+msgid "Insert plugin name"
+msgstr "Introduceți numele modului"
+
+msgid "Preferences"
+msgstr "Preferințe"
+
+msgid ""
+"Configure the backend, profile and other internal settings used by the "
+"Compiz Configuration System."
+msgstr ""
+"Configurează suportul, profilul și alte configurări interne utilizate de "
+"sistemul de configurare CompizConfig."
+
+msgid "About"
+msgstr "Despre aplicație"
+
+msgid "About CCSM..."
+msgstr "Despre CCSM..."
+
+msgid "Profile & Backend"
+msgstr ""
+
+msgid "Plugin List"
+msgstr "Listă module"
+
+msgid "Filter your Plugin list"
+msgstr "Filtrează lista modulelor dumneavoastră"
+
+#, python-format
+msgid "Screen %i"
+msgstr "Ecran %i"
+
+msgid "Screen"
+msgstr "Ecran"
+
+msgid "Category"
+msgstr "Categorie"
+
+msgid "Advanced Search"
+msgstr "Căutare avansată"
+
+#, python-format
+msgid ""
+"<span size=\"large\"><b>No matches found.</b> </span><span>\n"
+"\n"
+" Your filter \"<b>%s</b>\" does not match any items.</span>"
+msgstr ""
+
+msgid "Configure Compiz with CompizConfig"
+msgstr "Configurează Compiz cu CompizConfig"

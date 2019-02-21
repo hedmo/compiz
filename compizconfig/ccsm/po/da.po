@@ -1,41 +1,56 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# scootergrisen, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.opencompositing.org\n"
-"POT-Creation-Date: 2007-12-13 00:01+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2009-03-24 12:33+0530\n"
+"PO-Revision-Date: 2017-10-30 12:45+0000\n"
+"Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
+"Language-Team: Danish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2019-02-21 18:44+0000\n"
+"X-Generator: Launchpad (build 18886)\n"
+"Language: da\n"
 
 #, python-format
 msgid ""
 "The new value for the %(binding)s binding for the action <b>%(action)s</b> "
-"in plugin <b>%(plugin)s</b> conflicts with the action <b>%(action_conflict)"
-"s</b> of the <b>%(plugin_conflict)s</b> plugin.\n"
-"Do you wish to disable <b>%(action_conflict)s</b> in the <b>%"
-"(plugin_conflict)s</b> plugin?"
+"in plugin <b>%(plugin)s</b> conflicts with the action "
+"<b>%(action_conflict)s</b> of the <b>%(plugin_conflict)s</b> plugin.\n"
+"Do you wish to disable <b>%(action_conflict)s</b> in the "
+"<b>%(plugin_conflict)s</b> plugin?"
 msgstr ""
+"Den nye værdi af %(binding)s-bindingen for handlingen <b>%(action)s</b> i "
+"pluginet <b>%(plugin)s</b> er i konflikt med handlingen "
+"<b>%(action_conflict)s</b> fra <b>%(plugin_conflict)s</b>-pluginet.\n"
+"Vil du deaktivere <b>%(action_conflict)s</b> i <b>%(plugin_conflict)s</b>-"
+"pluginet?"
 
 #, python-format
 msgid "Disable %(action_conflict)s"
-msgstr ""
+msgstr "Deaktivér %(action_conflict)s"
 
 #, python-format
 msgid "Don't set %(action)s"
-msgstr ""
+msgstr "Sæt ikke %(action)s"
 
 #, python-format
 msgid "Set %(action)s anyway"
-msgstr ""
+msgstr "Sæt %(action)s alligevel"
+
+msgid "key"
+msgstr "nøgle"
+
+msgid "button"
+msgstr "knap"
+
+msgid "edge"
+msgstr "kant"
 
 #, python-format
 msgid ""
@@ -43,48 +58,72 @@ msgid ""
 "provided by any plugin.\n"
 "Do you wish to use this feature anyway?"
 msgstr ""
+"Du prøver at bruge funktionaliteten <b>%(feature)s</b> som <b>ikke</b> er "
+"leveret af noget plugin.\n"
+"Vil du bruge funktionaliteten alligevel?"
 
 #, python-format
 msgid "Use %(feature)s"
-msgstr ""
+msgstr "Brug %(feature)s"
 
 #, python-format
 msgid "Don't use %(feature)s"
-msgstr ""
+msgstr "Brug ikke %(feature)s"
 
 #, python-format
 msgid ""
-"You are trying to use the feature <b>%(feature)s</b> which is provided by <b>"
-"%(plugin)s</b>.\n"
+"You are trying to use the feature <b>%(feature)s</b> which is provided by "
+"<b>%(plugin)s</b>.\n"
 "This plugin is currently disabled.\n"
 "Do you wish to enable <b>%(plugin)s</b> so the feature is available?"
 msgstr ""
+"Du prøver at bruge funktionaliteten <b>%(feature)s</b> som er leveret af "
+"<b>%(plugin)s</b>.\n"
+"Pluginet er i øjeblikket deaktiveret.\n"
+"Vil du aktivere <b>%(plugin)s</b> så funktionaliteten er tilgængelig?"
 
 #, python-format
 msgid "Enable %(plugin)s"
-msgstr ""
+msgstr "Aktivér %(plugin)s"
 
 #, python-format
 msgid "Don't enable %(feature)s"
+msgstr "Aktivér ikke %(feature)s"
+
+#, python-format
+msgid ""
+"Some %(bindings)s bindings of Plugin <b>%(plugin)s</b> conflict with other "
+"plugins. Do you want to resolve these conflicts?"
 msgstr ""
+"Nogle %(bindings)s-bindinger af pluginet <b>%(plugin)s</b> er i konflikt med "
+"andre plugins. Vil du løse konflikterne?"
+
+msgid "Resolve conflicts"
+msgstr "Løs konflikter"
+
+msgid "Ignore conflicts"
+msgstr "Ignorer konflikter"
 
 #, python-format
 msgid ""
 "Plugin <b>%(plugin_conflict)s</b> provides feature <b>%(feature)s</b> which "
 "is also provided by <b>%(plugin)s</b>"
 msgstr ""
+"Pluginet <b>%(plugin_conflict)s</b> leverer funktionaliteten "
+"<b>%(feature)s</b> som også leveres af <b>%(plugin)s</b>"
 
 #, python-format
 msgid "Disable %(plugin_conflict)s"
-msgstr ""
+msgstr "Deaktivér %(plugin_conflict)s"
 
 #, python-format
 msgid "Don't enable %(plugin)s"
-msgstr ""
+msgstr "Aktivér ikke %(plugin)s"
 
 #, python-format
 msgid "Plugin <b>%(plugin_conflict)s</b> conflicts with <b>%(plugin)s</b>."
 msgstr ""
+"Pluginet <b>%(plugin_conflict)s</b> er i konflikt med <b>%(plugin)s</b>."
 
 #, python-format
 msgid ""
@@ -92,370 +131,394 @@ msgid ""
 "the following plugins:\n"
 "%(plugin_list)s"
 msgstr ""
+"<b>%(plugin)s</b> kræver funktionaliteten <b>%(feature)s</b> som leveres af "
+"følgende plugins:\n"
+"%(plugin_list)s"
 
 msgid "Enable these plugins"
-msgstr ""
+msgstr "Aktivér disse plugins"
 
 #, python-format
 msgid "<b>%(plugin)s</b> requires the plugin <b>%(require)s</b>."
-msgstr ""
+msgstr "<b>%(plugin)s</b> kræver pluginet <b>%(require)s</b>."
 
 #, python-format
 msgid "Enable %(require)s"
-msgstr ""
+msgstr "Aktivér %(require)s"
 
 #, python-format
 msgid ""
 "<b>%(plugin)s</b> provides the feature <b>%(feature)s</b> which is required "
 "by the plugins <b>%(plugin_list)s</b>."
 msgstr ""
+"<b>%(plugin)s</b> leverer funktionaliteten <b>%(feature)s</b> som kræves af "
+"pluginsene <b>%(plugin_list)s</b>."
 
 msgid "Disable these plugins"
-msgstr ""
+msgstr "Deaktivér disse plugins"
 
 #, python-format
 msgid "Don't disable %(plugin)s"
-msgstr ""
+msgstr "Deaktivér ikke %(plugin)s"
 
 #, python-format
 msgid "<b>%(plugin)s</b> is required by the plugins <b>%(plugin_list)s</b>."
-msgstr ""
+msgstr "<b>%(plugin)s</b> kræves af pluginsene <b>%(plugin_list)s</b>."
 
 msgid "General"
-msgstr ""
+msgstr "Generelt"
 
 msgid "Accessibility"
-msgstr ""
+msgstr "Tilgængelighed"
 
 msgid "Desktop"
-msgstr ""
+msgstr "Skrivebord"
 
 msgid "Extras"
-msgstr ""
+msgstr "Ekstra"
 
 msgid "Window Management"
-msgstr ""
+msgstr "Vindueshåndtering"
 
 msgid "Effects"
-msgstr ""
+msgstr "Effekter"
 
 msgid "Image Loading"
-msgstr ""
+msgstr "Billedindlæsning"
 
 msgid "Utility"
-msgstr ""
+msgstr "Redskab"
+
+msgid "All"
+msgstr "Alt"
+
+msgid "Uncategorized"
+msgstr "Ikke kategoriseret"
+
+msgid "N/A"
+msgstr "-"
 
 msgid "Reset setting to the default value"
-msgstr ""
+msgstr "Nulstil indstilling til standardværdien"
 
-msgid "Browse for "
-msgstr ""
-
-msgid "Images"
-msgstr ""
-
-msgid "File"
-msgstr ""
-
-msgid "Open directory..."
-msgstr ""
-
-msgid "Open file..."
-msgstr ""
+msgid "Edit"
+msgstr "Rediger"
 
 msgid "Multi-list settings. You can double-click a row to edit the values."
 msgstr ""
-
-msgid "Edit"
-msgstr ""
-
-#, python-format
-msgid "Value (%s)"
-msgstr ""
+"Multilisteindstillinger. Du kan dobbeltklikke på en række for at redigere "
+"værdierne."
 
 #, python-format
 msgid "Edit %s"
-msgstr ""
-
-#, python-format
-msgid "Value (%(value)s) for %(setting)s"
-msgstr ""
+msgstr "Rediger %s"
 
 #, python-format
 msgid "\"%s\" is not a valid shortcut"
-msgstr ""
+msgstr "\"%s\" er ikke en gyldig genvej"
 
 msgid "Disabled"
-msgstr ""
+msgstr "Deaktiveret"
 
 msgid "Enabled"
-msgstr ""
+msgstr "Aktiveret"
 
 msgid "Grab key combination"
-msgstr ""
-
-msgid "Computing possible conflicts, please wait"
-msgstr ""
+msgstr "Indfang tastekombination"
 
 #, python-format
 msgid "\"%s\" is not a valid button"
-msgstr ""
+msgstr "\"%s\" er ikke en gyldig knap"
 
 #, python-format
 msgid ""
 "Using Button1 without modifiers can prevent any left click and thus break "
 "your configuration. Do you really want to set \"%s\" button to Button1 ?"
 msgstr ""
+"Hvis Knap1 bruges uden ændringstaster kan det forhindre venstreklik og "
+"dermed bryde din konfiguration. Vil du virkelig sætte \"%s\"-knap til Knap1?"
 
 #, python-format
 msgid "\"%s\" is not a valid edge mask"
-msgstr ""
+msgstr "\"%s\" er ikke en gyldig kantmaske"
 
 msgid "None"
-msgstr ""
-
-#, python-format
-msgid "Unhandled list type %s for %s"
-msgstr ""
+msgstr "Ingen"
 
 msgid "CompizConfig Settings Manager"
-msgstr ""
+msgstr "CompizConfig-indstillingshåndtering"
 
-msgid "Filter"
-msgstr ""
-
-msgid "Filter your Plugin list"
-msgstr ""
-
-#, python-format
-msgid "Screen %i"
-msgstr ""
-
-msgid "Screen"
-msgstr ""
-
-msgid "All"
-msgstr ""
-
-msgid "Uncategorized"
-msgstr ""
-
-msgid "Category"
-msgstr ""
-
-msgid "Advanced Search"
-msgstr ""
-
-msgid "Preferences"
-msgstr ""
-
-#, python-format
-msgid "Enable %s"
-msgstr ""
+msgid "Plugin"
+msgstr "Plugin"
 
 msgid "Please press the new key combination"
-msgstr ""
+msgstr "Tryk venligst på den nye tastekombination"
 
 msgid "Window Title"
-msgstr ""
+msgstr "Vinduestitel"
 
 msgid "Window Role"
-msgstr ""
+msgstr "Vinduesrolle"
 
 msgid "Window Name"
-msgstr ""
+msgstr "Vinduesnavn"
 
 msgid "Window Class"
-msgstr ""
+msgstr "Vinduesklasse"
 
 msgid "Window Type"
-msgstr ""
+msgstr "Vinduestype"
 
 msgid "Window ID"
-msgstr ""
+msgstr "Vindues-ID"
 
 msgid "And"
-msgstr ""
+msgstr "Og"
 
 msgid "Or"
-msgstr ""
+msgstr "Eller"
 
 msgid "Edit match"
-msgstr ""
+msgstr "Rediger match"
 
 #. Type
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 #. Value
 msgid "Value"
-msgstr ""
+msgstr "Værdi"
 
 msgid "Grab"
-msgstr ""
+msgstr "Indfang"
 
 #. Relation
 msgid "Relation"
-msgstr ""
+msgstr "Relation"
 
 #. Invert
 msgid "Invert"
-msgstr ""
+msgstr "Omvendt"
+
+msgid "Browse..."
+msgstr "Gennemse..."
+
+msgid "Images"
+msgstr "Billeder"
+
+msgid "File"
+msgstr "Fil"
+
+msgid "Open directory..."
+msgstr "Åbn mappe..."
+
+msgid "Open file..."
+msgstr "Åbn fil..."
 
 msgid "This is a settings manager for the CompizConfig configuration system."
 msgstr ""
+"Dette er en indstillingshåndtering til CompizConfig-konfigurationssystemet."
 
 msgid "translator-credits"
 msgstr ""
+"Launchpad Contributions:\n"
+"  scootergrisen https://launchpad.net/~scootergrisen"
 
 msgid "An error has occured"
-msgstr ""
+msgstr "Der opstod en fejl"
 
 msgid "Warning"
-msgstr ""
+msgstr "Advarsel"
+
+#, python-format
+msgid "Enable %s"
+msgstr "Aktivér %s"
+
+msgid "Filter"
+msgstr "Filter"
 
 #, python-format
 msgid "Search %s Plugin Options"
-msgstr ""
+msgstr "Søg efter valgmuligheder i %s-plugin"
 
 msgid "Use This Plugin"
-msgstr ""
+msgstr "Brug dette plugin"
 
 msgid "Search Compiz Core Options"
-msgstr ""
-
-msgid "Actions"
-msgstr ""
+msgstr "Søg efter valgmuligheder i Compiz-kernen"
 
 msgid "Error"
+msgstr "Fejl"
+
+msgid ""
+"Enter a filter.\n"
+"Click the keyboard image to grab a key for which to search."
 msgstr ""
+"Indtast et filter.\n"
+"Klik på tastaturbilledet for at indfange en tast der skal søges efter."
 
 msgid "Search in..."
-msgstr ""
+msgstr "Søg i..."
 
+#. Options
 msgid "Short description and name"
-msgstr ""
+msgstr "Kort beskrivelse og navn"
 
 msgid "Long description"
-msgstr ""
+msgstr "Lang beskrivelse"
 
 msgid "Settings value"
-msgstr ""
+msgstr "Indstillingsværdi"
+
+msgid "Group"
+msgstr "Gruppe"
+
+msgid "Subgroup"
+msgstr "Undergruppe"
 
 #. Notebook
 msgid "Settings"
-msgstr ""
+msgstr "Indstillinger"
+
+msgid "Loading Advanced Search"
+msgstr "Indlæser avanceret søgning"
 
 msgid "Add a New Profile"
-msgstr ""
+msgstr "Tilføj en ny profil"
 
 msgid "Remove This Profile"
-msgstr ""
+msgstr "Fjern denne profil"
 
 msgid "Default"
-msgstr ""
+msgstr "Standard"
 
 msgid "Profile"
-msgstr ""
+msgstr "Profil"
 
 msgid "Import"
-msgstr ""
+msgstr "Importér"
 
 msgid "Import a CompizConfig Profile"
-msgstr ""
+msgstr "Importér en CompizConfig-profil"
 
 msgid "Import as..."
-msgstr ""
+msgstr "Importér som..."
 
 msgid "Import a CompizConfig Profile as a new profile"
-msgstr ""
+msgstr "Importér en CompizConfig-profil som en ny profil"
 
 msgid "Export"
-msgstr ""
+msgstr "Eksportér"
 
 msgid "Export your CompizConfig Profile"
-msgstr ""
+msgstr "Eksportér din CompizConfig-profil"
 
 msgid "Reset to defaults"
-msgstr ""
+msgstr "Nulstil til standarder"
 
 msgid "Reset your CompizConfig Profile to the global defaults"
-msgstr ""
+msgstr "Nulstil din CompizConfig-profil til de globale standarder"
 
 msgid "Backend"
-msgstr ""
+msgstr "Backend"
 
 msgid "Integration"
-msgstr ""
+msgstr "Integration"
 
 msgid "Enable integration into the desktop environment"
-msgstr ""
+msgstr "Aktivér integration i skrivebordsmiljøet"
 
 msgid "Profiles (*.profile)"
-msgstr ""
+msgstr "Profiler (*.profile)"
 
 msgid "All files"
-msgstr ""
+msgstr "Alle filer"
 
 msgid "Save file.."
-msgstr ""
+msgstr "Gem fil.."
 
-msgid "Do you want to skip default option values while exporting your profile?"
+msgid ""
+"Do you want to skip default option values while exporting your profile?"
 msgstr ""
+"Vil du springe valgmulighedernes standardværdier over under eksport af din "
+"profil?"
 
 msgid "Open file.."
-msgstr ""
+msgstr "Åbn fil.."
 
 msgid "Enter a profile name"
-msgstr ""
+msgstr "Indtast et profilnavn"
 
 msgid "Please enter a name for the new profile:"
-msgstr ""
+msgstr "Indtast venligst et navn til den nye profil:"
 
 msgid "Backend not found."
-msgstr ""
+msgstr "Backend ikke fundet."
 
 #. Auto sort
 msgid "Automatic plugin sorting"
-msgstr ""
+msgstr "Automatisk sortering af plugins"
 
 msgid "Disabled Plugins"
-msgstr ""
+msgstr "Deaktiverede plugins"
 
 msgid "Enabled Plugins"
-msgstr ""
+msgstr "Aktiverede plugins"
 
 msgid ""
 "Do you really want to disable automatic plugin sorting? This will also "
 "disable conflict handling. You should only do this if you know what you are "
 "doing."
 msgstr ""
+"Vil du virkelig deaktivere automatisk sortering af plugins? Det deaktiverer "
+"også konflikthåndtering. Du bør kun gøre det hvis du ved hvad du gør."
 
 msgid "Add plugin"
-msgstr ""
+msgstr "Tilføj plugin"
 
 msgid "Plugin name:"
-msgstr ""
+msgstr "Pluginnavn:"
 
 msgid "Insert plugin name"
-msgstr ""
+msgstr "Indsæt pluginnavn"
+
+msgid "Preferences"
+msgstr "Præferencer"
 
 msgid ""
 "Configure the backend, profile and other internal settings used by the "
 "Compiz Configuration System."
 msgstr ""
+"Konfigurer backenden, profilen og andre interne indstillinger der bruges af "
+"Compiz-konfigurationssystemet."
 
 msgid "About"
-msgstr ""
+msgstr "Om"
 
 msgid "About CCSM..."
-msgstr ""
+msgstr "Om CCSM..."
 
 msgid "Profile & Backend"
-msgstr ""
+msgstr "Profil og backend"
 
 msgid "Plugin List"
-msgstr ""
+msgstr "Pluginliste"
+
+msgid "Filter your Plugin list"
+msgstr "Filtrér din pluginliste"
+
+#, python-format
+msgid "Screen %i"
+msgstr "Skærm %i"
+
+msgid "Screen"
+msgstr "Skærm"
+
+msgid "Category"
+msgstr "Kategori"
+
+msgid "Advanced Search"
+msgstr "Avanceret søgning"
 
 #, python-format
 msgid ""
@@ -463,3 +526,9 @@ msgid ""
 "\n"
 " Your filter \"<b>%s</b>\" does not match any items.</span>"
 msgstr ""
+"<span size=\"large\"><b>Ingen match fundet.</b> </span><span>\n"
+"\n"
+"Dit filter \"<b>%s</b>\" matcher ikke nogen elementer.</span>"
+
+msgid "Configure Compiz with CompizConfig"
+msgstr "Konfigurer Compiz med CompizConfig"
