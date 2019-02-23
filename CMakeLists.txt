@@ -103,7 +103,7 @@ set_property (GLOBAL
 	      TRUE)
 
 # Translation
-set (ALL_LINGUAS af ar bg bn bn_IN bs ca cs cy da de el en_GB en_US es eu et fi fr gl gu he hi hr hu id it ja ka km ko lo lt mk mr nb nl or pa pl pt pt_BR ro ru sk sl sr sv ta tr uk vi xh zh_CN zh_TW zu)
+set (ALL_LINGUAS ace af am ar as ast az be bg bn_IN bn br bs ca ce cs cy da de el en_AU en_CA en_GB eo es et eu fa fil fi fr fy gl gu he hi hr hu id is it ja jv kab ka km kn ko ku ky lo lt lv mk ml mn mr ms my nb nds ne nl nn oc or pa pl pt_BR pt ro ru si sk sl sq sr sv ta te th tr ug uk vi xh zh_CN zh_HK zh_TW zu)
 set (GETTEXT_PACKAGE compiz)
 
 set (COMPIZ_REQUIRES
