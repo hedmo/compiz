@@ -8,32 +8,33 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.5.2\n"
 "Report-Msgid-Bugs-To: http://bugs.opencompositing.org\n"
-"POT-Creation-Date: 2009-03-24 08:12+0100\n"
-"PO-Revision-Date: 2009-02-27 11:11+0100\n"
-"Last-Translator: Harald van Bree <harald@vanbree.nl.eu.org>\n"
+"POT-Creation-Date: 2009-03-24 12:33+0530\n"
+"PO-Revision-Date: 2017-06-19 21:12+0000\n"
+"Last-Translator: Harald van Bree <Unknown>\n"
 "Language-Team: Dutch <mailmelist@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Pootle 1.1.0\n"
+"X-Launchpad-Export-Date: 2019-02-21 18:44+0000\n"
+"X-Generator: Launchpad (build 18886)\n"
 
 #, python-format
 msgid ""
 "The new value for the %(binding)s binding for the action <b>%(action)s</b> "
-"in plugin <b>%(plugin)s</b> conflicts with the action <b>%(action_conflict)"
-"s</b> of the <b>%(plugin_conflict)s</b> plugin.\n"
-"Do you wish to disable <b>%(action_conflict)s</b> in the <b>%"
-"(plugin_conflict)s</b> plugin?"
+"in plugin <b>%(plugin)s</b> conflicts with the action "
+"<b>%(action_conflict)s</b> of the <b>%(plugin_conflict)s</b> plugin.\n"
+"Do you wish to disable <b>%(action_conflict)s</b> in the "
+"<b>%(plugin_conflict)s</b> plugin?"
 msgstr ""
-"De nieuwe waarde voor de %(binding)s binding for de actie <b>%(action)s</b> "
-"in plugin <b>%(plugin)s</b> conflicteert met de actie <b>%(action_conflict)"
-"s</b> van de <b>%(plugin_conflict)s</b> plugin.\n"
-"Wilt u <b>%(action_conflict)s</b> in plugin <b>%(plugin_conflict)s</b> "
-"uitschakelen?"
+"De nieuwe waarde voor de binding %(binding)s voor de actie <b>%(action)s</b> "
+"in plug-in <b>%(plugin)s</b> is in conflict met de actie "
+"<b>%(action_conflict)s</b> van de plug-in <b>%(plugin_conflict)s</b>.\n"
+"Wilt u <b>%(action_conflict)s</b> uitschakelen in de plug-in "
+"<b>%(plugin_conflict)s</b>?"
 
 #, python-format
 msgid "Disable %(action_conflict)s"
-msgstr "Schakel %(action_conflict)s uit"
+msgstr "%(action_conflict)s uitschakelen"
 
 #, python-format
 msgid "Don't set %(action)s"
@@ -41,10 +42,10 @@ msgstr "%(action)s niet instellen"
 
 #, python-format
 msgid "Set %(action)s anyway"
-msgstr "%(action)s alsnog instellen"
+msgstr "%(action)s toch instellen"
 
 msgid "key"
-msgstr "sleutel"
+msgstr "toets"
 
 msgid "button"
 msgstr "knop"
@@ -58,33 +59,33 @@ msgid ""
 "provided by any plugin.\n"
 "Do you wish to use this feature anyway?"
 msgstr ""
-"Je probeert de optie <b>%(feature)s</b> te gebruiken dat door geen enkele "
-"plugin wordt geleverd.\n"
-"Wil je deze feature toch gebruiken?"
+"U probeert de optie <b>%(feature)s</b> te gebruiken, waar <b>geen</b> plug-"
+"in voor beschikbaar is.\n"
+"Wilt u deze optie toch gebruiken?"
 
 #, python-format
 msgid "Use %(feature)s"
-msgstr "Gebruik %(feature)s"
+msgstr "%(feature)s gebruiken"
 
 #, python-format
 msgid "Don't use %(feature)s"
-msgstr "%(feature)s niet instellen"
+msgstr "%(feature)s niet gebruiken"
 
 #, python-format
 msgid ""
-"You are trying to use the feature <b>%(feature)s</b> which is provided by <b>"
-"%(plugin)s</b>.\n"
+"You are trying to use the feature <b>%(feature)s</b> which is provided by "
+"<b>%(plugin)s</b>.\n"
 "This plugin is currently disabled.\n"
 "Do you wish to enable <b>%(plugin)s</b> so the feature is available?"
 msgstr ""
-"Je probeert de eigenschap <b>%(feature)s</b> te gebruiken dat wordt geleverd "
-"door <b>%(plugin)s</b>.\n"
-"Deze plugin is momenteel uitgeschakeld.\n"
-"Wil je <b>%(plugin)s</b> inschakelen, zodat deze eigenschap beschikbaar is?"
+"U probeert de optie <b>%(feature)s</b> te gebruiken, waar de plug-in "
+"<b>%(plugin)s</b> voor beschikbaar is.\n"
+"Deze plug-in is momenteel uitgeschakeld.\n"
+"Wilt u <b>%(plugin)s</b> inschakelen om deze optie te kunnen gebruiken?"
 
 #, python-format
 msgid "Enable %(plugin)s"
-msgstr "Inschakelen %(plugin)s"
+msgstr "%(plugin)s inschakelen"
 
 #, python-format
 msgid "Don't enable %(feature)s"
@@ -95,8 +96,8 @@ msgid ""
 "Some %(bindings)s bindings of Plugin <b>%(plugin)s</b> conflict with other "
 "plugins. Do you want to resolve these conflicts?"
 msgstr ""
-"Sommige %(bindings)s bindings van Plugin <b>%(plugin)s</b> conflicteren met "
-"andere plugins. Wil je deze conflicten oplossen?"
+"Sommige %(bindings)s bindingen van plug-in <b>%(plugin)s</b> hebben een "
+"conflict met andere plug-ins. Wilt u deze conflicten oplossen?"
 
 msgid "Resolve conflicts"
 msgstr "Conflicten oplossen"
@@ -109,8 +110,8 @@ msgid ""
 "Plugin <b>%(plugin_conflict)s</b> provides feature <b>%(feature)s</b> which "
 "is also provided by <b>%(plugin)s</b>"
 msgstr ""
-"Plugin <b>%(plugin_conflict)s</b> biedt de eigenschap <b>%(feature)s</b> dat "
-"ook wordt geleverd door <b>%(plugin)s</b>"
+"Plug-in <b>%(plugin_conflict)s</b> voorziet in optie <b>%(feature)s</b> net "
+"als plug-in <b>%(plugin)s</b>"
 
 #, python-format
 msgid "Disable %(plugin_conflict)s"
@@ -122,7 +123,8 @@ msgstr "%(plugin)s niet inschakelen"
 
 #, python-format
 msgid "Plugin <b>%(plugin_conflict)s</b> conflicts with <b>%(plugin)s</b>."
-msgstr "Plugin <b>%(plugin_conflict)s</b> conclicteert met <b>%(plugin)s</b>."
+msgstr ""
+"Plug-in <b>%(plugin_conflict)s</b> heeft een conflict met <b>%(plugin)s</b>."
 
 #, python-format
 msgid ""
@@ -130,16 +132,16 @@ msgid ""
 "the following plugins:\n"
 "%(plugin_list)s"
 msgstr ""
-"<b>%(plugin)s</b> vereist de eigenschap <b>%(feature)s</b> dat wordt "
-"geleverd door de volgende plugins:\n"
+"<b>%(plugin)s</b> vereist de optie <b>%(feature)s</b> waar de volgende plug-"
+"ins voor beschikbaar zijn:\n"
 "%(plugin_list)s"
 
 msgid "Enable these plugins"
-msgstr "Deze plugins inschakelen"
+msgstr "Deze plug-ins inschakelen"
 
 #, python-format
 msgid "<b>%(plugin)s</b> requires the plugin <b>%(require)s</b>."
-msgstr "<b>%(plugin)s</b> vereist de plugin <b>%(require)s</b>."
+msgstr "<b>%(plugin)s</b> vereist de plug-in <b>%(require)s</b>."
 
 #, python-format
 msgid "Enable %(require)s"
@@ -154,7 +156,7 @@ msgstr ""
 "voor de plugins <b>%(plugin_list)s</b>."
 
 msgid "Disable these plugins"
-msgstr "Deze plugins uitschakelen"
+msgstr "Deze plug-ins uitschakelen"
 
 #, python-format
 msgid "Don't disable %(plugin)s"
@@ -162,7 +164,8 @@ msgstr "%(plugin)s niet uitschakelen"
 
 #, python-format
 msgid "<b>%(plugin)s</b> is required by the plugins <b>%(plugin_list)s</b>."
-msgstr "<b>%(plugin)s</b> is vereist voor de plugins <b>%(plugin_list)s</b>."
+msgstr ""
+"<b>%(plugin)s</b> wordt vereist door de plug-ins <b>%(plugin_list)s</b>."
 
 msgid "General"
 msgstr "Algemeen"
@@ -174,16 +177,16 @@ msgid "Desktop"
 msgstr "Bureaublad"
 
 msgid "Extras"
-msgstr "Extras"
+msgstr "Extra's"
 
 msgid "Window Management"
-msgstr "Venster beheer"
+msgstr "Vensterbeheer"
 
 msgid "Effects"
 msgstr "Effecten"
 
 msgid "Image Loading"
-msgstr "Afbeelding wordt geladen"
+msgstr "Afbeelding laden"
 
 msgid "Utility"
 msgstr "Gereedschap"
@@ -195,26 +198,26 @@ msgid "Uncategorized"
 msgstr "Niet gecategoriseerd"
 
 msgid "N/A"
-msgstr "N.V.T"
+msgstr "N.v.t."
 
 msgid "Reset setting to the default value"
-msgstr "Instelling naar standaard herstellen"
+msgstr "Instelling naar standaardwaarde herstellen"
 
 msgid "Edit"
-msgstr "Wijzigen"
+msgstr "Bewerken"
 
 msgid "Multi-list settings. You can double-click a row to edit the values."
 msgstr ""
-"Keuzelijst instellingen. U kunt een rij dubbelklikken om de inhoud te "
+"Keuzelijstinstellingen. U kunt een rij dubbelklikken om de inhoud te "
 "bewerken."
 
 #, python-format
 msgid "Edit %s"
-msgstr "Wijzigen %s"
+msgstr "%s bewerken"
 
 #, python-format
 msgid "\"%s\" is not a valid shortcut"
-msgstr "\"%s \" is geen valide verwijzing"
+msgstr "\"%s \" is geen geldige verwijzing"
 
 msgid "Disabled"
 msgstr "Uitgeschakeld"
@@ -223,11 +226,11 @@ msgid "Enabled"
 msgstr "Ingeschakeld"
 
 msgid "Grab key combination"
-msgstr "vang toets combinatie af"
+msgstr "Toetsencombinatie vastleggen"
 
 #, python-format
 msgid "\"%s\" is not a valid button"
-msgstr "\"%s\" is geen valide knop"
+msgstr "\"%s\" is geen geldige knop"
 
 #, python-format
 msgid ""
@@ -235,42 +238,42 @@ msgid ""
 "your configuration. Do you really want to set \"%s\" button to Button1 ?"
 msgstr ""
 "Het gebruik van enkel Button1 zonder andere aanpassingen kan leiden tot het "
-"niet meer werken van de linker muisknop en kan dus uw systeem onwerkbaar "
-"maken. Weet u zeker dat u de \"%s\" knop op de plaats van Button1 wilt?"
+"niet meer werken van de linkermuisknop en kan dus uw systeem onwerkbaar "
+"maken. Weet u zeker dat u de knop \"%s\" toe wilt wijzen aan Button1?"
 
 #, python-format
 msgid "\"%s\" is not a valid edge mask"
-msgstr "\"%s\" is geen valide rand markering"
+msgstr "\"%s\" is geen geldige randmaskering"
 
 msgid "None"
 msgstr "Geen"
 
 msgid "CompizConfig Settings Manager"
-msgstr "CompizConfig Instellingen Beheerder"
+msgstr "CompizConfig-instellingenbeheer"
 
 msgid "Plugin"
-msgstr "Plugin"
+msgstr "Plug-in"
 
 msgid "Please press the new key combination"
 msgstr "Druk op de nieuwe toetsencombinatie."
 
 msgid "Window Title"
-msgstr "Venster titel"
+msgstr "Venstertitel"
 
 msgid "Window Role"
-msgstr "Vester rol"
+msgstr "Vensterrol"
 
 msgid "Window Name"
-msgstr "Venster naam"
+msgstr "Vensternaam"
 
 msgid "Window Class"
-msgstr "Venster klasse"
+msgstr "Vensterklasse"
 
 msgid "Window Type"
-msgstr "Venster type"
+msgstr "Venstertype"
 
 msgid "Window ID"
-msgstr "Venster ID"
+msgstr "Venster-ID"
 
 msgid "And"
 msgstr "En"
@@ -278,10 +281,8 @@ msgstr "En"
 msgid "Or"
 msgstr "Of"
 
-# In deze context is "match" waarschijnlijk "resultaat" van een zoekopdracht. Het betekent eigenlijk "gelijke" of "overeenkomstig", maar dit past volgens mij niet hier.
-# --- mahler: "Mee eens"
 msgid "Edit match"
-msgstr "Wijzigen resultaat"
+msgstr "Resultaat bewerken"
 
 #. Type
 msgid "Type"
@@ -292,7 +293,7 @@ msgid "Value"
 msgstr "Waarde"
 
 msgid "Grab"
-msgstr "Pak"
+msgstr "Vastleggen"
 
 #. Relation
 msgid "Relation"
@@ -302,9 +303,8 @@ msgstr "Relatie"
 msgid "Invert"
 msgstr "Inverteren"
 
-# --- mahler: Het is mogelijk dat "Bladeren naar..." beter zou zijn.
 msgid "Browse..."
-msgstr "Bladeren..."
+msgstr "Bladeren…"
 
 msgid "Images"
 msgstr "Afbeeldingen"
@@ -313,17 +313,22 @@ msgid "File"
 msgstr "Bestand"
 
 msgid "Open directory..."
-msgstr "Open map..."
+msgstr "Map openen…"
 
 msgid "Open file..."
-msgstr "Open bestand..."
+msgstr "Bestand openen…"
 
 msgid "This is a settings manager for the CompizConfig configuration system."
 msgstr ""
-"Dit is een instellingen beheer voor het CompizConfig configuratie syteem."
+"Dit is een instellingenbeheerder voor het CompizConfig-configuratiesyteem."
 
 msgid "translator-credits"
-msgstr "Vertalers eerbewijs"
+msgstr ""
+"Vertalers eerbewijs\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Harald van Bree https://launchpad.net/~harald-vanbree\n"
+"  rob https://launchpad.net/~rvdb"
 
 msgid "An error has occured"
 msgstr "Er is een fout opgetreden"
@@ -340,13 +345,13 @@ msgstr "Filter"
 
 #, python-format
 msgid "Search %s Plugin Options"
-msgstr "Zoeken in %s plugin opties"
+msgstr "Zoeken in %s plug-inopties"
 
 msgid "Use This Plugin"
-msgstr "Gebruik deze plugin"
+msgstr "Deze plug-in gebruiken"
 
 msgid "Search Compiz Core Options"
-msgstr "Doorzoek de Compiz Core opties"
+msgstr "Compiz Core-opties doorzoeken"
 
 msgid "Error"
 msgstr "Fout"
@@ -356,11 +361,11 @@ msgid ""
 "Click the keyboard image to grab a key for which to search."
 msgstr ""
 "Voer een filter in.\n"
-"Klik op de toetsenbord afbeelding om een toets te selecteren waarop wordt "
-"gezocht."
+"Klik op de toetsenbordafbeelding om een toets te selecteren waarnaar gezocht "
+"moet worden."
 
 msgid "Search in..."
-msgstr "Zoeken in..."
+msgstr "Zoeken in…"
 
 #. Options
 msgid "Short description and name"
@@ -382,15 +387,14 @@ msgstr "Subgroep"
 msgid "Settings"
 msgstr "Instellingen"
 
-# --- mahler: Het is waarschijnlijk dat dit een laadmelding is.
 msgid "Loading Advanced Search"
-msgstr "Laden geavanceerd zoeken"
+msgstr "Geavanceerd zoeken laden"
 
 msgid "Add a New Profile"
-msgstr "Voeg nieuw profiel toe"
+msgstr "Een nieuw profiel toevoegen"
 
 msgid "Remove This Profile"
-msgstr "Verwijder dit profiel"
+msgstr "Dit profiel verwijderen"
 
 msgid "Default"
 msgstr "Standaard"
@@ -402,22 +406,22 @@ msgid "Import"
 msgstr "Importeren"
 
 msgid "Import a CompizConfig Profile"
-msgstr "Importeer een CompizConfig profiel"
+msgstr "Een CompizConfig-profiel importeren"
 
 msgid "Import as..."
-msgstr "Importeer als..."
+msgstr "Importeren als…"
 
 msgid "Import a CompizConfig Profile as a new profile"
-msgstr "Importeer een CompizConfig profiel als nieuw profiel"
+msgstr "Een CompizConfig-profiel importeren als nieuw profiel"
 
 msgid "Export"
 msgstr "Exporteren"
 
 msgid "Export your CompizConfig Profile"
-msgstr "Exporteer je CompizConfig profiel"
+msgstr "Uw CompizConfig-profiel exporteren"
 
 msgid "Reset to defaults"
-msgstr "Standaard waarden herstellen"
+msgstr "Standaardwaarden herstellen"
 
 msgid "Reset your CompizConfig Profile to the global defaults"
 msgstr "CompizConfig profiel herstellen naar standaardwaarden"
@@ -429,7 +433,7 @@ msgid "Integration"
 msgstr "Integratie"
 
 msgid "Enable integration into the desktop environment"
-msgstr "Intergratie met de desktop omgeving aanzetten"
+msgstr "Intergratie met de werkomgeving inschakelen"
 
 msgid "Profiles (*.profile)"
 msgstr "Profielen (*.profile)"
@@ -438,52 +442,53 @@ msgid "All files"
 msgstr "Alle bestanden"
 
 msgid "Save file.."
-msgstr "Bestand opslaan.."
+msgstr "Bestand opslaan…"
 
-msgid "Do you want to skip default option values while exporting your profile?"
+msgid ""
+"Do you want to skip default option values while exporting your profile?"
 msgstr ""
-"Wil je de standaard instellingen overslaan tijdens het exporteren van je "
-"profiel"
+"Wilt u de standaardinstellingen overslaan tijdens het exporteren van uw "
+"profiel?"
 
 msgid "Open file.."
-msgstr "Open bestand.."
+msgstr "Bestand openen…"
 
 msgid "Enter a profile name"
-msgstr "Geef een profiel naam"
+msgstr "Voer een profielnaam in"
 
 msgid "Please enter a name for the new profile:"
-msgstr "Geef een naam voor het nieuwe profiel:"
+msgstr "Voer een naam in voor het nieuwe profiel:"
 
 msgid "Backend not found."
 msgstr "Onderliggend systeem niet gevonden."
 
 #. Auto sort
 msgid "Automatic plugin sorting"
-msgstr "Plugins automatisch sorteren"
+msgstr "Plug-ins automatisch sorteren"
 
 msgid "Disabled Plugins"
-msgstr "Plugins uitschakelen"
+msgstr "Uitgeschakelde plug-ins"
 
 msgid "Enabled Plugins"
-msgstr "Ingeschakelde plugins"
+msgstr "Ingeschakelde plug-ins"
 
 msgid ""
 "Do you really want to disable automatic plugin sorting? This will also "
 "disable conflict handling. You should only do this if you know what you are "
 "doing."
 msgstr ""
-"Weet je het zeker dat je het automatisch sorteren van plugins uit wilt "
-"zetten. Dit zet tevens de conflict waarschuwing uit. Doe dit alleen als je "
-"weet waarmee je bezig bent."
+"Weet u zeker dat u het automatisch sorteren van de plug-ins uit wilt "
+"schakelen. Dit zal tevens de conflictbehandeling uitschakelen. Doe dit "
+"alleen als u weet waarmee u bezig bent."
 
 msgid "Add plugin"
-msgstr "Plugin toevoegen"
+msgstr "Plug-in toevoegen"
 
 msgid "Plugin name:"
-msgstr "Naam plugin:"
+msgstr "Naam plug-in:"
 
 msgid "Insert plugin name"
-msgstr "Invoeren naam plugin"
+msgstr "Invoeren naam plug-in"
 
 msgid "Preferences"
 msgstr "Voorkeuren"
@@ -493,22 +498,22 @@ msgid ""
 "Compiz Configuration System."
 msgstr ""
 "Configureer het onderliggend systeem, profielen en overige interne "
-"instellingen via het Compiz Configuratie Systeem."
+"instellingen die gebruikt worden door het Compiz-configuratiesysteem."
 
 msgid "About"
 msgstr "Info"
 
 msgid "About CCSM..."
-msgstr "Info over CCSM..."
+msgstr "Info over CCSM…"
 
 msgid "Profile & Backend"
 msgstr "Profiel & onderliggend systeem"
 
 msgid "Plugin List"
-msgstr "Lijst plugins"
+msgstr "Plug-inlijst"
 
 msgid "Filter your Plugin list"
-msgstr "Filter je plugin lijst"
+msgstr "Uw plug-inlijst filteren"
 
 #, python-format
 msgid "Screen %i"
@@ -531,47 +536,7 @@ msgid ""
 msgstr ""
 "<span size=\"large\"><b>Geen overeenkomsten gevonden.</b> </span><span>\n"
 "\n"
-" Uw filter \"<b>%s</b>\" komt op geen enkel punt overeen.</span>"
+" Uw filter \"<b>%s</b>\" komt met geen enkel item overeen.</span>"
 
 msgid "Configure Compiz with CompizConfig"
-msgstr "Beheer Compiz in met CompizConfig"
-
-#~ msgid "Computing possible conflicts, please wait"
-#~ msgstr ""
-#~ "Bezig met berekenen van mogelijke conflicten. Een ogenblik geduld a.u.b."
-
-#~ msgid "Value (%s)"
-#~ msgstr "Waarde (%s)"
-
-#~ msgid "Value (%(value)s) for %(setting)s"
-#~ msgstr "Waarde (%(value)s) voor %(setting)s:"
-
-#~ msgid "Unhandled list type %s for %s"
-#~ msgstr "Niet afgehandelde type lijst %s for %s"
-
-#~ msgid "Actions"
-#~ msgstr "Acties"
-
-#~ msgid "Name"
-#~ msgstr "Naam"
-
-#~ msgid "Screen Edge"
-#~ msgstr "Scherm rand"
-
-#~ msgid "Button %i"
-#~ msgstr "Knop %i"
-
-#~ msgid "Edge Button"
-#~ msgstr "Rand knop"
-
-#~ msgid "On System Bell"
-#~ msgstr "Bij systeem melding"
-
-#~ msgid "Edit Action: %s"
-#~ msgstr "Wijzig actie: %s"
-
-#~ msgid "Screen Edges"
-#~ msgstr "Scherm randen"
-
-#~ msgid "Reset To Defaults"
-#~ msgstr "Standaardwaarden herstellen"
+msgstr "Compiz instellen met CompizConfig"

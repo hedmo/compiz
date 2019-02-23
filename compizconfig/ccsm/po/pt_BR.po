@@ -11,28 +11,29 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pt_BR-ccsm\n"
 "Report-Msgid-Bugs-To: http://bugs.opencompositing.org\n"
-"POT-Creation-Date: 2009-03-24 08:12+0100\n"
-"PO-Revision-Date: 2009-07-30 23:54+0200\n"
-"Last-Translator: Filipe Guide <filipe_guide@ml.com>\n"
+"POT-Creation-Date: 2009-03-24 12:33+0530\n"
+"PO-Revision-Date: 2017-06-19 21:16+0000\n"
+"Last-Translator: Filipe Guide <Unknown>\n"
 "Language-Team: Portuguese/Brazil <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Pootle 1.1.0\n"
+"X-Launchpad-Export-Date: 2019-02-21 18:44+0000\n"
+"X-Generator: Launchpad (build 18886)\n"
 
 #, python-format
 msgid ""
 "The new value for the %(binding)s binding for the action <b>%(action)s</b> "
-"in plugin <b>%(plugin)s</b> conflicts with the action <b>%(action_conflict)"
-"s</b> of the <b>%(plugin_conflict)s</b> plugin.\n"
-"Do you wish to disable <b>%(action_conflict)s</b> in the <b>%"
-"(plugin_conflict)s</b> plugin?"
+"in plugin <b>%(plugin)s</b> conflicts with the action "
+"<b>%(action_conflict)s</b> of the <b>%(plugin_conflict)s</b> plugin.\n"
+"Do you wish to disable <b>%(action_conflict)s</b> in the "
+"<b>%(plugin_conflict)s</b> plugin?"
 msgstr ""
-"O novo valor de %(binding)s para a ação <b>%(action)s</b> no plugin <b>%"
-"(plugin)s</b> está em conflito com a ação <b>%(action_conflict)s</b> do "
+"O novo valor de %(binding)s para a ação <b>%(action)s</b> no plugin "
+"<b>%(plugin)s</b> está em conflito com a ação <b>%(action_conflict)s</b> do "
 "plugin <b>%(plugin_conflict)s</b>.\n"
-"Você quer desabilitar <b>%(action_conflict)s</b> no plugin <b>%"
-"(plugin_conflict)s</b> ?"
+"Você quer desabilitar <b>%(action_conflict)s</b> no plugin "
+"<b>%(plugin_conflict)s</b> ?"
 
 # Acho que 'Disable' fica melhor traduzido como 'Desativa'
 #, python-format
@@ -76,8 +77,8 @@ msgstr "Não habilita %(feature)s"
 
 #, python-format
 msgid ""
-"You are trying to use the feature <b>%(feature)s</b> which is provided by <b>"
-"%(plugin)s</b>.\n"
+"You are trying to use the feature <b>%(feature)s</b> which is provided by "
+"<b>%(plugin)s</b>.\n"
 "This plugin is currently disabled.\n"
 "Do you wish to enable <b>%(plugin)s</b> so the feature is available?"
 msgstr ""
@@ -113,8 +114,9 @@ msgid ""
 "Plugin <b>%(plugin_conflict)s</b> provides feature <b>%(feature)s</b> which "
 "is also provided by <b>%(plugin)s</b>"
 msgstr ""
-"Conflito:  Plugin <b>%(plugin_conflict)s</b> provê a função <b>%(feature)s</"
-"b> a qual também está sendo provida pelo plugin <b>%(plugin)s</b>"
+"Conflito:  Plugin <b>%(plugin_conflict)s</b> provê a função "
+"<b>%(feature)s</b> a qual também está sendo provida pelo plugin "
+"<b>%(plugin)s</b>"
 
 #, python-format
 msgid "Disable %(plugin_conflict)s"
@@ -328,7 +330,11 @@ msgstr ""
 
 # Não é um campo destinado ao nome do tradutor e sim um campo que tem que ser traduzido.
 msgid "translator-credits"
-msgstr "créditos-tradutor"
+msgstr ""
+"créditos-tradutor\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Filipe Guide https://launchpad.net/~filipe-guide"
 
 msgid "An error has occured"
 msgstr "Ocorreu um erro"
@@ -443,7 +449,8 @@ msgstr "Todos os arquivos"
 msgid "Save file.."
 msgstr "Salvar arquivo.."
 
-msgid "Do you want to skip default option values while exporting your profile?"
+msgid ""
+"Do you want to skip default option values while exporting your profile?"
 msgstr ""
 "Você quer pular os valores de opção padrão enquanto exporta o seu perfil?"
 
@@ -537,46 +544,3 @@ msgstr ""
 
 msgid "Configure Compiz with CompizConfig"
 msgstr "Configurar o Compiz com o CompizConfig"
-
-#~ msgid "Computing possible conflicts, please wait"
-#~ msgstr "Verificando possíveis conflitos, por favor aguarde"
-
-#~ msgid "Value (%s)"
-#~ msgstr "Valor (%s)"
-
-#~ msgid "Value (%(value)s) for %(setting)s"
-#~ msgstr "Valor (%(value)s) para %(setting)s:"
-
-#, fuzzy
-#~ msgid "Unhandled list type %s for %s"
-#~ msgstr "%s : Tipo não tratado por %s"
-
-#~ msgid "Actions"
-#~ msgstr "Ações"
-
-#~ msgid "Disable %s"
-#~ msgstr "deshabilitar %s"
-
-#~ msgid "Name"
-#~ msgstr "Nome"
-
-#~ msgid "Screen Edge"
-#~ msgstr "Canto da Telha"
-
-#~ msgid "Button %i"
-#~ msgstr "Botão no. %i do Rato"
-
-#~ msgid "Edge Button"
-#~ msgstr "Botão atribuido ao canto da telha"
-
-#~ msgid "On System Bell"
-#~ msgstr "Ao tocar a Campainha"
-
-#~ msgid "Edit Action: %s"
-#~ msgstr "Editar Ação: %s"
-
-#~ msgid "Screen Edges"
-#~ msgstr "Cantos da Telha"
-
-#~ msgid "Reset To Defaults"
-#~ msgstr "Voltar aos valores-padrão"

@@ -8,28 +8,29 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ccsm 0.5.2\n"
 "Report-Msgid-Bugs-To: http://bugs.opencompositing.org\n"
-"POT-Creation-Date: 2009-03-24 08:12+0100\n"
-"PO-Revision-Date: 2008-12-14 10:57+0100\n"
-"Last-Translator: Brusnica P <pepino@pobox.sk>\n"
+"POT-Creation-Date: 2009-03-24 12:33+0530\n"
+"PO-Revision-Date: 2017-06-19 21:16+0000\n"
+"Last-Translator: pepino <Unknown>\n"
 "Language-Team: SLOVAK <sk.cfteam@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Pootle 1.1.0\n"
+"X-Launchpad-Export-Date: 2019-02-21 18:44+0000\n"
+"X-Generator: Launchpad (build 18886)\n"
 
 #, python-format
 msgid ""
 "The new value for the %(binding)s binding for the action <b>%(action)s</b> "
-"in plugin <b>%(plugin)s</b> conflicts with the action <b>%(action_conflict)"
-"s</b> of the <b>%(plugin_conflict)s</b> plugin.\n"
-"Do you wish to disable <b>%(action_conflict)s</b> in the <b>%"
-"(plugin_conflict)s</b> plugin?"
+"in plugin <b>%(plugin)s</b> conflicts with the action "
+"<b>%(action_conflict)s</b> of the <b>%(plugin_conflict)s</b> plugin.\n"
+"Do you wish to disable <b>%(action_conflict)s</b> in the "
+"<b>%(plugin_conflict)s</b> plugin?"
 msgstr ""
 "Nová hodnota pre %(binding)s väzby na operáciu <b>%(action)s</b> v zásuvnom "
-"module <b>%(plugin)s</b> je v konflikte s operáciou <b>%(action_conflict)s</"
-"b> zásuvného modulu <b>%(plugin_conflict)s</b>.\n"
-"Želáte si vypnúť <b>%(action_conflict)s</b> v zásuvnom module <b>%"
-"(plugin_conflict)s</b> plugin?"
+"module <b>%(plugin)s</b> je v konflikte s operáciou "
+"<b>%(action_conflict)s</b> zásuvného modulu <b>%(plugin_conflict)s</b>.\n"
+"Želáte si vypnúť <b>%(action_conflict)s</b> v zásuvnom module "
+"<b>%(plugin_conflict)s</b> plugin?"
 
 #, python-format
 msgid "Disable %(action_conflict)s"
@@ -72,13 +73,13 @@ msgstr "Nepoužiť %(feature)s"
 
 #, python-format
 msgid ""
-"You are trying to use the feature <b>%(feature)s</b> which is provided by <b>"
-"%(plugin)s</b>.\n"
+"You are trying to use the feature <b>%(feature)s</b> which is provided by "
+"<b>%(plugin)s</b>.\n"
 "This plugin is currently disabled.\n"
 "Do you wish to enable <b>%(plugin)s</b> so the feature is available?"
 msgstr ""
-"Práve sa pokúšate použiť funkciu <b>%(feature)s</b> ktorú poskytuje <b>%"
-"(plugin)s</b>.\n"
+"Práve sa pokúšate použiť funkciu <b>%(feature)s</b> ktorú poskytuje "
+"<b>%(plugin)s</b>.\n"
 "Tento zásuvný modul je momentálne vypnutý.\n"
 "Želáte si zapnúť <b>%(plugin)s</b> aby bola funkcia k dispozícii?"
 
@@ -109,8 +110,8 @@ msgid ""
 "Plugin <b>%(plugin_conflict)s</b> provides feature <b>%(feature)s</b> which "
 "is also provided by <b>%(plugin)s</b>"
 msgstr ""
-"Zásuvný modul <b>%(plugin_conflict)s</b> poskytuje funkcionalitu <b>%"
-"(feature)s</b>, ktorú poskytuje aj <b>%(plugin)s</b>"
+"Zásuvný modul <b>%(plugin_conflict)s</b> poskytuje funkcionalitu "
+"<b>%(feature)s</b>, ktorú poskytuje aj <b>%(plugin)s</b>"
 
 #, python-format
 msgid "Disable %(plugin_conflict)s"
@@ -322,7 +323,10 @@ msgstr "Toto je správca nastavení konfiguračného systému CompizConfig."
 msgid "translator-credits"
 msgstr ""
 "prekladatelia-zásluhy ivan masár &lt; helix84 at centrum.sk &lt; , 2008, "
-"pepino &lt; sk.cfteam at gmail.com &gt; , 2007"
+"pepino &lt; sk.cfteam at gmail.com &gt; , 2007\n"
+"\n"
+"Launchpad Contributions:\n"
+"  pepino https://launchpad.net/~pepino"
 
 msgid "An error has occured"
 msgstr "Vyskytla sa chyba"
@@ -437,7 +441,8 @@ msgstr "Všetky súbory"
 msgid "Save file.."
 msgstr "Uložiť súbor.."
 
-msgid "Do you want to skip default option values while exporting your profile?"
+msgid ""
+"Do you want to skip default option values while exporting your profile?"
 msgstr "Prajete si preskočiť štandardné hodnoty volieb pri exporte profilu?"
 
 msgid "Open file.."
@@ -529,43 +534,3 @@ msgstr ""
 
 msgid "Configure Compiz with CompizConfig"
 msgstr "Nastav Compiz s pomocou CompizConfig"
-
-#~ msgid "Computing possible conflicts, please wait"
-#~ msgstr "Prebieha hľadanie možných konfliktov, prosím počkajte"
-
-#~ msgid "Value (%s)"
-#~ msgstr "Hodnota (%s)"
-
-#, fuzzy
-#~ msgid "Value (%(value)s) for %(setting)s"
-#~ msgstr "Hodnota (%s) pre %s"
-
-#~ msgid "Unhandled list type %s for %s"
-#~ msgstr "Nezmenený zoznam typ %s pre %s"
-
-#~ msgid "Actions"
-#~ msgstr "Akcie"
-
-#~ msgid "Name"
-#~ msgstr "Meno"
-
-#~ msgid "Screen Edge"
-#~ msgstr "Kraj obrazovky"
-
-#~ msgid "Button %i"
-#~ msgstr "Tlačidlo %i"
-
-#~ msgid "Edge Button"
-#~ msgstr "Krajné Tlačidlo"
-
-#~ msgid "On System Bell"
-#~ msgstr "Na systémové upozornenie"
-
-#~ msgid "Edit Action: %s"
-#~ msgstr "Upravovacie Akcie: %s "
-
-#~ msgid "Screen Edges"
-#~ msgstr "Kraje Obrazovky"
-
-#~ msgid "Reset To Defaults"
-#~ msgstr "prestav na prednastavené"

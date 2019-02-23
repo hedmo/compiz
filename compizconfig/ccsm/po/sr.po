@@ -1,0 +1,508 @@
+# Serbian translation for compiz
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the compiz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: compiz\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-03-24 12:33+0530\n"
+"PO-Revision-Date: 2014-10-29 01:16+0000\n"
+"Last-Translator: Саша Петровић <salepetronije@gmail.com>\n"
+"Language-Team: Serbian <sr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2019-02-21 18:44+0000\n"
+"X-Generator: Launchpad (build 18886)\n"
+
+#, python-format
+msgid ""
+"The new value for the %(binding)s binding for the action <b>%(action)s</b> "
+"in plugin <b>%(plugin)s</b> conflicts with the action "
+"<b>%(action_conflict)s</b> of the <b>%(plugin_conflict)s</b> plugin.\n"
+"Do you wish to disable <b>%(action_conflict)s</b> in the "
+"<b>%(plugin_conflict)s</b> plugin?"
+msgstr ""
+
+#, python-format
+msgid "Disable %(action_conflict)s"
+msgstr ""
+
+#, python-format
+msgid "Don't set %(action)s"
+msgstr ""
+
+#, python-format
+msgid "Set %(action)s anyway"
+msgstr ""
+
+msgid "key"
+msgstr ""
+
+msgid "button"
+msgstr "дугме"
+
+msgid "edge"
+msgstr "ивица"
+
+#, python-format
+msgid ""
+"You are trying to use the feature <b>%(feature)s</b> which is <b>not</b> "
+"provided by any plugin.\n"
+"Do you wish to use this feature anyway?"
+msgstr ""
+
+#, python-format
+msgid "Use %(feature)s"
+msgstr ""
+
+#, python-format
+msgid "Don't use %(feature)s"
+msgstr ""
+
+#, python-format
+msgid ""
+"You are trying to use the feature <b>%(feature)s</b> which is provided by "
+"<b>%(plugin)s</b>.\n"
+"This plugin is currently disabled.\n"
+"Do you wish to enable <b>%(plugin)s</b> so the feature is available?"
+msgstr ""
+
+#, python-format
+msgid "Enable %(plugin)s"
+msgstr ""
+
+#, python-format
+msgid "Don't enable %(feature)s"
+msgstr ""
+
+#, python-format
+msgid ""
+"Some %(bindings)s bindings of Plugin <b>%(plugin)s</b> conflict with other "
+"plugins. Do you want to resolve these conflicts?"
+msgstr ""
+
+msgid "Resolve conflicts"
+msgstr "Разреши сукобе"
+
+msgid "Ignore conflicts"
+msgstr "Занемари сукобе"
+
+#, python-format
+msgid ""
+"Plugin <b>%(plugin_conflict)s</b> provides feature <b>%(feature)s</b> which "
+"is also provided by <b>%(plugin)s</b>"
+msgstr ""
+
+#, python-format
+msgid "Disable %(plugin_conflict)s"
+msgstr "Онемогући %(plugin_conflict)s"
+
+#, python-format
+msgid "Don't enable %(plugin)s"
+msgstr "Не омогућавај %(plugin)s"
+
+#, python-format
+msgid "Plugin <b>%(plugin_conflict)s</b> conflicts with <b>%(plugin)s</b>."
+msgstr ""
+"Прикључак <b>%(plugin_conflict)s</b> је у сукобу са <b>%(plugin)s</b>."
+
+#, python-format
+msgid ""
+"<b>%(plugin)s</b> requires feature <b>%(feature)s</b> which is provided by "
+"the following plugins:\n"
+"%(plugin_list)s"
+msgstr ""
+
+msgid "Enable these plugins"
+msgstr "Омогући ове прикључке"
+
+#, python-format
+msgid "<b>%(plugin)s</b> requires the plugin <b>%(require)s</b>."
+msgstr "<b>%(plugin)s</b> захтева прикључак <b>%(require)s</b>."
+
+#, python-format
+msgid "Enable %(require)s"
+msgstr "Омогући %(require)s"
+
+#, python-format
+msgid ""
+"<b>%(plugin)s</b> provides the feature <b>%(feature)s</b> which is required "
+"by the plugins <b>%(plugin_list)s</b>."
+msgstr ""
+
+msgid "Disable these plugins"
+msgstr "Онемогући ове прикључке"
+
+#, python-format
+msgid "Don't disable %(plugin)s"
+msgstr "Не онемогућавај %(plugin)s"
+
+#, python-format
+msgid "<b>%(plugin)s</b> is required by the plugins <b>%(plugin_list)s</b>."
+msgstr ""
+
+msgid "General"
+msgstr "Опште"
+
+msgid "Accessibility"
+msgstr "Приступачност"
+
+msgid "Desktop"
+msgstr "Радна површ"
+
+msgid "Extras"
+msgstr "Додатно"
+
+msgid "Window Management"
+msgstr "Управљање прозорима"
+
+msgid "Effects"
+msgstr "Утисци"
+
+msgid "Image Loading"
+msgstr "Учитавање слика"
+
+msgid "Utility"
+msgstr "Користан алат"
+
+msgid "All"
+msgstr "Све"
+
+msgid "Uncategorized"
+msgstr "Неразврстано"
+
+msgid "N/A"
+msgstr "Нема података"
+
+msgid "Reset setting to the default value"
+msgstr "Враати поставке на подразумеване вредности"
+
+msgid "Edit"
+msgstr "Уреди"
+
+msgid "Multi-list settings. You can double-click a row to edit the values."
+msgstr ""
+"Поставке са више спискова. можете двокликнути на ред ради уређивања "
+"вредности."
+
+#, python-format
+msgid "Edit %s"
+msgstr "Уреди %s"
+
+#, python-format
+msgid "\"%s\" is not a valid shortcut"
+msgstr "„%s“ није исправна пречица"
+
+msgid "Disabled"
+msgstr "Онемогућено"
+
+msgid "Enabled"
+msgstr "Омогућено"
+
+msgid "Grab key combination"
+msgstr "Захвати низ дугмади"
+
+#, python-format
+msgid "\"%s\" is not a valid button"
+msgstr ""
+
+#, python-format
+msgid ""
+"Using Button1 without modifiers can prevent any left click and thus break "
+"your configuration. Do you really want to set \"%s\" button to Button1 ?"
+msgstr ""
+
+#, python-format
+msgid "\"%s\" is not a valid edge mask"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "CompizConfig Settings Manager"
+msgstr "Уредник поставки Компиза"
+
+msgid "Plugin"
+msgstr "Прикључак"
+
+msgid "Please press the new key combination"
+msgstr "Молим, притисните низ дугмади"
+
+msgid "Window Title"
+msgstr "Наслов прозора"
+
+msgid "Window Role"
+msgstr "Улога прозора"
+
+msgid "Window Name"
+msgstr "Име прозора"
+
+msgid "Window Class"
+msgstr "Разред прозора"
+
+msgid "Window Type"
+msgstr "Врста прозора"
+
+msgid "Window ID"
+msgstr "ЛБ прозора"
+
+msgid "And"
+msgstr "И"
+
+msgid "Or"
+msgstr "Или"
+
+msgid "Edit match"
+msgstr "Уреди поклапање"
+
+#. Type
+msgid "Type"
+msgstr "Врста"
+
+#. Value
+msgid "Value"
+msgstr "Вредност"
+
+msgid "Grab"
+msgstr "Ухвати"
+
+#. Relation
+msgid "Relation"
+msgstr "Однос"
+
+#. Invert
+msgid "Invert"
+msgstr "Изврни"
+
+msgid "Browse..."
+msgstr "Разгледај..."
+
+msgid "Images"
+msgstr "Слике"
+
+msgid "File"
+msgstr "Датотека"
+
+msgid "Open directory..."
+msgstr "Отвори фасциклу..."
+
+msgid "Open file..."
+msgstr "Отвори датотеку..."
+
+msgid "This is a settings manager for the CompizConfig configuration system."
+msgstr "Ово је управник поставки за подешавање система Компиза."
+
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Саша Петровић https://launchpad.net/~salepetronije"
+
+msgid "An error has occured"
+msgstr "Десила се грешка"
+
+msgid "Warning"
+msgstr "Упозорење"
+
+#, python-format
+msgid "Enable %s"
+msgstr "Омогући %s"
+
+msgid "Filter"
+msgstr "Пропусник"
+
+#, python-format
+msgid "Search %s Plugin Options"
+msgstr ""
+
+msgid "Use This Plugin"
+msgstr "Користи овај прикључак"
+
+msgid "Search Compiz Core Options"
+msgstr ""
+
+msgid "Error"
+msgstr "Грeшкa"
+
+msgid ""
+"Enter a filter.\n"
+"Click the keyboard image to grab a key for which to search."
+msgstr ""
+"Унесите услов.\n"
+"Кликните на слику тастатуре да би захватили пречицу за којом трагате."
+
+msgid "Search in..."
+msgstr "Тражи у..."
+
+#. Options
+msgid "Short description and name"
+msgstr "Кратки опис и име"
+
+msgid "Long description"
+msgstr "Дужи опис"
+
+msgid "Settings value"
+msgstr "Вредност поставки"
+
+msgid "Group"
+msgstr "Скуп"
+
+msgid "Subgroup"
+msgstr "Подскуп"
+
+#. Notebook
+msgid "Settings"
+msgstr "Поставке"
+
+msgid "Loading Advanced Search"
+msgstr "Учитавам напредну претрагу"
+
+msgid "Add a New Profile"
+msgstr "Додај нови профил"
+
+msgid "Remove This Profile"
+msgstr "Уклони овај профил"
+
+msgid "Default"
+msgstr "Подразумевано"
+
+msgid "Profile"
+msgstr "Профил"
+
+msgid "Import"
+msgstr "Увези"
+
+msgid "Import a CompizConfig Profile"
+msgstr "Увези профил поставки Компиза"
+
+msgid "Import as..."
+msgstr "Увези као..."
+
+msgid "Import a CompizConfig Profile as a new profile"
+msgstr "Увези профил поставки Компиза као нови профил"
+
+msgid "Export"
+msgstr "Извези"
+
+msgid "Export your CompizConfig Profile"
+msgstr "Извези  профил поставки Компиза"
+
+msgid "Reset to defaults"
+msgstr "Врати на подразумевано"
+
+msgid "Reset your CompizConfig Profile to the global defaults"
+msgstr "Врати на подразумеване вредности система профил поставки Компиза"
+
+msgid "Backend"
+msgstr "Позадинац"
+
+msgid "Integration"
+msgstr "Уклапање"
+
+msgid "Enable integration into the desktop environment"
+msgstr "Омогући усклађивање са радним окружењем"
+
+msgid "Profiles (*.profile)"
+msgstr "Профили (*.profile)"
+
+msgid "All files"
+msgstr "Све датотеке"
+
+msgid "Save file.."
+msgstr "Сачувај датотеку.."
+
+msgid ""
+"Do you want to skip default option values while exporting your profile?"
+msgstr ""
+"Да ли желите да прескочите подразумеване вредности приликом извоза свог "
+"профила?"
+
+msgid "Open file.."
+msgstr "Отвори датотеку.."
+
+msgid "Enter a profile name"
+msgstr "Унесите име профила"
+
+msgid "Please enter a name for the new profile:"
+msgstr "Унесите име за нови профил:"
+
+msgid "Backend not found."
+msgstr "Нисам пронашао позадински програм."
+
+#. Auto sort
+msgid "Automatic plugin sorting"
+msgstr "Самостално разврставање прикључака"
+
+msgid "Disabled Plugins"
+msgstr "Онемогући прикључке"
+
+msgid "Enabled Plugins"
+msgstr "Омогући прикључке"
+
+msgid ""
+"Do you really want to disable automatic plugin sorting? This will also "
+"disable conflict handling. You should only do this if you know what you are "
+"doing."
+msgstr ""
+"Да ли заиста желите да онемогућите самостално разврставање прикључака? Тако "
+"ћете онемогућити разрешавање сукоба. Ово се примењује само ако знате шта "
+"радите."
+
+msgid "Add plugin"
+msgstr "Додај прикључак"
+
+msgid "Plugin name:"
+msgstr "Име прикључка:"
+
+msgid "Insert plugin name"
+msgstr "Унесите име прикључка"
+
+msgid "Preferences"
+msgstr "Подешавања"
+
+msgid ""
+"Configure the backend, profile and other internal settings used by the "
+"Compiz Configuration System."
+msgstr ""
+"Подесите позадински програм, профил и остале унутрашње поставке које користи "
+"систем поставки Компиза,"
+
+msgid "About"
+msgstr "О програму"
+
+msgid "About CCSM..."
+msgstr "О ЦЦСМ..."
+
+msgid "Profile & Backend"
+msgstr "Профил и позадински програм"
+
+msgid "Plugin List"
+msgstr ""
+
+msgid "Filter your Plugin list"
+msgstr ""
+
+#, python-format
+msgid "Screen %i"
+msgstr "Екран %i"
+
+msgid "Screen"
+msgstr "Екран"
+
+msgid "Category"
+msgstr "Врста"
+
+msgid "Advanced Search"
+msgstr "Напредна претрага"
+
+#, python-format
+msgid ""
+"<span size=\"large\"><b>No matches found.</b> </span><span>\n"
+"\n"
+" Your filter \"<b>%s</b>\" does not match any items.</span>"
+msgstr ""
+
+msgid "Configure Compiz with CompizConfig"
+msgstr ""

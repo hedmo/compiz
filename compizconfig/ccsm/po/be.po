@@ -1,27 +1,28 @@
-# ccsm be translation 
+# ccsm be translation
 # Copyright (C) 2008 compiz-fusion.org
 # This file is distributed under the same license as the ccsm package.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.7.4\n"
 "Report-Msgid-Bugs-To: http://bugs.opencompositing.org\n"
-"POT-Creation-Date: 2008-04-03 11:00+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-03-24 12:33+0530\n"
+"PO-Revision-Date: 2012-07-02 12:03+0000\n"
+"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2019-02-21 18:44+0000\n"
+"X-Generator: Launchpad (build 18886)\n"
 
 #, python-format
 msgid ""
 "The new value for the %(binding)s binding for the action <b>%(action)s</b> "
-"in plugin <b>%(plugin)s</b> conflicts with the action <b>%(action_conflict)"
-"s</b> of the <b>%(plugin_conflict)s</b> plugin.\n"
-"Do you wish to disable <b>%(action_conflict)s</b> in the <b>%"
-"(plugin_conflict)s</b> plugin?"
+"in plugin <b>%(plugin)s</b> conflicts with the action "
+"<b>%(action_conflict)s</b> of the <b>%(plugin_conflict)s</b> plugin.\n"
+"Do you wish to disable <b>%(action_conflict)s</b> in the "
+"<b>%(plugin_conflict)s</b> plugin?"
 msgstr ""
 
 #, python-format
@@ -34,6 +35,15 @@ msgstr ""
 
 #, python-format
 msgid "Set %(action)s anyway"
+msgstr ""
+
+msgid "key"
+msgstr ""
+
+msgid "button"
+msgstr ""
+
+msgid "edge"
 msgstr ""
 
 #, python-format
@@ -53,8 +63,8 @@ msgstr ""
 
 #, python-format
 msgid ""
-"You are trying to use the feature <b>%(feature)s</b> which is provided by <b>"
-"%(plugin)s</b>.\n"
+"You are trying to use the feature <b>%(feature)s</b> which is provided by "
+"<b>%(plugin)s</b>.\n"
 "This plugin is currently disabled.\n"
 "Do you wish to enable <b>%(plugin)s</b> so the feature is available?"
 msgstr ""
@@ -65,6 +75,18 @@ msgstr ""
 
 #, python-format
 msgid "Don't enable %(feature)s"
+msgstr ""
+
+#, python-format
+msgid ""
+"Some %(bindings)s bindings of Plugin <b>%(plugin)s</b> conflict with other "
+"plugins. Do you want to resolve these conflicts?"
+msgstr ""
+
+msgid "Resolve conflicts"
+msgstr ""
+
+msgid "Ignore conflicts"
 msgstr ""
 
 #, python-format
@@ -150,6 +172,9 @@ msgstr ""
 msgid "Uncategorized"
 msgstr ""
 
+msgid "N/A"
+msgstr ""
+
 msgid "Reset setting to the default value"
 msgstr ""
 
@@ -176,9 +201,6 @@ msgstr ""
 msgid "Grab key combination"
 msgstr ""
 
-msgid "Computing possible conflicts, please wait"
-msgstr ""
-
 #, python-format
 msgid "\"%s\" is not a valid button"
 msgstr ""
@@ -197,32 +219,6 @@ msgid "None"
 msgstr ""
 
 msgid "CompizConfig Settings Manager"
-msgstr ""
-
-msgid "Filter"
-msgstr ""
-
-msgid "Filter your Plugin list"
-msgstr ""
-
-#, python-format
-msgid "Screen %i"
-msgstr ""
-
-msgid "Screen"
-msgstr ""
-
-msgid "Category"
-msgstr ""
-
-msgid "Advanced Search"
-msgstr ""
-
-msgid "Preferences"
-msgstr ""
-
-#, python-format
-msgid "Enable %s"
 msgstr ""
 
 msgid "Plugin"
@@ -302,6 +298,13 @@ msgid "An error has occured"
 msgstr ""
 
 msgid "Warning"
+msgstr ""
+
+#, python-format
+msgid "Enable %s"
+msgstr ""
+
+msgid "Filter"
 msgstr ""
 
 #, python-format
@@ -402,7 +405,8 @@ msgstr ""
 msgid "Save file.."
 msgstr ""
 
-msgid "Do you want to skip default option values while exporting your profile?"
+msgid ""
+"Do you want to skip default option values while exporting your profile?"
 msgstr ""
 
 msgid "Open file.."
@@ -442,6 +446,9 @@ msgstr ""
 msgid "Insert plugin name"
 msgstr ""
 
+msgid "Preferences"
+msgstr ""
+
 msgid ""
 "Configure the backend, profile and other internal settings used by the "
 "Compiz Configuration System."
@@ -459,9 +466,28 @@ msgstr ""
 msgid "Plugin List"
 msgstr ""
 
+msgid "Filter your Plugin list"
+msgstr ""
+
+#, python-format
+msgid "Screen %i"
+msgstr ""
+
+msgid "Screen"
+msgstr ""
+
+msgid "Category"
+msgstr ""
+
+msgid "Advanced Search"
+msgstr ""
+
 #, python-format
 msgid ""
 "<span size=\"large\"><b>No matches found.</b> </span><span>\n"
 "\n"
 " Your filter \"<b>%s</b>\" does not match any items.</span>"
+msgstr ""
+
+msgid "Configure Compiz with CompizConfig"
 msgstr ""

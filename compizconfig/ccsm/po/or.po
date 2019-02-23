@@ -2,28 +2,29 @@
 # by
 # Roman Luchak <marszcziwski@gmail.com>, 2009.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.opencompositing.org\n"
-"POT-Creation-Date: 2009-03-24 08:12+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-03-24 12:33+0530\n"
+"PO-Revision-Date: 2017-06-19 21:15+0000\n"
+"Last-Translator: Iain Lane <iain@orangesquash.org.uk>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Oriya\n"
+"X-Launchpad-Export-Date: 2019-02-21 18:44+0000\n"
+"X-Generator: Launchpad (build 18886)\n"
 "X-Poedit-Country: India\n"
+"X-Poedit-Language: Oriya\n"
 
 #, python-format
 msgid ""
 "The new value for the %(binding)s binding for the action <b>%(action)s</b> "
-"in plugin <b>%(plugin)s</b> conflicts with the action <b>%(action_conflict)"
-"s</b> of the <b>%(plugin_conflict)s</b> plugin.\n"
-"Do you wish to disable <b>%(action_conflict)s</b> in the <b>%"
-"(plugin_conflict)s</b> plugin?"
+"in plugin <b>%(plugin)s</b> conflicts with the action "
+"<b>%(action_conflict)s</b> of the <b>%(plugin_conflict)s</b> plugin.\n"
+"Do you wish to disable <b>%(action_conflict)s</b> in the "
+"<b>%(plugin_conflict)s</b> plugin?"
 msgstr ""
 
 #, python-format
@@ -32,9 +33,8 @@ msgstr "ଅକ୍ଷମକର %(action_conflict)s"
 
 #, python-format
 msgid "Don't set %(action)s"
-msgstr " %(action)sଗୁଡିକୁ ସ୍ଥିର କରନାହିଁ"
+msgstr "%(action)sଗୁଡିକୁ ସ୍ଥିର କରନାହିଁ"
 
-#, python-format
 #, python-format
 msgid "Set %(action)s anyway"
 msgstr ""
@@ -65,15 +65,15 @@ msgstr "%(feature)s ଉପୟୋଗ କର ନାହିଁ"
 
 #, python-format
 msgid ""
-"You are trying to use the feature <b>%(feature)s</b> which is provided by <b>"
-"%(plugin)s</b>.\n"
+"You are trying to use the feature <b>%(feature)s</b> which is provided by "
+"<b>%(plugin)s</b>.\n"
 "This plugin is currently disabled.\n"
 "Do you wish to enable <b>%(plugin)s</b> so the feature is available?"
 msgstr ""
 
 #, python-format
 msgid "Enable %(plugin)s"
-msgstr " %(plugin)s କୁ ସକ୍ଷମକର"
+msgstr "%(plugin)s କୁ ସକ୍ଷମକର"
 
 #, python-format
 msgid "Don't enable %(feature)s"
@@ -98,11 +98,9 @@ msgid ""
 msgstr ""
 
 #, python-format
-#, python-format
 msgid "Disable %(plugin_conflict)s"
 msgstr ""
 
-#, python-format
 #, python-format
 msgid "Don't enable %(plugin)s"
 msgstr ""
@@ -126,7 +124,6 @@ msgid "<b>%(plugin)s</b> requires the plugin <b>%(require)s</b>."
 msgstr ""
 
 #, python-format
-#, python-format
 msgid "Enable %(require)s"
 msgstr ""
 
@@ -141,7 +138,7 @@ msgstr "ଏହି ପ୍ଲଗଇନଗୁଡିକୁ ଅକ୍ଷମକର"
 
 #, python-format
 msgid "Don't disable %(plugin)s"
-msgstr " %(plugin)s କୁ ଅକ୍ଷମକର ନାହିଁ"
+msgstr "%(plugin)s କୁ ଅକ୍ଷମକର ନାହିଁ"
 
 #, python-format
 msgid "<b>%(plugin)s</b> is required by the plugins <b>%(plugin_list)s</b>."
@@ -188,7 +185,8 @@ msgstr "ସଂପାଦନକର"
 
 msgid "Multi-list settings. You can double-click a row to edit the values."
 msgstr ""
-"ବହୁ-ତାଲିକା ସେଟିଙ୍ଗଗୁଡିକ । ମୂଲ୍ଯଗୁଡିକୁ ସଂପାଦନ କରିବା ପାଇଁ ଆପଣ ଗୋଟିଏ ଧାଡିରେ ଦୁଇଥର କ୍ଲିକ କରିପାରିବେ ।"
+"ବହୁ-ତାଲିକା ସେଟିଙ୍ଗଗୁଡିକ । ମୂଲ୍ଯଗୁଡିକୁ ସଂପାଦନ କରିବା ପାଇଁ ଆପଣ ଗୋଟିଏ ଧାଡିରେ "
+"ଦୁଇଥର କ୍ଲିକ କରିପାରିବେ ।"
 
 #, python-format
 msgid "Edit %s"
@@ -216,8 +214,9 @@ msgid ""
 "Using Button1 without modifiers can prevent any left click and thus break "
 "your configuration. Do you really want to set \"%s\" button to Button1 ?"
 msgstr ""
-"ପରିବର୍ତ୍ତକଗୁଡିକ ବିନା ବଟନ 1 କୁ ଉପୟୋଗ କରିବା ୟେ କୌଣସି ବାମ କ୍ଲିକକୁ ବାଧା ଦେଇପାରିବ ଏବଂ ଏମିତି "
-"ଆପଣଙ୍କର କନଫିଗରେସନ ଭାଙ୍ଗିୟିବ । ଆପଣ ପ୍ରକୃତରେ \"%s\" ବଟନକୁ ବଟନ1କୁ ସ୍ଥିର କରିବାକୁ ଚାହାଁନ୍ତି କି ?"
+"ପରିବର୍ତ୍ତକଗୁଡିକ ବିନା ବଟନ 1 କୁ ଉପୟୋଗ କରିବା ୟେ କୌଣସି ବାମ କ୍ଲିକକୁ ବାଧା ଦେଇପାରିବ "
+"ଏବଂ ଏମିତି ଆପଣଙ୍କର କନଫିଗରେସନ ଭାଙ୍ଗିୟିବ । ଆପଣ ପ୍ରକୃତରେ \"%s\" ବଟନକୁ ବଟନ1କୁ "
+"ସ୍ଥିର କରିବାକୁ ଚାହାଁନ୍ତି କି ?"
 
 #, python-format
 msgid "\"%s\" is not a valid edge mask"
@@ -268,7 +267,7 @@ msgstr "ପ୍ରକାର"
 
 #. Value
 msgid "Value"
-msgstr " ମୂଲ୍ଯ"
+msgstr "ମୂଲ୍ଯ"
 
 msgid "Grab"
 msgstr "ଟାଣିନିଅ"
@@ -300,7 +299,11 @@ msgid "This is a settings manager for the CompizConfig configuration system."
 msgstr "କମ୍ପିଜକନଫିଗ କନଫିଗରେସନ ସିଷ୍ଟମ ପାଇଁ ଏହା ଗୋଟିଏ ସେଟିଙ୍ଗ ପ୍ରବନ୍ଧକ ଅଟେ ।"
 
 msgid "translator-credits"
-msgstr "ଅନୁବାଦକ - ଶ୍ରେଯଗୁଡିକ"
+msgstr ""
+"ଅନୁବାଦକ - ଶ୍ରେଯଗୁଡିକ\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Didier Roche https://launchpad.net/~didrocks"
 
 msgid "An error has occured"
 msgstr "ଗୋଟିଏ ତ୍ରୁଟି ଘଟିଛି"
@@ -393,7 +396,7 @@ msgid "Reset to defaults"
 msgstr "ଡିଫଲ୍ଟଗୁଡିକୁ ପୁନଃସ୍ଥିର କର"
 
 msgid "Reset your CompizConfig Profile to the global defaults"
-msgstr "ବିଶ୍ବଗତ ଡିଫଲ୍ଟକୁ ଆପଣଙ୍କର କମ୍ପିଜକନଫିଗ ପ୍ରୋଫାଇଲକୁ ପୁନଃସ୍ଥିର କରନ୍ତୁ "
+msgstr "ବିଶ୍ବଗତ ଡିଫଲ୍ଟକୁ ଆପଣଙ୍କର କମ୍ପିଜକନଫିଗ ପ୍ରୋଫାଇଲକୁ ପୁନଃସ୍ଥିର କରନ୍ତୁ"
 
 msgid "Backend"
 msgstr "ବ୍ଯାକଏଣ୍ଡ"
@@ -413,8 +416,11 @@ msgstr "ସବୁ ଫାଇଲଗୁଡିକ"
 msgid "Save file.."
 msgstr "ଫାଇଲ ସଂଚଯକର"
 
-msgid "Do you want to skip default option values while exporting your profile?"
-msgstr "ଆପଣଙ୍କର ପ୍ରୋଫାଇଲକୁ ରପ୍ତାନୀ କରିବା ବେଳେ ଡିଫଲ୍ଟ ବିକଳ୍ପ ମୂଲ୍ଯକୁ ବାଦ ଦେବାକୁ ଚାହାଁନ୍ତି କି ?"
+msgid ""
+"Do you want to skip default option values while exporting your profile?"
+msgstr ""
+"ଆପଣଙ୍କର ପ୍ରୋଫାଇଲକୁ ରପ୍ତାନୀ କରିବା ବେଳେ ଡିଫଲ୍ଟ ବିକଳ୍ପ ମୂଲ୍ଯକୁ ବାଦ ଦେବାକୁ "
+"ଚାହାଁନ୍ତି କି ?"
 
 msgid "Open file.."
 msgstr "ଫାଇଲ ଖୋଲ ..."
@@ -433,7 +439,7 @@ msgid "Automatic plugin sorting"
 msgstr "ସ୍ବଯଂଚାଳିତ ପ୍ଲଗଇନ ସଜାଇବା"
 
 msgid "Disabled Plugins"
-msgstr "ଅକ୍ଷମହୋଇଥିବା ପ୍ଲଗଇନଗୁଡିକୁ "
+msgstr "ଅକ୍ଷମହୋଇଥିବା ପ୍ଲଗଇନଗୁଡିକୁ"
 
 msgid "Enabled Plugins"
 msgstr "ସକ୍ଷମହୋଇଥିବା ପ୍ଲଗଇନଗୁଡିକ"
@@ -443,8 +449,9 @@ msgid ""
 "disable conflict handling. You should only do this if you know what you are "
 "doing."
 msgstr ""
-"ଆପଣ ସ୍ବଯଂଚାଳିତ ପ୍ଲଗଇନ ସଜାଇବାକୁ ପ୍ରକୃତରେ ଅକ୍ଷମ କରିବାକୁ ଚାହାଁନ୍ତି କି ? ଏହା ଦ୍ବନ୍ଦ ପରିଚାଳନାକୁ "
-"ମଧ୍ଯ ଅକ୍ଷମ କରିଦେବ । ୟଦି ଆପଣ ଜାଣିଛନ୍ତି, କଣ ଆପଣ କରୁଛନ୍ତି ତେବେ ୟାଇ ଏହା କରିବା ଉଚିତ ।"
+"ଆପଣ ସ୍ବଯଂଚାଳିତ ପ୍ଲଗଇନ ସଜାଇବାକୁ ପ୍ରକୃତରେ ଅକ୍ଷମ କରିବାକୁ ଚାହାଁନ୍ତି କି ? ଏହା "
+"ଦ୍ବନ୍ଦ ପରିଚାଳନାକୁ ମଧ୍ଯ ଅକ୍ଷମ କରିଦେବ । ୟଦି ଆପଣ ଜାଣିଛନ୍ତି, କଣ ଆପଣ କରୁଛନ୍ତି "
+"ତେବେ ୟାଇ ଏହା କରିବା ଉଚିତ ।"
 
 msgid "Add plugin"
 msgstr "ପ୍ଲଗଇନ ୟୋଗକର"
@@ -462,14 +469,14 @@ msgid ""
 "Configure the backend, profile and other internal settings used by the "
 "Compiz Configuration System."
 msgstr ""
-"କମ୍ପିଜ କନଫିଗରେସନ ସିଷ୍ଟମ ଦ୍ବାରା ଉପୟୋଗ ହେଉଥିବା ବ୍ଯାକଏଣ୍ଡ, ପ୍ରୋଫାଇଲ ଏବଂ ଅନ୍ଯ ଅନ୍ତବର୍ତ୍ତୀ "
-"ସେଟିଙ୍ଗଗୁଡିକୁ କନଫିଗର କରନ୍ତୁ ।"
+"କମ୍ପିଜ କନଫିଗରେସନ ସିଷ୍ଟମ ଦ୍ବାରା ଉପୟୋଗ ହେଉଥିବା ବ୍ଯାକଏଣ୍ଡ, ପ୍ରୋଫାଇଲ ଏବଂ ଅନ୍ଯ "
+"ଅନ୍ତବର୍ତ୍ତୀ ସେଟିଙ୍ଗଗୁଡିକୁ କନଫିଗର କରନ୍ତୁ ।"
 
 msgid "About"
 msgstr "ବିଷଯରେ"
 
 msgid "About CCSM..."
-msgstr " CCSM ବିଷଯରେ..."
+msgstr "CCSM ବିଷଯରେ..."
 
 msgid "Profile & Backend"
 msgstr "ପ୍ରୋଫାଇଲ & ବ୍ଯାକଏଣ୍ଡ"
@@ -478,7 +485,7 @@ msgid "Plugin List"
 msgstr "ପ୍ଲଗଇନ ତାଲିକା"
 
 msgid "Filter your Plugin list"
-msgstr "ଆପଣଙ୍କର ପ୍ଲଗଇନ ତାଲିକାକୁ ଫିଲ୍ଟର କରନ୍ତୁ "
+msgstr "ଆପଣଙ୍କର ପ୍ଲଗଇନ ତାଲିକାକୁ ଫିଲ୍ଟର କରନ୍ତୁ"
 
 #, python-format
 msgid "Screen %i"
@@ -505,15 +512,3 @@ msgstr ""
 
 msgid "Configure Compiz with CompizConfig"
 msgstr ""
-
-#~ msgid "Computing possible conflicts, please wait"
-#~ msgstr "ସମ୍ଭାବିତ ଦ୍ବନ୍ଦଗୁଡିକୁ ଗଣନା କରୁଛି, ଦଯାକରି ଅପେକ୍ଷା କରନ୍ତୁ"
-
-#~ msgid "Value (%s)"
-#~ msgstr "ମୂଲ୍ଯ (%s)"
-
-#~ msgid "Unhandled list type %s for %s"
-#~ msgstr "ଅପରିଚାଳିତ ତାଲିକା ପ୍ରକାର %s ପାଇଁ %s"
-
-#~ msgid "Actions"
-#~ msgstr "କାର୍ୟ୍ଯଗୁଡିକ"

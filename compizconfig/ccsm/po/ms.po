@@ -1,0 +1,533 @@
+# Malay translation for compiz
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the compiz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: compiz\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-03-24 12:33+0530\n"
+"PO-Revision-Date: 2012-08-20 03:40+0000\n"
+"Last-Translator: abuyop <Unknown>\n"
+"Language-Team: Malay <ms@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2019-02-21 18:44+0000\n"
+"X-Generator: Launchpad (build 18886)\n"
+
+#, python-format
+msgid ""
+"The new value for the %(binding)s binding for the action <b>%(action)s</b> "
+"in plugin <b>%(plugin)s</b> conflicts with the action "
+"<b>%(action_conflict)s</b> of the <b>%(plugin_conflict)s</b> plugin.\n"
+"Do you wish to disable <b>%(action_conflict)s</b> in the "
+"<b>%(plugin_conflict)s</b> plugin?"
+msgstr ""
+"Nilai baru pengikatan %(binding)s untuk tindakan <b>%(action)s</b> dalam "
+"pemalam <b>%(plugin)s</b> berkonflik dengan tindakan "
+"<b>%(action_conflict)s</b> pemalam <b>%(plugin_conflict)s</b>.\n"
+"Anda hendak lumpuhkan <b>%(action_conflict)s</b> dalam pemalam "
+"<b>%(plugin_conflict)s</b>?"
+
+#, python-format
+msgid "Disable %(action_conflict)s"
+msgstr "Lumpuhkan %(action_conflict)s"
+
+#, python-format
+msgid "Don't set %(action)s"
+msgstr "Jangan tetapkan %(action)s"
+
+#, python-format
+msgid "Set %(action)s anyway"
+msgstr "Tetapkan %(action)s jua"
+
+msgid "key"
+msgstr "kunci"
+
+msgid "button"
+msgstr "butang"
+
+msgid "edge"
+msgstr "pinggir"
+
+#, python-format
+msgid ""
+"You are trying to use the feature <b>%(feature)s</b> which is <b>not</b> "
+"provided by any plugin.\n"
+"Do you wish to use this feature anyway?"
+msgstr ""
+"Anda sedang cuba gunakan fitur <b>%(feature)s</b> yang mana <b>tidak</b> "
+"disediakan oleh mana-mana pemalam.\n"
+"Anda hendak guna fitur ini jua?"
+
+#, python-format
+msgid "Use %(feature)s"
+msgstr "Guna %(feature)s"
+
+#, python-format
+msgid "Don't use %(feature)s"
+msgstr "Jangan guna %(feature)s"
+
+#, python-format
+msgid ""
+"You are trying to use the feature <b>%(feature)s</b> which is provided by "
+"<b>%(plugin)s</b>.\n"
+"This plugin is currently disabled.\n"
+"Do you wish to enable <b>%(plugin)s</b> so the feature is available?"
+msgstr ""
+"Anda sedang cuba guna fitur <b>%(feature)s</b> yang disediakan oleh "
+"<b>%(plugin)s</b>.\n"
+"Pemalam ini buat masa ini dilumpuhkan.\n"
+"Anda hendak benarkan <b>%(plugin)s</b> supaya fitur tersedia?"
+
+#, python-format
+msgid "Enable %(plugin)s"
+msgstr "Benarkan %(plugin)s"
+
+#, python-format
+msgid "Don't enable %(feature)s"
+msgstr "Jangan benarkan %(feature)s"
+
+#, python-format
+msgid ""
+"Some %(bindings)s bindings of Plugin <b>%(plugin)s</b> conflict with other "
+"plugins. Do you want to resolve these conflicts?"
+msgstr ""
+"Beberapa pengikatan %(bindings)s Pemalam <b>%(plugin)s</b> berkonflik dengan "
+"pemalam lain. Anda hendak leraikan konflik ini?"
+
+msgid "Resolve conflicts"
+msgstr "Lerai konflik"
+
+msgid "Ignore conflicts"
+msgstr "Abai konflik"
+
+#, python-format
+msgid ""
+"Plugin <b>%(plugin_conflict)s</b> provides feature <b>%(feature)s</b> which "
+"is also provided by <b>%(plugin)s</b>"
+msgstr ""
+"Pemalam <b>%(plugin_conflict)s</b> menyediakan fitur <b>%(feature)s</b> yang "
+"juga disediakan oleh <b>%(plugin)s</b>"
+
+#, python-format
+msgid "Disable %(plugin_conflict)s"
+msgstr "Lumpuhkan %(plugin_conflict)s"
+
+#, python-format
+msgid "Don't enable %(plugin)s"
+msgstr "Jangan benarkan %(plugin)s"
+
+#, python-format
+msgid "Plugin <b>%(plugin_conflict)s</b> conflicts with <b>%(plugin)s</b>."
+msgstr ""
+"Pemalam <b>%(plugin_conflict)s</b> berkonfliks dengan <b>%(plugin)s</b>."
+
+#, python-format
+msgid ""
+"<b>%(plugin)s</b> requires feature <b>%(feature)s</b> which is provided by "
+"the following plugins:\n"
+"%(plugin_list)s"
+msgstr ""
+"<b>%(plugin)s</b> memerlukan fitur <b>%(feature)s</b> yang disediakan oleh "
+"pemalam berikut:\n"
+"%(plugin_list)s"
+
+msgid "Enable these plugins"
+msgstr "Benarkan pemalam ini"
+
+#, python-format
+msgid "<b>%(plugin)s</b> requires the plugin <b>%(require)s</b>."
+msgstr "<b>%(plugin)s</b> memerlukan pemalam <b>%(require)s</b>."
+
+#, python-format
+msgid "Enable %(require)s"
+msgstr "Benarkan %(require)s"
+
+#, python-format
+msgid ""
+"<b>%(plugin)s</b> provides the feature <b>%(feature)s</b> which is required "
+"by the plugins <b>%(plugin_list)s</b>."
+msgstr ""
+"<b>%(plugin)s</b> menyediakan fitur <b>%(feature)s</b> yang diperlukan oleh "
+"pemalam <b>%(plugin_list)s</b>."
+
+msgid "Disable these plugins"
+msgstr "Lumpuhkan pemalam ini"
+
+#, python-format
+msgid "Don't disable %(plugin)s"
+msgstr "Jangan lumpuhkan %(plugin)s"
+
+#, python-format
+msgid "<b>%(plugin)s</b> is required by the plugins <b>%(plugin_list)s</b>."
+msgstr "<b>%(plugin)s</b> diperlukan oleh pemalam <b>%(plugin_list)s</b>."
+
+msgid "General"
+msgstr "Am"
+
+msgid "Accessibility"
+msgstr "Kebolehcapaian"
+
+msgid "Desktop"
+msgstr "Dekstop"
+
+msgid "Extras"
+msgstr "Tambahan"
+
+msgid "Window Management"
+msgstr "Pengurusan Tetingkap"
+
+msgid "Effects"
+msgstr "Kesan"
+
+msgid "Image Loading"
+msgstr "Pemuatan Imej"
+
+msgid "Utility"
+msgstr "Utiliti"
+
+msgid "All"
+msgstr "Semua"
+
+msgid "Uncategorized"
+msgstr "Tidak Dikategorikan"
+
+msgid "N/A"
+msgstr "T/B"
+
+msgid "Reset setting to the default value"
+msgstr "Tetap semula tetapan ke nilai lalai"
+
+msgid "Edit"
+msgstr "Sunting"
+
+msgid "Multi-list settings. You can double-click a row to edit the values."
+msgstr ""
+"Tetapan berbilang-senarai. Anda boleh dwi-klik baris untuk sunting nilainya."
+
+#, python-format
+msgid "Edit %s"
+msgstr "Sunting %s"
+
+#, python-format
+msgid "\"%s\" is not a valid shortcut"
+msgstr "\"%s\" bukanlah pintasan yang sah"
+
+msgid "Disabled"
+msgstr "Dilumpuhkan"
+
+msgid "Enabled"
+msgstr "Dibenarkan"
+
+msgid "Grab key combination"
+msgstr "Gabungan kekunci cekau"
+
+#, python-format
+msgid "\"%s\" is not a valid button"
+msgstr "\"%s\" bukanlah butang yang sah"
+
+#, python-format
+msgid ""
+"Using Button1 without modifiers can prevent any left click and thus break "
+"your configuration. Do you really want to set \"%s\" button to Button1 ?"
+msgstr ""
+"Menggunakan Butang 1 tanpa pengubahsuai boleh menghalang sebarang klik kiri "
+"dan merosakkan konfigurasi anda. Anda hendak tetapkan butang \"%s\" kepada "
+"Butang 1 ?"
+
+#, python-format
+msgid "\"%s\" is not a valid edge mask"
+msgstr "\"%s\" bukanlah topeng pinggir yang sah"
+
+msgid "None"
+msgstr "Tiada"
+
+msgid "CompizConfig Settings Manager"
+msgstr "Pengurus Tetapan CompizConfig"
+
+msgid "Plugin"
+msgstr "Pemalam"
+
+msgid "Please press the new key combination"
+msgstr "Sila tekan gabungan kekunci baru"
+
+msgid "Window Title"
+msgstr "Tajuk Tetingkap"
+
+msgid "Window Role"
+msgstr "Peranan Tetingkap"
+
+msgid "Window Name"
+msgstr "Nama Tetingkap"
+
+msgid "Window Class"
+msgstr "Kelas Tetingkap"
+
+msgid "Window Type"
+msgstr "Jenis Tetingkap"
+
+msgid "Window ID"
+msgstr "ID Tetingkap"
+
+msgid "And"
+msgstr "Dan"
+
+msgid "Or"
+msgstr "Atau"
+
+msgid "Edit match"
+msgstr "Sunting padanan"
+
+#. Type
+msgid "Type"
+msgstr "Jenis"
+
+#. Value
+msgid "Value"
+msgstr "Nilai"
+
+msgid "Grab"
+msgstr "Cekau"
+
+#. Relation
+msgid "Relation"
+msgstr "Hubungan"
+
+#. Invert
+msgid "Invert"
+msgstr "Songsangkan"
+
+msgid "Browse..."
+msgstr "Layar..."
+
+msgid "Images"
+msgstr "Imej"
+
+msgid "File"
+msgstr "Fail"
+
+msgid "Open directory..."
+msgstr "Buka direktori..."
+
+msgid "Open file..."
+msgstr "Buka fail..."
+
+msgid "This is a settings manager for the CompizConfig configuration system."
+msgstr "Ini adalah pengurus tetapan untuk sistem konfigurasi CompizConfig."
+
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  abuyop https://launchpad.net/~abuyop"
+
+msgid "An error has occured"
+msgstr "Ralat berlaku"
+
+msgid "Warning"
+msgstr "Amaran"
+
+#, python-format
+msgid "Enable %s"
+msgstr "Benarkan %s"
+
+msgid "Filter"
+msgstr "Penapis"
+
+#, python-format
+msgid "Search %s Plugin Options"
+msgstr "Gelintar Pilihan Pemalam %s"
+
+msgid "Use This Plugin"
+msgstr "Guna Pemalam Ini"
+
+msgid "Search Compiz Core Options"
+msgstr "Gelintar Pilihan Compiz Core"
+
+msgid "Error"
+msgstr "Ralat"
+
+msgid ""
+"Enter a filter.\n"
+"Click the keyboard image to grab a key for which to search."
+msgstr ""
+"Masukkan penapis.\n"
+"Klik imej papan kekunci untuk cekau kekuci yang akan digelintarkan."
+
+msgid "Search in..."
+msgstr "Gelintar dalam..."
+
+#. Options
+msgid "Short description and name"
+msgstr "Keterangan dan nama pendek"
+
+msgid "Long description"
+msgstr "Keterangan panjang"
+
+msgid "Settings value"
+msgstr "Nilai tetapan"
+
+msgid "Group"
+msgstr "Kumpulan"
+
+msgid "Subgroup"
+msgstr "Subkumpulan"
+
+#. Notebook
+msgid "Settings"
+msgstr "Tetapan"
+
+msgid "Loading Advanced Search"
+msgstr "Memuatkan Gelintar Lanjutan"
+
+msgid "Add a New Profile"
+msgstr "Tambah Profil Baru"
+
+msgid "Remove This Profile"
+msgstr "Buang Profil Ini"
+
+msgid "Default"
+msgstr "Lalai"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Import"
+msgstr "Import"
+
+msgid "Import a CompizConfig Profile"
+msgstr "Import Profil CompizConfig"
+
+msgid "Import as..."
+msgstr "Import sebagai..."
+
+msgid "Import a CompizConfig Profile as a new profile"
+msgstr "Import Profil CompizConfig sebagai profil baru"
+
+msgid "Export"
+msgstr "Eksport"
+
+msgid "Export your CompizConfig Profile"
+msgstr "Eksport Profil CompizConfig anda"
+
+msgid "Reset to defaults"
+msgstr "Tetap semula ke lalai"
+
+msgid "Reset your CompizConfig Profile to the global defaults"
+msgstr "Tetap semula Profil CompizConfig anda ke lalai sejagai"
+
+msgid "Backend"
+msgstr "Bahagian Belakang"
+
+msgid "Integration"
+msgstr "Penyepaduan"
+
+msgid "Enable integration into the desktop environment"
+msgstr "Benarkan penyepaduan kedalam persekitaran desktop"
+
+msgid "Profiles (*.profile)"
+msgstr "Profil (*.profile)"
+
+msgid "All files"
+msgstr "Semua fail"
+
+msgid "Save file.."
+msgstr "Simpan fail..."
+
+msgid ""
+"Do you want to skip default option values while exporting your profile?"
+msgstr ""
+"Anda hendak langkau nilai pilihan lalai semasa mengeksport profil anda?"
+
+msgid "Open file.."
+msgstr "Buka fail..."
+
+msgid "Enter a profile name"
+msgstr "Masukkan nama profil"
+
+msgid "Please enter a name for the new profile:"
+msgstr "Sila masukkan nama untuk profil baru:"
+
+msgid "Backend not found."
+msgstr "Bahagian belakang tidak ditemui."
+
+#. Auto sort
+msgid "Automatic plugin sorting"
+msgstr "Pengisihan pemalam berautomatik"
+
+msgid "Disabled Plugins"
+msgstr "Pemalam Dilumpuhkan"
+
+msgid "Enabled Plugins"
+msgstr "Pemalam Dibenarkan"
+
+msgid ""
+"Do you really want to disable automatic plugin sorting? This will also "
+"disable conflict handling. You should only do this if you know what you are "
+"doing."
+msgstr ""
+"Anda pasti hendak lumpuhkan pengisihan pemalam berautomatik. Ia juag akan "
+"lumpuhkan pengendalian konflik. Anda patut buat ini jika anda tahu apa yang "
+"anda buat."
+
+msgid "Add plugin"
+msgstr "Tambah pemalam"
+
+msgid "Plugin name:"
+msgstr "Nama pemalam:"
+
+msgid "Insert plugin name"
+msgstr "Sisip nama pemalam"
+
+msgid "Preferences"
+msgstr "Keutamaan"
+
+msgid ""
+"Configure the backend, profile and other internal settings used by the "
+"Compiz Configuration System."
+msgstr ""
+"Konfigur bahagian belakang, profil dan lain-lain tetapan dalaman yang diguna "
+"oleh Sistem Konfigurasi Compiz."
+
+msgid "About"
+msgstr "Perihal"
+
+msgid "About CCSM..."
+msgstr "Perihal CCSM..."
+
+msgid "Profile & Backend"
+msgstr "Profil & Bahagian Belakang"
+
+msgid "Plugin List"
+msgstr "Senarai Pemalam"
+
+msgid "Filter your Plugin list"
+msgstr "Tapis senarai Pemalam anda"
+
+#, python-format
+msgid "Screen %i"
+msgstr "Skrin %i"
+
+msgid "Screen"
+msgstr "Skrin"
+
+msgid "Category"
+msgstr "Kategori"
+
+msgid "Advanced Search"
+msgstr "Gelintar Lanjutan"
+
+#, python-format
+msgid ""
+"<span size=\"large\"><b>No matches found.</b> </span><span>\n"
+"\n"
+" Your filter \"<b>%s</b>\" does not match any items.</span>"
+msgstr ""
+"<span size=\"large\"><b>Tiada padanan ditemui.</b> </span><span>\n"
+"\n"
+" Penapis \"<b>%s</b>\" anda tidak sepadan dengan mana-mana item.</span>"
+
+msgid "Configure Compiz with CompizConfig"
+msgstr "Konfigur Compiz dengan CompizConfig"

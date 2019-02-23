@@ -7,30 +7,30 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Compiz Settings Manager 0.5.2\n"
 "Report-Msgid-Bugs-To: http://bugs.opencompositing.org\n"
-"POT-Creation-Date: 2009-03-24 08:12+0100\n"
-"PO-Revision-Date: 2008-06-28 16:29+0100\n"
-"Last-Translator: Rafa Ramírez <berylog@gmail.com>\n"
+"POT-Creation-Date: 2009-03-24 12:33+0530\n"
+"PO-Revision-Date: 2017-06-19 21:16+0000\n"
+"Last-Translator: Berylog <berylog@gmail.com>\n"
 "Language-Team: Catalan <gustaucastells@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 1.1.0\n"
+"X-Launchpad-Export-Date: 2019-02-21 18:44+0000\n"
+"X-Generator: Launchpad (build 18886)\n"
 "X-Poedit-Language: Catalan\n"
 
 #, python-format
 msgid ""
 "The new value for the %(binding)s binding for the action <b>%(action)s</b> "
-"in plugin <b>%(plugin)s</b> conflicts with the action <b>%(action_conflict)"
-"s</b> of the <b>%(plugin_conflict)s</b> plugin.\n"
-"Do you wish to disable <b>%(action_conflict)s</b> in the <b>%"
-"(plugin_conflict)s</b> plugin?"
+"in plugin <b>%(plugin)s</b> conflicts with the action "
+"<b>%(action_conflict)s</b> of the <b>%(plugin_conflict)s</b> plugin.\n"
+"Do you wish to disable <b>%(action_conflict)s</b> in the "
+"<b>%(plugin_conflict)s</b> plugin?"
 msgstr ""
 "El nou valor per la vinculació %(binding)s per a l'acció <b>%(action)s</b> "
-"en el connector <b>%(plugin)s</b> entra en conflicte amb l'acció <b>%"
-"(action_conflict)s</b> del connector <b>%(plugin_conflict)s</b>.\n"
-"Vols desactivar <b>%(action_conflict)s</b> en el connector <b>%"
-"(plugin_conflict)s</b> ?"
+"en el connector <b>%(plugin)s</b> entra en conflicte amb l'acció "
+"<b>%(action_conflict)s</b> del connector <b>%(plugin_conflict)s</b>.\n"
+"Vols desactivar <b>%(action_conflict)s</b> en el connector "
+"<b>%(plugin_conflict)s</b> ?"
 
 #, python-format
 msgid "Disable %(action_conflict)s"
@@ -53,16 +53,15 @@ msgstr "botó"
 msgid "edge"
 msgstr "cantonada"
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "You are trying to use the feature <b>%(feature)s</b> which is <b>not</b> "
 "provided by any plugin.\n"
 "Do you wish to use this feature anyway?"
 msgstr ""
-"Estàs intentant usar la característica <b>%(feature)s</b> que és "
-"proporcionada per <b>%(plugin)s</b>.\n"
-"Aquest connector està desactivat.\n"
-"Vols activar <b>%(plugin)s</b> per poder usar la característica ?"
+"Esteu intentant fer servir la característica <b>%(feature)s</b> que aquest "
+"connector <b>no</b> proveeix. Malgrat això, voleu usar aquesta "
+"característica?"
 
 #, python-format
 msgid "Use %(feature)s"
@@ -74,8 +73,8 @@ msgstr "No emprar %(feature)s"
 
 #, python-format
 msgid ""
-"You are trying to use the feature <b>%(feature)s</b> which is provided by <b>"
-"%(plugin)s</b>.\n"
+"You are trying to use the feature <b>%(feature)s</b> which is provided by "
+"<b>%(plugin)s</b>.\n"
 "This plugin is currently disabled.\n"
 "Do you wish to enable <b>%(plugin)s</b> so the feature is available?"
 msgstr ""
@@ -97,6 +96,8 @@ msgid ""
 "Some %(bindings)s bindings of Plugin <b>%(plugin)s</b> conflict with other "
 "plugins. Do you want to resolve these conflicts?"
 msgstr ""
+"Algunes %(bindings)s dependències del connector <b>%(plugin)s</b> entren en "
+"conflicte amb altres connectors. Voleu resoldre aquests conflictes?"
 
 msgid "Resolve conflicts"
 msgstr "Resoldre conflictes"
@@ -109,8 +110,8 @@ msgid ""
 "Plugin <b>%(plugin_conflict)s</b> provides feature <b>%(feature)s</b> which "
 "is also provided by <b>%(plugin)s</b>"
 msgstr ""
-"El connector <b>%(plugin_conflict)s</b> proporciona la característica <b>%"
-"(feature)s</b> que també és proporcionada per <b>%(plugin)s</b>"
+"El connector <b>%(plugin_conflict)s</b> proporciona la característica "
+"<b>%(feature)s</b> que també és proporcionada per <b>%(plugin)s</b>"
 
 #, python-format
 msgid "Disable %(plugin_conflict)s"
@@ -123,8 +124,8 @@ msgstr "No activis %(plugin)s"
 #, python-format
 msgid "Plugin <b>%(plugin_conflict)s</b> conflicts with <b>%(plugin)s</b>."
 msgstr ""
-"El connector <b>%(plugin_conflict)s</b> entra en conflicte amb <b>%(plugin)"
-"s</b>."
+"El connector <b>%(plugin_conflict)s</b> entra en conflicte amb "
+"<b>%(plugin)s</b>."
 
 #, python-format
 msgid ""
@@ -164,7 +165,8 @@ msgstr "No desactivis %(plugin)s"
 
 #, python-format
 msgid "<b>%(plugin)s</b> is required by the plugins <b>%(plugin_list)s</b>."
-msgstr "<b>%(plugin)s</b> es requerit pels connectors <b>%(plugin_list)s</b>."
+msgstr ""
+"<b>%(plugin)s</b> es requerit pels connectors <b>%(plugin_list)s</b>."
 
 msgid "General"
 msgstr "General"
@@ -197,7 +199,7 @@ msgid "Uncategorized"
 msgstr "Sense classificar"
 
 msgid "N/A"
-msgstr ""
+msgstr "N/D"
 
 msgid "Reset setting to the default value"
 msgstr "Reseteja al seu valor per defecte"
@@ -249,9 +251,8 @@ msgstr "Cap"
 msgid "CompizConfig Settings Manager"
 msgstr "Editor de la configuració de Compiz"
 
-#, fuzzy
 msgid "Plugin"
-msgstr "Llista de Connectors"
+msgstr "Connector"
 
 msgid "Please press the new key combination"
 msgstr "Pressiona la nova combinació de tecles"
@@ -281,7 +282,7 @@ msgid "Or"
 msgstr "O"
 
 msgid "Edit match"
-msgstr ""
+msgstr "Edita coincidència"
 
 #. Type
 msgid "Type"
@@ -292,12 +293,11 @@ msgid "Value"
 msgstr "Valor"
 
 msgid "Grab"
-msgstr ""
+msgstr "Agafa"
 
 #. Relation
-#, fuzzy
 msgid "Relation"
-msgstr "Integració"
+msgstr "Relació"
 
 #. Invert
 msgid "Invert"
@@ -324,7 +324,15 @@ msgstr ""
 "CompizConfig"
 
 msgid "translator-credits"
-msgstr "Karasu <gustaucastells@gmail.com>"
+msgstr ""
+"Karasu <gustaucastells@gmail.com>\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Berylog https://launchpad.net/~berylog\n"
+"  David Planella https://launchpad.net/~dpm\n"
+"  David Trigo Chávez https://launchpad.net/~david-trigo\n"
+"  JoanColl https://launchpad.net/~joancoll\n"
+"  Walter Garcia-Fontes https://launchpad.net/~walter-garcia"
 
 msgid "An error has occured"
 msgstr "S'ha donat un error"
@@ -356,6 +364,8 @@ msgid ""
 "Enter a filter.\n"
 "Click the keyboard image to grab a key for which to search."
 msgstr ""
+"Entri un filtre\n"
+"Cliqui la imatge del teclat per agafar una tecla amb la que vulgui cercar."
 
 msgid "Search in..."
 msgstr "Cerca a..."
@@ -437,8 +447,11 @@ msgstr "Tots els arxius"
 msgid "Save file.."
 msgstr "Guarda arxiu..."
 
-msgid "Do you want to skip default option values while exporting your profile?"
+msgid ""
+"Do you want to skip default option values while exporting your profile?"
 msgstr ""
+"Voleu ometre els valors per defecte de les opcions quan exporteu el vostre "
+"perfil?"
 
 msgid "Open file.."
 msgstr "Obre arxiu..."
@@ -467,6 +480,9 @@ msgid ""
 "disable conflict handling. You should only do this if you know what you are "
 "doing."
 msgstr ""
+"Realment voleu deshabilitar l'ordenació automàtica dels connectors? Això "
+"també deshabilitarà la gestió automàtica de conflictes. Sols hauríeu de fer "
+"això si sabeu el que esteu fent."
 
 msgid "Add plugin"
 msgstr "Afegeix connector"
@@ -527,18 +543,3 @@ msgstr ""
 
 msgid "Configure Compiz with CompizConfig"
 msgstr "Configura Compiz amb CompizConfig"
-
-#~ msgid "Computing possible conflicts, please wait"
-#~ msgstr "Calculant possibles conflictes, esperi"
-
-#~ msgid "Value (%s)"
-#~ msgstr "Valor (%s)"
-
-#~ msgid "Value (%(value)s) for %(setting)s"
-#~ msgstr "Valor (%(value)s) per %(setting)s"
-
-#~ msgid "Unhandled list type %s for %s"
-#~ msgstr "Tipus de llista %s no suportat per %s"
-
-#~ msgid "Actions"
-#~ msgstr "Accions"

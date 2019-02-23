@@ -1,0 +1,518 @@
+# Uyghur translation for compiz
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the compiz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: compiz\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-03-24 12:33+0530\n"
+"PO-Revision-Date: 2012-08-31 23:50+0000\n"
+"Last-Translator: Gheyret T.Kenji <Unknown>\n"
+"Language-Team: Uyghur <ug@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2019-02-21 18:44+0000\n"
+"X-Generator: Launchpad (build 18886)\n"
+
+#, python-format
+msgid ""
+"The new value for the %(binding)s binding for the action <b>%(action)s</b> "
+"in plugin <b>%(plugin)s</b> conflicts with the action "
+"<b>%(action_conflict)s</b> of the <b>%(plugin_conflict)s</b> plugin.\n"
+"Do you wish to disable <b>%(action_conflict)s</b> in the "
+"<b>%(plugin_conflict)s</b> plugin?"
+msgstr ""
+
+#, python-format
+msgid "Disable %(action_conflict)s"
+msgstr "%(action_conflict)s نى ئىناۋەتسىز قىل"
+
+#, python-format
+msgid "Don't set %(action)s"
+msgstr "%(action)s نى بەلگىلىمە"
+
+#, python-format
+msgid "Set %(action)s anyway"
+msgstr "%(action)s نى بەلگىلەۋەر"
+
+msgid "key"
+msgstr "ئاچقۇچ"
+
+msgid "button"
+msgstr "توپچا"
+
+msgid "edge"
+msgstr "گىرۋەك"
+
+#, python-format
+msgid ""
+"You are trying to use the feature <b>%(feature)s</b> which is <b>not</b> "
+"provided by any plugin.\n"
+"Do you wish to use this feature anyway?"
+msgstr ""
+"ھېچ قانداق بىر قىستۇرما <b>تەمىنلىمىگەن</b> ئىقتىدار <b>%(feature)s</b> نى "
+"ئىشلەتمەكچى بولۇۋاتىسىز.\n"
+"راستلا بۇ ئىقتىدارنى ئىشلىتىۋېرەمسىز؟"
+
+#, python-format
+msgid "Use %(feature)s"
+msgstr "%(feature)s نى ئىشلەت"
+
+#, python-format
+msgid "Don't use %(feature)s"
+msgstr "%(feature)s نى ئىشلەتمە"
+
+#, python-format
+msgid ""
+"You are trying to use the feature <b>%(feature)s</b> which is provided by "
+"<b>%(plugin)s</b>.\n"
+"This plugin is currently disabled.\n"
+"Do you wish to enable <b>%(plugin)s</b> so the feature is available?"
+msgstr ""
+
+#, python-format
+msgid "Enable %(plugin)s"
+msgstr "قىستۇرما %(plugin)s نى ئىناۋەتلىك قىل"
+
+#, python-format
+msgid "Don't enable %(feature)s"
+msgstr "ئىقتىدار %(feature)s نى ئىناۋەتلىك قىلما"
+
+#, python-format
+msgid ""
+"Some %(bindings)s bindings of Plugin <b>%(plugin)s</b> conflict with other "
+"plugins. Do you want to resolve these conflicts?"
+msgstr ""
+
+msgid "Resolve conflicts"
+msgstr "توقۇنۇشلارنى ھەل قىلىش"
+
+msgid "Ignore conflicts"
+msgstr "توقۇنۇشلارغا پەرۋا قىلما"
+
+#, python-format
+msgid ""
+"Plugin <b>%(plugin_conflict)s</b> provides feature <b>%(feature)s</b> which "
+"is also provided by <b>%(plugin)s</b>"
+msgstr ""
+"قىستۇرما <b>%(plugin_conflict)s</b> تەمىنلىگەن ئىقتىدار <b>%(feature)s</b> "
+"نى قىستۇرما <b>%(plugin)s</b> مۇ تەمىنلەپتۇ"
+
+#, python-format
+msgid "Disable %(plugin_conflict)s"
+msgstr "%(plugin_conflict)s نى ئىناۋەتسىز قىل"
+
+#, python-format
+msgid "Don't enable %(plugin)s"
+msgstr "%(plugin)s نى ئىناۋەتلىك قىلما"
+
+#, python-format
+msgid "Plugin <b>%(plugin_conflict)s</b> conflicts with <b>%(plugin)s</b>."
+msgstr ""
+"قىستۇرما <b>%(plugin_conflict)s</b> بىلەن قىستۇرما <b>%(plugin)s</b> "
+"توقۇنۇشۇپ قالدى."
+
+#, python-format
+msgid ""
+"<b>%(plugin)s</b> requires feature <b>%(feature)s</b> which is provided by "
+"the following plugins:\n"
+"%(plugin_list)s"
+msgstr ""
+"<b>%(plugin)s</b> غا تۆۋەندىكى قىستۇرمىلار تەمىنلىگەن ئىقتىدار "
+"<b>%(feature)s</b> زۆرۈر:\\n\n"
+"%(plugin_list)s"
+
+msgid "Enable these plugins"
+msgstr "بۇ قىستۇرمىلارنى ئىناۋەتلىك قىل"
+
+#, python-format
+msgid "<b>%(plugin)s</b> requires the plugin <b>%(require)s</b>."
+msgstr "قىستۇرما <b>%(plugin)s</b> ئۈچۈن قىستۇرما <b>%(require)s</b> زۆرۈر."
+
+#, python-format
+msgid "Enable %(require)s"
+msgstr "%(require)s نى ئىناۋەتلىك قىل"
+
+#, python-format
+msgid ""
+"<b>%(plugin)s</b> provides the feature <b>%(feature)s</b> which is required "
+"by the plugins <b>%(plugin_list)s</b>."
+msgstr ""
+"قىستۇرما <b>%(plugin)s</b> تەمىنلىگەن ئىقتىدار <b>%(feature)s</b>  بۇ "
+"قىستۇرمىلار <b>%(plugin_list)s</b> ئۈچۈن زۆرۈردۇر."
+
+msgid "Disable these plugins"
+msgstr "بۇ قىستۇرمىلارنى ئىناۋەتسىز قىل"
+
+#, python-format
+msgid "Don't disable %(plugin)s"
+msgstr "قىستۇرما %(plugin)s نى ئىناۋەتسىز قىلما"
+
+#, python-format
+msgid "<b>%(plugin)s</b> is required by the plugins <b>%(plugin_list)s</b>."
+msgstr ""
+"قىستۇرما <b>%(plugin)s</b> بولسا <b>%(plugin_list)s</b> قىستۇرمىلار ئۈچۈن "
+"زۆرۈردۇر."
+
+msgid "General"
+msgstr "ئادەتتىكى"
+
+msgid "Accessibility"
+msgstr "ياردەم ئىقتىدارى"
+
+msgid "Desktop"
+msgstr "ئۈستەلئۈستى"
+
+msgid "Extras"
+msgstr ""
+
+msgid "Window Management"
+msgstr "كۆزنەك باشقۇرۇش"
+
+msgid "Effects"
+msgstr "ئۈنۈملەر"
+
+msgid "Image Loading"
+msgstr "سۈرەت ئوقۇش"
+
+msgid "Utility"
+msgstr "جابدۇق"
+
+msgid "All"
+msgstr "ھەممىسى"
+
+msgid "Uncategorized"
+msgstr "تۈرگە ئايرىلمىغان"
+
+msgid "N/A"
+msgstr "N/A"
+
+msgid "Reset setting to the default value"
+msgstr "تەڭشەكلەرنىڭ قىممىتىنى كۆڭۈلدىكىگە قايتۇرۇش"
+
+msgid "Edit"
+msgstr "تەھرىرلەش"
+
+msgid "Multi-list settings. You can double-click a row to edit the values."
+msgstr ""
+"كۆپ-تىزىم تەڭشەكلىرى. بىر قۇرنى قوش چەكسىڭىز قىممەتلەرنى تەھرىرلىيەلەيسىز."
+
+#, python-format
+msgid "Edit %s"
+msgstr "%s نى تەھرىرلەش"
+
+#, python-format
+msgid "\"%s\" is not a valid shortcut"
+msgstr "«%s» ئىناۋەتلىك تېزلەتمە ئەمەس"
+
+msgid "Disabled"
+msgstr "ئىناۋەتسىز قىلىنغان"
+
+msgid "Enabled"
+msgstr "ئىناۋەتلىك قىلىنغان"
+
+msgid "Grab key combination"
+msgstr "كۇنۇپكا بىرىكمىسىنى تۇت"
+
+#, python-format
+msgid "\"%s\" is not a valid button"
+msgstr "«%s» ئىناۋەتلىك  توپچا ئەمەس"
+
+#, python-format
+msgid ""
+"Using Button1 without modifiers can prevent any left click and thus break "
+"your configuration. Do you really want to set \"%s\" button to Button1 ?"
+msgstr ""
+
+#, python-format
+msgid "\"%s\" is not a valid edge mask"
+msgstr "«%s» ئىناۋەتلىك گىرۋەك ماسكىسى ئەمەس"
+
+msgid "None"
+msgstr "يوق"
+
+msgid "CompizConfig Settings Manager"
+msgstr "CompizConfig نىڭ تەڭشەك باشقۇرغۇسى"
+
+msgid "Plugin"
+msgstr "قىستۇرما"
+
+msgid "Please press the new key combination"
+msgstr "يېڭى كۇنۇپكا بىرىكمىسىنى بېسىڭ"
+
+msgid "Window Title"
+msgstr "كۆزنەك ماۋزۇسى"
+
+msgid "Window Role"
+msgstr "كۆزنەك رولى"
+
+msgid "Window Name"
+msgstr "كۆزنەك ئاتى"
+
+msgid "Window Class"
+msgstr "كۆزنەك سىنىپى(Class)"
+
+msgid "Window Type"
+msgstr "كۆزنەك تىپى"
+
+msgid "Window ID"
+msgstr "كۆزنەك كىملىكى"
+
+msgid "And"
+msgstr "ۋە"
+
+msgid "Or"
+msgstr "ياكى"
+
+msgid "Edit match"
+msgstr "ماسلىشىشنى تەھرىرلە"
+
+#. Type
+msgid "Type"
+msgstr "تىپى"
+
+#. Value
+msgid "Value"
+msgstr "قىممەت"
+
+msgid "Grab"
+msgstr "ئېرىش"
+
+#. Relation
+msgid "Relation"
+msgstr "مۇناسىۋەت"
+
+#. Invert
+msgid "Invert"
+msgstr "ئەكسى رەڭگە ئالماشتۇر"
+
+msgid "Browse..."
+msgstr "كۆز يۈگۈرت…"
+
+msgid "Images"
+msgstr "سۈرەتلەر"
+
+msgid "File"
+msgstr "ھۆججەت"
+
+msgid "Open directory..."
+msgstr "مۇندەرىجە ئاچ…"
+
+msgid "Open file..."
+msgstr "ھۆججەت ئاچ…"
+
+msgid "This is a settings manager for the CompizConfig configuration system."
+msgstr "بۇ CompizConfig سەپلىمە سىستېمىسىنىڭ تەڭشەك باشقۇرۇش پروگراممىسىدۇر."
+
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Gheyret T.Kenji https://launchpad.net/~gheyretkenji"
+
+msgid "An error has occured"
+msgstr "خاتالىق كۆرۈلدى"
+
+msgid "Warning"
+msgstr "ئاگاھلاندۇرۇش"
+
+#, python-format
+msgid "Enable %s"
+msgstr "%s نى ئىناۋەتلىك قىل"
+
+msgid "Filter"
+msgstr "سۈزگۈچ"
+
+#, python-format
+msgid "Search %s Plugin Options"
+msgstr "قىستۇرما %s نىڭ تاللانمىلىرىنى ئىزدە"
+
+msgid "Use This Plugin"
+msgstr "مەزكۇر قىستۇرمىنى ئىشلەت"
+
+msgid "Search Compiz Core Options"
+msgstr "Compiz Core نىڭ تاللانمىلىرىنى ئىزدە"
+
+msgid "Error"
+msgstr "خاتالىق"
+
+msgid ""
+"Enter a filter.\n"
+"Click the keyboard image to grab a key for which to search."
+msgstr ""
+
+msgid "Search in..."
+msgstr "بۇ يەردىن ئىزدە…"
+
+#. Options
+msgid "Short description and name"
+msgstr "قىسقا چۈشەندۈرۈلۈشى"
+
+msgid "Long description"
+msgstr "ئۇزۇن چۈشەندۈرۈلۈشى"
+
+msgid "Settings value"
+msgstr "تەڭشەك قىممىتى"
+
+msgid "Group"
+msgstr "گۇرۇپپا"
+
+msgid "Subgroup"
+msgstr "تاماق گۇرۇپپا"
+
+#. Notebook
+msgid "Settings"
+msgstr "تەڭشەكلەر"
+
+msgid "Loading Advanced Search"
+msgstr "ئالىي ئىزدەشنى ئوقۇۋاتىدۇ"
+
+msgid "Add a New Profile"
+msgstr ""
+
+msgid "Remove This Profile"
+msgstr ""
+
+msgid "Default"
+msgstr "كۆڭۈلدىكى"
+
+msgid "Profile"
+msgstr "سەپلىمە ھۆججەت"
+
+msgid "Import"
+msgstr "ئىمپورت قىل"
+
+msgid "Import a CompizConfig Profile"
+msgstr ""
+
+msgid "Import as..."
+msgstr "باشقا ئاتتا ئىمپورت قىل…"
+
+msgid "Import a CompizConfig Profile as a new profile"
+msgstr ""
+
+msgid "Export"
+msgstr "ئېكسپورت قىلىش"
+
+msgid "Export your CompizConfig Profile"
+msgstr ""
+
+msgid "Reset to defaults"
+msgstr "كۆڭۈلدىكى قىممەتكە قايتۇر"
+
+msgid "Reset your CompizConfig Profile to the global defaults"
+msgstr ""
+
+msgid "Backend"
+msgstr "ئارقا ئۇچ"
+
+msgid "Integration"
+msgstr "يۈرۈشلەشتۈرۈش"
+
+msgid "Enable integration into the desktop environment"
+msgstr "ئۈستەلئۈستى مۇھىتىغا يۈرۈشلەشتۈرۈشنى ئىناۋەتلىك قىلىدۇ"
+
+msgid "Profiles (*.profile)"
+msgstr ""
+
+msgid "All files"
+msgstr "ھەممە ھۆججەتلەر"
+
+msgid "Save file.."
+msgstr "ھۆججەتنى ساقلا…"
+
+msgid ""
+"Do you want to skip default option values while exporting your profile?"
+msgstr ""
+
+msgid "Open file.."
+msgstr "ھۆججەت ئاچ…"
+
+msgid "Enter a profile name"
+msgstr ""
+
+msgid "Please enter a name for the new profile:"
+msgstr "يېڭى سەپلىمە ھۆججەتكە ئاتتىن بىرنى كىرگۈزۈڭ:"
+
+msgid "Backend not found."
+msgstr "ئارقا ئۇچ تېپىلمىدى."
+
+#. Auto sort
+msgid "Automatic plugin sorting"
+msgstr "قىستۇرمىلارنى ئاپتوماتىك تەرتىپلە"
+
+msgid "Disabled Plugins"
+msgstr "ئىناۋەتسىز قىلىنغان قىستۇرمىلار"
+
+msgid "Enabled Plugins"
+msgstr "ئىناۋەتلىك قىلىنغان قىستۇرمىلار"
+
+msgid ""
+"Do you really want to disable automatic plugin sorting? This will also "
+"disable conflict handling. You should only do this if you know what you are "
+"doing."
+msgstr ""
+"راستلا ئاپتوماتىك قىستۇرما تەرتىپلەشنى ئىناۋەتسىز قىلامسىز؟ بۇ ئىناۋەتسىز "
+"قىلىنسا توقۇنۇش باشقۇرۇشمۇ ئىناۋەتسىز قىلىنىدۇ. ئەگەر بۇ نەرسىلەرنى "
+"بىلىسىڭىز ئاندىن بۇنى ئىناۋەتسىز قىلىڭ."
+
+msgid "Add plugin"
+msgstr "قىستۇرما قوش"
+
+msgid "Plugin name:"
+msgstr "قىستۇرما ئاتى"
+
+msgid "Insert plugin name"
+msgstr "قىستۇرما ئاتىنى كىرگۈزۈڭ"
+
+msgid "Preferences"
+msgstr "مايىللىق"
+
+msgid ""
+"Configure the backend, profile and other internal settings used by the "
+"Compiz Configuration System."
+msgstr ""
+
+msgid "About"
+msgstr "ھەققىدە"
+
+msgid "About CCSM..."
+msgstr "CCSM ھەققىدە…"
+
+msgid "Profile & Backend"
+msgstr ""
+
+msgid "Plugin List"
+msgstr "قىستۇرما تىزىمى"
+
+msgid "Filter your Plugin list"
+msgstr "قىستۇرما تىزىمىنى سۈزۈش"
+
+#, python-format
+msgid "Screen %i"
+msgstr "ئېكران %i"
+
+msgid "Screen"
+msgstr "ئېكران"
+
+msgid "Category"
+msgstr "كاتېگورىيە"
+
+msgid "Advanced Search"
+msgstr "ئالىي ئىزدەش"
+
+#, python-format
+msgid ""
+"<span size=\"large\"><b>No matches found.</b> </span><span>\n"
+"\n"
+" Your filter \"<b>%s</b>\" does not match any items.</span>"
+msgstr ""
+"<span size=\"large\"><b>ماس كېلىدىغان ھېچ نەرسە تېپىلمىدى.</b> "
+"</span><span>\n"
+"\n"
+" سۈزگۈچىڭىز \"<b>%s</b>\" ھېچقانداق نەرسىنى سۈزەلمىدى.</span>"
+
+msgid "Configure Compiz with CompizConfig"
+msgstr "CompizConfig ئارقىلىق Compiz نى تەڭشەش پروگراممىسى"

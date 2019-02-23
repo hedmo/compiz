@@ -1,0 +1,533 @@
+# Ukrainian translation for compiz
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the compiz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: compiz\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-03-24 12:33+0530\n"
+"PO-Revision-Date: 2016-05-07 07:23+0000\n"
+"Last-Translator: stuartlittle <Stuartlittle1970@gmail.com>\n"
+"Language-Team: Ukrainian <uk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2019-02-21 18:44+0000\n"
+"X-Generator: Launchpad (build 18886)\n"
+
+#, python-format
+msgid ""
+"The new value for the %(binding)s binding for the action <b>%(action)s</b> "
+"in plugin <b>%(plugin)s</b> conflicts with the action "
+"<b>%(action_conflict)s</b> of the <b>%(plugin_conflict)s</b> plugin.\n"
+"Do you wish to disable <b>%(action_conflict)s</b> in the "
+"<b>%(plugin_conflict)s</b> plugin?"
+msgstr ""
+"Нове значення комбінації %(binding)s для дії <b>%(action)s</b> у додатку "
+"<b>%(plugin)s</b> конфліктує з дією <b>%(action_conflict)s</b> додатку "
+"<b>%(plugin_conflict)s</b>.\n"
+"Деактивувати <b>%(action_conflict)s</b> у додатку <b>%(plugin_conflict)s</b>?"
+
+#, python-format
+msgid "Disable %(action_conflict)s"
+msgstr "Деактивувати %(action_conflict)s"
+
+#, python-format
+msgid "Don't set %(action)s"
+msgstr "Не вмикати %(action)s"
+
+#, python-format
+msgid "Set %(action)s anyway"
+msgstr "Все одно увімкнути %(action)s"
+
+msgid "key"
+msgstr "клявіша"
+
+msgid "button"
+msgstr "кнопка"
+
+msgid "edge"
+msgstr "край"
+
+#, python-format
+msgid ""
+"You are trying to use the feature <b>%(feature)s</b> which is <b>not</b> "
+"provided by any plugin.\n"
+"Do you wish to use this feature anyway?"
+msgstr ""
+"Ви намагаєтеся використати функцію <b>%(feature)s</b>, яка <b>not</b>не "
+"надається жодним модулем.\n"
+"Все одно використати функцію?"
+
+#, python-format
+msgid "Use %(feature)s"
+msgstr "Використати %(feature)s"
+
+#, python-format
+msgid "Don't use %(feature)s"
+msgstr "Не використовувати %(feature)s"
+
+#, python-format
+msgid ""
+"You are trying to use the feature <b>%(feature)s</b> which is provided by "
+"<b>%(plugin)s</b>.\n"
+"This plugin is currently disabled.\n"
+"Do you wish to enable <b>%(plugin)s</b> so the feature is available?"
+msgstr ""
+"Ви намагаєтеся використати функцію <b>%(feature)s</b>, яка надається "
+"<b>%(plugin)s</b>.\n"
+"Наразі цю втулку вимкнено.\n"
+"Увімкнути <b>%(plugin)s</b>, для того, щоб зробити дану функцію доступною?"
+
+#, python-format
+msgid "Enable %(plugin)s"
+msgstr "Увімкнути %(plugin)s"
+
+#, python-format
+msgid "Don't enable %(feature)s"
+msgstr "Не вмикати %(feature)s"
+
+#, python-format
+msgid ""
+"Some %(bindings)s bindings of Plugin <b>%(plugin)s</b> conflict with other "
+"plugins. Do you want to resolve these conflicts?"
+msgstr ""
+"Деякі комбінації %(bindings)s додатку <b>%(plugin)s</b> конфліктують з "
+"іншими додатками. Розв’язати дані конфлікти?"
+
+msgid "Resolve conflicts"
+msgstr "Розв’язати конфлікти"
+
+msgid "Ignore conflicts"
+msgstr "Нехтувати конфлікти"
+
+#, python-format
+msgid ""
+"Plugin <b>%(plugin_conflict)s</b> provides feature <b>%(feature)s</b> which "
+"is also provided by <b>%(plugin)s</b>"
+msgstr ""
+"Додаток <b>%(plugin_conflict)s</b> надає можливість <b>%(feature)s</b>, яка "
+"також надається втулкою <b>%(plugin)s</b>"
+
+#, python-format
+msgid "Disable %(plugin_conflict)s"
+msgstr "Вимкнути %(plugin_conflict)s"
+
+#, python-format
+msgid "Don't enable %(plugin)s"
+msgstr "Не вмикати %(plugin)s"
+
+#, python-format
+msgid "Plugin <b>%(plugin_conflict)s</b> conflicts with <b>%(plugin)s</b>."
+msgstr "Додаток <b>%(plugin_conflict)s</b> конфліктує з <b>%(plugin)s</b>."
+
+#, python-format
+msgid ""
+"<b>%(plugin)s</b> requires feature <b>%(feature)s</b> which is provided by "
+"the following plugins:\n"
+"%(plugin_list)s"
+msgstr ""
+"Додатку <b>%(plugin)s</b> необхідна функція <b>%(feature)s</b>, яка "
+"надається наступними додатками:\n"
+"%(plugin_list)s"
+
+msgid "Enable these plugins"
+msgstr "Увімкнути ці додатки"
+
+#, python-format
+msgid "<b>%(plugin)s</b> requires the plugin <b>%(require)s</b>."
+msgstr "<b>%(plugin)s</b> вимагає втулку <b>%(require)s</b>."
+
+#, python-format
+msgid "Enable %(require)s"
+msgstr "Увімкнути %(require)s"
+
+#, python-format
+msgid ""
+"<b>%(plugin)s</b> provides the feature <b>%(feature)s</b> which is required "
+"by the plugins <b>%(plugin_list)s</b>."
+msgstr ""
+"Додаток <b>%(plugin)s</b> надає можливість <b>%(feature)s</b>, яка необхідна "
+"додаткам <b>%(plugin_list)s</b>."
+
+msgid "Disable these plugins"
+msgstr "Вимкнути ці додатки"
+
+#, python-format
+msgid "Don't disable %(plugin)s"
+msgstr "Не вимикати %(plugin)s"
+
+#, python-format
+msgid "<b>%(plugin)s</b> is required by the plugins <b>%(plugin_list)s</b>."
+msgstr "<b>%(plugin)s</b> необхідний додаткам <b>%(plugin_list)s</b>."
+
+msgid "General"
+msgstr "Загальні"
+
+msgid "Accessibility"
+msgstr "Додаткові можливості"
+
+msgid "Desktop"
+msgstr "Стільниця"
+
+msgid "Extras"
+msgstr "Додаткові можливості"
+
+msgid "Window Management"
+msgstr "Керування вікнами"
+
+msgid "Effects"
+msgstr "Ефекти"
+
+msgid "Image Loading"
+msgstr "Завантаження зображень"
+
+msgid "Utility"
+msgstr "Приладдя"
+
+msgid "All"
+msgstr "Усі"
+
+msgid "Uncategorized"
+msgstr "Без категорії"
+
+msgid "N/A"
+msgstr "Н/А"
+
+msgid "Reset setting to the default value"
+msgstr "Відновити типові налаштування"
+
+msgid "Edit"
+msgstr "Редагувати"
+
+msgid "Multi-list settings. You can double-click a row to edit the values."
+msgstr ""
+"Багаторядкові налаштування. Ви можете двічі клацнути рядок для редагування "
+"значень."
+
+#, python-format
+msgid "Edit %s"
+msgstr "Редагувати %s"
+
+#, python-format
+msgid "\"%s\" is not a valid shortcut"
+msgstr "\"%s\" є неправильним сполученням клявіш"
+
+msgid "Disabled"
+msgstr "Вимкнено"
+
+msgid "Enabled"
+msgstr "Увімкнено"
+
+msgid "Grab key combination"
+msgstr "Захопити сполучення клявіш"
+
+#, python-format
+msgid "\"%s\" is not a valid button"
+msgstr "\"%s\" неправильна клавіша"
+
+#, python-format
+msgid ""
+"Using Button1 without modifiers can prevent any left click and thus break "
+"your configuration. Do you really want to set \"%s\" button to Button1 ?"
+msgstr ""
+"Використання Button1 без модифікаторів може попередити будь-яке ліве "
+"натиснення й це зіпсує Вашу конфігурацію. Ви справді бажаєте встановити "
+"клявішу \"%s\" на Button1 ?"
+
+#, python-format
+msgid "\"%s\" is not a valid edge mask"
+msgstr "\"%s\" неправильна маска краю"
+
+msgid "None"
+msgstr "Відсутня"
+
+msgid "CompizConfig Settings Manager"
+msgstr "Керівник параметрів CompizConfig"
+
+msgid "Plugin"
+msgstr "Додаток"
+
+msgid "Please press the new key combination"
+msgstr "Будь ласка, натисніть нову сполучення клявіш"
+
+msgid "Window Title"
+msgstr "Заголовок вікна"
+
+msgid "Window Role"
+msgstr "Роль вікна"
+
+msgid "Window Name"
+msgstr "Назва вікна"
+
+msgid "Window Class"
+msgstr "Кляса вікна"
+
+msgid "Window Type"
+msgstr "Тип вікна"
+
+msgid "Window ID"
+msgstr "ID Вікна"
+
+msgid "And"
+msgstr "І"
+
+msgid "Or"
+msgstr "Або"
+
+msgid "Edit match"
+msgstr "Змінити відповідність"
+
+#. Type
+msgid "Type"
+msgstr "Тип"
+
+#. Value
+msgid "Value"
+msgstr "Значення"
+
+msgid "Grab"
+msgstr "Захопити"
+
+#. Relation
+msgid "Relation"
+msgstr "Відношення"
+
+#. Invert
+msgid "Invert"
+msgstr "Спротилежнити"
+
+msgid "Browse..."
+msgstr "Огляд…"
+
+msgid "Images"
+msgstr "Зображення"
+
+msgid "File"
+msgstr "Файл"
+
+msgid "Open directory..."
+msgstr "Відкрити каталог..."
+
+msgid "Open file..."
+msgstr "Відкрити файл…"
+
+msgid "This is a settings manager for the CompizConfig configuration system."
+msgstr "Це керівник налаштувань для системи конфігурування CompizConfig."
+
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Nazarii Ritter https://launchpad.net/~nazariy-ritter\n"
+"  stuartlittle https://launchpad.net/~stuartlittle1970\n"
+"  Николай Матвиенко https://launchpad.net/~provocator"
+
+msgid "An error has occured"
+msgstr "Трапилася помилка"
+
+msgid "Warning"
+msgstr "Попередження"
+
+#, python-format
+msgid "Enable %s"
+msgstr "Увімкнути %s"
+
+msgid "Filter"
+msgstr "Фільтр"
+
+#, python-format
+msgid "Search %s Plugin Options"
+msgstr "Пошук %s опцій втулки"
+
+msgid "Use This Plugin"
+msgstr "Використовувати цей додаток"
+
+msgid "Search Compiz Core Options"
+msgstr "Шукати опції Compiz Core"
+
+msgid "Error"
+msgstr "Помилка"
+
+msgid ""
+"Enter a filter.\n"
+"Click the keyboard image to grab a key for which to search."
+msgstr ""
+"Уведіть фільтр.\n"
+"Клацніть на піктограмі набірниці для захоплення ключового слова, за яким "
+"шукати."
+
+msgid "Search in..."
+msgstr "Пошук у..."
+
+#. Options
+msgid "Short description and name"
+msgstr "Короткий опис та ім'я"
+
+msgid "Long description"
+msgstr "Докладний опис"
+
+msgid "Settings value"
+msgstr "Значення налаштувань"
+
+msgid "Group"
+msgstr "Група"
+
+msgid "Subgroup"
+msgstr "Підгрупа"
+
+#. Notebook
+msgid "Settings"
+msgstr "Налаштування"
+
+msgid "Loading Advanced Search"
+msgstr "Завантаження розширеного пошуку"
+
+msgid "Add a New Profile"
+msgstr "Додати новий профіль"
+
+msgid "Remove This Profile"
+msgstr "Вилучити цей профіль"
+
+msgid "Default"
+msgstr "Типово"
+
+msgid "Profile"
+msgstr "Профіль"
+
+msgid "Import"
+msgstr "Імпортувати"
+
+msgid "Import a CompizConfig Profile"
+msgstr "Імпортувати  профіль CompizConfig"
+
+msgid "Import as..."
+msgstr "Імпортувати як..."
+
+msgid "Import a CompizConfig Profile as a new profile"
+msgstr "Імпортувати профіль CompizConfig як новий профіль"
+
+msgid "Export"
+msgstr "Експортувати"
+
+msgid "Export your CompizConfig Profile"
+msgstr "Експортувати ваш профіль CompizConfig"
+
+msgid "Reset to defaults"
+msgstr "Скинути до типових"
+
+msgid "Reset your CompizConfig Profile to the global defaults"
+msgstr "Скинути Ваш профіль CompizConfig на загальні типові значення"
+
+msgid "Backend"
+msgstr "Бекенд"
+
+msgid "Integration"
+msgstr "Інтеграція"
+
+msgid "Enable integration into the desktop environment"
+msgstr "Увімкнути інтеграцію у оточення стільниці"
+
+msgid "Profiles (*.profile)"
+msgstr "Профілі (*.profile)"
+
+msgid "All files"
+msgstr "Усі файли"
+
+msgid "Save file.."
+msgstr "Зберегти файл..."
+
+msgid ""
+"Do you want to skip default option values while exporting your profile?"
+msgstr "Чи бажаєте ви пропустити типові значення, експортуючи ваш профіль?"
+
+msgid "Open file.."
+msgstr "Відкрити файл"
+
+msgid "Enter a profile name"
+msgstr "Уведіть ім'я профілю"
+
+msgid "Please enter a name for the new profile:"
+msgstr "Будь ласка, уведіть назву нового профілю:"
+
+msgid "Backend not found."
+msgstr "Бекенд не знайдено."
+
+#. Auto sort
+msgid "Automatic plugin sorting"
+msgstr "Автоматичне сортування модулів"
+
+msgid "Disabled Plugins"
+msgstr "Вимкнені додатки"
+
+msgid "Enabled Plugins"
+msgstr "Увімкнені додатки"
+
+msgid ""
+"Do you really want to disable automatic plugin sorting? This will also "
+"disable conflict handling. You should only do this if you know what you are "
+"doing."
+msgstr ""
+"Ви справді бажаєте вимкнути автоматичне сортування модулів? Це вимкне "
+"опрацювання конфліктів. Ви можете це зробити лише якщо знаєте, що робите."
+
+msgid "Add plugin"
+msgstr "Додати додаток"
+
+msgid "Plugin name:"
+msgstr "Назва додатку"
+
+msgid "Insert plugin name"
+msgstr "Вставити назву додатку"
+
+msgid "Preferences"
+msgstr "Параметри"
+
+msgid ""
+"Configure the backend, profile and other internal settings used by the "
+"Compiz Configuration System."
+msgstr ""
+"Конфігурувати бекенд, профіль та інші внутрішні налаштування використовуючи "
+"систему конфігурації Compiz."
+
+msgid "About"
+msgstr "Про проґраму"
+
+msgid "About CCSM..."
+msgstr "Про CCSM"
+
+msgid "Profile & Backend"
+msgstr "Профіль & Бекенд"
+
+msgid "Plugin List"
+msgstr "Список додатків"
+
+msgid "Filter your Plugin list"
+msgstr "Відфільтрувати ваш список додатків"
+
+#, python-format
+msgid "Screen %i"
+msgstr "Дисплей %i"
+
+msgid "Screen"
+msgstr "Дисплей"
+
+msgid "Category"
+msgstr "Категорія"
+
+msgid "Advanced Search"
+msgstr "Розширений пошук"
+
+#, python-format
+msgid ""
+"<span size=\"large\"><b>No matches found.</b> </span><span>\n"
+"\n"
+" Your filter \"<b>%s</b>\" does not match any items.</span>"
+msgstr ""
+"<span size=\"large\"><b>Відповідностей не знайдено.</b> </span><span>\n"
+"\n"
+"Жоден з елементів не відповідає вашому фільтру \"<b>%s</b>\".</span>"
+
+msgid "Configure Compiz with CompizConfig"
+msgstr "Налаштування Compiz через CompizConfig"

@@ -7,28 +7,29 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ccsm 0.6.0\n"
 "Report-Msgid-Bugs-To: http://bugs.opencompositing.org\n"
-"POT-Creation-Date: 2009-03-24 08:12+0100\n"
-"PO-Revision-Date: 2009-04-20 02:36+0200\n"
-"Last-Translator: Jim Dusis <jimdusis@yahoo.gr>\n"
+"POT-Creation-Date: 2009-03-24 12:33+0530\n"
+"PO-Revision-Date: 2017-06-19 21:15+0000\n"
+"Last-Translator: Δημήτρης (DjDoo) <jimdusis@yahoo.gr>\n"
 "Language-Team: Compiz Fusion translators <i18n@lists.compiz-fusion.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Pootle 1.1.0\n"
+"X-Launchpad-Export-Date: 2019-02-21 18:44+0000\n"
+"X-Generator: Launchpad (build 18886)\n"
 
 #, python-format
 msgid ""
 "The new value for the %(binding)s binding for the action <b>%(action)s</b> "
-"in plugin <b>%(plugin)s</b> conflicts with the action <b>%(action_conflict)"
-"s</b> of the <b>%(plugin_conflict)s</b> plugin.\n"
-"Do you wish to disable <b>%(action_conflict)s</b> in the <b>%"
-"(plugin_conflict)s</b> plugin?"
+"in plugin <b>%(plugin)s</b> conflicts with the action "
+"<b>%(action_conflict)s</b> of the <b>%(plugin_conflict)s</b> plugin.\n"
+"Do you wish to disable <b>%(action_conflict)s</b> in the "
+"<b>%(plugin_conflict)s</b> plugin?"
 msgstr ""
 "Η νέα τιμή για τον %(binding)s συνδυασμό για την ενέργεια <b>%(action)s</b> "
-"στο πρόσθετο <b>%(plugin)s</b> συγκρούεται με την ενέργεια <b>%"
-"(action_conflict)s</b> του <b>%(plugin_conflict)s</b> πρόσθετου.\n"
-"Θέλετε να απενεργοποιήσετε το <b>%(action_conflict)s</b> στο <b>%"
-"(plugin_conflict)s</b> πρόσθετο?"
+"στο πρόσθετο <b>%(plugin)s</b> συγκρούεται με την ενέργεια "
+"<b>%(action_conflict)s</b> του <b>%(plugin_conflict)s</b> πρόσθετου.\n"
+"Θέλετε να απενεργοποιήσετε το <b>%(action_conflict)s</b> στο "
+"<b>%(plugin_conflict)s</b> πρόσθετο?"
 
 #, python-format
 msgid "Disable %(action_conflict)s"
@@ -71,8 +72,8 @@ msgstr "Μη χρήση %(feature)s"
 
 #, python-format
 msgid ""
-"You are trying to use the feature <b>%(feature)s</b> which is provided by <b>"
-"%(plugin)s</b>.\n"
+"You are trying to use the feature <b>%(feature)s</b> which is provided by "
+"<b>%(plugin)s</b>.\n"
 "This plugin is currently disabled.\n"
 "Do you wish to enable <b>%(plugin)s</b> so the feature is available?"
 msgstr ""
@@ -109,8 +110,8 @@ msgid ""
 "Plugin <b>%(plugin_conflict)s</b> provides feature <b>%(feature)s</b> which "
 "is also provided by <b>%(plugin)s</b>"
 msgstr ""
-"Το πρόσθετο <b>%(plugin_conflict)s</b> παρέχει το χαρακτηριστικό <b>%"
-"(feature)s</b> το οποίο επίσης παρέχεται απο το <b>%(plugin)s</b>"
+"Το πρόσθετο <b>%(plugin_conflict)s</b> παρέχει το χαρακτηριστικό "
+"<b>%(feature)s</b> το οποίο επίσης παρέχεται απο το <b>%(plugin)s</b>"
 
 #, python-format
 msgid "Disable %(plugin_conflict)s"
@@ -123,8 +124,8 @@ msgstr "Μην ενεργοποιήσεις %(plugin)s"
 #, python-format
 msgid "Plugin <b>%(plugin_conflict)s</b> conflicts with <b>%(plugin)s</b>."
 msgstr ""
-"Το πρόσθετο <b>%(plugin_conflict)s</b> έρχεται σε σύγκρουση με το <b>%"
-"(plugin)s</b>"
+"Το πρόσθετο <b>%(plugin_conflict)s</b> έρχεται σε σύγκρουση με το "
+"<b>%(plugin)s</b>"
 
 #, python-format
 msgid ""
@@ -326,7 +327,10 @@ msgstr ""
 "Δημήτρης(djdoo) <jimdusis@yahoo.gr>, Κώστας(diafanos) "
 "<kostasagn@hotmail.com>, Thodo Mitch(Teddy) <thodo_mitch@hotmail.com>, "
 "Dimman Ramone(dimmanramone) <ramone@online.ie>, Άρης(Arielis) "
-"<arlst4@hotmail.com>, Μάνος(dark_banishing) <koufakism@mail.gr>"
+"<arlst4@hotmail.com>, Μάνος(dark_banishing) <koufakism@mail.gr>\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Δημήτρης (DjDoo) https://launchpad.net/~jimdusis"
 
 msgid "An error has occured"
 msgstr "Ένα σφάλμα προέκυψε"
@@ -443,7 +447,8 @@ msgstr "Όλα τα αρχεία"
 msgid "Save file.."
 msgstr "Αποθήκευση Αρχείου.."
 
-msgid "Do you want to skip default option values while exporting your profile?"
+msgid ""
+"Do you want to skip default option values while exporting your profile?"
 msgstr ""
 "Θέλετε να αγνοηθούν οι προεπιλεγμένες τιμές των επιλογών όταν εξάγετε το "
 "προφίλ σας?"
@@ -538,54 +543,3 @@ msgstr ""
 
 msgid "Configure Compiz with CompizConfig"
 msgstr "Ρύθμιση του Compiz με το CompizConfig"
-
-#~ msgid "Computing possible conflicts, please wait"
-#~ msgstr "Υπολογισμός πιθανών διενέξεων, παρακαλώ περιμένετε"
-
-#~ msgid "Value (%s)"
-#~ msgstr "Τιμή (%s)"
-
-#~ msgid "Value (%(value)s) for %(setting)s"
-#~ msgstr "Τιμή (%(value)s) για %(setting)s"
-
-#~ msgid "Unhandled list type %s for %s"
-#~ msgstr "Μη έγκυρος τύπος λίστας %s για %s"
-
-#~ msgid "Actions"
-#~ msgstr "Ενέργειες"
-
-#~ msgid "Disable %s"
-#~ msgstr "Απενεργοποίηση %s"
-
-#~ msgid "Name"
-#~ msgstr "Όνομα"
-
-#~ msgid "Screen Edge"
-#~ msgstr "Άκρη Οθόνης"
-
-#~ msgid "Button %i"
-#~ msgstr "Κουμπί %i"
-
-#~ msgid "Edge Button"
-#~ msgstr "Ακριανό Κουμπί"
-
-#~ msgid "On System Bell"
-#~ msgstr "Στο Καμπανάκι Συστήματος"
-
-#~ msgid "Edit Action: %s"
-#~ msgstr "Επεξεργασία Ενέργειας: %s"
-
-#~ msgid "Screen Edges"
-#~ msgstr "Άκρες Οθόνης"
-
-#~ msgid "Reset To Defaults"
-#~ msgstr "Επαναφορά στις Προεπιλεγμένες Ρυθμίσεις"
-
-#~ msgid "PyGtk 2.10.0 or later required"
-#~ msgstr "PyGtk 2.10.0 ή νεότερο απαιτείται"
-
-#~ msgid "Multi-list settings"
-#~ msgstr "Ρυθμίσεις πολλαπλών λιστών"
-
-#~ msgid "Backend &amp; Profile"
-#~ msgstr "Κύρια Εφαρμογή &amp; Προφίλ"

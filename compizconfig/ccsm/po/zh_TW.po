@@ -1,0 +1,515 @@
+# Chinese (Traditional) translation for compiz
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the compiz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: compiz\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-03-24 12:33+0530\n"
+"PO-Revision-Date: 2016-05-02 07:45+0000\n"
+"Last-Translator: Rockworld <sumoisrock@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <zh_TW@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2019-02-21 18:44+0000\n"
+"X-Generator: Launchpad (build 18886)\n"
+
+#, python-format
+msgid ""
+"The new value for the %(binding)s binding for the action <b>%(action)s</b> "
+"in plugin <b>%(plugin)s</b> conflicts with the action "
+"<b>%(action_conflict)s</b> of the <b>%(plugin_conflict)s</b> plugin.\n"
+"Do you wish to disable <b>%(action_conflict)s</b> in the "
+"<b>%(plugin_conflict)s</b> plugin?"
+msgstr ""
+"用來綁定外掛程式 <b>%(plugin)s</b> 內 <b>%(action)s</b> 動作的 %(binding)s，其新值和外掛 "
+"<b>%(plugin_conflict)s</b> 的 <b>%(action_conflict)s</b> 動作衝突。\n"
+"是否要停用外掛程式 <b>%(plugin_conflict)s</b> 的 <b>%(action_conflict)s</b>？"
+
+#, python-format
+msgid "Disable %(action_conflict)s"
+msgstr "停用 %(action_conflict)s"
+
+#, python-format
+msgid "Don't set %(action)s"
+msgstr "不要設定 %(action)s"
+
+#, python-format
+msgid "Set %(action)s anyway"
+msgstr "無論如何都設定 %(action)s"
+
+msgid "key"
+msgstr "按鍵"
+
+msgid "button"
+msgstr "按鈕"
+
+msgid "edge"
+msgstr "邊緣"
+
+#, python-format
+msgid ""
+"You are trying to use the feature <b>%(feature)s</b> which is <b>not</b> "
+"provided by any plugin.\n"
+"Do you wish to use this feature anyway?"
+msgstr ""
+"正在嘗試使用 <b>%(feature)s</b> 功能，但 <b>沒有</b> 任何外掛程式有提供這種功能。\n"
+"無論如何還是要使用該功能嗎？"
+
+#, python-format
+msgid "Use %(feature)s"
+msgstr "使用 %(feature)s"
+
+#, python-format
+msgid "Don't use %(feature)s"
+msgstr "不要使用 %(feature)s"
+
+#, python-format
+msgid ""
+"You are trying to use the feature <b>%(feature)s</b> which is provided by "
+"<b>%(plugin)s</b>.\n"
+"This plugin is currently disabled.\n"
+"Do you wish to enable <b>%(plugin)s</b> so the feature is available?"
+msgstr ""
+"正在嘗試使用 <b>%(plugin)s</b> 提供的 <b>%(feature)s</b> 功能。\n"
+"這個外掛程式目前處於停用狀態。\n"
+"是否要啟用 <b>%(plugin)s</b> 來使用該功能？"
+
+#, python-format
+msgid "Enable %(plugin)s"
+msgstr "啟用 %(plugin)s"
+
+#, python-format
+msgid "Don't enable %(feature)s"
+msgstr "不要啟用 %(feature)s"
+
+#, python-format
+msgid ""
+"Some %(bindings)s bindings of Plugin <b>%(plugin)s</b> conflict with other "
+"plugins. Do you want to resolve these conflicts?"
+msgstr "外掛程式 <b>%(plugin)s</b> 的某 %(bindings)s 綁定功能和其他外掛衝突。要解決這些相依性問題嗎？"
+
+msgid "Resolve conflicts"
+msgstr "解決衝突"
+
+msgid "Ignore conflicts"
+msgstr "忽略衝突"
+
+#, python-format
+msgid ""
+"Plugin <b>%(plugin_conflict)s</b> provides feature <b>%(feature)s</b> which "
+"is also provided by <b>%(plugin)s</b>"
+msgstr ""
+"外掛程式 <b>%(plugin_conflict)s</b> 和 <b>%(plugin)s</b> 都有提供 <b>%(feature)s</b> "
+"功能"
+
+#, python-format
+msgid "Disable %(plugin_conflict)s"
+msgstr "停用 %(plugin_conflict)s"
+
+#, python-format
+msgid "Don't enable %(plugin)s"
+msgstr "不要啟用 %(plugin)s"
+
+#, python-format
+msgid "Plugin <b>%(plugin_conflict)s</b> conflicts with <b>%(plugin)s</b>."
+msgstr "外掛程式 <b>%(plugin_conflict)s</b> 和 <b>%(plugin)s</b> 相衝突。"
+
+#, python-format
+msgid ""
+"<b>%(plugin)s</b> requires feature <b>%(feature)s</b> which is provided by "
+"the following plugins:\n"
+"%(plugin_list)s"
+msgstr ""
+"<b>%(plugin)s</b> 需要 <b>%(feature)s</b> 功能，由下列的外掛程式提供：\n"
+"%(plugin_list)s"
+
+msgid "Enable these plugins"
+msgstr "啟用這些外掛程式"
+
+#, python-format
+msgid "<b>%(plugin)s</b> requires the plugin <b>%(require)s</b>."
+msgstr "<b>%(plugin)s</b> 需要外掛程式 <b>%(require)s</b>。"
+
+#, python-format
+msgid "Enable %(require)s"
+msgstr "啟用 %(require)s"
+
+#, python-format
+msgid ""
+"<b>%(plugin)s</b> provides the feature <b>%(feature)s</b> which is required "
+"by the plugins <b>%(plugin_list)s</b>."
+msgstr ""
+"<b>%(plugin)s</b> 提供了 <b>%(feature)s</b> 功能，這是外掛 <b>%(plugin_list)s</b> 所需要的。"
+
+msgid "Disable these plugins"
+msgstr "停用這些外掛程式"
+
+#, python-format
+msgid "Don't disable %(plugin)s"
+msgstr "不要停用 %(plugin)s"
+
+#, python-format
+msgid "<b>%(plugin)s</b> is required by the plugins <b>%(plugin_list)s</b>."
+msgstr "<b>%(plugin)s</b> 是外掛 <b>%(plugin_list)s</b> 所需要的。"
+
+msgid "General"
+msgstr "一般"
+
+msgid "Accessibility"
+msgstr "無障礙"
+
+msgid "Desktop"
+msgstr "桌面"
+
+msgid "Extras"
+msgstr "附加功能"
+
+msgid "Window Management"
+msgstr "視窗管理"
+
+msgid "Effects"
+msgstr "特效"
+
+msgid "Image Loading"
+msgstr "影像載入"
+
+msgid "Utility"
+msgstr "工具"
+
+msgid "All"
+msgstr "全部"
+
+msgid "Uncategorized"
+msgstr "未歸類的"
+
+msgid "N/A"
+msgstr "不可用"
+
+msgid "Reset setting to the default value"
+msgstr "重置設定為預設值"
+
+msgid "Edit"
+msgstr "編輯"
+
+msgid "Multi-list settings. You can double-click a row to edit the values."
+msgstr "多行的設定。您可以雙擊某一行以編輯該行的數值。"
+
+#, python-format
+msgid "Edit %s"
+msgstr "編輯 %s"
+
+#, python-format
+msgid "\"%s\" is not a valid shortcut"
+msgstr "\"%s\"不是有效的快捷鍵"
+
+msgid "Disabled"
+msgstr "已停用"
+
+msgid "Enabled"
+msgstr "已啟用"
+
+msgid "Grab key combination"
+msgstr "抓住按鍵組合"
+
+#, python-format
+msgid "\"%s\" is not a valid button"
+msgstr "\"%s\"不是一個有效的按鈕"
+
+#, python-format
+msgid ""
+"Using Button1 without modifiers can prevent any left click and thus break "
+"your configuration. Do you really want to set \"%s\" button to Button1 ?"
+msgstr "使用 Button1 沒有修飾符，可以防止任何滑動，從而打破您的配置。你真的想要將 \"%s\" 按鈕設置為 Button1 嗎？"
+
+#, python-format
+msgid "\"%s\" is not a valid edge mask"
+msgstr "\"%s\"不是一個有效的邊緣遮罩"
+
+msgid "None"
+msgstr "沒有"
+
+msgid "CompizConfig Settings Manager"
+msgstr "CompizConfig 設定管理員"
+
+msgid "Plugin"
+msgstr "外掛程式"
+
+msgid "Please press the new key combination"
+msgstr "請按下新的組合鍵"
+
+msgid "Window Title"
+msgstr "視窗標題"
+
+msgid "Window Role"
+msgstr "視窗角色"
+
+msgid "Window Name"
+msgstr "視窗名稱"
+
+msgid "Window Class"
+msgstr "視窗類別"
+
+msgid "Window Type"
+msgstr "視窗類型"
+
+msgid "Window ID"
+msgstr "視窗 ID"
+
+msgid "And"
+msgstr "且"
+
+msgid "Or"
+msgstr "或"
+
+msgid "Edit match"
+msgstr "編輯匹配"
+
+#. Type
+msgid "Type"
+msgstr "類型"
+
+#. Value
+msgid "Value"
+msgstr "數值"
+
+msgid "Grab"
+msgstr "抓取"
+
+#. Relation
+msgid "Relation"
+msgstr "關聯"
+
+#. Invert
+msgid "Invert"
+msgstr "反向"
+
+msgid "Browse..."
+msgstr "瀏覽..."
+
+msgid "Images"
+msgstr "影像"
+
+msgid "File"
+msgstr "檔案"
+
+msgid "Open directory..."
+msgstr "開啟目錄..."
+
+msgid "Open file..."
+msgstr "開啟檔案..."
+
+msgid "This is a settings manager for the CompizConfig configuration system."
+msgstr "這是一個給 CompizConfig配置系統 用的設定管理員。"
+
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Rockworld https://launchpad.net/~rockrock2222222\n"
+"  taijuin lee https://launchpad.net/~taijuin"
+
+msgid "An error has occured"
+msgstr "發生了一個錯誤"
+
+msgid "Warning"
+msgstr "警告"
+
+#, python-format
+msgid "Enable %s"
+msgstr "啟用 %s"
+
+msgid "Filter"
+msgstr "過濾器"
+
+#, python-format
+msgid "Search %s Plugin Options"
+msgstr "搜尋  %s 外掛選項"
+
+msgid "Use This Plugin"
+msgstr "使用這個外掛程式"
+
+msgid "Search Compiz Core Options"
+msgstr "搜尋 Compiz 的核心選項"
+
+msgid "Error"
+msgstr "錯誤"
+
+msgid ""
+"Enter a filter.\n"
+"Click the keyboard image to grab a key for which to search."
+msgstr ""
+"輸入篩選器。\n"
+"按一下鍵盤圖像抓住一個要搜索的關鍵。"
+
+msgid "Search in..."
+msgstr "搜索在..."
+
+#. Options
+msgid "Short description and name"
+msgstr "簡短的描述和名稱"
+
+msgid "Long description"
+msgstr "詳細的描述"
+
+msgid "Settings value"
+msgstr "設定值"
+
+msgid "Group"
+msgstr "群組"
+
+msgid "Subgroup"
+msgstr "分組"
+
+#. Notebook
+msgid "Settings"
+msgstr "設定"
+
+msgid "Loading Advanced Search"
+msgstr "載入進階搜尋"
+
+msgid "Add a New Profile"
+msgstr "加入一新的配置檔"
+
+msgid "Remove This Profile"
+msgstr "移除這個配置檔"
+
+msgid "Default"
+msgstr "預設"
+
+msgid "Profile"
+msgstr "配置檔"
+
+msgid "Import"
+msgstr "匯入"
+
+msgid "Import a CompizConfig Profile"
+msgstr "匯入一 CompizConfig 配置檔"
+
+msgid "Import as..."
+msgstr "匯入為..."
+
+msgid "Import a CompizConfig Profile as a new profile"
+msgstr "匯入一 CompizConfig 配置檔為一新配置檔"
+
+msgid "Export"
+msgstr "匯出"
+
+msgid "Export your CompizConfig Profile"
+msgstr "匯出您的 CompizConfig 配置檔"
+
+msgid "Reset to defaults"
+msgstr "重置為預設值"
+
+msgid "Reset your CompizConfig Profile to the global defaults"
+msgstr "將您的 CompizConfig 設定檔重置為全域預設值"
+
+msgid "Backend"
+msgstr "後端"
+
+msgid "Integration"
+msgstr "整合"
+
+msgid "Enable integration into the desktop environment"
+msgstr "啟用整合到桌面環境"
+
+msgid "Profiles (*.profile)"
+msgstr "配置檔 (*.profile)"
+
+msgid "All files"
+msgstr "所有檔案"
+
+msgid "Save file.."
+msgstr "儲存檔案.."
+
+msgid ""
+"Do you want to skip default option values while exporting your profile?"
+msgstr "您想跳過預設的選項值，而匯出您的配置檔？"
+
+msgid "Open file.."
+msgstr "開啟檔案.."
+
+msgid "Enter a profile name"
+msgstr "輸入一配置檔名稱"
+
+msgid "Please enter a name for the new profile:"
+msgstr "請輸入一新的配置檔名稱："
+
+msgid "Backend not found."
+msgstr "沒有找到後端。"
+
+#. Auto sort
+msgid "Automatic plugin sorting"
+msgstr "外掛程式自動排序"
+
+msgid "Disabled Plugins"
+msgstr "停用的外掛"
+
+msgid "Enabled Plugins"
+msgstr "啟用的外掛"
+
+msgid ""
+"Do you really want to disable automatic plugin sorting? This will also "
+"disable conflict handling. You should only do this if you know what you are "
+"doing."
+msgstr "你真的想要禁用自動外掛程式分類嗎？這也將禁用衝突處理。你才應該這樣做，如果你知道你在做什麼。"
+
+msgid "Add plugin"
+msgstr "加入外掛程式"
+
+msgid "Plugin name:"
+msgstr "外掛程式名稱："
+
+msgid "Insert plugin name"
+msgstr "插入外掛程式的名稱"
+
+msgid "Preferences"
+msgstr "偏好設定"
+
+msgid ""
+"Configure the backend, profile and other internal settings used by the "
+"Compiz Configuration System."
+msgstr "配置後端、 設定檔和其他內部設置 Compiz 配置系統使用。"
+
+msgid "About"
+msgstr "關於"
+
+msgid "About CCSM..."
+msgstr "關於 CCSM ..."
+
+msgid "Profile & Backend"
+msgstr "配置檔與後端"
+
+msgid "Plugin List"
+msgstr "外掛清單"
+
+msgid "Filter your Plugin list"
+msgstr "過濾您的外掛清單"
+
+#, python-format
+msgid "Screen %i"
+msgstr "螢幕 %i"
+
+msgid "Screen"
+msgstr "螢幕"
+
+msgid "Category"
+msgstr "類別"
+
+msgid "Advanced Search"
+msgstr "進階搜尋"
+
+#, python-format
+msgid ""
+"<span size=\"large\"><b>No matches found.</b> </span><span>\n"
+"\n"
+" Your filter \"<b>%s</b>\" does not match any items.</span>"
+msgstr ""
+"<span size=\"large\"><b>沒有符合項目。</b> </span><span>\n"
+"\n"
+"您的過濾器「<b>%s</b>」沒有任何符合項目。</span>"
+
+msgid "Configure Compiz with CompizConfig"
+msgstr "用 CompizConfig 來設定 Compiz"

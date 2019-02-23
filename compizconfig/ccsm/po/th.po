@@ -1,0 +1,532 @@
+# Thai translation for compiz
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the compiz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: compiz\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-03-24 12:33+0530\n"
+"PO-Revision-Date: 2017-04-19 10:20+0000\n"
+"Last-Translator: Rockworld <sumoisrock@gmail.com>\n"
+"Language-Team: Thai <th@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2019-02-21 18:44+0000\n"
+"X-Generator: Launchpad (build 18886)\n"
+
+#, python-format
+msgid ""
+"The new value for the %(binding)s binding for the action <b>%(action)s</b> "
+"in plugin <b>%(plugin)s</b> conflicts with the action "
+"<b>%(action_conflict)s</b> of the <b>%(plugin_conflict)s</b> plugin.\n"
+"Do you wish to disable <b>%(action_conflict)s</b> in the "
+"<b>%(plugin_conflict)s</b> plugin?"
+msgstr ""
+"ค่าใหม่สำหรับการผูกข้อมูล %(binding)s สำหรับการกระทำ <b>%(action)s</b> "
+"ในปลั๊กอิน <b>%(plugin)s</b> ขัดแย้งกับการกระทำ <b>%(action_conflict)s</b> "
+"ของปลั๊กอิน <b>%(plugin_conflict)s</b>\n"
+"คุณต้องการปิดใช้งาน <b>%(action_conflict)s</b> ในปลั๊กอิน "
+"<b>%(plugin_conflict)s</b> หรือไม่?"
+
+#, python-format
+msgid "Disable %(action_conflict)s"
+msgstr "ปิดใช้งาน %(action_conflict)s"
+
+#, python-format
+msgid "Don't set %(action)s"
+msgstr "ไม่ต้องตั้งค่า %(action)s"
+
+#, python-format
+msgid "Set %(action)s anyway"
+msgstr "ตั้งค่า %(action)s ไปก่อน"
+
+msgid "key"
+msgstr "คีย์"
+
+msgid "button"
+msgstr "ปุ่ม"
+
+msgid "edge"
+msgstr "ขอบ"
+
+#, python-format
+msgid ""
+"You are trying to use the feature <b>%(feature)s</b> which is <b>not</b> "
+"provided by any plugin.\n"
+"Do you wish to use this feature anyway?"
+msgstr ""
+"คุณกำลังพยายามใช้คุณลักษณะ <b>%(feature)s</b> "
+"ซึ่ง<b>ไม่</b>ได้ถูกจัดหาให้โดยปลั๊กอินใด\n"
+"คุณยังคงต้องการใช้คุณลักษณะนี้ต่อหรือไม่?"
+
+#, python-format
+msgid "Use %(feature)s"
+msgstr "ใช้ %(feature)s"
+
+#, python-format
+msgid "Don't use %(feature)s"
+msgstr "ไม่ต้องใช้ %(feature)s"
+
+#, python-format
+msgid ""
+"You are trying to use the feature <b>%(feature)s</b> which is provided by "
+"<b>%(plugin)s</b>.\n"
+"This plugin is currently disabled.\n"
+"Do you wish to enable <b>%(plugin)s</b> so the feature is available?"
+msgstr ""
+"คุณกำลังพยายามที่จะใช้คุณลักษณะ <b>%(feature)s</b> ซึ่งถูกจัดหาให้โดย "
+"<b>%(plugin)s</b>\n"
+"ปลั๊กอินนี้ถูกปิดใช้งานในขณะนี้\n"
+"คุณต้องการเปิดใช้งาน <b>%(plugin)s</b> "
+"เพื่อให้สามารถใช้คุณลักษณะนี้ได้หรือไม่?"
+
+#, python-format
+msgid "Enable %(plugin)s"
+msgstr "เปิดใช้งาน %(plugin)s"
+
+#, python-format
+msgid "Don't enable %(feature)s"
+msgstr "ไม่ต้องเปิดใช้งาน %(feature)s"
+
+#, python-format
+msgid ""
+"Some %(bindings)s bindings of Plugin <b>%(plugin)s</b> conflict with other "
+"plugins. Do you want to resolve these conflicts?"
+msgstr ""
+"การผูก %(bindings)s บางอย่างของปลั๊กอิน <b>%(plugin)s</b> "
+"ขัดแย้งกับปลั๊กอินอื่น คุณต้องการแก้ไขความขัดแย้งเหล่านี้หรือไม่?"
+
+msgid "Resolve conflicts"
+msgstr "แก้ไขความขัดแย้ง"
+
+msgid "Ignore conflicts"
+msgstr "เพิกเฉยความขัดแย้ง"
+
+#, python-format
+msgid ""
+"Plugin <b>%(plugin_conflict)s</b> provides feature <b>%(feature)s</b> which "
+"is also provided by <b>%(plugin)s</b>"
+msgstr ""
+"ปลั๊กอิน <b>%(plugin_conflict)s</b> ได้จัดหาคุณสมบัติ <b>%(feature)s</b> "
+"ซึ่งถูกจัดหาให้โดย <b>%(plugin)s</b> เช่นกัน"
+
+#, python-format
+msgid "Disable %(plugin_conflict)s"
+msgstr "ปิดใช้งาน %(plugin_conflict)s"
+
+#, python-format
+msgid "Don't enable %(plugin)s"
+msgstr "ไม่ต้องเปิดใช้งาน %(plugin)s"
+
+#, python-format
+msgid "Plugin <b>%(plugin_conflict)s</b> conflicts with <b>%(plugin)s</b>."
+msgstr "ปลั๊กอิน <b>%(plugin_conflict)s</b> ขัดแย้งกับ <b>%(plugin)s</b>"
+
+#, python-format
+msgid ""
+"<b>%(plugin)s</b> requires feature <b>%(feature)s</b> which is provided by "
+"the following plugins:\n"
+"%(plugin_list)s"
+msgstr ""
+"<b>%(plugin)s</b> ต้องใช้คุณลักษณะ <b>%(feature)s</b> "
+"ซึ่งถูกจัดหาให้โดยปลั๊กอินต่อไปนี้:\n"
+"%(plugin_list)s"
+
+msgid "Enable these plugins"
+msgstr "เปิดใช้งานปลั๊กอินนี้"
+
+#, python-format
+msgid "<b>%(plugin)s</b> requires the plugin <b>%(require)s</b>."
+msgstr "<b>%(plugin)s</b> ต้องใช้ปลั๊กอิน <b>%(require)s</b>"
+
+#, python-format
+msgid "Enable %(require)s"
+msgstr "เปิดใช้งาน %(require)s"
+
+#, python-format
+msgid ""
+"<b>%(plugin)s</b> provides the feature <b>%(feature)s</b> which is required "
+"by the plugins <b>%(plugin_list)s</b>."
+msgstr ""
+"<b>%(plugin)s</b> จัดหาคุณลักษณะ <b>%(feature)s</b> ซึ่งต้องใช้ปลั๊กอิน "
+"<b>%(plugin_list)s</b>"
+
+msgid "Disable these plugins"
+msgstr "ปิดใช้งานปลั๊กอินเหล่านี้"
+
+#, python-format
+msgid "Don't disable %(plugin)s"
+msgstr "ไม่ต้องเปิดใช้งาน %(plugin)s"
+
+#, python-format
+msgid "<b>%(plugin)s</b> is required by the plugins <b>%(plugin_list)s</b>."
+msgstr "<b>%(plugin)s</b> ต้องใช้ปลั๊กอิน <b>%(plugin_list)s</b>"
+
+msgid "General"
+msgstr "ทั่วไป"
+
+msgid "Accessibility"
+msgstr "ความสามารถในการเข้าถึง"
+
+msgid "Desktop"
+msgstr "เดสก์ท็อป"
+
+msgid "Extras"
+msgstr "พิเศษ"
+
+msgid "Window Management"
+msgstr "ระบบจัดการหน้าต่าง"
+
+msgid "Effects"
+msgstr "ลูกเล่น"
+
+msgid "Image Loading"
+msgstr "กำลังโหลดรูปภาพ"
+
+msgid "Utility"
+msgstr "อรรถประโยชน์"
+
+msgid "All"
+msgstr "ทั้งหมด"
+
+msgid "Uncategorized"
+msgstr "ไม่เข้าหมวดใด"
+
+msgid "N/A"
+msgstr "ไม่มี"
+
+msgid "Reset setting to the default value"
+msgstr "กลับคืนการตั้งค่าให้เป็นแบบเดิม"
+
+msgid "Edit"
+msgstr "แก้ไข"
+
+msgid "Multi-list settings. You can double-click a row to edit the values."
+msgstr ""
+"การตั้งค่าแบบมัลติลิสต์ คุณสามารถคลิกสองครั้งที่แถวเพื่อเปลี่ยนแปลงค่าได้"
+
+#, python-format
+msgid "Edit %s"
+msgstr "แก้ไข %s"
+
+#, python-format
+msgid "\"%s\" is not a valid shortcut"
+msgstr "\"%s\" ไม่ใช่ทางลัดที่ถูกต้อง"
+
+msgid "Disabled"
+msgstr "ปิดใช้งานแล้ว"
+
+msgid "Enabled"
+msgstr "เปิดใช้งานแล้ว"
+
+msgid "Grab key combination"
+msgstr "ตรวจจับการกดแป้นพิมพ์พร้อมกัน"
+
+#, python-format
+msgid "\"%s\" is not a valid button"
+msgstr "\"%s\" ไม่ใช่ปุ่มที่ถูกต้อง"
+
+#, python-format
+msgid ""
+"Using Button1 without modifiers can prevent any left click and thus break "
+"your configuration. Do you really want to set \"%s\" button to Button1 ?"
+msgstr ""
+"การใช้ Button1 โดยไม่มีตัวแปรอาจป้องกันไม่ให้คุณคลิกด้านซ้าย "
+"และอาจทำให้คุณสูญเสียค่าที่คุณกำหนดไว้ได้ คุณต้องการตั้งค่าปุ่ม \"%s\" เป็น "
+"Button1 หรือไม่ ?"
+
+#, python-format
+msgid "\"%s\" is not a valid edge mask"
+msgstr "\"%s\" ไม่ใช่มาสก์ขอบที่ถูกต้อง"
+
+msgid "None"
+msgstr "ไม่มี"
+
+msgid "CompizConfig Settings Manager"
+msgstr "ตัวจัดการการตั้งค่าของ CompizConfig"
+
+msgid "Plugin"
+msgstr "ปลั๊กอิน"
+
+msgid "Please press the new key combination"
+msgstr "โปรดกดลำดับแป้นพิมพ์ใหม่"
+
+msgid "Window Title"
+msgstr "ชื่อเรื่องของหน้าต่าง"
+
+msgid "Window Role"
+msgstr "บทบาทของหน้าต่าง"
+
+msgid "Window Name"
+msgstr "ชื่อของหน้าต่าง"
+
+msgid "Window Class"
+msgstr "คลาสของหน้าต่าง"
+
+msgid "Window Type"
+msgstr "ชนิดของหน้าต่าง"
+
+msgid "Window ID"
+msgstr "ไอดีของหน้าต่าง"
+
+msgid "And"
+msgstr "และ"
+
+msgid "Or"
+msgstr "หรือ"
+
+msgid "Edit match"
+msgstr "แก้ไขการจับคู่"
+
+#. Type
+msgid "Type"
+msgstr "ชนิด"
+
+#. Value
+msgid "Value"
+msgstr "ค่า"
+
+msgid "Grab"
+msgstr "ตรวจจับ"
+
+#. Relation
+msgid "Relation"
+msgstr "ความสัมพันธ์"
+
+#. Invert
+msgid "Invert"
+msgstr "ย้อนกลับ"
+
+msgid "Browse..."
+msgstr "เรียกดู..."
+
+msgid "Images"
+msgstr "รูปภาพ"
+
+msgid "File"
+msgstr "แฟ้ม"
+
+msgid "Open directory..."
+msgstr "เปิดไดเรกทอรี..."
+
+msgid "Open file..."
+msgstr "เปิดแฟ้ม..."
+
+msgid "This is a settings manager for the CompizConfig configuration system."
+msgstr "นี่คือตัวจัดการการตั้งค่าสำหรับระบบการกำหนดค่า CompizConfig"
+
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Rockworld https://launchpad.net/~rockrock2222222"
+
+msgid "An error has occured"
+msgstr "เกิดข้อผิดพลาด"
+
+msgid "Warning"
+msgstr "คำเตือน"
+
+#, python-format
+msgid "Enable %s"
+msgstr "เปิดใช้งาน %s"
+
+msgid "Filter"
+msgstr "ตัวกรอง"
+
+#, python-format
+msgid "Search %s Plugin Options"
+msgstr "ค้นหาตัวเลือกปลั๊กอิน %s"
+
+msgid "Use This Plugin"
+msgstr "ใช้ปลั๊กอินนี้"
+
+msgid "Search Compiz Core Options"
+msgstr "ค้นหาตัวเลือกหลักของ Compiz"
+
+msgid "Error"
+msgstr "ข้อผิดพลาด"
+
+msgid ""
+"Enter a filter.\n"
+"Click the keyboard image to grab a key for which to search."
+msgstr ""
+"ป้อนตัวกรอง\n"
+"คลิกรูปแป้นพิมพ์เพื่อตรวจจับคีย์ที่จะค้นหา"
+
+msgid "Search in..."
+msgstr "ค้นหาใน..."
+
+#. Options
+msgid "Short description and name"
+msgstr "คำอธิบายแบบสั้นและชื่อ"
+
+msgid "Long description"
+msgstr "คำอธิบายแบบยาว"
+
+msgid "Settings value"
+msgstr "ค่าตั้ง"
+
+msgid "Group"
+msgstr "กลุ่ม"
+
+msgid "Subgroup"
+msgstr "กลุ่มย่อย"
+
+#. Notebook
+msgid "Settings"
+msgstr "การตั้งค่า"
+
+msgid "Loading Advanced Search"
+msgstr "กำลังโหลดการค้นหาขั้นสูง"
+
+msgid "Add a New Profile"
+msgstr "เพิ่มโปรไฟล์ใหม่"
+
+msgid "Remove This Profile"
+msgstr "ลบโปรไฟล์นี้"
+
+msgid "Default"
+msgstr "ค่าปริยาย"
+
+msgid "Profile"
+msgstr "โปรไฟล์"
+
+msgid "Import"
+msgstr "นำเข้า"
+
+msgid "Import a CompizConfig Profile"
+msgstr "นำเข้าโปรไฟล์ CompizConfig"
+
+msgid "Import as..."
+msgstr "นำเข้าเป็น..."
+
+msgid "Import a CompizConfig Profile as a new profile"
+msgstr "นำเข้าโปรไฟล์ CompizConfig เป็นโปรไฟล์ใหม่"
+
+msgid "Export"
+msgstr "ส่งออก"
+
+msgid "Export your CompizConfig Profile"
+msgstr "ส่งออกโปรไฟล์ CompizConfig ของคุณ"
+
+msgid "Reset to defaults"
+msgstr "กลับไปใช้ค่าปริยาย"
+
+msgid "Reset your CompizConfig Profile to the global defaults"
+msgstr "ให้โปรไฟล์ CompizConfig ของคุณกลับไปใช้ค่าปริยายดั้งเดิม"
+
+msgid "Backend"
+msgstr "กลไกเบื้องหลัง"
+
+msgid "Integration"
+msgstr "การทำงานร่วมกัน"
+
+msgid "Enable integration into the desktop environment"
+msgstr "เปิดใช้งานการทำงานร่วมกันในสภาพแวดล้อมเดสก์ท็อป"
+
+msgid "Profiles (*.profile)"
+msgstr "โปรไฟล์ (*.profile)"
+
+msgid "All files"
+msgstr "แฟ้มทั้งหมด"
+
+msgid "Save file.."
+msgstr "บันทึกแฟ้ม..."
+
+msgid ""
+"Do you want to skip default option values while exporting your profile?"
+msgstr "คุณต้องการข้ามค่าตัวเลือกปริยายระหว่างส่งออกโปรไฟล์ของคุณหรือไม่?"
+
+msgid "Open file.."
+msgstr "เปิดแฟ้ม.."
+
+msgid "Enter a profile name"
+msgstr "ป้อนชื่อโปรไฟล์"
+
+msgid "Please enter a name for the new profile:"
+msgstr "โปรดป้อนชื่อของโปรไฟล์ตัวใหม่:"
+
+msgid "Backend not found."
+msgstr "ไม่พบกลไกเบื้องหลัง"
+
+#. Auto sort
+msgid "Automatic plugin sorting"
+msgstr "การจัดเรียงปลั๊กอินอัตโนมัติ"
+
+msgid "Disabled Plugins"
+msgstr "ปลั๊กอินที่ปิดใช้งาน"
+
+msgid "Enabled Plugins"
+msgstr "ปลั๊กอินที่เปิดใช้งาน"
+
+msgid ""
+"Do you really want to disable automatic plugin sorting? This will also "
+"disable conflict handling. You should only do this if you know what you are "
+"doing."
+msgstr ""
+"คุณต้องการปิดใช้งานการจัดเรียงปลั๊กอินอัตโนมัติจริง ๆ ใช่หรือไม่? "
+"การกระทำนี้จะเป็นการปิดใช้งานการจัดการความขัดแย้งด้วยเช่นกัน "
+"คุณควรดำเนินการนี้ก็ต่อเมื่อคุณรู้ว่าคุณกำลังทำอะไรอยู่เท่านั้น"
+
+msgid "Add plugin"
+msgstr "เพิ่มปลั๊กอิน"
+
+msgid "Plugin name:"
+msgstr "ชื่อปลั๊กอิน:"
+
+msgid "Insert plugin name"
+msgstr "แทรกชื่อปลั๊กอิน"
+
+msgid "Preferences"
+msgstr "ปรับแต่ง"
+
+msgid ""
+"Configure the backend, profile and other internal settings used by the "
+"Compiz Configuration System."
+msgstr ""
+"กำหนดค่ากลไกเบื้องหลัง โปรไฟล์ และการตั้งค่าภายในอื่น ๆ "
+"ที่ถูกใช้โดยระบบการกำหนดค่า Compiz"
+
+msgid "About"
+msgstr "เกี่ยวกับ"
+
+msgid "About CCSM..."
+msgstr "เกี่ยวกับ CCSM..."
+
+msgid "Profile & Backend"
+msgstr "โปรไฟล์และกลไกเบื้องหลัง"
+
+msgid "Plugin List"
+msgstr "รายชื่อปลั๊กอิน"
+
+msgid "Filter your Plugin list"
+msgstr "กลั่นกรองรายชื่อปลั๊กอินของคุณ"
+
+#, python-format
+msgid "Screen %i"
+msgstr "หน้าจอ %i"
+
+msgid "Screen"
+msgstr "หน้าจอ"
+
+msgid "Category"
+msgstr "หมวดหมู่"
+
+msgid "Advanced Search"
+msgstr "การค้นหาขั้นสูง"
+
+#, python-format
+msgid ""
+"<span size=\"large\"><b>No matches found.</b> </span><span>\n"
+"\n"
+" Your filter \"<b>%s</b>\" does not match any items.</span>"
+msgstr ""
+"<span size=\"large\"><b>ไม่พบรายการที่ตรงกัน</b> </span><span>\n"
+"\n"
+" ตัวกรอง \"<b>%s</b>\" ของคุณ ไม่ตรงกับรายการใดเลย</span>"
+
+msgid "Configure Compiz with CompizConfig"
+msgstr "ปรับแต่ง Compiz ด้วย CompizConfig"

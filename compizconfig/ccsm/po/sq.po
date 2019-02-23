@@ -1,0 +1,499 @@
+# Albanian translation for compiz
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the compiz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: compiz\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-03-24 12:33+0530\n"
+"PO-Revision-Date: 2012-08-10 13:40+0000\n"
+"Last-Translator: Vilson Gjeci <vilsongjeci@gmail.com>\n"
+"Language-Team: Albanian <sq@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2019-02-21 18:44+0000\n"
+"X-Generator: Launchpad (build 18886)\n"
+
+#, python-format
+msgid ""
+"The new value for the %(binding)s binding for the action <b>%(action)s</b> "
+"in plugin <b>%(plugin)s</b> conflicts with the action "
+"<b>%(action_conflict)s</b> of the <b>%(plugin_conflict)s</b> plugin.\n"
+"Do you wish to disable <b>%(action_conflict)s</b> in the "
+"<b>%(plugin_conflict)s</b> plugin?"
+msgstr ""
+
+#, python-format
+msgid "Disable %(action_conflict)s"
+msgstr "Çaktivizo %(action_conflict)s"
+
+#, python-format
+msgid "Don't set %(action)s"
+msgstr "mos e vendos %(action)s"
+
+#, python-format
+msgid "Set %(action)s anyway"
+msgstr "Vendos %(action)s gjithësesi"
+
+msgid "key"
+msgstr "çelësi"
+
+msgid "button"
+msgstr "buton"
+
+msgid "edge"
+msgstr "cepi"
+
+#, python-format
+msgid ""
+"You are trying to use the feature <b>%(feature)s</b> which is <b>not</b> "
+"provided by any plugin.\n"
+"Do you wish to use this feature anyway?"
+msgstr ""
+
+#, python-format
+msgid "Use %(feature)s"
+msgstr "Përdor %(feature)s"
+
+#, python-format
+msgid "Don't use %(feature)s"
+msgstr "Mos përdor %(feature)s"
+
+#, python-format
+msgid ""
+"You are trying to use the feature <b>%(feature)s</b> which is provided by "
+"<b>%(plugin)s</b>.\n"
+"This plugin is currently disabled.\n"
+"Do you wish to enable <b>%(plugin)s</b> so the feature is available?"
+msgstr ""
+
+#, python-format
+msgid "Enable %(plugin)s"
+msgstr "Aktivizo %(plugin)s"
+
+#, python-format
+msgid "Don't enable %(feature)s"
+msgstr "Mos aktivizo %(feature)s"
+
+#, python-format
+msgid ""
+"Some %(bindings)s bindings of Plugin <b>%(plugin)s</b> conflict with other "
+"plugins. Do you want to resolve these conflicts?"
+msgstr ""
+
+msgid "Resolve conflicts"
+msgstr "Zgjidh konfliktet"
+
+msgid "Ignore conflicts"
+msgstr "Shpërfill konfliktet"
+
+#, python-format
+msgid ""
+"Plugin <b>%(plugin_conflict)s</b> provides feature <b>%(feature)s</b> which "
+"is also provided by <b>%(plugin)s</b>"
+msgstr ""
+
+#, python-format
+msgid "Disable %(plugin_conflict)s"
+msgstr "Çaktivizo %(plugin_conflict)s"
+
+#, python-format
+msgid "Don't enable %(plugin)s"
+msgstr "Mos i aktivizo %(plugin)s"
+
+#, python-format
+msgid "Plugin <b>%(plugin_conflict)s</b> conflicts with <b>%(plugin)s</b>."
+msgstr "Plugini <b>%(plugin_conflict)s</b> konlfikton me <b>%(plugin)s</b>."
+
+#, python-format
+msgid ""
+"<b>%(plugin)s</b> requires feature <b>%(feature)s</b> which is provided by "
+"the following plugins:\n"
+"%(plugin_list)s"
+msgstr ""
+
+msgid "Enable these plugins"
+msgstr "Aktivizo këta pluginë"
+
+#, python-format
+msgid "<b>%(plugin)s</b> requires the plugin <b>%(require)s</b>."
+msgstr "<b>%(plugin)s</b> kërkon pluginin <b>%(require)s</b>."
+
+#, python-format
+msgid "Enable %(require)s"
+msgstr "Aktivizo %(require)s"
+
+#, python-format
+msgid ""
+"<b>%(plugin)s</b> provides the feature <b>%(feature)s</b> which is required "
+"by the plugins <b>%(plugin_list)s</b>."
+msgstr ""
+
+msgid "Disable these plugins"
+msgstr "Çaktivizo këta pluginë"
+
+#, python-format
+msgid "Don't disable %(plugin)s"
+msgstr "Mos i çaktivizo %(plugin)s"
+
+#, python-format
+msgid "<b>%(plugin)s</b> is required by the plugins <b>%(plugin_list)s</b>."
+msgstr "<b>%(plugin)s</b> kërkohet nga pluginët <b>%(plugin_list)s</b>."
+
+msgid "General"
+msgstr "Të Përgjithshme"
+
+msgid "Accessibility"
+msgstr "Përdorshmëria"
+
+msgid "Desktop"
+msgstr "Desktopi"
+
+msgid "Extras"
+msgstr "Ekstrat"
+
+msgid "Window Management"
+msgstr "Administrimi i Dritareve"
+
+msgid "Effects"
+msgstr "Efektet"
+
+msgid "Image Loading"
+msgstr "Ngarkimi i Imazhit"
+
+msgid "Utility"
+msgstr "Ndihmues"
+
+msgid "All"
+msgstr "Të gjitha"
+
+msgid "Uncategorized"
+msgstr "Të pakategorizuara"
+
+msgid "N/A"
+msgstr "Mungon"
+
+msgid "Reset setting to the default value"
+msgstr "Riktheje parametrin në vlerën e parazgjedhur"
+
+msgid "Edit"
+msgstr "Modifiko"
+
+msgid "Multi-list settings. You can double-click a row to edit the values."
+msgstr ""
+
+#, python-format
+msgid "Edit %s"
+msgstr "Modifiko %s"
+
+#, python-format
+msgid "\"%s\" is not a valid shortcut"
+msgstr "\"%s\" nuk është një shkurtore e vlefshme"
+
+msgid "Disabled"
+msgstr "Çaktivizuar"
+
+msgid "Enabled"
+msgstr "Aktivizuar"
+
+msgid "Grab key combination"
+msgstr "Kap një kombinim butonash"
+
+#, python-format
+msgid "\"%s\" is not a valid button"
+msgstr "\"%s\" nuk është një buton i vlefshëm"
+
+#, python-format
+msgid ""
+"Using Button1 without modifiers can prevent any left click and thus break "
+"your configuration. Do you really want to set \"%s\" button to Button1 ?"
+msgstr ""
+
+#, python-format
+msgid "\"%s\" is not a valid edge mask"
+msgstr "\"%s\" nuk është një maskë e vlefshme e cepit"
+
+msgid "None"
+msgstr "Asnjë"
+
+msgid "CompizConfig Settings Manager"
+msgstr "Menaxhues i Parametrave të CompizConfig"
+
+msgid "Plugin"
+msgstr "Plugin"
+
+msgid "Please press the new key combination"
+msgstr "Ju lutemi të klikoni kombinimin e ri të butonave"
+
+msgid "Window Title"
+msgstr "Titulli i Dritares"
+
+msgid "Window Role"
+msgstr "Roli i Dritares"
+
+msgid "Window Name"
+msgstr "Emri i Dritares"
+
+msgid "Window Class"
+msgstr "Klasi i Dritares"
+
+msgid "Window Type"
+msgstr "Lloji i Dritares"
+
+msgid "Window ID"
+msgstr "ID e Dritares"
+
+msgid "And"
+msgstr "Dhe"
+
+msgid "Or"
+msgstr "Ose"
+
+msgid "Edit match"
+msgstr "Modifiko përputhjen"
+
+#. Type
+msgid "Type"
+msgstr "Lloji"
+
+#. Value
+msgid "Value"
+msgstr "Vlera"
+
+msgid "Grab"
+msgstr "Kap"
+
+#. Relation
+msgid "Relation"
+msgstr "Marrëdhënia"
+
+#. Invert
+msgid "Invert"
+msgstr "Inverto"
+
+msgid "Browse..."
+msgstr "Shfleto..."
+
+msgid "Images"
+msgstr "Imazhet"
+
+msgid "File"
+msgstr "Skedari"
+
+msgid "Open directory..."
+msgstr "Hap drejtorinë..."
+
+msgid "Open file..."
+msgstr "Hap skedarin..."
+
+msgid "This is a settings manager for the CompizConfig configuration system."
+msgstr ""
+
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Vilson Gjeci https://launchpad.net/~vilsongjeci"
+
+msgid "An error has occured"
+msgstr "Ndodhi një gabim"
+
+msgid "Warning"
+msgstr "Paralajmërim"
+
+#, python-format
+msgid "Enable %s"
+msgstr "Aktivizo %s"
+
+msgid "Filter"
+msgstr "Filtri"
+
+#, python-format
+msgid "Search %s Plugin Options"
+msgstr "Kërko Opsionet e Puginit %s"
+
+msgid "Use This Plugin"
+msgstr "Përdore Këtë Plugin"
+
+msgid "Search Compiz Core Options"
+msgstr "Kërko Opsionet e Bazës së Compiz"
+
+msgid "Error"
+msgstr "Gabim"
+
+msgid ""
+"Enter a filter.\n"
+"Click the keyboard image to grab a key for which to search."
+msgstr ""
+
+msgid "Search in..."
+msgstr "Kërko në..."
+
+#. Options
+msgid "Short description and name"
+msgstr "Përshkrimi i shkurtër dhe emri"
+
+msgid "Long description"
+msgstr "Përshkrimi i Gjatë"
+
+msgid "Settings value"
+msgstr "Vlera e parametrit"
+
+msgid "Group"
+msgstr "Grupi"
+
+msgid "Subgroup"
+msgstr "nëngrupi"
+
+#. Notebook
+msgid "Settings"
+msgstr "Parametrat"
+
+msgid "Loading Advanced Search"
+msgstr "Ngarkim i Kërkimit të Avancuar"
+
+msgid "Add a New Profile"
+msgstr "Shto një Profil të Ri"
+
+msgid "Remove This Profile"
+msgstr "Hiqe Këtë Profil"
+
+msgid "Default"
+msgstr "I Parazgjedhur"
+
+msgid "Profile"
+msgstr "Profili"
+
+msgid "Import"
+msgstr "Importo"
+
+msgid "Import a CompizConfig Profile"
+msgstr "Importo një Profil të CompizConfig"
+
+msgid "Import as..."
+msgstr "Importo si..."
+
+msgid "Import a CompizConfig Profile as a new profile"
+msgstr "Importo një Profil të CompizConfg si një profil të ri"
+
+msgid "Export"
+msgstr "Eksporto"
+
+msgid "Export your CompizConfig Profile"
+msgstr "Eksporto Profilin tënd të CompizConfig"
+
+msgid "Reset to defaults"
+msgstr "Kthe në vlerat e parazgjedhura"
+
+msgid "Reset your CompizConfig Profile to the global defaults"
+msgstr ""
+
+msgid "Backend"
+msgstr "Backend"
+
+msgid "Integration"
+msgstr "Integrimi"
+
+msgid "Enable integration into the desktop environment"
+msgstr ""
+
+msgid "Profiles (*.profile)"
+msgstr "Profilet (*.profile)"
+
+msgid "All files"
+msgstr "Të gjithë skedarët"
+
+msgid "Save file.."
+msgstr "Ruaje skedarin..."
+
+msgid ""
+"Do you want to skip default option values while exporting your profile?"
+msgstr ""
+
+msgid "Open file.."
+msgstr "Hap skedarin"
+
+msgid "Enter a profile name"
+msgstr "Vendos një emër të profilit"
+
+msgid "Please enter a name for the new profile:"
+msgstr ""
+
+msgid "Backend not found."
+msgstr "Mbështetësi nuk u gjet."
+
+#. Auto sort
+msgid "Automatic plugin sorting"
+msgstr "Rreshtim automatik i pluginëve"
+
+msgid "Disabled Plugins"
+msgstr "Pluginët e Çaktivizuar"
+
+msgid "Enabled Plugins"
+msgstr "Pluginët e Aktivizuar"
+
+msgid ""
+"Do you really want to disable automatic plugin sorting? This will also "
+"disable conflict handling. You should only do this if you know what you are "
+"doing."
+msgstr ""
+
+msgid "Add plugin"
+msgstr "Shto plugin"
+
+msgid "Plugin name:"
+msgstr "Emri i pluginit:"
+
+msgid "Insert plugin name"
+msgstr "Vendos emrin e pluginit"
+
+msgid "Preferences"
+msgstr "Parapëlqimet"
+
+msgid ""
+"Configure the backend, profile and other internal settings used by the "
+"Compiz Configuration System."
+msgstr ""
+
+msgid "About"
+msgstr "Rreth"
+
+msgid "About CCSM..."
+msgstr "Rreth CCSM..."
+
+msgid "Profile & Backend"
+msgstr "Mbështetja e &Profilit"
+
+msgid "Plugin List"
+msgstr "Listë Shtojcash"
+
+msgid "Filter your Plugin list"
+msgstr "Filtro Listën Tënde të Pluginëve"
+
+#, python-format
+msgid "Screen %i"
+msgstr "Ekrani %i"
+
+msgid "Screen"
+msgstr "Ekrani"
+
+msgid "Category"
+msgstr "Kategoria"
+
+msgid "Advanced Search"
+msgstr "Kërkim i Avancuar"
+
+#, python-format
+msgid ""
+"<span size=\"large\"><b>No matches found.</b> </span><span>\n"
+"\n"
+" Your filter \"<b>%s</b>\" does not match any items.</span>"
+msgstr ""
+"<span size=\"large\"><b>Nuk u gjet asnjë korrespondues.</b> </span><span>\n"
+"\n"
+" Filtri \"<b>%s</b>\" nuk zgjedh asnjë element.</span>"
+
+msgid "Configure Compiz with CompizConfig"
+msgstr "Konfiguro Compiz me CompizConfig"
