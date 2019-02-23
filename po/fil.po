@@ -1,50 +1,50 @@
-# Sinhalese translation for compiz
-# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# Filipino translation for compiz
+# Copyright (c) 2019 Rosetta Contributors and Canonical Ltd 2019
 # This file is distributed under the same license as the compiz package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: compiz\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-02-19 16:05+0300\n"
-"PO-Revision-Date: 2019-02-21 23:27+0000\n"
-"Last-Translator: Janith Sampath Bandara <janith3000@gmail.com>\n"
-"Language-Team: Sinhalese <si@li.org>\n"
+"PO-Revision-Date: 2019-02-21 10:26+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Filipino <fil@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2019-02-23 07:57+0000\n"
+"X-Launchpad-Export-Date: 2019-02-23 07:58+0000\n"
 "X-Generator: Launchpad (build 18886)\n"
 
 #: ../gtk/gnome/compiz.desktop.in.h:1
 msgid "Compiz"
-msgstr "Compiz"
+msgstr ""
 
 #: ../gtk/window-decorator/events.c:159 ../metadata/core.xml.in.h:50
 #: ../plugins/scaleaddon/scaleaddon.xml.in.h:4
 msgid "Close Window"
-msgstr "කවුළුව වසන්න"
+msgstr ""
 
 #: ../gtk/window-decorator/events.c:187 ../metadata/core.xml.in.h:60
 msgid "Unmaximize Window"
-msgstr "කවුළුව නොවිහිදන්න"
+msgstr ""
 
 #: ../gtk/window-decorator/events.c:190 ../metadata/core.xml.in.h:58
 msgid "Maximize Window"
-msgstr "කවුළුව විහිදන්න"
+msgstr ""
 
 #: ../gtk/window-decorator/events.c:245 ../metadata/core.xml.in.h:56
 msgid "Minimize Window"
-msgstr "කවුළුව හකුළන්න"
+msgstr ""
 
 #: ../gtk/window-decorator/events.c:265 ../metadata/core.xml.in.h:68
 msgid "Window Menu"
-msgstr "කවුළු මෙනුව"
+msgstr ""
 
 #: ../gtk/window-decorator/events.c:288
 msgid "Shade"
-msgstr "අඳුරු"
+msgstr ""
 
 #: ../gtk/window-decorator/events.c:312
 msgid "Make Above"
@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../gtk/window-decorator/forcequit.c:161
 msgid "_Force Quit"
-msgstr "බලපෑමෙන් ඉවත් වීම (_F)"
+msgstr ""
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:1
 msgid "Navigation"
@@ -1196,7 +1196,7 @@ msgstr ""
 #: ../plugins/staticswitcher/staticswitcher.xml.in.h:63
 #: ../plugins/wobbly/wobbly.xml.in.h:19
 msgid "None"
-msgstr "කිසිවෙක් නැත"
+msgstr ""
 
 #: ../plugins/animation/animation.xml.in.h:109
 #: ../plugins/animationaddon/animationaddon.xml.in.h:39
@@ -1810,11 +1810,11 @@ msgstr ""
 
 #: ../plugins/annotate/annotate.xml.in.h:11
 msgid "Draw"
-msgstr "අඳිනවා"
+msgstr ""
 
 #: ../plugins/annotate/annotate.xml.in.h:12
 msgid "Draw using tool"
-msgstr "මෙවලමක් ආධාරයෙන් අඳින්න"
+msgstr ""
 
 #: ../plugins/annotate/annotate.xml.in.h:13
 msgid "Initiate Erase"
@@ -1826,7 +1826,7 @@ msgstr ""
 
 #: ../plugins/annotate/annotate.xml.in.h:15
 msgid "Clear"
-msgstr "පැහිදිලි"
+msgstr ""
 
 #: ../plugins/annotate/annotate.xml.in.h:16
 msgid "Draw shapes from center"
@@ -1888,7 +1888,7 @@ msgstr ""
 #: ../plugins/screenshot/screenshot.xml.in.h:3
 #: ../plugins/showmouse/showmouse.xml.in.h:6 ../plugins/water/water.xml.in.h:3
 msgid "Initiate"
-msgstr "අරම්භ කරන්න"
+msgstr ""
 
 #: ../plugins/bench/bench.xml.in.h:5
 msgid "Start benchmark"
@@ -5283,7 +5283,7 @@ msgstr ""
 
 #: ../plugins/grid/grid.xml.in.h:43 ../plugins/place/place.xml.in.h:10
 msgid "Maximize"
-msgstr "උපරිම"
+msgstr ""
 
 #: ../plugins/grid/grid.xml.in.h:44
 msgid "Top Edge"
