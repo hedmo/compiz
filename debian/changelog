@@ -1,3 +1,9 @@
+compiz (1:0.9.14.0+19.04.20190223.1-0ubuntu1) disco; urgency=medium
+
+  * Import the latest translations from Launchpad.
+
+ -- Dmitry Shachnev <mitya57@ubuntu.com>  Sat, 23 Feb 2019 08:52:17 +0000
+
 compiz (1:0.9.14.0+19.04.20190219-0ubuntu1) disco; urgency=medium
 
   * ccsm: Fix UnicodeDecodeError caused by non-ASCII plugin
