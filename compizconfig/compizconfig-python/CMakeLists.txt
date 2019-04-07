@@ -16,7 +16,7 @@ set (PY_SCRIPTS_DIR scripts-${PY_VERSION})
 set (PY_COMPIZCONFIG_SRC ${CMAKE_CURRENT_BINARY_DIR}/compizconfig.c)
 set (PY_COMPIZCONFIG_CYTHON ${CMAKE_CURRENT_SOURCE_DIR}/src/compizconfig.pyx)
 
-find_program(CYTHON_BIN cython)
+find_program(CYTHON_BIN cython3)
 if(NOT CYTHON_BIN)
   message(FATAL_ERROR "Can not build because cython binary not found.")
 endif()
