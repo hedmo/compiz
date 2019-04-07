@@ -36,7 +36,7 @@ set (VERSION ${COMPIZ_RELEASE_VERSION})
 add_custom_command (OUTPUT ${PY_CCSM_LIB}
 		    COMMAND ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/setup.py build --build-base=${CMAKE_CURRENT_BINARY_DIR}/build --version=${VERSION}
 		    WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
-#		    COMMENT "Generating Python Bytecode")
+		    COMMENT "Generating Python Bytecode")
 
 add_custom_target (ccsm_module ALL DEPENDS
                    ${PY_CCSM_LIB})
